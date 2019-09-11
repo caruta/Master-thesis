@@ -1,0 +1,752 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{multirow}
+\usepackage{hyphenat}
+\usepackage{sectsty}
+\usepackage{amsmath}
+\usepackage{bm}
+%\usepackage[style=alphabetic]{biblatex}
+%\usepackage[dvipsnames]{xcolor}
+%\sectionfont{\bfseries\Large\raggedright}
+\allsectionsfont{\raggedright}
+\graphicspath{ {images/} }
+
+%\usepackage[T1]{fontenc}
+
+\def\double{\baselineskip 24pt \lineskip 10pt}
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
+\textheight 9.5in \textwidth 6in \oddsidemargin 25pt\topmargin
+-40pt
+
+\def\baselinestretch{1.2}
+\parskip 0.2cm
+
+%\usepackage[autostyle,italian=giullemets]{csquotes}
+%\usepackage[babel]{csquotes}
+%\usepackage{biblatex}
+%\bibliography{biblio.bib}
+
+\begin{document}
+
+%FRONTESPIZIO
+
+\thispagestyle{empty}
+\begin{center}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.3]{logoUniba}
+\end{figure}
+%\begin{center}
+{\normalsize DIPARTIMENTO INTERATENEO DI FISICA \textquotedblleft M. MERLIN"} \\
+\vspace{0.5cm}
+\hrule \vspace{0.5cm}
+
+%\end{center}
+%
+%
+%% Titolo tesi
+%%\vspace{1.0cm}
+%\begin{center}
+{\bf {\large{Tesi di laurea Magistrale in \\"Nuclear, Subnuclear and Astroparticle Physics"}}} \\
+\vspace{2cm}
+{\bf{\large { \Huge{Search for $\tau \rightarrow 3\mu$ decays\\ using $\tau$ leptons produced \\in D and B mesons decays \\in CMS experiment at LHC\\}}}}
+\end{center}
+
+% Relatrici & laureanda
+\vspace{3.5cm}
+\begin{flushleft}
+{ Relatrici:} \\
+{\bf Dott.ssa Anna Colaleo} 
+\hspace{6.2cm} {Laureanda:} \\
+{\bf Dott.ssa Rosamaria Venditti} 
+\hspace{5cm} {\bf Caterina Aruta}
+\end{flushleft}
+%
+%% Laureanda
+%\begin{flushleft}
+%\hspace{11cm} {\bf Laureanda:} \\
+%\hspace{11cm} {\bf Caterina Aruta}
+%\end{flushleft}
+
+% Anno accademico
+\vspace{2cm}
+\begin{center}
+\hrule \vspace{0.05cm}
+\hrule \vspace{0.15cm}
+{\bf {\large{Anno Accademico 2018-2019}}} \\
+\end{center}
+
+\newpage
+%\chapter*{Aknowledgments}
+\tableofcontents 
+
+%\chapter*{Introduction}
+
+
+%%%%%%%%%%%%%%%%%%%%
+\chapter{Standard Model and new physics search}
+
+\section{The Standard Model}
+
+\section{Physics Beyond the Standard Model}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\chapter{The CMS experiment at LHC}
+The Large Hadron Collider (LHC) is currently the world's largest and most powerful particle collider ever built. Its main goal is to explore the physics at the TeV energy scale in order to test the predictions of the Standard Model and eventually reveal some violations than can be a hint of “new physics” described by other theories of particle physics.
+Among the several/seven experiments placed around the ring, I’ll focused my discussion on the Compact Muon Solenoid (CMS) experiment, which is the one that collected the data used in the analysis that I’ve carried out.
+
+\section{The Large Hadron Collider}
+The LHC is a proton-proton (pp) and heavy ions collider built by the European Organization for Nuclear Research (CERN) between 1998 and 2008 and situated beneath the France-Switzerland border near the city of Geneva. The machine, along with the detectors, are the product of an impressive worldwide effort that has required the collaboration of more than 100 countries with over 10 thousand scientists.
+The accelerator is placed in a tunnel of 26.7 km in circumference, previously used for the Large Electron Positron (LEP) collider, with an average depth of about 100 metres underground.
+The whole accelerating system is made up of different stages whose complete scheme is shown in Fig. \ref{fig:LHC_complex}. 
+The LHC tunnel contains two adjacent parallel beam pipes, kept at ultrahigh vacuum, in which the beams travel in opposite directions around the ring and intersects in four points, where the collisions take place.
+Around these crossing points the detectors are positioned, in order to record and later analyse all the possible information resulting from the scattering of the beams.
+The main 4 experiments present at LHC are: \emph{A ToroidaL ApparatuS} (ATLAS) and \emph{Compact Muon Solenoid} (CMS), \emph{Large Hadron Collider beauty} experiment (LHCb) and \emph{A Large Ion Collider Experiment} (ALICE). 
+The first 2 are general purpose detectors, designed in order ....
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{LHC_complex}
+	\caption{The different stages of CERN accelerator complex.}
+	\label{fig:LHC_complex}
+\end{figure}
+
+The designed LHC centre of mass energy of the collider (which is simply the sum of the energies of the 2 interacting beams) for proton-proton collisions is $\sqrt{s}$ = 14 TeV, not yet achieved – now we are at 13 TeV. Such high energy values can be reached, starting from $\sim$450 GeV (the energy that protons have when they are injected in the LHC ring), by accelerating them using radiofrequency cavities, which play also an important role in synchronizing temporally the protons, grouping them into discrete packets called “bunches”. Each of these bunches is made up of about $\mathrm{10^{11}}$ protons and a bunch collision takes place every 25 ns, providing an interaction rate of 40 MHz.
+The beams are kept on their circular path with 1232 dipole magnets, while about 392 quadrupole magnets focus spatially the beams. There are also other kind of magnets used to "squeeze" the particles closer together in correspondence of the interactions points to increase the chances of collisions. In total there are about 10000 superconducting magnets, which are constantly kept at a temperature of 1.9 K by a cooling system based on liquid helium.
+\\
+The number of protons contained in each bunch ($N$), together with the number of bunches rotating in the accelerator ($n_{b}\sim$2500), collision frequency ($f$) and the RMS of beam profile in the plane orthogonal to the beam direction ($\sigma_{xy}$), contribute to the \emph{Luminosity} of the machine, which is a parameter used to quantify the performance of a particle accelerator.
+The luminosity is defined as the ratio between the event rate $R_{k}$ of a given process k and the cross section characterizing that process $\sigma_{k}$ :
+$ \mathrm{L = \frac{R_{k}}{\sigma_{k}}}$
+
+In particular, in the case of a collider with Gaussian-shaped beam bunches crossing with a small angle, like LHC, the luminosity is given by the equation \ref{eq:Lumi}.
+
+\begin{equation}
+\mathrm{L = \frac{f\ n_{b}\ N^{2}}{4\ \pi\ \sigma_{xy}^{2}}}
+	\label{eq:Lumi}
+\end{equation}
+
+The LHC designed luminosity is $10^{34}\ \mathrm{cm^{-2} s^{-1}}$, which was first reached in June 2016 and doubled in 2017.\\
+Integrating this parameter with respect to time the \emph{Integrated Luminosity} is obtained, and the goal of a lot of efforts from the physicists working on the accelerator is to maximize this value because the higher the integrated luminosity, the more data is available to analyze and therefore it becomes possible to detect also rare processes (with very low cross section).
+\\
+Fig. \ref{fig:IntLumi_cumulative_total} show the total integrated luminosity delivered by LHC and recorded by CMS experiment for proton-proton collisions since 2010.
+
+\begin{figure}[h]
+ \begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=7.6cm]{IntLumi_cumulative_peryear}
+ \end{minipage}
+ \ \hspace{1mm} \hspace{1mm} \
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=7.6cm]{IntLumi_cumulative_total}
+ \end{minipage}
+ \caption{On the right: cumulative luminosity versus day delivered to CMS for the whole 2010-2018 period for pp collisions, shown for different data taking. On the left: cumulative luminosity versus day delivered by LHC (in blue) and recorded by CMS (in orange) for pp collisions from  2010 to 2018.
+ \label{fig:IntLumi_cumulative_total}}
+\end{figure}
+
+In particular, the integrated luminosity for 2017 and 2018 are displayed in the plots in Fig. \ref{fig:IntLumi1718}.
+[… it’s possible to see how much the luminosity delivered by LHC and recorded by CMS is increased in the last years w/ obvious improvements in the analysis … ]
+
+\begin{figure}[h]
+ \begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=7.6cm]{IntLumi2017}
+ \end{minipage}
+ \ \hspace{1mm} \hspace{1mm} \
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=7.6cm]{IntLumi2018}
+ \end{minipage}
+\caption{Integrated luminosity delivered by LHC (in blue) and recorded by CMS (in yellow) for pp collisions of 2017 (on the left) and 2018 (on the right).}
+\label{fig:IntLumi1718} 
+\end{figure}
+
+Pile up ?? \ref{fig:pileup2017}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.6]{pileup2017}
+	\caption{Pile-up distribution for 2017 pp collisions data.}
+	\label{fig:pileup2017}
+\end{figure}
+
+Divisione run and Upgrade LHC ??
+
+\section{The CMS experiment}
+The CMS experiment is a multipurpose experiment, meaning that it is designed to be able to fulfil a large variety of physics goals, ranging from the search of the Higgs boson, to the new physics (beyond the SM) searches. 
+It involves more than 40 countries and about 3500 scientists (controlla questi numeri) 
+First goal was reached in 2012 with the discovery of the Higgs boson by CMS and ATLAS experiments, that has been an important achievement for the proof of the validity of the Standard Model.
+
+\subsection{The coordinate system}
+The CMS coordinate systemis right-handed and its origin is at the centre of the detector, which is the nominal interaction point. The x-axis points radially inward to the center of the LHC ring, the y-axis points vertically upward and the z-axis points horizontally along the counter clockwise beam direction. Since the experiment has a cylindrical symmetry, it’s very useful to define cylindrical coordinates to label the position of the particles. In particular are used: a radial coordinate r measured in the x-y plane and 2 angles : the azimuthal angle $\phi$, defined as the angle measured from the x-axis in the x-y plane and the polar angle $\theta$ measured from the z-axis.
+However, instead of the polar angle, is used the pseudorapidity $\eta$, defined by the equation \ref{eq:eta}.
+
+\begin{equation}
+\mathrm{\eta = - ln\ \bigg( tan\ \frac{\theta}{2} \bigg)}
+	\label{eq:eta}
+\end{equation}
+
+which is null in the x-y plane and infinity for a direction parallel to the beamline. 
+The pseudorapidity is preferred over the polar angle because the particle production is constant as a function of $\eta$ and it is Lorentz invariant under boosts along the longitudinal axis.\\
+Based on values of pseudorapidity value, the CMS detector can be divided in two main parts: the \emph{barrel} corresponding to the region with $|\eta|$< 1.2 and the two \emph{endcaps}, characterized by $|\eta|$< 2.4.
+[ geometric acceptance of CMS ?]
+\newline Distances in $\phi$ and $\eta$ are denoted $\Delta \phi$ and $\Delta \eta$. These are used to define cones around an axis with a border defined by $\Delta R$, computed as shown in eq. \ref{eq:DeltaR}.
+
+\begin{equation}
+\mathrm{\Delta R = \sqrt{(\Delta \phi)^{2} + (\Delta \eta)^{2}}}
+	\label{eq:DeltaR}
+\end{equation}
+
+The energy and momentum measured for $\eta$ = 0 , i.e. transverse to the z-axis, are denoted as $\mathrm{E_{T}}$ and $\mathrm{p_{T}}$, defined respectively as:
+$\mathrm{E_{T} = E\ sin \theta}$ and $\mathrm{p_{T} = p\ sin \theta}$.
+\\
+(perchè sono importanti? )
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.14]{CMSdet}
+	\caption{Overview of whole the CMS detector showing the different subdetectors.}
+	\label{fig:CMSdet}
+\end{figure}
+
+Before describing in detail the CMS subdetectors, going from the inner one, in the barrel,  to the most external in the endcaps, I will focus my attention on the magnet, which is a fundamental part of the system, and its realization was an impressive achievement for the community (??)
+
+\subsection{Magnet}
+The momenta of charged particles and the sign of their electric charge are determined by the curvature of the particle trajectory in a magnetic field.
+To fulfill the required performance of the muon system, in order to be able to determine the sign of muons with very high momentum, up to the order of TeV, CMS chose a very strong magnetic field within a compact volume.
+The CMS large superconducting solenoid, made of niobium titanium and cooled down to $\sim$4.5 K with liquid helium, is 12.5 m long and has an inner diameter of 5.9 m.
+It produces a uniform field in the axial direction and therefore the particles trajectories are bended in the transverse (x-y) plane. In the volume of the inner tracker and calorimeters the field is about $\sim$ 3.8 T, generated by a circulating current of 18 kA.
+The return flux is given by an external iron yoke with three layers, and between them the muon system is installed. In this region the magnetic field is about 2T.
+
+\subsection{Inner tracker}
+The inner tracking system measures the trajectories of the particles in the pseudorapidity region: $\eta < |2.5|$ and therefore is the closest subdetector to the interaction point and operates in the region of highest flux of particles.
+For these reasons is necessary to use a technology characterized by very high granularity, good radiation hardness, while keeping to the minimum the amount of material in order to limit multiple coulomb scattering, bremsstrahlung and nuclear interactions.
+The silicon technology (Si) has been chosen for the whole tracker, which is made up of different detectors, as shown in Fig. \ref{fig:InnerTracker}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1.2]{InnerTracker}
+	\caption{Schematic view of a half of the inner tracking system, showing the five different kinds of silicon detectors used.}
+	\label{fig:InnerTracker}
+\end{figure}
+
+In the inner region there is a Pixel detector, with 3 layer in the barrel and 2 in the endcaps, having pixel cells of $\approx$ 100 $\times$ 150 $\mu m^{2}$ size. These detectors are guarantee a spatial resolution of the radius and azimuthal angle r-$\phi$ measurement of about 10 $\mu m$, and 20 $\mu m$ for the z-coordinate measurement that allows very precise measurements, providing a small impact parameter resolution, crucial for good secondary vertex reconstruction.
+The external part of the tracker is made up of different kind of microstrip detectors. 
+In the barrel there are in total 10 layers of detectors, divided into:
+\begin{itemize}
+	\item Tracker Inner Barrel (TIB) providing a single-point resolution of 23-34 $\mu m$  in the r-$\phi$ direction and 23 $\mu m$  in z, 
+	\item Tracker Outer Barrel (TOB) with a resolution of 35-52 $\mu m$ in the r-$\phi$ direction and 52 $\mu m$ in z.
+\end{itemize}
+
+In the endcaps there are 9 microstrip layers, divided into:
+\begin{itemize}
+	\item Tracker Inner Disks (TID)
+	\item Tracker EndCaps (TEC)
+\end{itemize}
+[ al massimo inserire plot material budget : url sito sul file word]
+
+\subsection{Calorimeters}
+\subsubsection*{Electromagnetic Calorimeter}
+The CMS electromagnetic calorimeter (ECAL) is a homogeneous calorimeter made of Lead Tungstate ($PbWO_{4}$) scintillating crystals, characterized by a scintillation decay time comparable with the 25 ns time interval between two consecutive bunch crossings.
+Moreover, this material is characterized by a small Moliere radius (21.9 mm) and a short radiation length (8.9 mm), that allows good shower containment in a limited space.
+Crystals have a trapezoidal shape and a length of 230-220 mm, corresponding to 25.8 and 24.7 radiation lengths respectively. The scintillation light is collected by silicon Avalanche Photo-Diodes (APDs) or Vacuum Photo-Triodes (VPTs).
+The layout of CMS ECAL is shown in Fig. \ref{fig:ECAL}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.27]{ECAL}
+	\caption{Layout of the CMS electromagnetic calorimeter, showing the different regions ...}
+	\label{fig:ECAL}
+\end{figure}
+
+It has a total coverage of $|\eta| <$ 3 and is divided into:
+\begin{itemize}
+	\item a ECAL Barrel (EB) covering the region 0 $< |\eta| <$ 1.479 and equipped with APDs,
+	\item two ECAL Endcap (EE) in the region 1.479 $< |\eta| <$  3.0, equipped with VPTs.
+\end{itemize}
+Additional preshower detectors (ES) are installed in front of each endcap in the region 1.653 $< |\eta| <$ 2.6 : they consist of is a sampling calorimeter per endcap, made up of two layers of lead radiators to initiate electromagnetic showers from incoming electrons and photons, followed by silicon strip detectors to measure the energy deposit and the transverse shower profile. 
+This preshower system is fundamental to identify and reject the $\pi_{0}$ mesons decaying into two photons and to improve the measurement of the position of electrons and photons, because as it has a higher granularity than the EE.
+
+\subsubsection*{Hadronic Calorimeter}
+The CMS hadronic calorimeter (HCAL) is a sampling calorimeter, using Brass as absorber material, plastic scintillator tiles as active medium (sandwiched between the absorbers), WaveLength Shifting fibers (WLS) to modify the frequency of the scintillation light and optical fibers to transfer the light to the detectors which are hybrid photodiodes. 
+Brass was chosen for its short interaction length and because it is non-magnetic.
+The HCAL is divided in two parts:
+\begin{itemize}
+	\item a HCAL Barrel (HB) covering the region: $|\eta|$ < 1.4 , 
+	\item two HCAL Endcap (HE) in the region 1.3 $< |\eta| <$ 3.0.
+\end{itemize}
+Since the absorber depth of the ECAL Barrel and the HCAL Barrel in the solenoid is not enough to contain the whole particle shower, an additional calorimeter, HCAL Outer (HO), is placed as a tail catcher, external with respect to the cryostat and within the return yoke, using the iron as absorber. The shower containment and therefore the energy resolution of the calorimeter are thus improved.
+The location of HCAL and ECAL detectors with respect to the CMS magnet is shown in Fig. \ref{fig:HCAL}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.55]{HCAL}
+	\caption{Location of the different calorimeters with respect to the CMS magnet.}
+	\label{fig:HCAL}
+\end{figure}
+
+In order to improve the identification of forward jets, which is very important for the rejection of many backgrounds, HB and HE are complemented by a very forward calorimeter (HF), that extends the pseudorapidity coverage from $|\eta| <$ 3.0 up to $|\eta| <$ 5.2. 
+It uses a Cherenkov-based, radiation-hard technology (because the particle flux in this very forward region is extremely high) with steel as absorber material and quartz fibres as active medium.
+Cherenkov light, emitted by particles in the quartz fibres, is channelled to photomultipliers.
+Neutral components of the hadron showers are preferentially sampled in the HF, leading to narrower and shorter hadronic showers.
+Moreover, the fibres inside HF are arranged in such a way is possible to distinguish showers generated by electrons and photons, which deposit a large fraction of their energy in the first 22 cm of the calorimeter, from those generated by hadrons, which produce nearly equal signals in both calorimeter segments (respectively long 22 and 143 cm) on average.
+
+\subsection{Muon system}
+The main tasks of the CMS muon system are the muon identification and the precise measurement of $p_{T}$ and charge of muons with energies ranging from few GeV up to few TeV. Additionally, it provides a robust trigger for events that involve muons and a precise time measurement of the bunch crossing.
+The system is placed outside the magnet and the detector stations are integrated into the iron return yokes so that the 3.8 T magnetic field inside the solenoid and the 1.8 T average return field bend the tracks in the transverse plane thus allowing the measurement of their $p_{T}$. 
+Furthermore, because of the large amount of material in front of the muon chambers, also due to the presence of the iron return yoke of the magnet, the muon system results to be well shielded from charged particles other than muons, making their identification easier.
+\\
+The muon spectrometer is made up of 3 different kinds of gaseous detectors, which assure the robustness and redundancy of the system. These detectors are: 
+\begin{itemize}
+	\item Drift Tubes (DT) 
+	\item Cathode Strip Chambers (CSC)
+	\item Resistive Plate Chambers (RPC)
+\end{itemize}
+The DTs are used only in the barrel region ($|\eta| <$ 1.2), where the residual magnetic field and the muon and neutron induced background rate are low. 
+In the endcaps, on the contrary, there is a higher residual magnetic field and large particle rate, and CSCs are most suitable for these radiation conditions, therefore they are installed up to $|\eta| <$ 2.4. 
+Both DTs and CSCs provide a very good spatial resolution for the measurement of the $p_{T}$ of charged particles. 
+In addition to them, RPCs are placed in both regions (barrel and endcaps), for $|\eta| <$ 2.1, and they are mainly used for the trigger reasons, because of the very good timing.
+\\
+Moreover, DT, RPC and CSC have different sensitivity to the backgrounds, assuring the robustness of the system. In this region the background is composed mainly by secondary muons produced in $\pi$ and K decays, or coming from punch-through hadrons and from low energy electrons originating after slow neutron capture by nuclei with subsequent photon emission. 
+ 
+An overview of a quadrant of the CMS muon system is shown in Fig. \ref{fig:MuSystemOld}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.55]{MuSystemOld}
+	\caption{Quadrant of CMS muon system with the different subdetectors highlighted: Drift Tubes (in yellow), Cathode Strip Chambers (in green) and Resistive Plate Chambers (in blue).}
+	\label{fig:MuSystemOld}
+\end{figure}
+
+\subsubsection*{Drift Tubes}
+The Muon Barrel system of detectors (MB) is made up of 4 stations arranged in coaxial cylinders around the beamline, interleaved with the iron yoke. It is also divided into five wheels along the beam direction following the five wheels of the return yokes. In total there are 130 ( o 250 ??) drift chambers.
+The basic element of a DT chamber is the drift cell shown in Fig. \ref{fig:DT}.
+It is a tube with a rectangular cross section, filled with an Ar/CO2 mixture (85/15) and operating at a gas gain of $10^5$. 
+The cathodes stripes are placed along the shorter sides of the rectangle, while the anode wire is in the middle of the cell. A charged particle passing through the detector, ionizes the gas and the produced electros drift towards the anode wire. Since the drift velocity in the operating conditions in known and constant (because the geometry of the cell guarantees a uniform electric field), from the measurement of the electrons drift time is possible to obtain the position of the ionizing  particle.
+This kind of drift cell is characterized by a maximum drift time of $\sim$ 400 ns and a single point resolution of 200 $\mu m$ and 150 $\mu m$ in z direction.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{DT}
+	\caption{Fundamental drift cell of a Drift Tube detector. The different components are indicated as well as the drift lines and the isochrones. }
+	\label{fig:DT}
+\end{figure}
+
+Each DT is composed of 2 or 3 superlayers (SL), each made of 4 stacked layers of drift cells.  The orientation of the anode wires is different among the SL, in order to provide information regarding different coordinates. In the outer SL the wires are parallel to the beamline while in the inner one they are orthogonal to the beamline: the former allows a track measurement in the plane (r-$\phi$), in which the low residual magnetic field bends the tracks, while the latter measures the z coordinate.
+
+\subsubsection*{Cathode Strip Chambers}
+
+The tracking measurement of muons in the two endcaps is the main task of the Cathode Strip Chambers (CSC) which are arranged in the Muon Endcap(ME) system of detectors  in 4 stations.\\
+The CSC is a multi-wire proportional chamber, in which the cathode plane is segmented into strips perpendicular to the wire’s direction. These chambers are operated at a gain of 7 $\times 10^4$, using a gas mixture of $Ar/CO_{2}/CF_{4}$ (40/50/10). Each chamber has a trapezoidal shape and is made of 7 cathode planes stacked together, forming 6 gas gaps $\sim$ 10 mm thick, each containing a plane of anode wires, as displayed in Fig. \ref{fig:CSC1}.\\ 
+In Fig \ref{fig:CSC2} it’s possible to see how muons are revealed in this detector: when a muon crosses the chamber, it produces an avalanche in the gas, inducing signals both on the wires and on the cathode strips.
+These two contributions are combined in order to obtain the position of the ionizing particle: since the wires give information on the radial coordinate, while the cathode planes are segmented into radial strips orthogonal to the wires.
+The resulting spatial resolution depends on the CSC station in consideration, but in average is about 75 $\mu m$.
+
+\begin{figure}[h]
+ \begin{minipage}[b]{7cm}
+   \centering
+   \includegraphics[width=3cm]{CSC1}
+   \caption{Layout of a CSC made of 7 trapezoidal layers which form 6 gas gaps with planes of sensitive anode wires.}
+   \label{fig:CSC1}
+ \end{minipage}
+\ \hspace{2mm} \hspace{2mm} \
+ \begin{minipage}[b]{7cm}
+  \centering
+   \includegraphics[width=5cm]{CSC2}
+   \caption{Scheme of the formation of the signal in a CSC detector from both electrodes are combined to recover the exact position of the muon hit. }
+   \label{fig:CSC2}
+ \end{minipage}
+\end{figure}
+
+\subsubsection*{Resistive Plate Chambers}
+The main goal of the 1056 RPC, installed both in the barrel and in the endcaps of CMS, is to provide a fast trigger signal, by adding, at the same time, redundancy to the muon spectrometer.\\
+The RPC are gaseous parallel-plate detectors characterized by an excellent time resolution (from 1 ns to 50 ps) and therefore able to provide a precise bunch crossing identification.
+A single RPC consist of two parallel planes made of bakelite (a very resistive resin) externally coated with graphite and separated by a 2 mm wide gas gap, filled with a gas mixture of 96.2\% $C_{2}H_{2}F_{4}$ (freon) + 3.5\% $iC{4}H_{10}$ (isobutane) + 0.3\% $SF_{6}$ + water vapour  [ now changed for ecologic reasons! ].
+
+In CMS two RPCs are combined in order to improve the efficiency of detection and the signals produced by the avalanches generated by the ionization of the gas in the passage of a charge particle, are collected on a set of readout aluminum strips, placed between the two chambers, as shown in Fig. \ref{fig:RPC}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.6]{RPC}
+	\caption{Schematic view of a dual RPC CMS detector.}
+	\label{fig:RPC}
+\end{figure}
+
+These kind of detectors can operate in two different modes: a \emph{streamer} mode with a strong electric field that produces localized gas discharges in the region near the passage of the ionizing particle, or an \emph{avalanche} mode, in which the electric field less strong than the previous one. The former mode allows only few counts per unit area while the latter one, because of the reduced charge generated in the ionization, is characterized by an increased counting capacity of the chamber. \\
+For this reason in CMS the RPC operate in avalanche mode, allowing the detectors to sustain higher rates. 
+
+\subsection{CMS trigger system}
+In CMS about $10^{9}$ interactions take place per second, but data can be written to permanent storage with a maximum rate of 600 Hz. Moreover, the cross section of interesting physics phenomena is very low,  
+, making useless to store all the data.
+For these reasons a trigger system, able to select only the potential interesting events, has a fundamental importance for the experiment.
+The decision to retain or to discard an event has to be taken in less than 25 ns, the time interval between two collisions, which is too small to retrieve data from all the detectors. 
+Therefore, CMS uses a multi-level trigger system, divided into:
+\begin{itemize}
+	\item Level 1 trigger (L1): at this level all the data is stored in the pipelined memory buffers for a maximum of 3.2 $\mu s$, which corresponds to the max latency time (i.e. the time needed to transfer the raw data from the detector to the electronics that takes the L1 decision and back + the time needed to take the decision ($\sim$1 $\mu s$)). Only  $10^{5}$ events per second are passed to the next level of trigger. The decision is taken using the raw data coming from the calorimeter and muon detectors, which are the fastest ones.
+ 	\item High Level Trigger (HLT): a farm with several thousand of processors reconstructs the data and then takes decisions, further reducing the rate to few hundreds of Hz, before they are stored permanently.
+\end{itemize}
+
+\subsubsection*{L1 trigger}
+The first level trigger is provided by custom programmable electronics ( e.g. FPGAs) that combines the information coming from the fastest CMS detectors in order to decide whether to store or to discard an event. The decision needs 3.2 $\mu s$ of time to be taken (?) during which all the data are temporarily stored in buffers inside each subdetectors electronics. [actually, the decision is taken in < 1 $\mu$m, the remaining time is spent due to signal propagation delays…]
+If, after this time, the event is considered interesting, it is moved to a buffer to be stored while waiting to be processed by the HLT. 
+The L1 uses the muon trigger and the calorimeter trigger, which identify “trigger objects” [vedi dopo nella sezione dedicata alla ricostruzione in CMS] as e, $\gamma$, jets and muons, and categorize them based on their quality (determined by energy or momentum). The information provided by these two triggers are then combined by the \emph{Global Trigger}, that takes the final decision.
+The Muon trigger uses the segments coming from DT and CSC and the single hits from the RPC.
+Inner tracker data are not used in L1 because of their high resolution = too many channels! which requires too much time to read them out.
+
+(da modificare)
+Examples of trigger decisions: The simplest triggers are in general those based on the presence of one object with an ET or pT above a predefined threshold (single-object triggers) and those based on the presence of two objects of the same type (di-object triggers) with either symmetric or asymmetric thresholds. 
+
+\subsubsection*{HLT}
+The entire decision process at this level takes $\sim$100 ms: each processor of the farm works on the reconstruction of one event at a time, using data with full resolution and granularity, eventually from all the subdetectors. There are few hundreds of different HLT paths, that look for the presence of particular objects and signatures in an event. 
+In order to minimize the decision time, the selection is made in a sequence of nested logical steps: initially only some parts of the event, the less expensive in computational terms, are reconstructed (e.g. the deposit energy in the ECAL) and a filter is applied in order to decide if the reconstructed objects pass the trigger thresholds. If this is the case, the reconstruction continues with the successive step, otherwise the execution of the path is stopped.
+Events that have fired HLT are stored (and then reprocessed in order to be analysed)  in infrastructures worldwide distributed, called “World LHC Computing Grid” (WLCG). 
+
+%\section{LHC and CMS upgrades}
+%
+%The schedule of the upgrades of LHC is shown in Fig. \ref{fig:LHC_upgrade}.
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[scale=0.28]{LHC_upgrade}
+%	\caption{LHC upgrade schedule bla bla.}
+%	\label{fig:LHC_upgrade}
+%\end{figure}
+
+\newpage
+\chapter{Event reconstruction in CMS}
+The event reconstruction process consists in putting together all the information coming from the different CMS subdetectors, in order to obtain the particle trajectory and to identify it (photon, electron, muon, charged hadron, neutral hadron), associating its characteristic quantities (momentum, charge).
+Each kind of particle leaves in the different subdetectors a particular signature, as shown in Fig. \ref{fig:CMS_slice}, which makes the particle identification possible. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{CMS_slice}
+	\caption{Different signatures of particle in the CMS detector. The trajectory of the particles that interact with the tracker are drawn in full line: electrons in red, muons in light blue and charged hadrons in green. The traectories of neutral particles, that interact only with the calorimeters, are indicated with dashed lines: neutral hadrons in green and photons in blue. }
+	\label{fig:CMS_slice}
+\end{figure}
+\newline For example, photons are detected from ECAL energy clusters not corresponding to any signal in the tracker, while electrons leave a clear signal in the tracker with a linked ECAL energy clusters, or to possible bremsstrahlung photons emitted along the way through the tracker material.
+Muons, on the other hand, are clearly identified as a signal in the tracker consistent with a track or several hits in the muon system. 
+Neutral hadrons are identified as HCAL energy clusters not linked to any charged hadron trajectory, or as ECAL and HCAL energy excesses with respect to the expected charged hadron energy deposit [cambia questa frase]
+If in the passage through the active material of the detectors the particle interacts, a signal is produced and is recorded as a point in space, called \emph{recHit}. All the recHits are then connected together to reconstruct the particle trajectory.
+
+\section{Particle Flow algorithm}
+The Particle Flow algorithm puts together the information of all subdetectors in order to identify stable particles as muons, electrons, photons, charged and neutral hadrons. Additionally, from all these info the \emph{Missing Transverse Energy} (MET) can be determined [cos'è? - determined by the absolute value of the vector sum of transverse momenta of all identified particles and reconstructed jets...] [defined as the negative vectorial sum of the transverse momenta of all the visible particles in the event and it represents the transverse momentum which escapes detection, leaving an imbalance in the transverse plane:
+$E_{\ T}^{\ miss} = - \sum_{i} p_{T}^{i}$, which is important to establish the presence (and also the energy and direction) of particles escaped w/o leaving any signal, as neutrinos or neutral hadrons, and the jets (coming from the fragmentation of quarks) can be reconstructed.
+The first step of this algorithm is to connect all the elements between the subdetectors, trying to combine them in closest pairs in the transverse plane.
+After that, (i.e. after having produced this kind of “blocks” of elements that will be used to “construct” the event. As the different particles are identified by connecting all their “footprints”, the elements present among the blocks, associated to their passage, are removed from the collection.), 
+[First, this algorithm reconstructs the fundamental elements which are charged-particle tracks and clusters in the calorimeters. Then, these elements are linked to blocks. These those blocks are interpreted as particles. The reconstruction and identification performance of jet, tau and missing transverse energy is improved by using the particle-flow algorithm.]
+Order followed in the reconstruction:
+\begin{itemize}
+	\item Muons
+	\item Electrons and bremsstrahlung photons 
+	\item charged hadrons, neutral hadrons or photons
+\end{itemize}
+
+The muons candidates are the first to be reconstructed and then all the elements (tracks and clusters) associated to them are removed from the “available blocks”.
+The second kind of particles to be identified and reconstructed are the electrons and bremsstrahlung photons ( = Energetic and isolated photons, converted or unconverted ).
+! At this level tracks with high pT uncertainties are masked !
+Then, the last step consists of a cross identification of the remaining blocks, which can be charged hadrons, neutral hadrons or photons. Usually hadrons produce secondary particles by interacting in the tracker material via nuclear reactions. When all the blocks have been identified and processed, global event description is created and all the parts of the events are reprocessed.
+
+\section{Tracks and Primary Vertex reconstruction}
+
+\subsection{Tracking of charged particles }
+\label{Track charged particles}
+The main goal of the reconstruction of the tracks of charged particles is the evaluation of their momentum. It is possible by considering the bending of their trajectories in the magnetic field, due to the Lorentz force: 
+F = -….
+Knowing the value of the magnetic field B in each point of the space, the particle momentum in a point is estimated by evaluating the tangent to the trajectory in that point (which is a velocity) and then multiplying it by the mass if the particle and its Lorentz factor $\gamma$ :
+$\mathrm{p = m\ \gamma\ v}$
+
+However, life is not so simple! there are some factors that makes the estimate more complicate and that has to be taken into account because they modify the momentum and direction of the particles:
+-	The inhomogeneity of the magnetic field
+-	Energy loss in the detectors
+-	Multiple Coulomb scattering that modifies the trajectory (check!)
+
+Regarding the last point, if the particle crosses a sufficient thickness of material, the distribution of the values of deflection angle is a Gaussian centered at zero.
+The second point, instead, can be evaluated through the Bethe-Bloch formula, that describes the mean rate of energy loss because of the ionization of the atoms of the material.
+
+[ eq. Bethe Bloch and plot ? / vedi pagg. 51 – 52 Radogna]
+
+\subsubsection*{ RecHits to tracks [how to connect the dots]}
+After the local reconstruction of the RecHits collected by the silicon detectors of the tracker (with the estimation, for each detector layer, of the particle positions and uncertainties) is carried out, 
+the procedure to obtain tracks from the RecHits is independent of the type of silicon subdetector and is characterized by some precise logical steps:
+\begin{itemize}
+	\item Seed generation
+	\item Track finding 
+	\item Track fitting
+	\item Track selection
+\end{itemize}
+The passage from the RecHits to tracks is performed by using the CMS tracking software referred to as Combinatorial Track Finder (CTF) -- ref !!
+It allows pattern recognition and track fitting to occur in the same framework.  
+The procedure goes on in an iterative way, developed to reduce and simplify the combinatorial complexity that naturally arises
+In fact the initial iterations of the CTF search for tracks that are easiest to recognize (e.g. the ones which large pT, which are quite isolated) and after each iteration, hits associated with tracks are removed, simplifying the search for more difficult classes of tracks (e.g. low pT tracks).
+The four steps through which each iteration proceeds are explained in more detail in the following…
+
+\subsubsection*{ Seed generation}
+Seed generation provides initial track candidates for an preliminary estimation of the trajectory, its parameters and its uncertainties. 
+Inside the tracker the magnetic field is almost uniform therefore the trajectories of charged particles are helicoidal and need five parameters ( = 3 position coordinates [x,y,z] + the angle the tangent to the trajectories makes with respect to the detector [$\lambda$] + the ratio between electric charge and the momentum of the particle [q/p]) to be uniquely defined. 
+
+ Immagine esemplificativa (come quella di Raffaella ?)
+ 
+In order to extract these parameters three 3D hits or two 3D hits + 1 constraint (e.g. on the trajectory origin: hp that the particle originated close to the beam spot) are needed.
+Seeds are constructed in the inner part of the tracker and the track candidate is built outwards. 
+
+\subsubsection*{Track finding}
+The estimation of the values of the five parameters needed to define the trajectory is performed using linear fitting algorithms, like the “Kalman filter” (KF) 
+metti references Raffaella
+
+This filter acts iteratively, taking as starting parameters the coarse ones provided by the trajectory seed and updating them by adding hits from successive detector layers, to build track candidates.
+In particular, firstly are determined the layers which are compatible with the initial seed trajectory and then the trajectory is extrapolated to these layers, according to the equation of motion of a charged particle in a constant magnetic field, taking into account also the multiple coulomb scattering and energy loss in the material.
+The five track candidates with the best normalized $\chi^2$ found at each layer are then propagated to the next compatible layers, until the outermost layer is reached, or a terminating condition is satisfied.
+At the end of this stage, to each trajectory is associated a collection of hits and an estimate of the track parameters.
+
+\subsubsection*{Track fitting}
+The full information about the trajectory is only available when all hits are known, and the estimate can be biased by constraints applied during the seeding stage. 
+For this reason, the trajectory is refitted using the KF, which is initialized with the parameters coming from a preliminary fit of the innermost hits of the track.
+Then the fit goes on iteratively, from the inside outwards, through all of the hits, and the track trajectory is updated after the progressive addition of  new hits (along with the estimated hit position uncertainty).
+
+\subsubsection*{Track selection}
+The previous reconstruction step (the track fitting) produces several “fake tracks” = tracks not associated with a simulated particle.
+[ A reconstructed particle is associated with a simulated track if at least 75\% of the hits assigned to the reconstructed track originate from the simulated particle. (?? Riformula)] 
+To avoid fake tracks, the tracks selection is based on (if they fit has a good $\chi^2$/ndf): 
+-	number of layers that have hits [ fraction of fake tracks decreases exponentially with the increasing if this quantity) 
+-	compatibility with a primary interaction vertex 
+According to the “number of criteria” that a track fulfills, the tracks can be “high-purity tracks” if they satisfy the more stringent criteria or “loose tracks”, which fulfill only minimum requirements.
+At the end of the selection, the remaining tracks are merged into a single collection.
+
+\subsection{Primary Vertex reconstruction}
+Using the reconstructed tracks, it is possible to reconstruct the Primary Vertices (PV), i. e. the vertices of the proton-proton interactions in each event, including the ones originating from pileup collisions.
+This reconstruction process consists of 3 steps:
+\begin{enumerate}
+	\item Selection of the tracks that result to be consistent with being produced promptly in a primary interaction.
+	\item These tracks are clustered according to their z-coordinate at the point of closest approach to the centre of the beam spot
+	\item All the vertices containing at least 2 tracks are fitted with an “Adaptive Vertex Fitter” -> ref. Vanohffer / This provides an estimate of the vertex parameters (position coordinates, number of degrees of freedom, indicators that estimate the efficiency of the fit). The primary-vertex resolution depends strongly on the number and on the momenta of tracks used in the fit. 
+\end{enumerate}
+
+\section{Muon reconstruction}
+A good muon reconstruction and identification is fundamental for many physical searches carried out at CMS and in particular it has also a very important role for the analysis described in this thesis. Because of the central importance that muons in CMS, several muon reconstruction algorithms have been designed, in order to best to fulfill the specific needs of different analysis. 
+The muons are reconstructed using data coming from the muon system and the inner tracker.
+
+The muon reconstruction in general consists of 3 stages:
+\begin{enumerate}
+	\item Local reconstruction: the data are reconstructed as RecHits in each muon chamber; inn particular, in DT and CSC the RecHits are then fitted to “track stub” (segments)
+	\item Stand-alone reconstruction: the RecHits in RPC and the segments in DT and CSC are fitted to “stand-alone muon” tracks
+	\item	 \begin{enumerate}
+				\item Global reconstruction [outside-in]: for each stand-alone muon track a matching track in the inner tracker is found and the hits of the two tracks are combined and a global fit is performed, resulting in a “global muon” track. [ using the KF technique]
+
+-- this improves a lot the resolution of the momentum of the reco mu especially for muons with  $\mathrm{p_{T} \geq}$ 200 GeV 
+				\item Tracker reconstruction [inside-out]: The tracks in the inner tracker are extrapolated to the muon system and, if at least one matching muon segment (from DT or CSC) is found, the tracker track is referred to as a “tracker muon” track. The track-to segment matching is done using a local (chamber) coordinate system. 
+[ cambia un po’ : The local x is the best-measured coordinate in the r-$\phi$ plane and the local y is the coordinate orthogonal to it.  An extrapolated track is matched to a muon segment if the distance between them is less than 3 cm in local x or if the pull for local x is less than 4, with the pull defined as difference between the track position and the segment position, divided by their combined uncertainties. ]
+
+-- this reconstruction is more efficient for muons with low momentum pT <=$\mathrm{p_{T} \leq}$ 5 GeV because requires only 1 segment in the muon chambers, while the Global Muons reco typically requires segments in at least two muon stations. 
+			\end{enumerate}
+\end{enumerate}
+
+After completing all these algorithms, the “stand-alone”, “global” and “tracker” muons are merged into a single object called “muon” with other additional characteristics (energy, isolation, …).
+
+\subsection{Local reconstruction}
+The trajectory of the muon is built starting from the recHits on the sub-detectors layers. Ideally one recHit per layer should be produced. At this level the reconstruction depends on the kind of muon chamber considered. In the following the local reconstruction in each of the sub-detectors of the muon system will be treated in more detail.
+
+\subsubsection*{Drift Tubes}
+In this kind of detector, the most elementary muon footprints are the 1D hits in the drift cells. From the signal recorded it is possible to obtain only information on the distance of the particle from the anode wire (with a left/right ambiguity), but no info about the position on the wire. From these hits segments are reconstructed separately in the r -$\phi$ and r-z projections and then, combining the 2 projection, it is possible to obtain also info about the third coordinate.
+[The final 3D segment has a angular resolution of about 0.7 mrad in $\phi$ and about 6 mrad in $\theta$](?)
+
+--	Fig. pag 57 tesi Raffaella
+
+\subsubsection*{Cathode Strip Chambers}
+In this kind of detectors is possible to obtain information about the position and time of arrival of a muon from the induced charge on the cathode strips. A 2D info is available for each layer: the wires provide the measurement of the radial coordinate (r) while $\phi$ is measured by the strips.
+All the hits in the chamber are combined to create a 3D line segment. 
+
+[The position resolution of segments varies from about 50 $\mu$m in the first CSC station to about 250 $\mu$m in the fourth. The direction resolution varies with the chamber type, with an average of about 40-50 mrad in $\phi$, slightly worse in $\theta$. ]
+
+\subsubsection*{Resistive Plate Chambers}
+In these detectors the information on the position of the muon is provided by the fired strips which are grouped together and the exact position of the muon is estimated with the “center of gravity” of them. 
+[Errors are computed under the same assumption of flat probability: length of the cluster divided by $\sqrt{12}$ ]
+
+\subsection{Stand-alone reconstruction}
+The stand-alone track reconstruction uses the KF method iteratively to extend the track starting from the segments coming from the DT for barrel and the CSC for endcap. At each iteration of the algorithm, the trajectory parameters are updated, and the reconstruction goes on in the same way it occurs in the tracker.  After all the hits are fitted and the fake trajectories removed, the remaining tracks are extrapolated to the point of closest approach to the beam line. 
+[In order to improve the momentum resolution a constraint to the nominal interaction point (IP) is imposed]
+
+Going in more details:
+In the muon stations (DT, CSC) a pattern of segments is searched for. 
+[ Once a pattern of segments has been found (it may also consist of just one segment), the $\mathrm{p_{T}}$ of the seed candidate is estimated. ]
+
+\subsection{Global/tracker reconstruction}
+The global muon reconstruction starts after the completion of the reconstruction of the stand-alone tracks and the inner tracker tracks. 
+The track matching of a stand-alone track to a tracker track consists of 2 steps:
+\begin{enumerate}
+	\item define a region of interest (ROI) in the parameter space that roughly corresponds to the stand-alone muon track, and to select the subset of the tracker tracks inside this ROI. The determination of the ROI is based on the stand-alone muon with the assumption that the muon originates from the interaction point. 
+	\item iterate the previous procedure applying more stringent criteria to choose the best tracker track to be combined with the stand-alone muon. -> the muon and the tracker tracks are propagated onto the same plane and the global track with the best $\chi^2$ is searched. If the matching fails, the reconstruction is stopped, and no global track is produced.
+\end{enumerate}
+
+[In the case of tracker reconstruction, candidate tracker tracks are extrapolated to the muon system taking into account the magnetic field, the average expected energy losses, and multiple Coulomb scattering in the detector material. If there is a suitable match between tracker track and stand-alone muon track, then the default global fit algorithm combines hits from the tracker and the stand-alone muon track and performs a final fit over all hits. ]
+
+[The reconstruction of the muons ends with the matching of the global muon track and the energy deposits in the calorimeters.]
+
+\subsection{Muon Identification}
+Particles which are detected as muons can be produced in CMS from different sources and therefore can be characterized by various features.
+In general, they can be distinguished in: 
+\begin{itemize}
+	\item \textbf{Prompt muons}: The great majority of muons // They are the muons arising either from decays of W, Z, and promptly produced quarkonia states, or other sources such as Drell-Yan processes or top quark production. 
+	\item \textbf{Muons from heavy flavor}: Muons coming from the decay of a tau lepton or from beauty or charmed mesons. 
+	\item \textbf{Muons from light flavor}: Muons coming from the decay of light hadron decays (e.g. $\pi$ and K) or, less frequently, from a calorimeter shower or a product of a nuclear interaction in the detector.
+	\item \textbf{Hadron punch-through}: Hits produced by particles different from muons; they are usually due to hadron shower remnants penetrating through the calorimeters and reaching the muon system.
+	\item \textbf{Duplicate}: They are reconstructed muons having a $\chi^2$ smaller than the “best” muon present in the event; these duplicate candidates can often be caused by instrumental effects or imperfections in the pattern recognition algorithm of the reconstruction software.  
+\end{itemize}
+
+-	Plot contributi dei vari tipi di muoni ai muoni totali
+
+
+In order to optimize the muon reconstruction requirement to select only the muons produced in a particular kind of interaction, different identification (ID) categories have been developed and muons are assigned to them according to their characteristics. Some examples of muon ID types implemented in CMS are the following:
+\begin{itemize}
+	\item \textbf{Loose ID}: it contains prompt muons originating at the PV and muons from light and heavy flavor decays. At the same time a low rate of the misidentification of charged hadrons as muons is maintained. To belong to this category a muon is required to be a muon selected by the PF algorithm and to be either a tracker or a global muon.
+	\item \textbf{Medium ID}: it contains prompt muons and muons from heavy flavor decay. In order to be part of this category, a muon has to be a loose muon with a tracker track that uses hits from more than 80\% of the inner tracker layers it traverses. Moreover, the muon segment compatibility has to be greater that a certain threshold.
+	\item \textbf{Tight ID}: it avoids muons from decay in flight and from hadronic punch-through. A muon belonging to this category is a loose muon with a tracker track that uses hits from at least six layers of the inner tracker including at least one pixel hit. A tight muon has to be both a tracker and a global muon and in addition it has to satisfy a series of requirements on the $\chi^2$/ndf , impact parameter [The impact parameter (dxy), defined as the distance of closest approach of the muon track with respect to the beamspot]. These kinds of muons must be compatible with the PV. 
+	\item \textbf{Soft ID}: it is a category optimized for low $\mathrm{p_{T}}$ muons (<10 GeV), containing tracker muons that satisfy high purity requirements and use hits from at least six layers of the inner tracker including at least one pixel hit. This kind of muons are loosely compatible with the PV.
+	\item \textbf{High $\bm{\mathrm{p_{T}}}$ ID}: it is a category optimized for muon having a high $\mathrm{p_{T}}$ (> 200 GeV). These muons are both tracker and global muons and fulfill the same requirements of the Tight muons for the impact parameters, but unlikely the tight muons, they don’t have to satisfy any requirement on the $\chi^2$/ndf of the global fit. Moreover, these muons don’t have to be selected by the PF algorithm.
+\end{itemize}
+
+-	Plot Efficienze delle varie ID??? [ + eventualmente pag.71-72 Raffaella and tag and probe pag 101 Vanohffer  ]
+
+- Dimuon plot da qualche parte ???
+
+\subsection{Muon Isolation}
+[ Inserirlo e/o modificarlo con la def custom di quelli della Florida]
+An important parameter used to distinguish between prompt muons and those from weak decays within jets is the so called \emph{Isolation} of the muon.
+It is quantifies the number of particles in a cone with a chosen value of $\Delta R$ (defined in eq. \ref{eq:DeltaR}), having its axis corresponding to the direction of the muon  momentum.
+In the analysis presented in this thesis a particular custom definition of the muon isolation has been developed in order to better distinguish the interesting muons from the background, based on consideration linked to the physics process of interest.
+[ def. nuova isolation ]
+
+
+\section{Electron reconstruction}
+The signature of an electron inside CMS is made of hits in the silicon detectors of the inner tracker and clusters inside the ECAL crystal, where the electron releases all its energy.
+The measure of this latter energy deposit is the starting point for the electron’s reconstruction, which goes through the following steps: ( rendi i punti + esplicativi)
+\begin{itemize}
+	\item Energy measurement
+	\item Track seed selection / seeding
+	\item Tracking
+	\item Association track – cluster
+\end{itemize}
+
+A standalone approach is combined with the global particle-flow (PF) algorithm for a better performance. 
+
+\subsection{Energy measurement: clustering in ECAL}
+Electrons interacting in the electromagnetic calorimeter deposit almost all their energy inside its crystals. However, due to the presence of the material in front of ECAL, it can happen that electrons can radiate photons and lose part of their energy via bremsstrahlung. It will result in an energy deposit in the calorimeter which is more contained and less spread over the crystals.
+It is estimated that the electron energy lost before reaching the ECAL is on average $\sim$33\% to 86\% going from $\eta\ \approx$ 0 to $|\eta|\ \approx $ 1.4.
+Therefore, estimating properly the value of this loss to add it to the energy deposited in the ECAL, is of crucial importance in electrons reconstruction. 
+The photons radiated via bremsstrahlung are mainly spread in the $\phi$ direction (the spread in $\eta$ direction is usually negligible, except for electrons with very low $\mathrm{p_{T}}$ ( <5 GeV)) because of the bending of the electron trajectory due to the magnetic field.
+In order to measure the energy of the radiated photons, two clustering algorithms have been developed: the “hybrid algorithm in the barrel and the “multi-5$\times$5” in the endcap.
+
+The first algorithm, used in the ECAL barrel (EB), considers arrays of 5$\times$1 crystals in $\eta$-$\phi$ around the “seed crystal”, i.e. a crystal characterized by an excess in energy deposit with respect to the other regions (at least 1 GeV). If the total energy deposited in this group of crystals is greater than 0.1 GeV, they are grouped with the contiguous array of crystals, forming a cluster. The final global cluster, called SuperCluster (SC) have to contain a seed array with energy greater than a certain threshold.
+
+The second algorithm, used in the ECAL endcaps (EE) and in the preshower (PS), is similar to the first one but considers a 5$\times$5 matrix around a seed crystal, whose energy has to exceed 1 GeV in order to be added to the SC.
+In the end, the SC energy and position are measured: the former is given by the sum of all the energies of its clusters, while the second is calculated as the energy-weighted mean of the cluster positions. 
+ 
+On the hand, being part of the particle flow reconstruction, there exist also another algorithm with the aim of reconstructing the particle showers individually.
+
+\subsection{Track seed selection / seeding}
+As seen in \ref{Track charged particles}, the tracks of charged particles inside the tracker can be reconstructed using the KF. However, in the case of electrons this reconstruction procedure ends up with a poor estimation of the track parameters, because these particles lose a large amount of their energy through bremsstrahlung in the tracker material, and a reduced hit-collection efficiency.
+For these reasons, a dedicated tracking procedure has been developed for electrons.
+ 
+The reconstruction of their track inside the silicon detectors starts with the generation of the track seeds from 2 or 3 hits in the pixel detector, combined with the positions of the vertices measured from the general charged particle tracks. To select the seeds, two complementary algorithms are used, and their results are combined at the end. These algorithms are the following:
+\begin{itemize}
+	\item ECAL-driven seeding: The SC energy and position are used to extrapolate the electron trajectory towards the inner layers of the tracker. If a reconstructed tracker seed that matches the prediction from the SC is found, it is selected.
+	\item Tracker-driven seeding: The tracker tracks reconstructed using the Kalman filter algorithm are extrapolated towards the ECAL and matched to a SC.
+\end{itemize}
+
+The first algorithm is the best one for high $\mathrm{p_{T}}$ electrons, while the second is optimized from low $\mathrm{p_{T}}$ ones, when bremsstrahlung is negligible.
+
+\subsection{Tracking}
+The seeds selected in the previous step are used to build electron tracks: starting from them, a combinatorial track finding algorithm iteratively adds successive layers, taking into account their energy losses due to ionization and bremsstrahlung, modelled with the Bethe-Heitler (BH) formula.
+Since the distribution of the energy loss in the BH model is non-Gaussian, the KF algorithm can no longer be used and it is substituted by a “Gaussian sum filter” (GSF) algorithm. The GSF models the energy loss distribution as a sum of six Gaussian distributions with different mean, width and amplitude.
+
+\subsection{Association track - cluster}
+Electrons candidates are finally reconstructed by associating a GSF track to a cluster in the ECAL, using not very restrictive criteria.
+For the matching of ECAL-driven tracks are used the SC reconstructed using either the hybrid or the multi-5$\times$5 algorithm. 
+For the Tracker-driven tracks whereas, a boosted decision tree (BDT) is used in combining the track observables and the SC observables to get a global identification variable.
+
+\section{Jets reconstruction}
+At LHC quarks and gluons are dominantly produced. However, due to the QCD confinement, they cannot be observed directly, but they fragment to a collimated bunch of hadrons flying roughly in the same direction, which is called “jet”. 
+Their signature is an energy deposit in the calorimeters, along with a series of hits in the tracker, in case of charged hadrons. 
+
+Jets are a background for several analysis, therefore is fundamental to reconstruct them properly!
+For this purpose, an “anti-kt clustering algorithm” is used: 
+Clustering algorithms classify calorimeter energy-depositions or reconstructed particles into jets. 
+it takes the reconstructed particles as input and assigns them to a jet, if some criteria are met (??)
+
+In the jet reconstruction the information from different subdetectors can be combined together in different ways, according to the particular characteristics of the jets that can therefore be divided in:
+\begin{itemize}
+	\item Calorimeter jets: they are reconstructed from energy deposits in the calorimeters (ECAL and HCAL) alone. 
+	\item Jet-plus-track (JPT) jets: the tracker information is added to the calorimeters one to reconstruct the jets.
+	\item Particle Flow jets: they are reconstructed taking as input the PF candidate particles and by clustering their four-momentum vectors. This greatly improves the jet momentum and spatial resolution with respect to calorimeter jets and therefore they are mostly used in CMS analysis.
+\end{itemize}
+
+[ There are different types of clustering algorithms. Cone algorithms use a top-down approach by finding coarse regions of energy flow in conical regions in ($\eta$-$\phi$) space, while sequential recombination algorithms use a bottom-up approach by combining particles starting from closest ones using a certain distance measure. One of such sequential recombination algorithms is the anti-kt algorithm, which is commonly used for jet clustering in CMS. 
+
+Jets are commonly reconstructed in CMS using PF candidates and the anti-kt algorithm. 
+distance parameter of R = 0.4 is used for $\sqrt{s}$ = 13 TeV proton-proton collisions. --ref.
+
+
+
+\newpage
+\chapter{Analysis }
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%\begin{figure}[h]
+%% \begin{minipage}{4.5cm}
+%%   \centering
+%%   \includegraphics[scale=0.6]{Prop}
+%% \end{minipage}
+%% \ \hspace{1mm} \hspace{2mm} \
+%% \begin{minipage}{10cm}
+%% Il primo rivelatore a gas, introdotto all'inizio del ‘900 da Rutherford e Geiger, é costituito da un filo sottile di metallo disposto lungo l'asse di un conduttore cilindrico. 
+%%\newline Ai due elettrodi viene applicata una differenza di potenziale in modo che il filo sia l'anodo e il cilindro esterno il catodo. 
+%% \end{minipage}
+%%\end{figure}
+
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}{|c|c|c|}
+%	\hline
+%	$ Regione $ 	& 	$Tensioni\ applicate\ [V] $	&	$Campo\ elettrico\ [kV/cm]$\\ \hline
+%	Deriva			&	867							&	2.9\\
+%	GEM 1			&	413							&	69.6\\
+%	Traferimento 1	&	337							&	3.4\\
+%	GEM 2			&	424							&	71.0\\
+%	Traferimento 2	&	674							&	3.4\\
+%	GEM 3			&	404							&	69.3\\
+%	Induzione		&	481							&	4.8\\
+%	\hline
+%	\end{tabular}
+%	\caption{Valori tipici di tensione e campo elettrico nelle regioni di un rivelatore GE1/1, applicando al partitore una tensione di 3600 V.}
+%	\label{tab:gap}
+%\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\chapter*{Conclusions}
+
+
+\begin{thebibliography}{90}             
+%\addcontentsline{toc}{chapter}{Bibliografia}
+	\bibitem{ref6}Patrignani, C. et al. $\emph{The Review of Particle Physics (2017)(Particle Data Group)}$. Chinese Physics C, 40, 100001 (2016 and 2017 update). 
+
+	\bibitem{ref26}Abbaneo, D. et al. $\emph{Test beam results of the GE1/1 prototype for a future upgrade of the}$ $\emph{CMS high-}$ $\eta$ $\emph{muon system.}$ Technical Report arXiv:1111.4883. RDSI-Note- 2011-013, (Novembre 2011).
+
+
+	\bibitem{ref0}dhw
+
+	\bibitem{ref1}ejjn
+
+\end{thebibliography}
+
+\end{document}

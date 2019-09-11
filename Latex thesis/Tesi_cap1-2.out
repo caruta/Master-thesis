@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter.1}{Standard Model and new physics search}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Physics Beyond the Standard Model}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{The CMS experiment at LHC}{}% 4
+\BOOKMARK [1][-]{section.2.1}{The Large Hadron Collider}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{The CMS experiment}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.1}{The coordinate system}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{Magnet}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.3}{Inner tracker}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.4}{Calorimeters}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.5}{Muon system}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.6}{CMS trigger system}{section.2.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Event reconstruction in CMS}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Particle Flow algorithm}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Tracks and Primary Vertex reconstruction}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Tracking of charged particles }{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.2}{Primary Vertex reconstruction}{section.3.2}% 17
+\BOOKMARK [1][-]{section.3.3}{Muon reconstruction}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.1}{Local reconstruction}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.2}{Stand-alone reconstruction}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.3}{Global/tracker reconstruction}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.4}{Muon Identification}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.5}{Muon Isolation}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Electron reconstruction}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.4.1}{Energy measurement: clustering in ECAL}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.2}{Track seed selection / seeding}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.3}{Tracking}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.4}{Association track - cluster}{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{Jets reconstruction}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 30
