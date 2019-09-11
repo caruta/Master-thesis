@@ -25,7 +25,20 @@
 \contentsline {section}{\numberline {3.4}Electron reconstruction}{28}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Energy measurement: clustering in ECAL}{28}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Track seed selection / seeding}{29}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Tracking}{29}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.3}Tracking}{30}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Association track - cluster}{30}{subsection.3.4.4}
 \contentsline {section}{\numberline {3.5}Jets reconstruction}{30}{section.3.5}
 \contentsline {chapter}{\numberline {4}Analysis }{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Theorical intro}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Preliminary considerations}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Production of $\tau $ leptons at LHC}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Signal acceptance}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Outline: search strategy}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Data and MonteCarlo samples}{33}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Datasets}{33}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}MonteCarlo samples}{33}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Event selection}{34}{section.4.5}
+\contentsline {section}{\numberline {4.6}Signal Normalization}{34}{section.4.6}
+\contentsline {section}{\numberline {4.7}MVA analysis}{34}{section.4.7}
+\contentsline {section}{\numberline {4.8}Evaluation of systematics}{34}{section.4.8}
+\contentsline {section}{\numberline {4.9}Results}{34}{section.4.9}
