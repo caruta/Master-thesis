@@ -100,13 +100,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \chapter{The CMS experiment at LHC}
-The Large Hadron Collider (LHC) is currently the world's largest and most powerful particle collider ever built. Its main goal is to explore the physics at the TeV energy scale in order to test the predictions of the Standard Model and eventually reveal some violations than can be a hint of “new physics” described by other theories of particle physics.
-Among the several/seven experiments placed around the ring, I’ll focused my discussion on the Compact Muon Solenoid (CMS) experiment, which is the one that collected the data used in the analysis that I’ve carried out.
+The Large Hadron Collider (LHC) is currently the world's largest and most powerful particle collider ever built. Its main goal is to explore the physics at the TeV energy scale in order to test the predictions of the Standard Model and eventually reveal some violations than can be a hint of new physics, described by Beyond Standard Model theories.\\
+After a description of the accelerator, I will describe in detail of the several experiments located around the LHC ring: the Compact Muon Solenoid (CMS) experiment, which is the one that collected the data used in the analysis described in this thesis.
 
 \section{The Large Hadron Collider}
-The LHC is a proton-proton (pp) and heavy ions collider built by the European Organization for Nuclear Research (CERN) between 1998 and 2008 and situated beneath the France-Switzerland border near the city of Geneva \cite{ref30}. The machine, along with the detectors, are the product of an impressive worldwide effort that has required the collaboration of more than 100 countries with over 10 thousand scientists.
-The accelerator is placed in a tunnel of 26.7 km in circumference, previously used for the Large Electron Positron (LEP) collider \cite{ref31}, with an average depth of about 100 metres underground. \\
-The whole accelerating system is made up of different stages whose complete scheme is shown in Fig. \ref{fig:LHC_complex}. 
+The LHC is a proton-proton (pp) and heavy ions collider built by the European Organization for Nuclear Research (CERN) between 1998 and 2008 and situated beneath the France-Switzerland border near the city of Geneva \cite{ref30}. The accelerator, along with the detectors, is the product of an impressive effort/work that has required the collaboration of more than 100 countries with over 10 thousand scientists.
+LHC is placed in a tunnel of 26.7 km in circumference, previously used for the Large Electron Positron (LEP) collider \cite{ref31}, with an average depth of about 100 metres underground. \\
+The whole accelerating system is made up of different stages and a complete scheme is shown in Fig. \ref{fig:LHC_complex}. 
 
 \begin{figure}[h]
 	\centering
@@ -115,13 +115,13 @@ The whole accelerating system is made up of different stages whose complete sche
 	\label{fig:LHC_complex}
 \end{figure}
 
-The LHC tunnel contains two adjacent parallel beam pipes, kept at ultrahigh vacuum, in which the beams travel in opposite directions around the ring and intersects in four points, where the collisions take place.
+The LHC tunnel contains two adjacent parallel beam pipes, kept at ultrahigh vacuum, in which the particles travel in opposite directions around the ring and intersect in four points, where the collisions take place.
 Around these crossing points the detectors are positioned, in order to record and later analyse all the possible information resulting from the scattering of the beams.\\
-The main 4 experiments present at LHC are: \emph{A ToroidaL ApparatuS} (ATLAS) \cite{ref34}, \emph{Compact Muon Solenoid} (CMS)\cite{ref32}, \emph{Large Hadron Collider beauty} experiment (LHCb)cite{ref36} and \emph{A Large Ion Collider Experiment} (ALICE)\cite{ref35}.\\
-The first 2 are general purpose detectors: after the search and discovery of the Higgs boson by both collaborations in 2012 \cite{ref1} \cite{ref2} \cite{ref3}, their main tasks is to study the production and the decay of the discovered Higgs boson, to disentangle its properties and to check if it is the SM Higgs boson or a Higgs boson of an extension of the SM.
+The main experiments present at LHC are: \emph{A ToroidaL ApparatuS} (ATLAS) \cite{ref34}, \emph{Compact Muon Solenoid} (CMS)\cite{ref32}, \emph{Large Hadron Collider beauty} experiment (LHCb) \cite{ref36} and \emph{A Large Ion Collider Experiment} (ALICE)\cite{ref35}.\\
+The first two are general purpose detectors: after the search and discovery of the Higgs boson by both collaborations in 2012 \cite{ref1} \cite{ref2} \cite{ref3}, their main task is to study the production and the decay of the discovered Higgs boson, to investigate its properties and to check if it is the SM Higgs boson or a Higgs boson of an extension of the SM.
 In addition to this, several searches for physics beyond the SM are also part of their physics program, among them searches for supersymmetric particles and further Higgs bosons.\\
-The LHCb experiment is specialised on heavy flavour physics: looks for indirect evidence of new physics in CP violation and rare decays of bottom and charm hadrons, in order to explain the large asymmetry between the amount of matter and anti-matter in the universe.\\
-ALICE is a dedicated heavy-ion detector: it searches for evidence of the quark-gluon plasma, a presumed state with asymptotically free quarks and gluons. \\
+The LHCb experiment is specialised on heavy flavour physics: it looks for indirect evidence of new physics in CP violation and rare decays of bottom and charm hadrons, in order to explain the large asymmetry between the amount of matter and anti-matter in the universe.\\
+ALICE is a dedicated heavy-ion detector: it searches for evidence of the quark-gluon plasma, a presumed state of matter with asymptotically free quarks and gluons.
 
 The designed LHC centre of mass energy of the collider ($\sqrt{s}$), which is simply the sum of the energies of the 2 interacting beams, for proton-proton collisions is $\sqrt{s}$ = 14 TeV, not yet achieved – now we are at 13 TeV. Such high energy values can be reached, starting from $\sim$450 GeV (the energy that protons have when they are injected in the LHC ring), by accelerating them using radiofrequency cavities, which play also an important role in synchronizing temporally the protons, grouping them into discrete packets called “bunches”. Each of these bunches is made up of about $\mathrm{10^{11}}$ protons and a bunch collision takes place every 25 ns, providing an interaction rate of 40 MHz.
 The beams are kept on their circular path with 1232 dipole magnets, while about 392 quadrupole magnets focus spatially the beams. There are also other kind of magnets used to "squeeze" the particles closer together in correspondence of the interactions points to increase the chances of collisions. In total there are about 10000 superconducting magnets, which are constantly kept at a temperature of 1.9 K by a cooling system based on liquid helium.\\
@@ -591,13 +591,13 @@ The entire muon reconstruction consists of 3 stages (the two possibilities at st
 	\item \textbf{Stand-alone muon reconstruction}: the RecHits in RPC and the segments in DT and CSC are grouped in seed and fitted to “stand-alone muon” tracks, using a Kalman-filter technique.
 	\item	 \begin{enumerate}
 				\item \textbf{Global muon reconstruction [outside-in]}: for each stand-alone muon track a matching in the inner tracker is searched for. If this track is found, the hits of the two tracks are combined and a global fit is performed with the Kalman filter, resulting in a “global muon” track. %[ using the KF technique]
-				\item \textbf{Tracker muon reconstruction [inside-out]}: tracks in the inner tracker are extrapolated to the muon system and, if at least one matching muon segment (from DT or CSC) is found, the tracker track is referred to as a “tracker muon” track. The matching between the track and the segment is done using as reference coordinate system the one of the muon chamber. In particular, it is required that the extrapolated track is less than 3 cm, in x coordinate, far from the corresponding muon segment.
+				\item \textbf{Tracker muon reconstruction [inside-out]}: tracks in the inner tracker with $\mathrm{p_{T}}>$0.5 GeV/c and a total momentum p$>$2.5 GeV/c are extrapolated to the muon system. If at least one matching muon segment (from DT or CSC) is found, the extrapolated track is referred to as a “tracker muon” track. The matching between the track and the segment is done using as reference coordinate system the muon chamber one. In particular, it is required that the extrapolated track is less than 3 cm, in x coordinate, far from the corresponding muon segment.
 			\end{enumerate}
 \end{enumerate}
 The global reconstruction, which uses stand-alone muon tracks, gives a very good momentum resolution for muons with high $\mathrm{p_{T}}$ values: $\mathrm{p_{T} \geq}$ 200 GeV.\\ 
 On the other hand, the tracker reconstruction is more efficient for muons with low transverse momentum, $\mathrm{p_{T} \leq}$ 5 GeV, because it requires only 1 segment in the muon chambers, which is usually, for tracker muons that are not global muons, in the innermost muon station.\\
-In any case, owing to the high efficiency of the tracker track and muon segment algorithms, the 99\% of the muons produced within the CMS geometrical acceptance are reconstructed either as a global muon track or as a tracker muon track, and very often as both \cite{ref46}.\\
-After executing these algorithms, global muons and tracker muons that share the same tracker track are merged into a single candidate.
+In any case, owing to the high efficiency of the tracker track and muon segment algorithms, the 99\% of the muons produced within the CMS geometrical acceptance and having sufficiently high momentum are reconstructed either as a global muon track or as a tracker muon track, and very often as both \cite{ref46}.\\
+When the reconstruction process is completed, global muons and tracker muons that share the same tracker track are merged into a single candidate.
 
 An example of a reconstructed event involving 4 muons is shown in Fig.\ref{fig:4muRECO}.
 \begin{figure}[h]
@@ -640,10 +640,9 @@ The track matching of a stand-alone track to a tracker track consists of 2 steps
 The final step in the reconstruction of a global muon track is the matching of it with the energy deposits in the calorimeters.
 
 \subsection{Tracker muon reconstruction}
-The tracker reconstruction consists in the extrapolation of the tracker tracks to the muon system, taking into account all the possible contributions from the dishomogeneity of the magnetic field, the average expected energy losses of the particle and multiple Coulomb scattering in the detector material.
+The tracker reconstruction consists in extrapolating the tracker tracks to the muon system, taking into account all the possible contributions from the dishomogeneity of the magnetic field, the average expected energy losses of the particle and multiple Coulomb scattering in the detector material.
 If there is a suitable match between a tracker track and a stand-alone muon track, then the default global fit algorithm combines hits from the tracker and the stand-alone muon track and performs a final fit over all hits.
 
-\newpage
 \subsection{Muon Identification}
 Particles which are detected as muons can be produced in CMS from different sources and therefore can be characterized by various features \cite{ref69}.
 In general, they can be distinguished in: 
@@ -659,19 +658,24 @@ In general, they can be distinguished in:
 (from "Performance paper 7 TeV" :\\
 the probability to misidentify a hadron as a muon is well below 1\%.
 
-
-
--	Plot contributi dei vari tipi di muoni ai muoni totali
-
-
 In order to optimize the muon reconstruction requirement to select only the muons produced in a particular kind of interaction, different identification (ID) categories have been developed and muons are assigned to them according to their characteristics. Some examples of muon ID types implemented in CMS are the following:
 \begin{itemize}
-	\item \textbf{Loose ID}: it contains prompt muons originating at the PV and muons from light and heavy flavor decays. At the same time a low rate of the misidentification of charged hadrons as muons is maintained. To belong to this category a muon is required to be a muon selected by the PF algorithm and to be either a tracker or a global muon.
-	\item \textbf{Medium ID}: it contains prompt muons and muons from heavy flavor decay. In order to be part of this category, a muon has to be a loose muon with a tracker track that uses hits from more than 80\% of the inner tracker layers it traverses. Moreover, the muon segment compatibility has to be greater that a certain threshold.
-	\item \textbf{Tight ID}: it avoids muons from decay in flight and from hadronic punch-through. A muon belonging to this category is a loose muon with a tracker track that uses hits from at least six layers of the inner tracker including at least one pixel hit. A tight muon has to be both a tracker and a global muon and in addition it has to satisfy a series of requirements on the $\chi^2$/ndf , impact parameter [The impact parameter (dxy), defined as the distance of closest approach of the muon track with respect to the beamspot]. These kinds of muons must be compatible with the PV. 
+	\item \textbf{Loose ID}: it aims to identify prompt muons originating at the PV and muons from light and heavy flavor decays. At the same time a low rate of the misidentification of charged hadrons as muons is maintained. To belong to this category a muon is required to be a muon selected by the PF algorithm and to be either a tracker or a global muon.
+	\item \textbf{Medium ID}: it is a category optimized for prompt muons and muons from heavy flavor decay. It contains loose muons with a tracker track that uses hits from more than 80\% of the inner tracker layers it traverses. Moreover, the muon segment compatibility has to be greater than a certain threshold.
+	\item \textbf{Tight ID}: it aims to suppress muons from decay in flight and from hadronic punch-through. A muon belonging to this category is a loose muon with a tracker track that uses hits from at least six layers of the inner tracker including at least one pixel hit. A tight muon has to be both a tracker and a global muon and the tracker muon must have segment matching in at least two of the muon stations, while the global fit to satisfy precise requirements on the $\chi^2$/ndf. Finally, some conditions on the impact parameter(defined as the distance of closest approach of the muon track with respect to the beamspot) must be fulfilled, in order to select only muons compatible with the PV. 
 	\item \textbf{Soft ID}: it is a category optimized for low $\mathrm{p_{T}}$ muons ($<$10 GeV), containing tracker muons that satisfy high purity requirements and use hits from at least six layers of the inner tracker including at least one pixel hit. This kind of muons are loosely compatible with the PV.
-	\item \textbf{High $\bm{\mathrm{p_{T}}}$ ID}: it is a category optimized for muon having a high $\mathrm{p_{T}}$ ($>$ 200 GeV). These muons are both tracker and global muons and fulfill the same requirements of the Tight muons for the impact parameters, but unlikely the tight muons, they don’t have to satisfy any requirement on the $\chi^2$/ndf of the global fit. Moreover, these muons don’t have to be selected by the PF algorithm.
+	\item \textbf{High $\bm{\mathrm{p_{T}}}$ ID}: it is a category optimized for muons with a high $\mathrm{p_{T}}$ ($>$ 200 GeV). These muons are both tracker and global muons and fulfill the same requirements of the tight muons for the impact parameters, but they don’t have to satisfy any requirement on the $\chi^2$/ndf of the global fit. Moreover, these muons don’t have to be selected by the PF algorithm.
 \end{itemize}
+
+-	Plot contributi dei vari tipi di muoni ai muoni totali 
+In Fig.\ref{fig:MuonContribution} the distributions of $\eta$ and $\phi$ of muons belonging to a sample of Soft muons (on the left) and Tight muons (on the right) are shown, both for data (points) and MC (histograms). The contribution from the different categories of muons to the total is shown with different colors.
+
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=15cm]{MuonContribution}
+	\caption{Distributions of kinematic variables for a sample of muons subdivided into the different categories, for data (points) and for simulation (histograms). The kinematic variables are the muon pseudorapidity (on the top), and azimuthal angle (bottom). For each variable, the left plot shows the distribution for Soft Muons, and the right plot that for Tight Muons \cite{ref69}.}
+	\label{fig:MuonContribution} 
+\end{figure}
 
 \subsection{Muon Isolation}
 [ Inserirlo e/o modificarlo con la def custom di quelli della Florida]
@@ -683,35 +687,36 @@ In the analysis presented in this thesis a particular custom definition of the m
 \subsection{Muon efficiency}
 
 \newpage
-In Figg. \ref{fig:MuonEff_LooseID}, \ref{fig:MuonEff_MediumID}, \ref{fig:MuonEff_TightID} are shown the muon efficiencies respectively for Loose ID, Medium ID and Tight ID.
+In Figg. \ref{fig:MuonEff_LooseID}, \ref{fig:MuonEff_MediumID}, \ref{fig:MuonEff_TightID} the muon efficiencies as a function of $\mathrm{p_{T}}$ and $\eta$, respectively for Loose ID, Medium ID and Tight ID are shown. The data used belong to the full 2017 data taking: they are collected in pp collisions at a center of mass energy of 13 TeV with single muon triggers and correspond to an integrated luminosity of 41.3 $fb^{-1}$.\\
+The efficiencies are computed by means of a Tag and Probe method, exploiting the $Z\rightarrow\mu\mu$ resonance \cite{ref116}. For all the muon ID categories shown (loose, medium and tight), the number of all tracker tracks with $\mathrm{p_{T}}>$20 GeV has been used as denominator in the efficiency computation. No significant dependency with respect to the number of primary vertices was observed.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.4]{MuonEff_LooseID}
-	\caption{Bla.}
+	\includegraphics[scale=0.45]{MuonEff_LooseID}
+	\caption{Loose muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC \cite{ref70}.}
 	\label{fig:MuonEff_LooseID}
 \end{figure}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.4]{MuonEff_MediumID}
-	\caption{Bla.}
+	\includegraphics[scale=0.45]{MuonEff_MediumID}
+	\caption{Medium muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC. The drops at around $\eta$ = 0.2 are due to the cracks between wheels in the muon detectors. The drops in the forward region are due to inactive chambers not modelled in the MC \cite{ref70}.}
 	\label{fig:MuonEff_MediumID}
 \end{figure}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.4]{MuonEff_TightID}
-	\caption{Bla.}
+	\includegraphics[scale=0.45]{MuonEff_TightID}
+	\caption{Tight muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC. The drops at around $\eta$ = 0.2 are due to the cracks between wheels in the muon detectors. The drops in the forward region are due to inactive chambers not modelled in the MC  \cite{ref70}.}
 	\label{fig:MuonEff_TightID}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.8]{dimuons_2016}
+	\includegraphics[scale=0.75]{dimuons_2016}
 	\caption{The dimuon invariant mass distribution reconstructed by the CMS LHT with data  colected in 2016 data-taking at a center of mass energy of 13 TeV. The gray distribution correspond to the data collected with the inclusive double-muon trigger algorithm, while the colored ones have been collected with triggers dedicated to selecting resonances at low masses, as indicated in the legend.}
 	\label{fig:dimuons_2016}
 \end{figure}
 
--	Plot Efficienze delle varie ID??? [ + eventualmente pag.71-72 Raffaella and tag and probe pag 101 Vanohffer  ] \cite{ref70}
+-	Plot Efficienze delle varie ID [ + eventualmente pag.71-72 Raffaella and tag and probe pag 101 Vanohffer  ] \cite{ref70}
 
 
 \section{Electron reconstruction}
@@ -999,11 +1004,101 @@ f\ =\ \frac{\sigma(pp \rightarrow B)\ \mathcal{B}(B \rightarrow D_{s}+...)}{\sig
 \subsection{Control channel} 
 MC validation with $D_{s}\rightarrow\phi(\mu\mu)\pi$.
 
-\section{MVA analysis}
-Bla Bla \cite{ref117}
+\section{Multivariate Analysis (MVA)}
+\subsection{Introduction to MVA: why to use it?}
+The Multivariate analysis has assumed progressively a central role in high energy physics searches \cite{ref117b}. In this field, this kind of analysis aims to exploit as much information as possible from the characteristics of each event in order to distinguish between event types (eg. signal and background).\\
+In order to understand how this analysis works and which are the improvements in using it with respect to "traditional" analysis performed by successive cuts, let's look at the scatter plots in Fig. \ref{fig:MVA_examples}. They show the distribution of two variables $x_{1}$ and $x_{2}$ which represent two out of a potentially large number of quantities measured for each event, with different decision boundaries (cuts, lineary boundary, non linear boundary). The signal events are indicated with blue circles while the red triangles represent the background ones. \\
 
-\subsection{Boosted Decision Tree(BDT)}
-Qui scrivi cosa è un BDT -- prendi info dalla user guide di TMVA (pag. 115 circa)
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{MVA_examples}
+	\caption{Scatter plots of two variables corresponding to two hypotheses: signal (blue) and background (red). Event selection could be based, e.g., on (a) cuts, (b) a linear boundary, (c) a nonlinear boundary.
+  \cite{ref117b}.}
+	\label{fig:MVA_examples}
+\end{figure}
+
+It is evident that rectangular and diagonal cuts are not as good as nonlinear boundaries in classifying the events. In general, the best decision boundary is a surface in the n-dimensional space of input variables, which can be represented by an equation of the form $y(\bm{x}) = y_{cut}$, where $y_{cut}$ is some constant. Events are classified as signal if they are on one side of the boundary, e.g., $y(\bm{x}) \leq y_{cut}$, could represent the acceptance region and $y(\bm{x}) > y_{cut}$ could be the rejection region.\\
+- oppure utilizzo come "scalar test" statistics (vedi 14-15 Cowan per more details )
+
+\subsection{Boosted Decision Tree (BDT)}
+\subsubsection*{Decision Tree}
+A decision tree is a binary tree structured classifier, defined by a collection of successive cuts on the set of input variables. It is schematically represented in Fig. \ref{fig:DecisionTree}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.6]{DecisionTree}
+	\caption{Scheme of a decision tree. A sequence of binary splits using the discriminating variables xi is applied to the data, starting from the root node. Each split uses the variable that, at that node, discriminates in the best way signal(S) and background(B). The leaf nodes at the bottom end of the tree are labeled (S or B) depending on the majority of events that end up in the respective nodes \cite{ref117}.}
+	\label{fig:DecisionTree}
+\end{figure}
+
+Starting from the entire sample of training events in the root node, out of all of the possible input variables, one finds the ones that provide the best separation between signal and background by use of a single cut. Then, repeated left/right (yes/no) decisions are taken on one single variable at a time until a stop criterion is fulfilled. \\
+In this way, the phase space is split into many regions that are eventually classified as signal or background, depending on the majority of training events that end up in the final leaf node. \\
+Therefore, the difference of this classifier, with respect to the case of rectangular cuts, is that whereas a cut-based analysis is able to select only one hypercube as region of phase space, the decision tree is able to split the phase space into a large number of hypercubes, each of which is identified as either “signal-like” or “background-like”.
+For classification trees, the path down the tree to each leaf node represents an individual cut sequence that selects signal or background depending on the type of the leaf node.
+
+A shortcoming of decision trees is their instability with respect to statistical fluctuations in the training sample from which the tree structure is derived.\\
+This problem can be overcome by using a Boosted Decision Tree.
+
+\subsubsection*{Boosting the tree...}
+The boosting of a decision tree extends this concept from one tree to several trees, which form a \emph{forest}. \\
+The trees are derived from the same training ensemble by reweighting events (procedure called “boosting"), and are finally combined into a single classifier which is given by an average of the individual decision trees.
+This boosting increases the statistical stability of the classifier and is able to drastically improve the separation performance compared to a single decision tree. \\
+(In many cases, the boosting performs best if applied to trees that, taken individually, have not much classification power. These so called “weak classifiers” are small trees, limited in growth to a typical tree depth of as small as two, depending on the how much interaction there is between the different input variables. By limiting the tree depth during the tree building process (training), the tendency of overtraining for simple decision trees which are typically grown to a large depth and then pruned, is almost completely eliminated.)\\
+A number of boosting algorithms have been developed, and these differ primarily in the rule used to update the weights; the one employed in the BDT used in this analysis is the so-called \emph{AdaBoost} (adaptive boost), which is explained in detail in \cite{ref117a}.
+
+%\subsubsection*{Adaptive Boost (AdaBoost)}  
+%In a classification problem, events that were misclassified during the training of a decision tree are given a higher event weight in the training of the following tree. 
+%Starting with the original event weights when training the first decision tree, the subsequent tree is trained using a modified event sample where the weights of previously misclassified events are multiplied by a common boost weight $\alpha$. The boost weight is derived from the misclassification rate, err, of the previous tree (By construction, the error rate is err $\leq$ 0.5 as the same training events used to classify the output nodes of the previous tree are used for the calculation of the error rate.)
+%
+%\begin{equation}
+%\alpha = \frac{1-err}{err}
+%\end{equation}
+%
+%The weights of the entire event sample are then renormalised such that the sum of weights remains constant.
+%We define the result of an individual classifier as $h(\bm{x})$, with ($\bm{x}$ being the tuple of input variables) encoded for signal and background as $h(\bm{x})$ = +1 and -1, respectively.\\ 
+%The boosted event classification $y_{Boost}(\bm{x})$ is then given by
+% 
+%\begin{equation}
+%y_{Boost}(\bm{x}) = \frac{1}{N_{collection}}\cdot\sum_{i}^{N_{collection}}\ ln(\alpha_{i})\cdot h_{i} (\bm{x})
+%\end{equation}
+%
+% where the sum is over all classifiers in the collection. Small (large) values for yBoost(x) indicate a background-like (signal-like) event. Equation (the previous one) represents the standard boosting algorithm.
+%AdaBoost performs best on weak classifiers, meaning small indivdidual decision trees with a tree depth of often as small 2 or 3, that have very little discrimination power by themselves. Given such small trees, they are much less prone to overtraining compared to simple decision trees and as an ensemble outperform them typically by far. The performance is often further enhanced by forcing a “slow learing” and allowing a larger number of boost steps instead. The learning rate of the AdaBoost algorithm is controled by a parameter $\beta$ giving as an exponent to the boost weight $\alpha\rightarrow\alpha^{\beta}$, which can be modified using the configuration option string of the MVA method to be boosted.
+
+\subsubsection{Training a decision tree}
+(ridurre: in molte parti è una ripetizione di quanto già detto! Accorpare al precedente!)
+
+The training of a decision tree is the process that defines the splitting criteria for each node. It starts with the root node, where an initial splitting criterion for the full training sample is determined. The split results in two subsets of training events that each go through the same algorithm of determining the next splitting iteration. This procedure is repeated until the whole tree is built. At each node, the split is determined by finding the variable and corresponding cut value that provides the best separation between signal and background. The node splitting stops once it has reached the minimum number of events which is specified in the BDT configuration (option nEventsMin). The leaf nodes are classified as signal or background according to the class the majority of events belongs to. 
+% If UseYesNoLeaf is set to false the end-nodes are classified according to their purity. (The purity of a node is given by the ratio of signal events to all events in that node. Hence pure background nodes have zero purity.)
+A variety of separation criteria can be configured to assess the performance of a variable and a specific cut requirement. Because a cut that selects predominantly background is as valuable as one that selects signal, the criteria are symmetric with respect to the event classes. All separation criteria have a maximum where the samples are fully mixed, i.e., at purity p = 0.5, and fall off to zero when the sample consists of one event class only. 
+%Tests have revealed no significant performance disparity between the following separation criteria:
+%\begin{itemize}
+%	\item Gini Index(default), defined by $p \cdot (1-p)$;
+%	\item Cross entropy, defined by $-p\cdot\ ln\ (p)-(1-p)\cdot ln\ (1-p)$;
+%	\item Misclassification error, defined by 1 - max(p, 1 - p);
+%	\item Statistical significance, defined by S/$\sqrt{S + B}$
+%	\item Average squared error, defined by $1/N \cdot \prod_{n}(y-\hat{y})^2$ for regression trees where y is the regression target of each event in the node and $\hat{y}$ is its mean value over all events in the node (which would be the estimate of y that is given by the node).
+%\end{itemize}
+
+Since the splitting criterion is always a cut on a single variable, the training procedure selects the variable and cut value that optimises the increase in the separation index between the parent node and the sum of the indices of the two daughter nodes, weighted by their relative fraction of events. The cut values are optimised by scanning over the variable range with a granularity that is set via the option nCuts. 
+
+PROVARE!!! The default value of nCuts=20 proved to be a good compromise between computing time and step size. Finer stepping values did not increase noticeably the performance of the BDTs. However, a truly optimal cut, given the training sample, is determined by setting nCuts=-1. This invokes an algorithm that tests all possible cuts on the training sample and finds the best one. 
+
+\subsubsection*{Variable ranking}
+A ranking of the BDT input variables is derived by counting how often the variables are used to split decision tree nodes, and by weighting each split occurrence by the separation gain-squared it has achieved and by the number of events in the node.\\ 
+This measure of the variable importance can be used for a single decision tree as well as for a forest.
+
+\subsubsection*{Performance}
+PUNTO a FAVORE: Decision trees are also insensitive to the inclusion of poorly discriminating input variables (which is not the case of neural networks, for example). 
+
+Boosted decision trees have become increasingly popular in particle physics in recent years. One of their advantages is that they are relatively insensitive to the number of input variables used in the data vector x. Components that provide little or no separation between signal and background are rarely chosen as for the cut that provides separation, i.e., to split the tree, and thus they are effectively ignored. Decision trees have no difficulty in dealing with different types of data; these can be real, integer, or they can simply be labels for which there is no natural ordering (categorical data). Furthermore, boosted decision trees are surprisingly insensitive to overtraining. That is, although the error rate on the test sample will not decrease to zero as one increases the number of boosting iterations (as is the case for the training sample), it tends not to increase. Further discussion of this point can be found in \cite{ref117c}.
+-- copia-e-incolla- END
+
+- TMVA\\
+The Toolkit for Multivariate Analysis (TMVA) provides a ROOT-integrated \cite{ref117} environment for the application of multivariate classification techniques.\\
+All TMVA techniques belong to the family of \emph{supervised learning} algorithms. They make use of training events, for which the desired output is known, to determine the mapping function that describes a decision boundary (classification). This function can contain various degrees of approximations and may be a single global function, or a set of local models. \\
+A typical TMVA classification consists of two independent phases: the \emph{training phase}, where the multivariate methods are trained, tested and evaluated, and an \emph{application phase}, where the chosen methods are applied to the concrete classification or regression problem they have been trained for.
+ 
 
 \subsection{BDT training}
 \begin{table}[h!]\footnotesize
@@ -1031,11 +1126,11 @@ Qui scrivi cosa è un BDT -- prendi info dalla user guide di TMVA (pag. 115 circ
 	\centering
 	\begin{tabular}{|l|c|}
 	\hline
-	Parameter		&	Setting	\\ \hline
-	NTrees	&	000	\\
-	nCuts	&	000	\\
-	MaxDepth		&	000	\\
-	BoostType	&	000	\\
+	Parameter		&	Setting (default)	\\ \hline
+	NTrees	&	800	\\
+	nCuts	&	20	\\
+	MaxDepth		&	3	\\
+	BoostType	&	AdaBoost	\\
 	\hline
 	\end{tabular}
 	\caption{Bla Bla}
@@ -1057,8 +1152,8 @@ Bla Bla \cite{ref118}
 	Uncertainty on n. of events triggered by trimuon trigger [ 12\% ]	&	000	&	 \\
 	Relative uncertainty in $\mathcal{B}(D_{s} \rightarrow\phi\pi\rightarrow\mu\mu\pi$) [ 8\% ]	&	000	&	 \\
 	Relative uncertainty in $\mathcal{B}(D_{s}\rightarrow\mu\nu)$ [ 4\% ]	&	000	&	 \\
-	Relative uncertainty in $\mathcal{B}(B \rightarrow D_{s} + ...)$ [ 16\% ]		&	000	&	 \\
-	Relative uncertainty in $\mathcal{B}(B → \tau + ...)$ [ 11\% ]	&	000	&	 \\
+	Relative uncertainty in $\mathcal{B}(B\rightarrow D_{s} + ...)$ [ 16\% ]		&	000	&	 \\
+	Relative uncertainty in $\mathcal{B}(B \rightarrow \tau + ...)$ [ 11\% ]	&	000	&	 \\
 	Uncertainty on the ratio of acceptances $\mathcal{A}_{sig}\ /\ \mathcal{A}_{2\mu\pi}$ [ 1\% ]	&	000	&	 \\
 	Muon reconstruction efficiency [ 1.5\% ]	&	000	&	 \\
 	BDT cut efficiency [ 5\% ]	&	000	&	 \\
@@ -1268,7 +1363,13 @@ q_{\mu} = -\mathrm{2\ ln}\ \frac{\mathcal{L}\ (\mathrm{obs|\ \mu\cdot s+b,\ \hat
 	
 	\bibitem{ref116} CMS Collaboration, “Measurement of the inclusive W and Z production cross sections in pp collisions at $\sqrt{s}$= 7 TeV”, JHEP 10 (2011) 132, \href{https://link.springer.com/article/10.1007\%2FJHEP10\%282011\%29132}{doi:10.1007/JHEP10(2011)132}, \href{https://arxiv.org/abs/1107.4789}{arXiv:1107.4789}.
 
-	\bibitem{ref117}A. Hocker et al., \emph{“TMVA - Toolkit for Multivariate Data Analysis”}, PoS ACAT (2007)040, \href{https://arxiv.org/abs/physics/0703039}{arXiv:physics/0703039}.
+	\bibitem{ref117b} G. Cowan, \emph{“Topics in statistical data analysis for high-energy physics"}, CERN Yellow Report CERN-2010-002, pp.197-218, \href{https://arxiv.org/abs/1012.3589}{arXiv:1012.3589}.
+
+	\bibitem{ref117} A. Hocker et al., \emph{“TMVA - Toolkit for Multivariate Data Analysis”}, PoS ACAT (2007)040, \href{https://arxiv.org/abs/physics/0703039}{arXiv:physics/0703039}.
+	
+	\bibitem{ref117a} Y. Freund and R.E. Schapire, \emph{“A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting"}, J. of Computer and System Science 55, 119 (1997), \href{https://www.sciencedirect.com/science/article/pii/S002200009791504X}{doi:10.1006/jcss.1997.1504}.
+	
+	\bibitem{ref117c} Y. Freund and R. E. Schapire, \emph{A short introduction to boosting}, J. Jpn. Soc. Artif. Intell. 14 (1999) 771–780, \url{https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf}.
 	
 	\bibitem{ref118} T. Junk, \emph{“Confidence level computation for combining searches with small statistics”}, Nucl. Instrum. Meth. A 434 (1999) 435, \href{https://www.sciencedirect.com/science/article/pii/S0168900299004982?via\%3Dihub}{doi:10.1016/S0168-9002(99)00498-2}.
 

@@ -45,9 +45,10 @@
 \BOOKMARK [2][-]{subsection.4.6.1}{Events triggered by DoubleMu L1 seeds}{section.4.6}% 45
 \BOOKMARK [2][-]{subsection.4.6.2}{B/D ratio}{section.4.6}% 46
 \BOOKMARK [2][-]{subsection.4.6.3}{Control channel}{section.4.6}% 47
-\BOOKMARK [1][-]{section.4.7}{MVA analysis}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.7.1}{Boosted Decision Tree\(BDT\)}{section.4.7}% 49
-\BOOKMARK [2][-]{subsection.4.7.2}{BDT training}{section.4.7}% 50
-\BOOKMARK [2][-]{subsection.4.7.3}{Event categorization}{section.4.7}% 51
-\BOOKMARK [1][-]{section.4.8}{Evaluation of systematics}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.9}{Results}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.7}{Multivariate Analysis \(MVA\)}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.7.1}{Introduction to MVA: why to use it?}{section.4.7}% 49
+\BOOKMARK [2][-]{subsection.4.7.2}{Boosted Decision Tree \(BDT\)}{section.4.7}% 50
+\BOOKMARK [2][-]{subsection.4.7.3}{BDT training}{section.4.7}% 51
+\BOOKMARK [2][-]{subsection.4.7.4}{Event categorization}{section.4.7}% 52
+\BOOKMARK [1][-]{section.4.8}{Evaluation of systematics}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.9}{Results}{chapter.4}% 54
