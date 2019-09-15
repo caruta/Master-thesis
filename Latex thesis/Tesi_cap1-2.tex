@@ -451,59 +451,58 @@ In particular, the Tier 2 present in Bari, \emph{ReCaS}, has been extensively us
 %\end{figure}
 
 
-\chapter{Event reconstruction in CMS}
-The reconstruction of an event produced in the collision of particles consists in putting together all the information coming from the different detectors, in order to obtain the trajectory of the particles produced in the collision, to identify them (photon, electron, muon, charged hadron, neutral hadron) and to measure their characteristic quantities (momentum, energy, etc...).\\
+\chapter{Events reconstruction in CMS}
+The reconstruction of an event produced in the collision of particles consists in combining together all the information coming from the different detectors, in order to obtain the trajectory of the particles produced in the collision, to identify them (photon, electron, muon, charged hadron, neutral hadron) and to measure their characteristic quantities (momentum, energy, etc).\\
 Each kind of particle leaves in the different subdetectors a particular signature, as shown in Fig. \ref{fig:CMS_slice}, which makes the particle identification possible. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.2]{CMS_slice}
-	\caption{Different signatures of particle in the CMS detector. The trajectory of the particles that interact with the tracker are drawn in full line: electrons in red, muons in light blue and charged hadrons in green. The traectories of neutral particles, that interact only with the calorimeters, are indicated with dashed lines: neutral hadrons in green and photons in blue\cite{ref60}.}
+	\caption{Different signatures of particle in CMS detectors. The trajectory of the particles that interact with the tracker are drawn in full line: electrons in red, muons in light blue and charged hadrons in green. The traectories of neutral particles, that interact only with the calorimeters, are indicated with dashed lines: neutral hadrons in green and photons in blue. The muon and the charged pion are positively charged, and the electron is negatively charged \cite{ref60}.}
 	\label{fig:CMS_slice}
 \end{figure}
-\newline For example, photons are detected from ECAL energy clusters not corresponding to any signal in the tracker, while electrons leave a clear signal in the tracker with a linked ECAL energy clusters, or to possible bremsstrahlung photons emitted along the way through the tracker material.
-Muons, on the other hand, are clearly identified as a signal in the tracker consistent with a track or several hits in the muon system. 
-Neutral hadrons are identified as HCAL energy clusters not linked to any charged hadron trajectory, or as ECAL and HCAL energy excesses with respect to the expected charged hadron energy deposit [cambia questa frase]
-If in the passage through the active material of the detectors the particle interacts, a signal is produced and is recorded as a point in space, called \emph{recHit}. All the recHits are then connected together to reconstruct the particle trajectory.
+\newline For example, photons are detected from ECAL energy clusters that don't correspond to any signal in the tracker, while electrons leave a clear signal in the tracker with linked ECAL energy clusters, or possible bremsstrahlung photons emitted along the way through the tracker material.
+Muons, on the other hand, are clearly identified as a signal in the tracker consistent with a track or some hits in the muon system. 
+Neutral hadrons are identified as HCAL energy clusters not linked to any charged hadron trajectory.\\
+If during the passage through the active material of the detectors the particle interacts, a signal is produced and is recorded as a point in space, called \emph{recHit}. All the recHits are then connected together, in diferent possible ways, to reconstruct the particle trajectory.
 
 \section{Particle Flow algorithm}
-The Particle Flow algorithm \cite{ref60} puts together the information of all subdetectors in order to identify stable particles as muons, electrons, photons, charged and neutral hadrons. Additionally, from all these info the \emph{Missing Transverse Energy} (MET) can be determined [cos'è? - determined by the absolute value of the vector sum of transverse momenta of all identified particles and reconstructed jets... ] [defined as the negative vectorial sum of the transverse momenta of all the visible particles in the event and it represents the transverse momentum which escapes detection, leaving an imbalance in the transverse plane:
-$E_{\ T}^{\ miss} = - \sum_{i} p_{T}^{i}$,  \cite{ref61} , which is important to establish the presence (and also the energy and direction) of particles escaped w/o leaving any signal, as neutrinos or neutral hadrons, and the jets (coming from the fragmentation of quarks) can be reconstructed.
-The first step of this algorithm is to connect all the elements between the subdetectors, trying to combine them in closest pairs in the transverse plane.
-After that, (i.e. after having produced this kind of “blocks” of elements that will be used to “construct” the event. As the different particles are identified by connecting all their “footprints”, the elements present among the blocks, associated to their passage, are removed from the collection.), 
-[First, this algorithm reconstructs the fundamental elements which are charged-particle tracks and clusters in the calorimeters. Then, these elements are linked to blocks. These those blocks are interpreted as particles. The reconstruction and identification performance of jet, tau and missing transverse energy is improved by using the particle-flow algorithm.]
-Order followed in the reconstruction:
-\begin{itemize}
-	\item Muons
-	\item Electrons and bremsstrahlung photons 
-	\item charged hadrons, neutral hadrons or photons
-\end{itemize}
+The Particle Flow algorithm \cite{ref60} correlates the basic elements from all the detectors layers (tracks and clusters) to identify each final-state particle, and combines the corresponding measurements to reconstruct the particle properties on the basis of the previous identification. This leads to a significantly improved event description.
+Additionally, from all these information, the \emph{Missing Transverse Energy} (MET) can be determined. It represents the transverse momentum which escapes detection, leaving an imbalance in the transverse plane and it is defined as the negative vectorial sum of the transverse momenta of all the identified particles and reconstructed jets in the event: $E_{\ T}^{\ miss} = - \sum_{i} p_{T}^{i}$  \cite{ref61}.\\
 
-The muons candidates are the first to be reconstructed and then all the elements (tracks and clusters) associated to them are removed from the “available blocks”.
-The second kind of particles to be identified and reconstructed are the electrons and bremsstrahlung photons ( = Energetic and isolated photons, converted or unconverted ).
-! At this level tracks with high pT uncertainties are masked !
-Then, the last step consists of a cross identification of the remaining blocks, which can be charged hadrons, neutral hadrons or photons. Usually hadrons produce secondary particles by interacting in the tracker material via nuclear reactions. When all the blocks have been identified and processed, global event description is created and all the parts of the events are reprocessed.
+A given particle is, in general, expected to give rise to several \emph{PF elements} in the various CMS subdetectors. The reconstruction of a particle therefore first proceeds with a \emph{link algorithm} that connects the PF elements from different subdetectors.
+The pairs of elements considered by the link procedure are restricted to the nearest neighbours in the transverse plane.
+This linking procedure produces \emph{PF blocks} of elements associated either by a direct link or by an indirect link through common elements.\\
+In each PF block, the identification and reconstruction sequence proceeds in the following order:
+\begin{enumerate}
+	\item muons,
+	\item electrons and bremsstrahlung photons,
+	\item charged hadrons, neutral hadrons and other photons.
+\end{enumerate}
+As the different particles, at each step, are identified and reconstructed, the elements present among the blocks, associated to these particles, are removed from the collection.\\
+The muons candidates are the first to be identified and reconstructed, and then all the elements associated to them are removed from the block.
+The second kind of particles to be identified and reconstructed are the electrons and bremsstrahlung photons (i.e. energetic and isolated photons, converted or unconverted ).
+Then, the last step consists of a cross identification of the remaining elements, which can belong to charged hadrons, neutral hadrons or photons. Usually hadrons produce secondary particles by interacting in the tracker material via nuclear reactions.\\
+When all the blocks have been processed and all the particles have been identified, the reconstructed event is revisited by a post-processing step.
 
 \section{Tracks and Primary Vertex reconstruction}
 
 \subsection{Tracking of charged particles }
 \label{Track charged particles}
-The main goal of the reconstruction of the tracks of charged particles is the evaluation of their momentum. It is possible by considering the bending of their trajectories in the magnetic field, due to the Lorentz force: 
-F = -….
-Knowing the value of the magnetic field B in each point of the space, the particle momentum in a point is estimated by evaluating the tangent to the trajectory in that point (which is a velocity) and then multiplying it by the mass if the particle and its Lorentz factor $\gamma$ :
-$\mathrm{p = m\ \gamma\ v}$
+The main goal of the reconstruction of the tracks of charged particles is the evaluation of their momentum. This is possible by considering the bending of their trajectories in the magnetic field, due to the Lorentz force. \\
+Knowing the value of the magnetic field in each point of the space, the particle momentum in a point is estimated by evaluating the tangent to the trajectory in that point (which is a velocity) and then multiplying it by the mass of the particle and its Lorentz factor $\gamma$: $p = m\ \gamma\ v$
 
-However, life is not so simple! there are some factors that makes the estimate more complicate and that has to be taken into account because they modify the momentum and direction of the particles:
--	The inhomogeneity of the magnetic field
--	Energy loss in the detectors
--	Multiple Coulomb scattering that modifies the trajectory (check!)
-
-Regarding the last point, if the particle crosses a sufficient thickness of material, the distribution of the values of deflection angle is a Gaussian centered at zero.
-The second point, instead, can be evaluated through the Bethe-Bloch formula, that describes the mean rate of energy loss because of the ionization of the atoms of the material.
-
-[ eq. Bethe Bloch and plot ? / vedi pagg. 51 – 52 Radogna]
+However, there are some factors that makes the estimate more complicate and that have to be taken into account because they modify the momentum of the particles:
+\begin{itemize}
+	\item inhomogeneity of the magnetic field,
+	\item energy loss in the detectors,
+	\item multiple coulomb scattering. %that modifies the trajectory (check!)
+\end{itemize}
+The energy loss in the detectors can be evaluated through the Bethe-Bloch formula, that describes the mean rate of energy loss due to the ionization of the atoms of the material. 
+For what concerns the last contribution, instead, if the particle crosses a sufficient thickness of material, the distribution of the values of the deflection angle is a Gaussian centered at zero.
+%[ eq. Bethe Bloch and plot ? ]
 
 \subsubsection*{From RecHits to tracks: how to connect the dots}
-After the local reconstruction of the RecHits collected by the silicon detectors of the tracker (with the estimation, for each detector layer, of the particle positions and uncertainties) is carried out, 
+After that the local reconstruction of the RecHits collected by the silicon detectors of the tracker (with the estimation, for each detector layer, of the particle positions and uncertainties) is carried out, 
 the procedure to obtain tracks from the RecHits is independent of the type of silicon subdetector and is characterized by some precise logical steps:
 \begin{enumerate}
 	\item Seed generation
@@ -511,173 +510,181 @@ the procedure to obtain tracks from the RecHits is independent of the type of si
 	\item Track fitting
 	\item Track selection
 \end{enumerate}
-The passage from the RecHits to tracks is performed by using the CMS tracking software referred to as Combinatorial Track Finder (CTF) \cite{ref62}.
-It allows pattern recognition and track fitting to occur in the same framework \cite{ref64}.  
-The procedure goes on in an iterative way, developed to reduce and simplify the combinatorial complexity that naturally arises.
-In fact the initial iterations of the CTF search for tracks that are easiest to recognize (e.g. the ones which large pT, which are quite isolated) and after each iteration, hits associated with tracks are removed, simplifying the search for more difficult classes of tracks (e.g. low pT tracks).
-The four steps through which each iteration proceeds are explained in more detail in the following…
+The passage from the RecHits to tracks is performed by using the CMS tracking software, referred to as \emph{Combinatorial Track Finder} (CTF) \cite{ref62}.
+It allows pattern recognition and track fitting to occur in the same framework \cite{ref64}.  \\
+The reconstruction goes on in an iterative way, with the aim to reduce and simplify the combinatorial complexity arising from the large number of hits.
+The initial iterations of the CTF search for tracks that are easiest to recognize (e.g. the ones which large $\mathrm{p_{T}}$, which are quite isolated) and after each iteration, hits associated with tracks are removed, simplifying the search for more difficult classes of tracks (e.g. low $\mathrm{p_{T}}$ tracks).\\
+In the following, the four steps through which each iteration proceeds are explained in more detail.
 
 \subsubsection{Seed generation}
-Seed generation provides initial track candidates for an preliminary estimation of the trajectory, its parameters and its uncertainties. 
-Inside the tracker the magnetic field is almost uniform therefore the trajectories of charged particles are helicoidal and need five parameters ( = 3 position coordinates [x,y,z] + the angle the tangent to the trajectories makes with respect to the detector [$\lambda$] + the ratio between electric charge and the momentum of the particle [q/p]) to be uniquely defined. 
-
- Immagine esemplificativa (come quella di Raffaella ?)
- 
-In order to extract these parameters three 3D hits or two 3D hits + 1 constraint (e.g. on the trajectory origin: hp that the particle originated close to the beam spot) are needed.
+Seed generation provides initial track candidates for a preliminary estimation of the trajectory, its parameters and its uncertainties. 
+Inside the tracker the magnetic field is almost uniform, therefore the trajectories of charged particles are helicoidal and require five parameters to be uniquely defined. These are: the 3 position coordinates, the angle that the tangent to the trajectories makes with respect to the detector and the ratio between the electric charge and the momentum of the particle. \\
+In order to extract these parameters, three 3D hits or two 3D hits plus 1 constraint (e.g. a constraint on the trajectory origin: the hypothesis that the particle originated close to the beam spot) are needed.\\
 Seeds are constructed in the inner part of the tracker and the track candidate is built outwards. 
 
 \subsubsection*{Track finding}
-The estimation of the values of the five parameters needed to define the trajectory is performed using linear fitting algorithms, like the “Kalman filter” (KF) \cite{ref66} \cite{ref63} 
-
+The estimation of the values of the five parameters needed to define the trajectory is performed using linear fitting algorithms, like the “Kalman filter” (KF) \cite{ref66} \cite{ref63}.
 This filter acts iteratively, taking as starting parameters the coarse ones provided by the trajectory seed and updating them by adding hits from successive detector layers, to build track candidates \cite{ref65}. 
-In particular, firstly are determined the layers which are compatible with the initial seed trajectory and then the trajectory is extrapolated to these layers, according to the equation of motion of a charged particle in a constant magnetic field, taking into account also the multiple coulomb scattering and energy loss in the material.
-The five track candidates with the best normalized $\chi^2$ found at each layer are then propagated to the next compatible layers, until the outermost layer is reached, or a terminating condition is satisfied.
+In particular, firstly are determined the layers which are compatible with the initial seed trajectory and then the trajectory is extrapolated to these layers, according to the equation of motion of a charged particle in a constant magnetic field, but taking into account also the multiple coulomb scattering and energy loss in the material.\\
+The five track candidates with the best normalized $\chi^2$ found at each layer are then propagated to the next compatible layers, until the outermost layer is reached or a terminating condition is satisfied.\\
 At the end of this stage, to each trajectory is associated a collection of hits and an estimate of the track parameters.
 
 \subsubsection*{Track fitting}
 The full information about the trajectory is only available when all hits are known, and the estimate can be biased by constraints applied during the seeding stage. 
 For this reason, the trajectory is refitted using the KF, which is initialized with the parameters coming from a preliminary fit of the innermost hits of the track.
-Then the fit goes on iteratively, from the inside outwards, through all of the hits, and the track trajectory is updated after the progressive addition of  new hits (along with the estimated hit position uncertainty).
+Then the fit goes on iteratively, from the inside outwards, through all of the hits, and the track trajectory and the estimated hit position uncertainty, are updated after the progressive addition of  new hits.
 
 \subsubsection*{Track selection}
-The previous reconstruction step (the track fitting) produces several “fake tracks” = tracks not associated with a simulated particle.
-[ A reconstructed particle is associated with a simulated track if at least 75\% of the hits assigned to the reconstructed track originate from the simulated particle. (?? Riformula)] 
-To avoid fake tracks, the tracks selection is based on (if they fit has a good $\chi^2$/ndf): 
--	number of layers that have hits [ fraction of fake tracks decreases exponentially with the increasing if this quantity) 
--	compatibility with a primary interaction vertex 
-According to the “number of criteria” that a track fulfills, the tracks can be “high-purity tracks” if they satisfy the more stringent criteria or “loose tracks”, which fulfill only minimum requirements.
-At the end of the selection, the remaining tracks are merged into a single collection.
+The previous reconstruction step produces several “fake tracks” , id est tracks not associated with a simulated particle. A reconstructed particle is associated with a simulated track if at least 75\% of the hits assigned to the reconstructed track originate from the simulated particle. 
+To avoid fake tracks, if the tracks have a good $\chi^2$, the selection is based on:
+\begin{itemize}
+	\item number of layers that have hits. The fraction of fake tracks decreases exponentially with the increasing if this quantity.
+	\item compatibility with a primary interaction vertex.
+\end{itemize}
+Depending on the requirements that the tracks fulfill, they can be classified as  \emph{high-purity tracks}, if they satisfy the more stringent criteria, or \emph{loose tracks}, if they fulfill only minimum requirements.\\
+At the end of this step, the selected tracks are merged into a single collection.
 
 \subsection{Tracking efficiency}
-The tracking efficiency is defined as the number of matched reconstructed tracks divided by number of simulated tracks, and it is a measure of the performance of the detector. For the inner tracker, the muon-tracking efficiency is shown as function of $\mathrm{p_{T}}$ and $\eta$ of the muon in Fig. \ref{fig:TrackerEff} and as a function of the number of primary vertices in Fig. \ref{fig:TrackerEff_Nvertices}, using 2017 data collected at 13 TeV. \\
+The tracking efficiency is defined as the number of matched reconstructed tracks divided by number of simulated tracks, and it is a measure of the performance of the detector.\\ 
+For CMS inner tracker, the muon-tracking efficiency is measured with a tag-and-probe technique on $\mathrm{Z\rightarrow\mu^{+}\mu^{-}}$ \cite{ref116} \cite{ref69}. The values obtained are shown in Fig. \ref{fig:TrackerEff} as a function of $\mathrm{p_{T}}$ and $\eta$ of the muon and in Fig. \ref{fig:TrackerEff_Nvertices} as a function of the number of primary vertices. The data used for this measurement are those collected during the 2017 data-taking, at 13 TeV in pp collisions. \\
 
 \begin{figure}[h!]
- \begin{minipage}[b]{7.5cm}
+ \begin{minipage}[b]{7.7cm}
    \centering
-   \includegraphics[width=7.6cm]{TrackerEff_pT}
+   \includegraphics[width=7.7cm]{TrackerEff_pT}
  \end{minipage}
- \ \hspace{1mm} \hspace{1mm} \
- \begin{minipage}[b]{7.5cm}
+ %\ \hspace{1mm} \hspace{1mm} \
+ \begin{minipage}[b]{7.7cm}
   \centering
-   \includegraphics[width=7.6cm]{TrackerEff_eta}
+   \includegraphics[width=7.7cm]{TrackerEff_eta}
  \end{minipage}
 \caption{Muon tracking efficiency as a function of the transverse momentum (on the left) and of $\eta$ of the muon (on the right). Data (collected in 2017 at a center of energy of 13 TeV) are shown with black dots while the simulation with light blue rectangles. The uncertainties shown are statistical "-/+ 1" $\sigma$" \cite{ref62a}. These efficiencies were measured with a tag-and-probe technique on $\mathrm{Z\rightarrow\mu^{+}\mu^{-}}$ \cite{ref116} \cite{ref69}.}
 \label{fig:TrackerEff} 
 \end{figure}
 
+\newpage
 \begin{figure}[h!]
    \centering
-   \includegraphics[width=7.6cm]{TrackerEff_Nvertices}
+   \includegraphics[width=7.7cm]{TrackerEff_Nvertices}
 	\caption{Muon tracking efficiency as a function of the number of primary vertices. Data (collected in 2017 at a center of energy of 13 TeV) are shown with black dots while the simulation with light blue rectangles. The uncertainties shown are statistical "-/+ 1" $\sigma$" \cite{ref62a}. This efficiency was measured with a tag-and-probe technique on $\mathrm{Z\rightarrow\mu^{+}\mu^{-}}$ \cite{ref116} \cite{ref69}.}
 	\label{fig:TrackerEff_Nvertices} 
 \end{figure}
 
+
 \subsection{Primary Vertex reconstruction}
-Using the reconstructed tracks, it is possible to reconstruct the Primary Vertices (PV), i. e. the vertices of the proton-proton interactions in each event, including the ones originating from pileup collisions.
+Using the reconstructed tracks, it is possible to reconstruct the Primary Vertices (PV), id est the vertices of the proton-proton interactions in each event, including the ones originating from pileup collisions.\\
 This reconstruction process consists of 3 steps:
 \begin{enumerate}
-	\item Selection of the tracks that result to be consistent with being produced promptly in a primary interaction.
-	\item These tracks are clustered according to their z-coordinate at the point of closest approach to the centre of the beam spot
-	\item All the vertices containing at least 2 tracks are fitted with an “Adaptive Vertex Fitter” \cite{ref68}/ This provides an estimate of the vertex parameters (position coordinates, number of degrees of freedom, indicators that estimate the efficiency of the fit). The primary-vertex resolution depends strongly on the number and on the momenta of tracks used in the fit. 
+	\item selection of the tracks that are consistent with the hypothesis of being produced promptly in a primary interaction,
+	\item clustering of these tracks according to their $z$ coordinate at the point of closest approach to the centre of the beam spot,
+	\item fitting of all the vertices containing at least 2 tracks, with an \emph{Adaptive Vertex Fitter} \cite{ref68}.
 \end{enumerate}
+The last step provides an estimate of the vertex parameters (position coordinates, number of degrees of freedom, indicators that estimate the efficiency of the fit).\\ 
+The primary-vertex resolution depends strongly on the number and on the momenta of tracks used in the fit. \\
+Results from a study of the primary-vertex resolution in $x$ and $z$ as a function of the number of tracks associated to the vertex, using a minimum-bias data sample at 7 TeV, are shown in Fig. \ref{fig:PV_Eff}.
 
-- - Secondary vertices reco ?? (vedi Vanff pag. 124 etc)
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=15cm]{PV_Eff}
+	\caption{Primary-vertex resolution in $x$ (on the left) and in $z$ (on the right) as a function of the number of tracks at the fitted vertex, for minimum-bias events at 7 TeV in pp collisions \cite{ref62}.}
+	\label{fig:PV_Eff} 
+\end{figure}
+
+The primary-vertex resolution results, less than 20 $\mu m$ in $x$ and 25 $\mu m$ in $z$, for primary vertices reconstructed using at least 50 tracks.
+
 \newpage
 \section{Muon reconstruction}
-A good muon reconstruction and identification is fundamental for many physics searches carried out at CMS and, in particular, it has also a very important role for the analysis described in this thesis. Because of the central importance that muons have in CMS, several algorithms have been developed for their reconstruction, in order to best fulfill the specific needs of different analysis \cite{ref46}. \\
-In general, muons are reconstructed using data coming from the muon system and the inner tracker.
-
-The entire muon reconstruction consists of 3 stages (the two possibilities at stage 3 are alternative):
+\label{Muon reconstruction}
+A good muon reconstruction and identification is fundamental for many physics searches carried out at CMS and, in particular, it has a very important role for the analysis described in this thesis. Because of the central importance that muons have in CMS, several algorithms have been developed for their reconstruction, in order to best fulfill the specific needs of different analysis \cite{ref46}. \\
+In general, muons are reconstructed using data coming from the muon system and the inner tracker. The entire muon reconstruction consists of 3 steps (the two possibilities at step 3 are alternative):
 \begin{enumerate}
-	\item \textbf{Local muon reconstruction}: data are reconstructed as RecHits in each muon chamber. Then, in DT and in CSC the RecHits are fitted to segments.
-	\item \textbf{Stand-alone muon reconstruction}: the RecHits in RPC and the segments in DT and CSC are grouped in seed and fitted to “stand-alone muon” tracks, using a Kalman-filter technique.
+	\item \textbf{Local muon reconstruction}: data are reconstructed as RecHits in each muon chamber. Then in DT and in CSC the RecHits are fitted to segments.
+	\item \textbf{Stand-alone muon reconstruction}: the RecHits in RPC and the segments in DT and CSC are grouped in seed and fitted to \emph{stand-alone muon} tracks, using a Kalman-filter technique.
 	\item	 \begin{enumerate}
-				\item \textbf{Global muon reconstruction [outside-in]}: for each stand-alone muon track a matching in the inner tracker is searched for. If this track is found, the hits of the two tracks are combined and a global fit is performed with the Kalman filter, resulting in a “global muon” track. %[ using the KF technique]
-				\item \textbf{Tracker muon reconstruction [inside-out]}: tracks in the inner tracker with $\mathrm{p_{T}}>$0.5 GeV/c and a total momentum p$>$2.5 GeV/c are extrapolated to the muon system. If at least one matching muon segment (from DT or CSC) is found, the extrapolated track is referred to as a “tracker muon” track. The matching between the track and the segment is done using as reference coordinate system the muon chamber one. In particular, it is required that the extrapolated track is less than 3 cm, in x coordinate, far from the corresponding muon segment.
+				\item \textbf{Global muon reconstruction [outside-in]}: for each stand-alone muon track a matching in the inner tracker is searched for. If a matching tracker track is found, the hits of the two tracks are combined and a global fit is performed with the Kalman filter, resulting in a \emph{global muon} track. %[ using the KF technique]
+				\item \textbf{Tracker muon reconstruction [inside-out]}: tracks in the inner tracker with $\mathrm{p_{T}}>$ 0.5 GeV/c and a total momentum p $>$ 2.5 GeV/c are extrapolated to the muon system. If at least one matching muon segment (from DT or CSC) is found, the extrapolated track is referred to as a \emph{tracker muon} track. The matching between the track and the segment is done using as reference coordinate system the muon chamber one. In particular, it is required that the extrapolated track is less than 3 cm, in the $x$ coordinate, far from the corresponding muon segment.
 			\end{enumerate}
 \end{enumerate}
-The global reconstruction, which uses stand-alone muon tracks, gives a very good momentum resolution for muons with high $\mathrm{p_{T}}$ values: $\mathrm{p_{T} \geq}$ 200 GeV.\\ 
-On the other hand, the tracker reconstruction is more efficient for muons with low transverse momentum, $\mathrm{p_{T} \leq}$ 5 GeV, because it requires only 1 segment in the muon chambers, which is usually, for tracker muons that are not global muons, in the innermost muon station.\\
-In any case, owing to the high efficiency of the tracker track and muon segment algorithms, the 99\% of the muons produced within the CMS geometrical acceptance and having sufficiently high momentum are reconstructed either as a global muon track or as a tracker muon track, and very often as both \cite{ref46}.\\
-When the reconstruction process is completed, global muons and tracker muons that share the same tracker track are merged into a single candidate.
-
-An example of a reconstructed event involving 4 muons is shown in Fig.\ref{fig:4muRECO}.
+The global reconstruction, which uses stand-alone muon tracks, gives a very good momentum resolution for muons with high $\mathrm{p_{T}}$ values: $\mathrm{p_{T} \geq}$ 200 GeV.
+On the other hand, the tracker reconstruction is more efficient for muons with low transverse momentum, $\mathrm{p_{T} \leq}$ 5 GeV, because it requires only one segment in the muon chambers, which is usually, for tracker muons that are not global muons, in the innermost muon station.\\
+In any case, owing to the high efficiency of the tracker track and muon segment algorithms, the 99\% of the muons produced within the CMS geometrical acceptance ($|\eta|<2.4$ and having sufficiently high momentum are reconstructed either as global muon tracks or as tracker muon tracks, and very often as both \cite{ref46}.\\
+When the reconstruction process is completed, global muons and tracker muons that share the same tracker track are merged into a single candidate.\\
+An example of an event recorded by CMS in which four muons were reconstructed is shown in Fig.\ref{fig:4muRECO}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.22]{4muRECO}
-	\caption{Longitudinal (on the left) and transverse (on the right) views of an event in which four muons were reconstructed. Three of them were identified by the DTs and RPCs, the fourth one by the CSCs. The short black segments in the muon system show fitted muon-track segments, while the short red horizontal lines indicate the positions of RPC hits. The energy deposited in the calorimeters is indicated with red and blue bars, respectively for ECAL and HCAL \cite{ref69}.}
+	\caption{Longitudinal (on the left) and transverse (on the right) view of an event in CMS in which four muons were reconstructed. Three of them were identified by the DT and RPC, the fourth one by the CSC. The short black segments in the muon system show fitted muon-track segments, while the short red horizontal lines indicate the positions of RPC hits. The energy deposited in the calorimeters is indicated with red and blue bars, respectively for ECAL and HCAL \cite{ref69}.}
 	\label{fig:4muRECO}
 \end{figure}
 
 \subsection{Local muon reconstruction}
-The trajectory of the muon is built starting from the recHits on the sub-detectors layers ( ideally one recHit per layer should be produced). At this level the reconstruction depends on the specific type of muon chamber considered.\\ In the following, the local reconstruction procedure for kind of sub-detectors of the muon system will be treated in more detail.
+The trajectory of the muon is built starting from the recHits in the sub-detectors layers (ideally one recHit per layer should be produced). At this level the reconstruction depends on the specific type of muon chamber considered.\\ In the following, the local reconstruction procedure for each kind of sub-detector of the CMS muon system will be treated in more detail.
 
 \subsubsection*{Drift Tubes}
-Inside the Drift Tubes, the footprints, left by the muons passing through them, are 1D hits in the drift cells. From the measurement of the drift time, using time-to-digital converter (TDC) registers, it is possible to obtain only information on the distance of the particle from the anode wire, but with a left/right ambiguity. Therefore, a single hit doesn't provide any hint regarding the position of the particle along the wire.\\ 
-However, since a DT chamber consists of three \emph{superlayers}, each comprising four staggered layers of parallel drift cells, the wires in each layer are oriented so that two of the superlayers measure the muon position in the bending plane (r -$\phi$) and one superlayer measures the position in the longitudinal plane (r-$\theta$)\cite{ref46}. 
-This is the reason why hits segments are reconstructed separately in the r -$\phi$ and r-$\theta$ planes and then the two projections are combined to obtain information about the third coordinate (z).\\
+Inside the Drift Tubes, the footprints left by the muons passing through are 1D hits in the drift cells. From the measurement of the drift time, using time-to-digital converter (TDC) registers, it is possible to obtain only information on the distance of the particle from the anode wire, but with a left/right ambiguity. Moreover, a single hit doesn't provide any hint regarding the position of the particle along the wire.\\ 
+However, since a DT chamber consists of three superlayers, each made of four staggered layers of parallel drift cells, the wires in each layer are oriented so that two of the superlayers measure the muon position in the bending plane ($r-\phi$) and one superlayer measures the position in the longitudinal plane ($r-\theta$) \cite{ref46}. 
+For this reason, hits segments are reconstructed separately in the $r-\phi$ and $r-\theta$ planes and then the two projections are combined to obtain information about the third coordinate ($z$).\\
 The final 3D segment has a angular resolution of $\sim$ 0.7 mrad in $\phi$ and $\sim$ 6 mrad in $\theta$.
 
 \subsubsection*{Cathode Strip Chambers}
-In Cathode Strip Chambers it is possible to have information on the position of the muon by combining signals from the cathode strips (which are radial, so they measure the angle $\phi$) and from the anode wires (that are orthogonal to the strips, providing a measurement of the radial coordinate $r$). \\
-Therefore, a 2D information is available for each layer: the info from each layer are then combined to reconstruct a 3D line segment. \\
-The position resolution of segments varies between 50-250 $\mu$m, depending on the CSC station considered.
+In Cathode Strip Chambers is possible to have information on the position of the muon by combining signals from the cathode strips (which are radial, so they measure the angle $\phi$) and from the anode wires (that are orthogonal to the strips, providing a measurement of the $r$ coordinate). 
+Therefore, a 2D information is available for each layer. The data of all the layers are then combined to reconstruct a 3D line segment. \\
+The position resolution of the segments varies from 50 $\mu$m to 250 $\mu$m, depending on the CSC station considered.
 
 \subsubsection*{Resistive Plate Chambers}
-In Resistive Plate Chambers the information on the position of the muon is provided by the signal induced on the readout strips, which are aligned with $\eta$. The fired adjacent strips are clustered and the exact position of the muon is estimated computing the center of gravity of the charge shared among them.\\ This provides a resolution of few cm in the $\phi$ coordinate.
+In Resistive Plate Chambers the information on the position of the muon is provided by the signal induced on the readout strips, which are aligned with $\eta$. The fired adjacent strips are clustered and the exact position of the muon is estimated computing the center of gravity of the charge shared among them. This provides a resolution of $\sim$1 cm in the $\phi$ coordinate.
 %[Errors are computed under the same assumption of flat probability: length of the cluster divided by $\sqrt{12}$ ]
 
 \subsection{Stand-alone muon reconstruction}
-In order to build the seeds, a pattern of segments is searched for, inside the muon stations DT (for barrel) and the CSC (for endcaps). If it is found, the $\mathrm{p_{T}}$ of the seed candidate is estimated.\\
+In order to build the seeds, a pattern of segments is searched for, inside the DT (for barrel) and the CSC (for endcaps). If it is found, the $\mathrm{p_{T}}$ of the seed candidate is estimated.\\
 Then, the stand-alone track reconstruction uses the KF method iteratively to extend the track, starting from the candidate seeds. 
-At each iteration of the algorithm, the trajectory parameters are updated and the reconstruction is carryed out in the same way it is done for tracker tracks.  After that all the hits are fitted and the fake trajectories are removed, the remaining tracks are extrapolated to the point of closest approach to the beam line. 
+At each iteration of the algorithm, the trajectory parameters are updated and the reconstruction is carryed out in the same way it is done for tracker tracks.  Once all the hits are fitted and the fake trajectories are removed, the remaining tracks are extrapolated to the point of closest approach to the beam line. 
 
 \subsection{Global muon reconstruction}
-The global muon reconstruction starts after the completion of indepedent reconstruction of the stand-alone tracks and the inner tracker tracks. \\
+The global muon reconstruction starts after the completion of the indepedent reconstruction of the stand-alone tracks and the inner tracker tracks. \\
 The track matching of a stand-alone track to a tracker track consists of 2 steps:
 \begin{enumerate}
-	\item the definition of a region of interest(ROI) in the parameter space, that roughly corresponds to the stand-alone muon track, and the selection of the subset of the tracker tracks inside this region. The determination of the ROI is based on the stand-alone muon parameters, with the assumption that the muon originates from the interaction point. 
-	\item the iteration of the previous procedure applying more stringent criteria to choose the best tracker track to be combined with the stand-alone muon. In order to do this, the stand-alone muon and the tracker tracks are propagated onto the same plane and the global track with the best $\chi^2$ is searched. If the matching fails, the reconstruction is stopped, and no global track is produced.
+	\item the definition of a region of interest (ROI) in the parameter space, that roughly corresponds to the stand-alone muon track, and the selection of the subset of the tracker tracks inside this region. The determination of the ROI is based on the stand-alone muon parameters, with the assumption that the muon originates from the interaction point. 
+	\item the iteration of the previous procedure applying more stringent criteria to choose the best tracker track to be combined with the stand-alone muon. In order to do this, the stand-alone muon and the tracker tracks are propagated onto the same plane and the global track with the best $\chi^2$ is searched. If the matching fails, the reconstruction is stopped and no global track is produced.
 \end{enumerate}
 The final step in the reconstruction of a global muon track is the matching of it with the energy deposits in the calorimeters.
 
 \subsection{Tracker muon reconstruction}
 The tracker reconstruction consists in extrapolating the tracker tracks to the muon system, taking into account all the possible contributions from the dishomogeneity of the magnetic field, the average expected energy losses of the particle and multiple Coulomb scattering in the detector material.
-If there is a suitable match between a tracker track and a stand-alone muon track, then the default global fit algorithm combines hits from the tracker and the stand-alone muon track and performs a final fit over all hits.
+If there is a suitable match between a tracker track and a stand-alone muon track, then the default global fit algorithm combines hits from the tracker and the stand-alone muon track and performs a final fit over all the hits.
 
 \subsection{Muon Identification}
-Particles which are detected as muons can be produced in CMS from different sources and therefore can be characterized by various features \cite{ref69}.
-In general, they can be distinguished in: 
+Particles which are detected as muons can be produced in CMS from various sources and therefore they can be characterized by different features \cite{ref69}.\\
+In general, they can be classified into the following categories: 
 \begin{itemize}
-	\item \textbf{Prompt muons}: The great majority of muons // They are the muons arising either from decays of W, Z, and promptly produced quarkonia states, or other sources such as Drell-Yan processes or top quark production. 
-	\item \textbf{Muons from heavy flavor}: Muons coming from the decay of a tau lepton or from beauty or charmed mesons. 
-	\item \textbf{Muons from light flavor}: Muons coming from the decay of light hadron decays (e.g. $\pi$ and K) or, less frequently, from a calorimeter shower or a product of a nuclear interaction in the detector.
-	\item \textbf{Hadron punch-through}: Hits produced by particles different from muons; they are usually due to hadron shower remnants penetrating through the calorimeters and reaching the muon system.
-	\item \textbf{Duplicate}: They are reconstructed muons having a $\chi^2$ smaller than the “best” muon present in the event; these duplicate candidates can often be caused by instrumental effects or imperfections in the pattern recognition algorithm of the reconstruction software.  
+	\item \textbf{Prompt muons}: Muons produced either from decays of W, Z, and promptly produced quarkonia states, or other sources such as Drell-Yan processes or top quark production. 
+	\item \textbf{Muons from heavy flavor}: Muons coming from the decay of a tau lepton or of beauty or charmed hadrons. 
+	\item \textbf{Muons from light flavor}: Muons arising from the decay in flight of light hadrons (e.g. $\pi$ and K) or, less frequently, from the decay of particles produced in nuclear interactions in the detector material.
+	\item \textbf{Hadron punch-through}: Particles different from muons; usually they are remnants of the hadron shower penetrating through the calorimeters and reaching the muon system.
+	\item \textbf{Duplicate}: If a particle gives rise to more than one reconstructed muon candidate, the muon with the largest number of matched hits is assigned to one of the above categories, and any others are labeled as “duplicate”. They can arise either from failures of the pattern recognition of the reconstruction software, or from patterns that mimic multiple candidates.
 \end{itemize}
 
-(per altri contributi vedi Vanff pag 97)\\
-(from "Performance paper 7 TeV" :\\
-the probability to misidentify a hadron as a muon is well below 1\%.
-
-In order to optimize the muon reconstruction requirement to select only the muons produced in a particular kind of interaction, different identification (ID) categories have been developed and muons are assigned to them according to their characteristics. Some examples of muon ID types implemented in CMS are the following:
+In order to optimize the muon reconstruction requirements, to select only the muons produced in a particular kind of interaction, different identification (ID) categories have been developed and muons are assigned to them according to their characteristics.\\ Some examples of muon ID implemented in CMS are the following:
 \begin{itemize}
-	\item \textbf{Loose ID}: it aims to identify prompt muons originating at the PV and muons from light and heavy flavor decays. At the same time a low rate of the misidentification of charged hadrons as muons is maintained. To belong to this category a muon is required to be a muon selected by the PF algorithm and to be either a tracker or a global muon.
-	\item \textbf{Medium ID}: it is a category optimized for prompt muons and muons from heavy flavor decay. It contains loose muons with a tracker track that uses hits from more than 80\% of the inner tracker layers it traverses. Moreover, the muon segment compatibility has to be greater than a certain threshold.
-	\item \textbf{Tight ID}: it aims to suppress muons from decay in flight and from hadronic punch-through. A muon belonging to this category is a loose muon with a tracker track that uses hits from at least six layers of the inner tracker including at least one pixel hit. A tight muon has to be both a tracker and a global muon and the tracker muon must have segment matching in at least two of the muon stations, while the global fit to satisfy precise requirements on the $\chi^2$/ndf. Finally, some conditions on the impact parameter(defined as the distance of closest approach of the muon track with respect to the beamspot) must be fulfilled, in order to select only muons compatible with the PV. 
-	\item \textbf{Soft ID}: it is a category optimized for low $\mathrm{p_{T}}$ muons ($<$10 GeV), containing tracker muons that satisfy high purity requirements and use hits from at least six layers of the inner tracker including at least one pixel hit. This kind of muons are loosely compatible with the PV.
-	\item \textbf{High $\bm{\mathrm{p_{T}}}$ ID}: it is a category optimized for muons with a high $\mathrm{p_{T}}$ ($>$ 200 GeV). These muons are both tracker and global muons and fulfill the same requirements of the tight muons for the impact parameters, but they don’t have to satisfy any requirement on the $\chi^2$/ndf of the global fit. Moreover, these muons don’t have to be selected by the PF algorithm.
+	\item \textbf{Loose ID}: it aims to identify prompt muons originating at the PV and muons from light and heavy flavor decays. At the same time, a low rate of the misidentification of charged hadrons as muons is maintained. To belong to this category a muon has to be selected by the PF algorithm and it has to be either a tracker or a global muon.
+	\item \textbf{Medium ID}: it is a category optimized for prompt muons and muons from heavy flavor decays. It contains loose muons with a tracker track that uses hits from more than the 80\% of the inner tracker layers it traverses. Moreover, the muon segment compatibility has to be greater than a certain threshold.
+	\item \textbf{Tight ID}: it aims to suppress muons from decay in flight and from hadronic punch-through. A muon belonging to this category is a loose muon with a tracker track that uses hits from at least six layers of the inner tracker, including at least one pixel hit. A tight muon has to be both, a tracker and a global muon, and the tracker muon must have a segment matching in at least two muon stations, while the global fit has to satisfy precise requirements on the $\chi^2$/ndf. Finally, some conditions on the impact parameter(defined as the distance of closest approach of the muon track with respect to the beamspot) must be fulfilled, in order to select only muons compatible with the PV. 
+	\item \textbf{Soft ID}: it is a category optimized for low $\mathrm{p_{T}}$ muons ($<$10 GeV). It containes tracker muons that satisfy high purity requirements and that use hits from at least six layers of the inner tracker, with at least one pixel hit. The muons belonging to this category are loosely compatible with the PV.
+	\item \textbf{High $\bm{\mathrm{p_{T}}}$ ID}: it is a category optimized for muons with a high $\mathrm{p_{T}}$ ($>$ 200 GeV). These muons are both tracker and global muons and fulfill the same requirements on the impact parameters of the tight muons, but they don’t have to satisfy any requirement on the $\chi^2$/ndf of the global fit. Moreover, these muons don’t have to be selected by the PF algorithm.
 \end{itemize}
 
--	Plot contributi dei vari tipi di muoni ai muoni totali 
-In Fig.\ref{fig:MuonContribution} the distributions of $\eta$ and $\phi$ of muons belonging to a sample of Soft muons (on the left) and Tight muons (on the right) are shown, both for data (points) and MC (histograms). The contribution from the different categories of muons to the total is shown with different colors.
+In Fig. \ref{fig:MuonContribution} the distributions of $\eta$ and $\phi$ of muons belonging to a zero-biased sample of Soft muons (on the left) and Tight muons (on the right) are shown, both for data (points) and MC (histograms). The contribution from the different categories of muons to the total is highlighted with different colors.
 
 \begin{figure}[h!]
    \centering
    \includegraphics[width=15cm]{MuonContribution}
-	\caption{Distributions of kinematic variables for a sample of muons subdivided into the different categories, for data (points) and for simulation (histograms). The kinematic variables are the muon pseudorapidity (on the top), and azimuthal angle (bottom). For each variable, the left plot shows the distribution for Soft Muons, and the right plot that for Tight Muons \cite{ref69}.}
+	\caption{Distributions of kinematic variables for a zero-biased sample of muons subdivided into the different categories of contributing muons, for data (points) and for simulation (histograms). For $|\eta|$ (on the top) and $\phi$ (on the bottom) of the muons, the left plot shows the distribution for Soft Muons, and the right plot that for Tight Muons \cite{ref69}.}
 	\label{fig:MuonContribution} 
 \end{figure}
+
+The pseudorapidity distribution is peaked in the forward region because there the minimum $\mathrm{p_{T}}$ required to reach the muon stations is lower than in the barrel. In fact in the endcaps the threshold is  $\mathrm{p_{T}} >$ 0.5 GeV/c, while in the barrel it is about $\mathrm{p_{T}} >$ 3–4 GeV/c.\\
+The majority of reconstructed muon candidates, for both Soft and Tight muon ID, originate from decays in flight of pions and kaons. However, the Tight muons have a larger heavy-flavor component with respect to the Soft muons. \\
+For both ID categories, the contribution of muons from heavy-flavor decays increases with $\mathrm{p_{T}}$. The Tight muon ID reduces the hadron punch-through contribution to 0.2\% while it is about 5\% in Soft Muons \cite{ref69}.
 
 %\subsection{Muon Isolation}
 %[ Inserirlo e/o modificarlo con la def custom di quelli della Florida]
@@ -686,116 +693,116 @@ In Fig.\ref{fig:MuonContribution} the distributions of $\eta$ and $\phi$ of muon
 %In the analysis presented in this thesis a particular custom definition of the muon isolation has been developed in order to better distinguish the interesting muons from the background, based on consideration linked to the physics process of interest.
 %[ def. nuova isolation ]
 
-\newpage
-\subsection{Efficiency}
-In Figg. \ref{fig:MuonEff_LooseID}, \ref{fig:MuonEff_MediumID}, \ref{fig:MuonEff_TightID} the muon efficiencies as a function of $\mathrm{p_{T}}$ and $\eta$, respectively for Loose ID, Medium ID and Tight ID are shown. The data used belong to the full 2017 data-taking: they are collected in pp collisions at a center of mass energy of 13 TeV with single muon triggers and correspond to an integrated luminosity of 41.3 $fb^{-1}$.\\
-The efficiencies are computed by means of a Tag and Probe method, exploiting the $Z\rightarrow\mu\mu$ resonance \cite{ref116}. For all the muon ID categories shown (loose, medium and tight), the number of all tracker tracks with $\mathrm{p_{T}}>$20 GeV has been used as denominator in the efficiency computation. No significant dependency with respect to the number of primary vertices was observed.
+\subsection{Muon efficiency}
+In Figg. \ref{fig:MuonEff_LooseID}, \ref{fig:MuonEff_MediumID} and \ref{fig:MuonEff_TightID} the muon efficiencies as a function of the $\mathrm{p_{T}}$ and $\eta$ of the muons, respectively selected with the Loose ID, Medium ID and Tight ID, are shown. The data used belong to the full 2017 data-taking, corresponding to an integrated luminosity of 41.3 $fb^{-1}$. These data were collected in pp collisions at a center of mass energy of 13 TeV, with single muon triggers.\\
+The efficiencies are computed by means of the Tag and Probe method, exploiting the $Z\rightarrow\mu\mu$ resonance \cite{ref116}. For all the muon ID categories shown (loose, medium and tight), the number of all tracker tracks with $\mathrm{p_{T}}>$20 GeV has been used as denominator in the efficiency computation. No significant dependency with respect to the number of primary vertices was observed.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.45]{MuonEff_LooseID}
+	\includegraphics[scale=0.38]{MuonEff_LooseID}
 	\caption{Loose muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC \cite{ref70}.}
 	\label{fig:MuonEff_LooseID}
 \end{figure}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.45]{MuonEff_MediumID}
+	\includegraphics[scale=0.38]{MuonEff_MediumID}
 	\caption{Medium muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC. The drops at around $\eta$ = 0.2 are due to the cracks between wheels in the muon detectors. The drops in the forward region are due to inactive chambers not modelled in the MC \cite{ref70}.}
 	\label{fig:MuonEff_MediumID}
 \end{figure}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.45]{MuonEff_TightID}
+	\includegraphics[scale=0.38]{MuonEff_TightID}
 	\caption{Tight muon ID efficiency as a function of $\mathrm{p_{T}}$ and $\eta$ for 2017 data and MC. The drops at around $\eta$ = 0.2 are due to the cracks between wheels in the muon detectors. The drops in the forward region are due to inactive chambers not modelled in the MC  \cite{ref70}.}
 	\label{fig:MuonEff_TightID}
 \end{figure}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.75]{dimuons_2016}
-	\caption{The dimuon invariant mass distribution reconstructed by the CMS LHT with data  colected in 2016 data-taking at a center of mass energy of 13 TeV. The gray distribution correspond to the data collected with the inclusive double-muon trigger algorithm, while the colored ones have been collected with triggers dedicated to selecting resonances at low masses, as indicated in the legend.}
-	\label{fig:dimuons_2016}
-\end{figure}
-
--	Plot Efficienze delle varie ID [ + eventualmente pag.71-72 Raffaella and tag and probe pag 101 Vanohffer  ] \cite{ref70}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[scale=0.75]{dimuons_2016}
+%	\caption{The dimuon invariant mass distribution reconstructed by the CMS LHT with data  colected in 2016 data-taking at a center of mass energy of 13 TeV. The gray distribution correspond to the data collected with the inclusive double-muon trigger algorithm, while the colored ones have been collected with triggers dedicated to selecting resonances at low masses, as indicated in the legend.}
+%	\label{fig:dimuons_2016}
+%\end{figure}
+%
+%-	Plot Efficienze delle varie ID [ + eventualmente pag.71-72 Raffaella and tag and probe pag 101 Vanohffer  ] \cite{ref70}
 
 
 \section{Electron reconstruction}
-The signature of an electron inside CMS is made of hits in the silicon detectors of the inner tracker and clusters inside the ECAL crystal, where the electron releases all its energy.
-The measure of this latter energy deposit is the starting point for the electron’s reconstruction, which goes through the following steps: ( rendi i punti + esplicativi)
+The signature of an electron inside CMS is given by hits in the silicon detectors of the inner tracker and clusters inside the ECAL crystals, where the electron releases all its energy. The measure of this latter energy deposit is the starting point for the electron reconstruction, which goes through the following steps:
 \begin{enumerate}
 	\item Energy measurement
-	\item Track seed selection / seeding
+	\item Seeding
 	\item Tracking
-	\item Association track – cluster
+	\item Association track–cluster
 \end{enumerate}
-
 A standalone approach is combined with the global particle-flow (PF) algorithm for a better performance \cite{ref72}. 
 
 \subsection{Energy measurement}
-Electrons interacting in the electromagnetic calorimeter deposit almost all their energy inside its crystals. However, due to the presence of the material in front of ECAL, it can happen that electrons can radiate photons and lose part of their energy via bremsstrahlung. It will result in an energy deposit in the calorimeter which is more contained and less spread over the crystals.
-It is estimated that the electron energy lost before reaching the ECAL is on average $\sim$33\% to 86\% going from $\eta\ \approx$ 0 to $|\eta|\ \approx $ 1.4.
-Therefore, estimating properly the value of this loss to add it to the energy deposited in the ECAL, is of crucial importance in electrons reconstruction \cite{ref71} \cite{ref73}. 
-The photons radiated via bremsstrahlung are mainly spread in the $\phi$ direction (the spread in $\eta$ direction is usually negligible, except for electrons with very low $\mathrm{p_{T}}$ ( $<$5 GeV)) because of the bending of the electron trajectory due to the magnetic field.
-In order to measure the energy of the radiated photons, two clustering algorithms have been developed: the “hybrid algorithm in the barrel and the “multi-5$\times$5” in the endcap.
+Electrons interacting in the electromagnetic calorimeter deposit almost all their energy inside its crystals. However, due to the presence of the material in front of the ECAL, it can happen that electrons radiate photons and lose part of their energy via bremsstrahlung. It will result in an energy deposit which is more contained and less spread over the calorimeter crystals.
+It is estimated that the electron energy lost before reaching the ECAL is on average 33\% - 86\%, going from $\eta \approx$0 to $|\eta| \approx $1.4.
+Therefore, estimating properly the value of this loss is of crucial importance in electrons reconstruction \cite{ref71, ref73}. 
+The photons radiated via bremsstrahlung are mainly spread in the $\phi$ direction (the spread in $\eta$ direction is usually negligible, except for electrons with $\mathrm{p_{T}}<$ 5 GeV) because of the bending of the electron trajectory due to the magnetic field.\\
+In order to measure the energy of the radiated photons, two clustering algorithms have been developed: the \emph{hybrid algorithm}, in the barrel, and the \emph{multi-5$\times$5}, in the endcap.
 
-The first algorithm, used in the ECAL barrel (EB), considers arrays of 5$\times$1 crystals in $\eta$-$\phi$ around the “seed crystal”, i.e. a crystal characterized by an excess in energy deposit with respect to the other regions (at least 1 GeV). If the total energy deposited in this group of crystals is greater than 0.1 GeV, they are grouped with the contiguous array of crystals, forming a cluster. The final global cluster, called SuperCluster (SC) have to contain a seed array with energy greater than a certain threshold.
+The first algorithm, used in the ECAL barrel (EB), considers arrays of 5$\times$1 crystals in $\eta$-$\phi$ around the \emph{seed crystal}, which is a crystal characterized by an excess in energy deposit with respect to the other neighbours. If the total energy deposited in this group of crystals is greater than 0.1 GeV, they are grouped with the contiguous array of crystals, forming a cluster. The final global cluster, called \emph{SuperCluster} (SC), must contain a seed array with energy greater than a certain threshold.
 
 The second algorithm, used in the ECAL endcaps (EE) and in the preshower (PS), is similar to the first one but considers a 5$\times$5 matrix around a seed crystal, whose energy has to exceed 1 GeV in order to be added to the SC.
-In the end, the SC energy and position are measured: the former is given by the sum of all the energies of its clusters, while the second is calculated as the energy-weighted mean of the cluster positions. 
+Finally, the SC energy and position are measured: the former is given by the sum of all the energies of its clusters, while the second is calculated as the energy-weighted mean of the cluster positions. 
  
-On the hand, being part of the particle flow reconstruction, there exist also another algorithm with the aim of reconstructing the particle showers individually.
+%On the other hand, being part of the particle flow reconstruction, there exist also another algorithm with the aim of reconstructing the particle showers individually.
 
 \subsection{Seeding}
-As seen in \ref{Track charged particles}, the tracks of charged particles inside the tracker can be reconstructed using the KF. However, in the case of electrons this reconstruction procedure ends up with a poor estimation of the track parameters, because these particles lose a large amount of their energy through bremsstrahlung in the tracker material, and a reduced hit-collection efficiency.
-For these reasons, a dedicated tracking procedure has been developed for electrons \cite{ref76}.
+As seen in \ref{Track charged particles}, the tracks of charged particles inside the tracker can be reconstructed using the KF. However, in the case of electrons, this reconstruction procedure gives a poor estimation of the track parameters, because these particles lose a large amount of their energy through bremsstrahlung in the tracker material, and a reduced hit-collection efficiency.
+For this reason, a dedicated tracking procedure has been developed for electrons \cite{ref76}.
  
-The reconstruction of their track inside the silicon detectors starts with the generation of the track seeds from 2 or 3 hits in the pixel detector, combined with the positions of the vertices measured from the general charged particle tracks. To select the seeds, two complementary algorithms are used, and their results are combined at the end. These algorithms are the following:
+The reconstruction of their track inside the silicon detectors starts with the generation of the track seeds from 2 or 3 hits in the pixel detector, combined with the positions of the vertices measured from the general charged particle tracks.\\ 
+To select the seeds, two complementary algorithms are used, and their results are combined at the end. These algorithms are the following:
 \begin{itemize}
-	\item \textbf{ECAL-driven seeding}: The SC energy and position are used to extrapolate the electron trajectory towards the inner layers of the tracker. If a reconstructed tracker seed that matches the prediction from the SC is found, it is selected.
-	\item \textbf{Tracker-driven seeding}: The tracker tracks reconstructed using the Kalman filter algorithm are extrapolated towards the ECAL and matched to a SC.
+	\item \textbf{ECAL-based seeding}: The SC energy and position are used to extrapolate the electron trajectory towards the inner layers of the tracker. If a reconstructed tracker seed, that matches the prediction from the SC, is found, it is selected.
+	\item \textbf{Tracker-based seeding}: The tracker tracks reconstructed using the Kalman filter algorithm are extrapolated towards the ECAL and matched to a SC.
 \end{itemize}
 
-The first algorithm is the best one for high $\mathrm{p_{T}}$ electrons, while the second is optimized from low $\mathrm{p_{T}}$ ones, when bremsstrahlung is negligible.
+The first algorithm provides better results for high $\mathrm{p_{T}}$ electrons, while the second one is optimized from low $\mathrm{p_{T}}$ electrons, when the bremsstrahlung is negligible. The seeds obtained with these two algorithms are then merged into a unique collection.\\
+The significant increase of the seeding efficiency brought by the tracker-based approach is shown in Fig. \ref{fig:Electron_Eff} for electrons in b quark jets.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.5]{Electron_Eff}
+	\caption{Electron seeding efficiency for electrons (triangles) and pions (circles) as a function of $\mathrm{p_{T}}$. Both the efficiencies for ECAL-based seeding only (hollow symbols) and with the tracker-based seeding added (solid symbols) are displayed \cite{ref60}.}
+	\label{fig:Electron_Eff}
+\end{figure}
 
 \subsection{Tracking}
 The seeds selected in the previous step are used to build electron tracks: starting from them, a combinatorial track finding algorithm iteratively adds successive layers, taking into account their energy losses due to ionization and bremsstrahlung, modelled with the Bethe-Heitler (BH) formula \cite{ref74}.
-Since the distribution of the energy loss in the BH model is non-Gaussian, the KF algorithm can no longer be used and it is substituted by a “Gaussian sum filter” (GSF) algorithm \cite{ref75}. The GSF models the energy loss distribution as a sum of six Gaussian distributions with different mean, width and amplitude.
+Since the distribution of the energy loss in the BH model is non-Gaussian, the KF algorithm can no longer be used and it is substituted by a \emph{Gaussian Sum Filter} (GSF) algorithm \cite{ref75}. The GSF models the energy loss distribution as a sum of six Gaussian distributions with different mean, width and amplitude.
 
-\subsection{Association track - cluster}
+\subsection{Association track-cluster}
 Electrons candidates are finally reconstructed by associating a GSF track to a cluster in the ECAL, using not very restrictive criteria.
 For the matching of ECAL-driven tracks are used the SC reconstructed using either the hybrid or the multi-5$\times$5 algorithm. 
-For the Tracker-driven tracks whereas, a boosted decision tree (BDT) is used in combining the track observables and the SC observables to get a global identification variable.
-
+For the Tracker-driven tracks whereas, a boosted decision tree (BDT)\cite{ref117a} is used in combining the track observables and the SC observables to get a global identification variable.
 
 \section{Jets reconstruction}
 At LHC quarks and gluons are dominantly produced. However, due to the QCD confinement, they cannot be observed directly, but they fragment to a collimated bunch of hadrons flying roughly in the same direction, which is called “jet”. 
 Their signature is an energy deposit in the calorimeters, along with a series of hits in the tracker, in case of charged hadrons. 
 
-Jets are a background for several analysis, therefore is fundamental to reconstruct them properly \cite{ref77}!
-For this purpose, an “anti-kt clustering algorithm” \cite{ref78} is used: 
-Clustering algorithms classify calorimeter energy-depositions or reconstructed particles into jets. 
-it takes the reconstructed particles as input and assigns them to a jet, if some criteria are met (??)
+Jets are a background for several physics analysis, therefore is fundamental to reconstruct them properly \cite{ref77}.
+For this purpose, the socalled \emph{anti-k$_{T}$ clustering algorithm} \cite{ref78} is used.
 
-In the jet reconstruction the information from different subdetectors can be combined together in different ways, according to the particular characteristics of the jets that can therefore be divided in:
+In the jet reconstruction the information from the different subdetectors can be combined together in different ways, according to the particular characteristics of the jets, that can therefore be divided in:
 \begin{itemize}
 	\item \textbf{Calorimeter jets}: they are reconstructed from energy deposits in the calorimeters (ECAL and HCAL) alone. 
 	\item \textbf{Jet-plus-track (JPT) jets}: the tracker information is added to the calorimeters one to reconstruct the jets.
-	\item \textbf{Particle Flow jets}: they are reconstructed taking as input the PF candidate particles and by clustering their four-momentum vectors. This greatly improves the jet momentum and spatial resolution with respect to calorimeter jets and therefore they are mostly used in CMS analysis.
+	\item \textbf{Particle Flow jets}: they are reconstructed taking as input the PF candidate particles and by clustering their four-momentum vectors. This greatly improves the jet momentum and spatial resolution with respect to calorimeter jets.
 \end{itemize}
 
-[ There are different types of clustering algorithms. Cone algorithms use a top-down approach by finding coarse regions of energy flow in conical regions in ($\eta$-$\phi$) space, while sequential recombination algorithms use a bottom-up approach by combining particles starting from closest ones using a certain distance measure. One of such sequential recombination algorithms is the anti-kt algorithm, which is commonly used for jet clustering in CMS. 
+The anti-k$_{T}$ algorithm clusters either all particles reconstructed by the PF algorithm (PF jets), or the sum of the ECAL and HCAL energies deposited in the calorimeter towers (Calo jets), or all stable particles produced by the event generator excluding neutrinos (Ref jets).  Each PF (Calo) jet is matched to the closest Ref jet in the ($\eta$, $\phi$) plane, with $\Delta R <$ 0.1 (0.2). The improved angular resolution for PF jets is mainly due to the precise determination of the charged-hadron directions and momenta. In calorimeter jets, the energy deposits of charged hadrons are spread along the $\phi$ direction by the magnetic field, leading to an additional degradation of the azimuthal angular resolution.
+%distance parameter of R = 0.4 is used for $\sqrt{s}$ = 13 TeV proton-proton collisions. 
 
-Jets are commonly reconstructed in CMS using PF candidates and the anti-kt algorithm. 
-distance parameter of R = 0.4 is used for $\sqrt{s}$ = 13 TeV proton-proton collisions. 
-
-The "goodness" of this (last) solution is visible in Fig. \ref{fig:PF_Jets}, where a simulated dijet event is displayed and a comparison between the calorimeter jets and PF jets is made.
-The reconstructed particles are closer in energy and direction to the jets of generated particles than the calorimeter jets !
+In Fig. \ref{fig:PF_Jets} a simulated dijet event is displayed and it is possible to compare the improvement in jet reconstruction provided by the PF jets with respect to the Calo jets.\\
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.2]{PF_Jets}
-	\caption{Jet reconstruction in a simulated dijet event.The particles clustered in the two PF jets are displayed with a thicker line. The PF jet $\mathrm{p_{T}}$ indicated as a radial line, is compared to the pT of the corresponding generated (Ref) and calorimeter (Calo) jets. The four-momentum of the jet is obtained by summing the four-momenta of its constituents \cite{ref60}.}
+	\includegraphics[scale=0.25]{PF_Jets}
+	\caption{Jet reconstruction in a simulated dijet event.The particles clustered in the two PF jets are displayed with a thicker line. The PF jet $\mathrm{p_{T}}$, indicated as a radial line, is compared to the $\mathrm{p_{T}}$ of the corresponding generated (Ref) and calorimeter (Calo) jets. The four-momentum of the jet is obtained by summing the four-momenta of its constituents \cite{ref60}.}
 	\label{fig:PF_Jets}
 \end{figure}
 
