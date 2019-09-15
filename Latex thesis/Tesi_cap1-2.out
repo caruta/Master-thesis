@@ -23,32 +23,31 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Global muon reconstruction}{section.3.3}% 23
 \BOOKMARK [2][-]{subsection.3.3.4}{Tracker muon reconstruction}{section.3.3}% 24
 \BOOKMARK [2][-]{subsection.3.3.5}{Muon Identification}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.6}{Muon Isolation}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.7}{Muon efficiency}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Electron reconstruction}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.4.1}{Energy measurement: clustering in ECAL}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.2}{Track seed selection / seeding}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.3}{Tracking}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.4}{Association track - cluster}{section.3.4}% 32
-\BOOKMARK [1][-]{section.3.5}{Jets reconstruction}{chapter.3}% 33
-\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 34
-\BOOKMARK [1][-]{section.4.1}{Theorical intro}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.2}{Preliminary considerations}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.2.1}{Production of \040leptons at LHC}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.2}{Signal acceptance}{section.4.2}% 38
-\BOOKMARK [1][-]{section.4.3}{Outline: search strategy}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.4}{Data and MonteCarlo samples}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.4.1}{Datasets}{section.4.4}% 41
-\BOOKMARK [2][-]{subsection.4.4.2}{MonteCarlo samples}{section.4.4}% 42
-\BOOKMARK [1][-]{section.4.5}{Event selection}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.6}{Signal Normalization}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.6.1}{Events triggered by DoubleMu L1 seeds}{section.4.6}% 45
-\BOOKMARK [2][-]{subsection.4.6.2}{B/D ratio}{section.4.6}% 46
-\BOOKMARK [2][-]{subsection.4.6.3}{Control channel}{section.4.6}% 47
-\BOOKMARK [1][-]{section.4.7}{Multivariate Analysis \(MVA\)}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.7.1}{Introduction to MVA: why to use it?}{section.4.7}% 49
-\BOOKMARK [2][-]{subsection.4.7.2}{Boosted Decision Tree \(BDT\)}{section.4.7}% 50
-\BOOKMARK [2][-]{subsection.4.7.3}{BDT training}{section.4.7}% 51
-\BOOKMARK [2][-]{subsection.4.7.4}{Event categorization}{section.4.7}% 52
-\BOOKMARK [1][-]{section.4.8}{Evaluation of systematics}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.9}{Results}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.3.3.6}{Efficiency}{section.3.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Electron reconstruction}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.4.1}{Energy measurement}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.2}{Seeding}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.3}{Tracking}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.4}{Association track - cluster}{section.3.4}% 31
+\BOOKMARK [1][-]{section.3.5}{Jets reconstruction}{chapter.3}% 32
+\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 33
+\BOOKMARK [1][-]{section.4.1}{Theorical intro}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Preliminary considerations}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.1}{Production of \040leptons at LHC}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.2}{Signal acceptance}{section.4.2}% 37
+\BOOKMARK [1][-]{section.4.3}{Outline: search strategy}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{Data and MonteCarlo samples}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.1}{Datasets}{section.4.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.2}{MonteCarlo samples}{section.4.4}% 41
+\BOOKMARK [1][-]{section.4.5}{Event selection}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.6}{Signal Normalization}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.6.1}{Events triggered by DoubleMu L1 seeds}{section.4.6}% 44
+\BOOKMARK [2][-]{subsection.4.6.2}{B/D ratio}{section.4.6}% 45
+\BOOKMARK [2][-]{subsection.4.6.3}{Control channel}{section.4.6}% 46
+\BOOKMARK [1][-]{section.4.7}{Multivariate Analysis \(MVA\)}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.7.1}{Introduction to MVA: why to use it?}{section.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.7.2}{Boosted Decision Tree \(BDT\)}{section.4.7}% 49
+\BOOKMARK [2][-]{subsection.4.7.3}{BDT training}{section.4.7}% 50
+\BOOKMARK [2][-]{subsection.4.7.4}{Event categorization}{section.4.7}% 51
+\BOOKMARK [1][-]{section.4.8}{Evaluation of systematics}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.9}{Results}{chapter.4}% 53

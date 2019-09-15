@@ -4,14 +4,14 @@
 \contentsline {section}{\numberline {1.2}Physics Beyond the Standard Model}{4}{section.1.2}
 \contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The CMS experiment}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The coordinate system}{8}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}The CMS experiment}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The coordinate system}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Magnet}{10}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Inner tracker}{11}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Calorimeters}{12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Muon system}{14}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}CMS trigger system}{18}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}The World LHC Computing Grid}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.5}Muon system}{15}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}CMS trigger system}{19}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}The World LHC Computing Grid}{21}{section.2.3}
 \contentsline {chapter}{\numberline {3}Event reconstruction in CMS}{22}{chapter.3}
 \contentsline {section}{\numberline {3.1}Particle Flow algorithm}{22}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tracks and Primary Vertex reconstruction}{24}{section.3.2}
@@ -25,14 +25,13 @@
 \contentsline {subsection}{\numberline {3.3.3}Global muon reconstruction}{31}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Tracker muon reconstruction}{32}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Muon Identification}{32}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Muon Isolation}{34}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Muon efficiency}{34}{subsection.3.3.7}
-\contentsline {section}{\numberline {3.4}Electron reconstruction}{36}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Energy measurement: clustering in ECAL}{36}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Track seed selection / seeding}{38}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.3.6}Efficiency}{34}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Electron reconstruction}{35}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Energy measurement}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Seeding}{37}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Tracking}{38}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Association track - cluster}{38}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Jets reconstruction}{39}{section.3.5}
+\contentsline {section}{\numberline {3.5}Jets reconstruction}{38}{section.3.5}
 \contentsline {chapter}{\numberline {4}Analysis }{41}{chapter.4}
 \contentsline {section}{\numberline {4.1}Theorical intro}{41}{section.4.1}
 \contentsline {section}{\numberline {4.2}Preliminary considerations}{42}{section.4.2}
@@ -42,16 +41,16 @@
 \contentsline {section}{\numberline {4.4}Data and MonteCarlo samples}{42}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Datasets}{42}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}MonteCarlo samples}{43}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Event selection}{44}{section.4.5}
-\contentsline {section}{\numberline {4.6}Signal Normalization}{44}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Events triggered by DoubleMu L1 seeds}{44}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}B/D ratio}{44}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.5}Event selection}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6}Signal Normalization}{45}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Events triggered by DoubleMu L1 seeds}{45}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}B/D ratio}{45}{subsection.4.6.2}
 \contentsline {subsection}{\numberline {4.6.3}Control channel}{45}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Multivariate Analysis (MVA)}{45}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Introduction to MVA: why to use it?}{45}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Tree (BDT)}{46}{subsection.4.7.2}
-\contentsline {subsubsection}{Training a decision tree}{47}{section*.56}
-\contentsline {subsection}{\numberline {4.7.3}BDT training}{49}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Event categorization}{49}{subsection.4.7.4}
-\contentsline {section}{\numberline {4.8}Evaluation of systematics}{49}{section.4.8}
-\contentsline {section}{\numberline {4.9}Results}{50}{section.4.9}
+\contentsline {section}{\numberline {4.7}Multivariate Analysis (MVA)}{46}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Introduction to MVA: why to use it?}{46}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Tree (BDT)}{47}{subsection.4.7.2}
+\contentsline {subsubsection}{Training a decision tree}{49}{section*.56}
+\contentsline {subsection}{\numberline {4.7.3}BDT training}{50}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Event categorization}{50}{subsection.4.7.4}
+\contentsline {section}{\numberline {4.8}Evaluation of systematics}{50}{section.4.8}
+\contentsline {section}{\numberline {4.9}Results}{51}{section.4.9}
