@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  15 SEP 2019 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  16 SEP 2019 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,7 +828,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<logoUniba.jpeg, id=217, 569.0058pt x 455.301pt>
+<logoUniba.jpeg, id=128, 569.0058pt x 455.301pt>
 File: logoUniba.jpeg Graphic file (type jpg)
  <use logoUniba.jpeg>
 Package pdftex.def Info: logoUniba.jpeg used on input line 43.
@@ -848,13 +848,13 @@ Chapter 1.
 
 ]
 Chapter 2.
-<LHC_complex.png, id=300, 737.75626pt x 464.73625pt>
+<LHC_complex.png, id=189, 737.75626pt x 464.73625pt>
 File: LHC_complex.png Graphic file (type png)
  <use LHC_complex.png>
-Package pdftex.def Info: LHC_complex.png used on input line 112.
+Package pdftex.def Info: LHC_complex.png used on input line 164.
 (pdftex.def)             Requested size: 442.65717pt x 278.84389pt.
 
-Overfull \hbox (9.03717pt too wide) in paragraph at lines 112--113
+Overfull \hbox (9.03717pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
@@ -864,46 +864,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [5
 
 ] [6 <./LHC_complex.png>]
-<IntLumi_cumulative_peryear.pdf, id=332, 578.16pt x 433.62pt>
+<IntLumi_cumulative_peryear.pdf, id=222, 578.16pt x 433.62pt>
 File: IntLumi_cumulative_peryear.pdf Graphic file (type pdf)
 
 <use IntLumi_cumulative_peryear.pdf>
-Package pdftex.def Info: IntLumi_cumulative_peryear.pdf used on input line 147.
+Package pdftex.def Info: IntLumi_cumulative_peryear.pdf used on input line 199.
 
 (pdftex.def)             Requested size: 216.2411pt x 162.17702pt.
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 147--148
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 199--200
  [][] 
  []
 
-<IntLumi_cumulative_total.pdf, id=333, 578.16pt x 433.62pt>
+<IntLumi_cumulative_total.pdf, id=223, 578.16pt x 433.62pt>
 File: IntLumi_cumulative_total.pdf Graphic file (type pdf)
 
 <use IntLumi_cumulative_total.pdf>
-Package pdftex.def Info: IntLumi_cumulative_total.pdf used on input line 152.
+Package pdftex.def Info: IntLumi_cumulative_total.pdf used on input line 204.
 (pdftex.def)             Requested size: 216.2411pt x 162.17702pt.
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 152--153
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-<IntLumi2017.pdf, id=337, 578.16pt x 433.62pt>
+<IntLumi2017.pdf, id=227, 578.16pt x 433.62pt>
 File: IntLumi2017.pdf Graphic file (type pdf)
  <use IntLumi2017.pdf>
-Package pdftex.def Info: IntLumi2017.pdf used on input line 163.
+Package pdftex.def Info: IntLumi2017.pdf used on input line 215.
 (pdftex.def)             Requested size: 216.2411pt x 162.17702pt.
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 163--164
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 215--216
  [][] 
  []
 
-<IntLumi2018.pdf, id=338, 578.16pt x 433.62pt>
+<IntLumi2018.pdf, id=228, 578.16pt x 433.62pt>
 File: IntLumi2018.pdf Graphic file (type pdf)
  <use IntLumi2018.pdf>
-Package pdftex.def Info: IntLumi2018.pdf used on input line 168.
+Package pdftex.def Info: IntLumi2018.pdf used on input line 220.
 (pdftex.def)             Requested size: 216.2411pt x 162.17702pt.
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 168--169
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
@@ -914,11 +914,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./IntLumi_cumulative_total.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] <pileup2017.pdf, id=483, 578.16pt x 433.62pt>
+>] <pileup2017.pdf, id=373, 578.16pt x 433.62pt>
 File: pileup2017.pdf Graphic file (type pdf)
  <use pileup2017.pdf>
-Package pdftex.def Info: pileup2017.pdf used on input line 181.
-(pdftex.def)             Requested size: 375.79955pt x 281.84966pt.
+Package pdftex.def Info: pileup2017.pdf used on input line 233.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
  [8 <./IntLumi2017.pdf> <./IntLumi2018.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./IntLumi2018.pdf): PDF incl
@@ -927,208 +927,205 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pileup2017.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [9] <CMSdet.png, id=712, 3189.9175pt x 2253.41875pt>
+>] [9] <CMSdet.png, id=601, 3189.9175pt x 2253.41875pt>
 File: CMSdet.png Graphic file (type png)
  <use CMSdet.png>
-Package pdftex.def Info: CMSdet.png used on input line 219.
+Package pdftex.def Info: CMSdet.png used on input line 270.
 (pdftex.def)             Requested size: 446.58542pt x 315.47647pt.
 
-Overfull \hbox (12.96542pt too wide) in paragraph at lines 219--220
+Overfull \hbox (12.96542pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-[10 <./CMSdet.png>] <InnerTracker.png, id=725, 1204.5pt x 572.1375pt>
+[10 <./CMSdet.png>] <InnerTracker.png, id=614, 1204.5pt x 572.1375pt>
 File: InnerTracker.png Graphic file (type png)
 
 <use InnerTracker.png>
-Package pdftex.def Info: InnerTracker.png used on input line 238.
+Package pdftex.def Info: InnerTracker.png used on input line 289.
 (pdftex.def)             Requested size: 445.65802pt x 211.68755pt.
 
-Overfull \hbox (12.03802pt too wide) in paragraph at lines 238--239
+Overfull \hbox (12.03802pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
 [11 <./InnerTracker.png>]
-<Tracker_MaterialBudget.png, id=741, 626.34pt x 601.24625pt>
+<Tracker_MaterialBudget.png, id=630, 626.34pt x 601.24625pt>
 File: Tracker_MaterialBudget.png Graphic file (type png)
 
 <use Tracker_MaterialBudget.png>
-Package pdftex.def Info: Tracker_MaterialBudget.png used on input line 259.
+Package pdftex.def Info: Tracker_MaterialBudget.png used on input line 310.
 (pdftex.def)             Requested size: 269.32094pt x 258.53084pt.
- <ECAL.png, id=746, 1441.385pt x 734.745pt>
+ <ECAL.png, id=635, 1441.385pt x 734.745pt>
 File: ECAL.png Graphic file (type png)
 
 <use ECAL.png>
-Package pdftex.def Info: ECAL.png used on input line 273.
+Package pdftex.def Info: ECAL.png used on input line 324.
 (pdftex.def)             Requested size: 389.17915pt x 198.38379pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./Tracker_MaterialBudget.png>] [13 <./ECAL.png (PNG copy)>]
-<HCAL.png, id=766, 686.565pt x 491.8375pt>
+[12 <./Tracker_MaterialBudget.png>] <HCAL.png, id=649, 686.565pt x 491.8375pt>
 File: HCAL.png Graphic file (type png)
- <use HCAL.png>
-Package pdftex.def Info: HCAL.png used on input line 300.
-(pdftex.def)             Requested size: 377.61192pt x 270.51146pt.
 
-<MuSystemOld.pdf, id=772, 807.015pt x 526.96875pt>
+<use HCAL.png>
+Package pdftex.def Info: HCAL.png used on input line 351.
+(pdftex.def)             Requested size: 377.61192pt x 270.51146pt.
+ [13 <./ECAL.png (PNG copy)>]
+<MuSystemOld.pdf, id=662, 807.015pt x 526.96875pt>
 File: MuSystemOld.pdf Graphic file (type pdf)
  <use MuSystemOld.pdf>
-Package pdftex.def Info: MuSystemOld.pdf used on input line 318.
+Package pdftex.def Info: MuSystemOld.pdf used on input line 370.
 (pdftex.def)             Requested size: 443.85962pt x 289.8337pt.
 
-Overfull \hbox (10.23962pt too wide) in paragraph at lines 318--319
+Overfull \hbox (10.23962pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
-[14 <./HCAL.png>] [15 <./MuSystemOld.pdf>]
-<DT.png, id=824, 786.94pt x 429.605pt>
+[14 <./HCAL.png>] [15 <./MuSystemOld.pdf>] [16]
+<DT.png, id=719, 786.94pt x 429.605pt>
 File: DT.png Graphic file (type png)
  <use DT.png>
-Package pdftex.def Info: DT.png used on input line 347.
+Package pdftex.def Info: DT.png used on input line 398.
 (pdftex.def)             Requested size: 354.11972pt x 193.32045pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16] <CSC1.png, id=835, 574.145pt x 841.1425pt>
+<CSC1.png, id=724, 574.145pt x 841.1425pt>
 File: CSC1.png Graphic file (type png)
  <use CSC1.png>
-Package pdftex.def Info: CSC1.png used on input line 364.
+Package pdftex.def Info: CSC1.png used on input line 415.
 (pdftex.def)             Requested size: 142.26378pt x 208.41122pt.
 
-<CSC2.png, id=836, 1244.65pt x 960.58875pt>
+<CSC2.png, id=725, 1244.65pt x 960.58875pt>
 File: CSC2.png Graphic file (type png)
  <use CSC2.png>
-Package pdftex.def Info: CSC2.png used on input line 371.
+Package pdftex.def Info: CSC2.png used on input line 422.
 (pdftex.def)             Requested size: 227.62204pt x 175.66875pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./DT.png>] <RPC.png, id=848, 711.65875pt x 278.03876pt>
+[17 <./DT.png>] <RPC.png, id=737, 711.65875pt x 278.03876pt>
 File: RPC.png Graphic file (type png)
  <use RPC.png>
-Package pdftex.def Info: RPC.png used on input line 384.
+Package pdftex.def Info: RPC.png used on input line 435.
 (pdftex.def)             Requested size: 355.8285pt x 139.01903pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./CSC1.png> <./CSC2.png>] <L1.png, id=860, 757.83125pt x 550.055pt>
+[18 <./CSC1.png> <./CSC2.png>] <L1.png, id=749, 757.83125pt x 550.055pt>
 File: L1.png Graphic file (type png)
 
 <use L1.png>
-Package pdftex.def Info: L1.png used on input line 410.
+Package pdftex.def Info: L1.png used on input line 461.
 (pdftex.def)             Requested size: 303.12714pt x 220.0181pt.
  [19 <./RPC.png>] [20 <./L1.png>]
-<WLCG.png, id=878, 578.16pt x 542.025pt>
+<WLCG.png, id=769, 578.16pt x 542.025pt>
 File: WLCG.png Graphic file (type png)
  <use WLCG.png>
-Package pdftex.def Info: WLCG.png used on input line 437.
-(pdftex.def)             Requested size: 231.2599pt x 216.80615pt.
+Package pdftex.def Info: WLCG.png used on input line 486.
+(pdftex.def)             Requested size: 260.16959pt x 243.90898pt.
  [21 <./WLCG.png>]
 Chapter 3.
-<CMS_slice.png, id=887, 2056.68375pt x 1433.355pt>
+<CMS_slice.png, id=778, 2056.68375pt x 1433.355pt>
 File: CMS_slice.png Graphic file (type png)
  <use CMS_slice.png>
-Package pdftex.def Info: CMS_slice.png used on input line 459.
+Package pdftex.def Info: CMS_slice.png used on input line 508.
 (pdftex.def)             Requested size: 411.32947pt x 286.66592pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--471
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
 [22
 
 ] [23 <./CMS_slice.png>] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 548--550
+Underfull \hbox (badness 10000) in paragraph at lines 597--599
 
  []
 
-<TrackerEff_pT.png, id=937, 602.25pt x 602.25pt>
+<TrackerEff_pT.png, id=829, 602.25pt x 602.25pt>
 File: TrackerEff_pT.png Graphic file (type png)
  <use TrackerEff_pT.png>
-Package pdftex.def Info: TrackerEff_pT.png used on input line 554.
+Package pdftex.def Info: TrackerEff_pT.png used on input line 603.
 (pdftex.def)             Requested size: 219.08612pt x 219.08884pt.
 
-<TrackerEff_eta.png, id=938, 602.25pt x 602.25pt>
+<TrackerEff_eta.png, id=830, 602.25pt x 602.25pt>
 File: TrackerEff_eta.png Graphic file (type png)
  <use TrackerEff_eta.png>
-Package pdftex.def Info: TrackerEff_eta.png used on input line 559.
+Package pdftex.def Info: TrackerEff_eta.png used on input line 608.
 (pdftex.def)             Requested size: 219.08612pt x 219.08884pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 552--561
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 601--610
 [][] [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26] <TrackerEff_Nvertices.png, id=954, 602.25pt x 602.25pt>
+[26] <TrackerEff_Nvertices.png, id=842, 602.25pt x 602.25pt>
 File: TrackerEff_Nvertices.png Graphic file (type png)
 
 <use TrackerEff_Nvertices.png>
-Package pdftex.def Info: TrackerEff_Nvertices.png used on input line 568.
+Package pdftex.def Info: TrackerEff_Nvertices.png used on input line 617.
 (pdftex.def)             Requested size: 219.08612pt x 219.08884pt.
  [27 <./TrackerEff_pT.png> <./TrackerEff_eta.png> <./TrackerEff_Nvertices.png>]
- <PV_Eff.png, id=969, 810.02625pt x 395.22656pt>
+ <PV_Eff.png, id=853, 810.02625pt x 395.22656pt>
 File: PV_Eff.png Graphic file (type png)
 
 <use PV_Eff.png>
-Package pdftex.def Info: PV_Eff.png used on input line 588.
+Package pdftex.def Info: PV_Eff.png used on input line 637.
 (pdftex.def)             Requested size: 426.79134pt x 208.24484pt.
  [28 <./PV_Eff.png>]
-<4muRECO.png, id=985, 1940.24875pt x 803.0pt>
+<4muRECO.png, id=869, 1940.24875pt x 803.0pt>
 File: 4muRECO.png Graphic file (type png)
  <use 4muRECO.png>
-Package pdftex.def Info: 4muRECO.png used on input line 615.
+Package pdftex.def Info: 4muRECO.png used on input line 664.
 (pdftex.def)             Requested size: 426.85605pt x 176.66054pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29] [30 <./4muRECO.png>] [31] [32]
-<MuonContribution.png, id=1020, 1478.52374pt x 1180.41pt>
+<MuonContribution.png, id=904, 1478.52374pt x 1180.41pt>
 File: MuonContribution.png Graphic file (type png)
 
 <use MuonContribution.png>
-Package pdftex.def Info: MuonContribution.png used on input line 680.
+Package pdftex.def Info: MuonContribution.png used on input line 729.
 (pdftex.def)             Requested size: 426.79134pt x 340.72511pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] <MuonEff_LooseID.png, id=1034, 879.285pt x 428.60126pt>
+[33] <MuonEff_LooseID.png, id=919, 879.285pt x 428.60126pt>
 File: MuonEff_LooseID.png Graphic file (type png)
 
 <use MuonEff_LooseID.png>
-Package pdftex.def Info: MuonEff_LooseID.png used on input line 702.
+Package pdftex.def Info: MuonEff_LooseID.png used on input line 751.
 (pdftex.def)             Requested size: 334.13177pt x 162.87016pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<MuonEff_MediumID.png, id=1037, 883.3pt x 428.60126pt>
+<MuonEff_MediumID.png, id=922, 883.3pt x 428.60126pt>
 File: MuonEff_MediumID.png Graphic file (type png)
 
 <use MuonEff_MediumID.png>
-Package pdftex.def Info: MuonEff_MediumID.png used on input line 708.
+Package pdftex.def Info: MuonEff_MediumID.png used on input line 757.
 (pdftex.def)             Requested size: 335.65749pt x 162.87016pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<MuonEff_TightID.png, id=1040, 887.315pt x 424.58624pt>
+<MuonEff_TightID.png, id=925, 887.315pt x 424.58624pt>
 File: MuonEff_TightID.png Graphic file (type png)
 
 <use MuonEff_TightID.png>
-Package pdftex.def Info: MuonEff_TightID.png used on input line 714.
+Package pdftex.def Info: MuonEff_TightID.png used on input line 763.
 (pdftex.def)             Requested size: 337.1832pt x 161.34444pt.
 
 
@@ -1136,224 +1133,112 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34 <./MuonContribution.png>] [35 <./MuonEff_LooseID.png> <./MuonEff_MediumID.p
 ng> <./MuonEff_TightID.png>] [36]
-<Electron_Eff.png, id=1077, 468.75125pt x 446.66875pt>
+<Electron_Eff.png, id=961, 468.75125pt x 446.66875pt>
 File: Electron_Eff.png Graphic file (type png)
  <use Electron_Eff.png>
-Package pdftex.def Info: Electron_Eff.png used on input line 769.
+Package pdftex.def Info: Electron_Eff.png used on input line 815.
 (pdftex.def)             Requested size: 234.37505pt x 223.33382pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Citation `ref117a' on page 37 undefined on input line 827.
+
 [37] [38 <./Electron_Eff.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
 
  []
 
-<PF_Jets.png, id=1103, 1105.12875pt x 1154.3125pt>
+<PF_Jets.png, id=985, 1105.12875pt x 1154.3125pt>
 File: PF_Jets.png Graphic file (type png)
  <use PF_Jets.png>
-Package pdftex.def Info: PF_Jets.png used on input line 804.
+Package pdftex.def Info: PF_Jets.png used on input line 850.
 (pdftex.def)             Requested size: 276.28151pt x 288.57742pt.
  [39 <./PF_Jets.png>]
 Chapter 4.
-<FD_SM.png, id=1116, 367.3725pt x 210.7875pt>
-File: FD_SM.png Graphic file (type png)
- <use FD_SM.png>
-Package pdftex.def Info: FD_SM.png used on input line 821.
-(pdftex.def)             Requested size: 220.42519pt x 126.47346pt.
-
-<FD_BSM.png, id=1117, 352.31625pt x 257.96375pt>
-File: FD_BSM.png Graphic file (type png)
- <use FD_BSM.png>
-Package pdftex.def Info: FD_BSM.png used on input line 828.
-(pdftex.def)             Requested size: 211.39137pt x 154.77943pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 834.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 834.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 834.
-
 [40
 
- <./FD_SM.png> <./FD_BSM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 884--887
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (31.71915pt too wide) in paragraph at lines 905--907
-[]$\OT1/cmr/m/n/10.95 . 
- []
-
-[41]
-Overfull \hbox (388.11331pt too wide) in paragraph at lines 914--923
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[42] [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 1095--1097
-
- []
-
-[45] <MVA_examples.png, id=1209, 817.0525pt x 242.9075pt>
-File: MVA_examples.png Graphic file (type png)
-
-<use MVA_examples.png>
-Package pdftex.def Info: MVA_examples.png used on input line 1100.
-(pdftex.def)             Requested size: 408.52525pt x 121.45345pt.
- <DecisionTree.png, id=1213, 456.70625pt x 379.4175pt>
-File: DecisionTree.png Graphic file (type png)
-
-<use DecisionTree.png>
-Package pdftex.def Info: DecisionTree.png used on input line 1115.
-(pdftex.def)             Requested size: 274.02585pt x 227.65225pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46 <./MVA_examples.png>] [47 <./DecisionTree.png>] [48]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[49]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[50] [51]
-Underfull \hbox (badness 2932) in paragraph at lines 1296--1297
-[]\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Ob-ser-va-tion
- of a new bo-son at a mass of 125 GeV
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 1296--1297
-\OT1/cmr/m/it/10.95 with the CMS ex-per-i-ment at the LHC"\OT1/cmr/m/n/10.95 , 
-Phys. Lett. B 716 (2012) 30,
- []
-
-[52
-
 ]
-Underfull \hbox (badness 1838) in paragraph at lines 1325--1327
+Underfull \hbox (badness 1838) in paragraph at lines 1365--1366
 []\OT1/cmr/m/it/10.95 \The Large Electron-Positron Col-lider"\OT1/cmr/m/n/10.95
  , []$\OT1/cmtt/m/n/10.95 http : / / cds . cern . ch / record / 1997351 ,[]
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 1346--1347
+Underfull \hbox (badness 2932) in paragraph at lines 1378--1379
+[]\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Ob-ser-va-tion
+ of a new bo-son at a mass of 125 GeV
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 1378--1379
+\OT1/cmr/m/it/10.95 with the CMS ex-per-i-ment at the LHC"\OT1/cmr/m/n/10.95 , 
+Phys. Lett. B 716 (2012) 30,
+ []
+
+[41
+
+]
+Underfull \hbox (badness 1931) in paragraph at lines 1393--1394
 \OT1/cmr/m/it/10.95 port"\OT1/cmr/m/n/10.95 ,2000. CERN/LHCC 2000-016, CMS TDR 
 5.1, []$\OT1/cmtt/m/n/10.95 http : / / cdsweb . cern . ch /
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1403
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \The muon proje
 ct: Tech-ni-cal De-sign Re-port"\OT1/cmr/m/n/10.95 ,1997.
  []
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
-[]\OT1/cmr/m/n/10.95 W. J. Mar-ciano, T. Mori, and J. M. Roney, \OT1/cmr/m/it/1
-0.95 \Charged Lep-ton Fla-
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 1418--1419
-\OT1/cmr/m/it/10.95 vor Vi-o-la-tion Ex-per-i-ments"\OT1/cmr/m/n/10.95 , Ann. R
-ev. Nucl. Part. Sci. 58 (2008) 315,
- []
-
-[55]
-Underfull \hbox (badness 1412) in paragraph at lines 1424--1425
-[]\OT1/cmr/m/n/10.95 BaBar Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Lim-its on t
-au Lepton-Flavor Vi-o-lat-ing De-cays in three
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 1426--1427
-\OT1/cmr/m/it/10.95 8.1"\OT1/cmr/m/n/10.95 , Com-put. Phys. Com-mun. 178 (2008)
- 852, []doi:10.1016/j.cpc.2008.01.036[],
- []
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 14
-32.
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 1458--1459
-\OT1/cmr/m/n/10.95 Ar-tif. In-tell. 14 (1999) 771{780, []$\OT1/cmtt/m/n/10.95 h
-ttps : / / cseweb . ucsd . edu / []yfreund / papers /
- []
-
-[56]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1466.
- [57]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1466.
+[42] [43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1498.
+ [44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1498.
  (./Tesi_cap1-2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1466.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1466.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1498.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1498.
 
 Package rerunfilecheck Info: File `Tesi_cap1-2.out' has not changed.
-(rerunfilecheck)             Checksum: 90C2318AE256FA235FBEC0CEBBF94B50;3773.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1466.
+(rerunfilecheck)             Checksum: CF1578681492BC11B88F1CF983BC7105;2193.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1498.
  ) 
 Here is how much of TeX's memory you used:
- 8918 strings out of 492995
- 129839 string characters out of 6132705
- 234663 words of memory out of 5000000
- 12006 multiletter control sequences out of 15000+600000
- 25129 words of font info for 87 fonts, out of 8000000 for 9000
+ 8680 strings out of 492995
+ 127075 string characters out of 6132705
+ 225874 words of memory out of 5000000
+ 11901 multiletter control sequences out of 15000+600000
+ 21978 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,989b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,43p,971b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi_cap1-2.pdf (57 pages, 12555281 bytes).
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Tesi_cap1-2.pdf (44 pages, 12094150 bytes).
 PDF statistics:
- 1565 PDF objects out of 1728 (max. 8388607)
- 1269 compressed objects within 13 object streams
- 311 named destinations out of 1000 (max. 500000)
- 600 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1194 PDF objects out of 1200 (max. 8388607)
+ 932 compressed objects within 10 object streams
+ 188 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,5 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Standard Model and new physics search}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Physics Beyond the Standard Model}{4}{section.1.2}
+\contentsline {chapter}{\numberline {1}Standard Model and new physics searches}{4}{chapter.1}
 \contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}The CMS experiment}{9}{section.2.2}
@@ -16,7 +14,6 @@
 \contentsline {section}{\numberline {3.1}Particle Flow algorithm}{22}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tracks and Primary Vertex reconstruction}{24}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Tracking of charged particles }{24}{subsection.3.2.1}
-\contentsline {subsubsection}{Seed generation}{25}{section*.27}
 \contentsline {subsection}{\numberline {3.2.2}Tracking efficiency}{26}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Primary Vertex reconstruction}{28}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}Muon reconstruction}{29}{section.3.3}
@@ -33,24 +30,3 @@
 \contentsline {subsection}{\numberline {3.4.4}Association track-cluster}{37}{subsection.3.4.4}
 \contentsline {section}{\numberline {3.5}Jets reconstruction}{38}{section.3.5}
 \contentsline {chapter}{\numberline {4}Analysis }{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Theorical intro}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Preliminary considerations}{41}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Production of $\tau $ leptons at LHC}{41}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Signal acceptance}{41}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Outline: search strategy}{41}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data and MonteCarlo samples}{41}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Datasets}{41}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}MonteCarlo samples}{42}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Event selection}{42}{section.4.5}
-\contentsline {section}{\numberline {4.6}Signal Normalization}{44}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Events triggered by DoubleMu L1 seeds}{44}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}B/D ratio}{44}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Control channel}{44}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Multivariate Analysis (MVA)}{45}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Introduction to MVA: why to use it?}{45}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Tree (BDT)}{46}{subsection.4.7.2}
-\contentsline {subsubsection}{Training a decision tree}{48}{section*.57}
-\contentsline {subsection}{\numberline {4.7.3}BDT training}{49}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Event categorization}{49}{subsection.4.7.4}
-\contentsline {section}{\numberline {4.8}Evaluation of systematics}{49}{section.4.8}
-\contentsline {section}{\numberline {4.9}Results}{50}{section.4.9}
