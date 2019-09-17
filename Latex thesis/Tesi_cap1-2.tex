@@ -9,6 +9,7 @@
 \usepackage{hyphenat}
 \usepackage{sectsty}
 \usepackage{amsmath}
+\usepackage{physics}
 \usepackage{bm}
 %\usepackage[style=alphabetic]{biblatex}
 %\usepackage[dvipsnames]{xcolor}
@@ -252,7 +253,7 @@ After the unification of the electromagnetic and weak interaction described in t
 Even if these latter gauge bosons, at the beginning of 1960's were not yet been discovered, there were expected to be quite massive because of the characteristics of the weak interaction (that, for its phenomenology, in the first description Fermi assumed to be point-wise). However, it was not possible to add mass terms explicitly in the Lagrangian density because that would violate the gauge invariance, leading to a non-renormalizable theory!\\
 In order to overcome this problem, Weinberg and Salam (in realtà: Only after the ground-breaking work of Sheldon Glashow, Abdus Salam, Steven Weinberg, and of Gerard ‘t Hooft with Martinus Veltmann, symmetry breaking in a unified electro-weak theory could finally be settled.) integrated in the theory a \emph{Spontaneous Symmetry Breaking} (SSB) mechanism, hypothesized in 1964 independently by Higgs \cite{ref6, ref8} and by Englert and Brout \cite{ref7}, which was able to explain the mass of the particles without violating the gauge invariance.
 
-A SSB occurs in physics when the vacuum state of a system (which is the lowest energy state) is not invariant under a symmetry transformation of the Lagrangian which describes that system. Therefore this symmetry is said to be \emph{spontaneously broken} and a degeneracy is always implied!
+A SSB occurs in physics when the vacuum state of a system (which is the lowest energy state) is not invariant under a symmetry transformation of the Lagrangian which describes that system. // there is a symmetry of the system that is not respected by the ground state. // Therefore this symmetry is said to be \emph{spontaneously broken} and a degeneracy is always implied!
 
 In order to introduce a SSB in the model described so far, we can consider two complex scalar fields $\phi_{1}$ and $\phi_{2}$, which form a doublet in SU(2)$_{L}$: 
 $\phi(x) = 
@@ -301,9 +302,40 @@ The Higgs field $\phi$ has 4 free parameters(the real and imaginary parts of the
 (When the field $\phi$ finds its ground state, three of these four free degrees freeze out and become the transverse polarization modes of the two oppositely charged W-bosons and the Z-boson. The mere existence of transverse polarization of a spin-1 vector particle is equivalent for it having gained mass, as Lorentz invariance for mass-less particles prohibits otherwise. One degree of freedom stays, which gives rise to an excitation mode of the field $\phi$ above its ground state; this excitation is exactly what yields the Higgs boson.)
 More effort by people like Gerald Guralnik, Carl Hagen and Tom Kibble \cite{ref9} was needed to understand the properties of this mass generating mechanism 
 
+- PDG
+
+From the four generators of the SU(2)L $\times$ U(1)Y gauge group, three are spontaneously broken, implying that they lead to non-trivial transformations of the ground state and indicate the existence of three massless Goldstone bosons identified with three of the four Higgs field degrees of freedom. The Higgs field couples to the W$\mu$ and B$\mu$ gauge fields associated with the SU(2)L $\times$ U(1)Y local symmetry through the covariant derivative appearing in the kinetic term of the Higgs Lagrangian,
+%L = (DμΦ)†(DμΦ) − V (Φ) , (11.4) Higgs
+where %DμΦ = (∂μ + igσaWμa/2 + ig′Y Bμ/2)Φ, g and g′ are the SU(2) and U(1) gauge couplings, respectively, and σa,a = 1,2,3 are the usual Pauli matrices. As a result, the neutral and the two charged massless Goldstone degrees of freedom mix with the gauge fields corresponding to the broken generators of SU(2)L × U(1)Y and become, in the unitarity gauge, the longitudinal components of the Z and W physical gauge bosons, respectively. The Z and W gauge bosons acquire masses,
+%2 g2v2 2 (g′2 + g2)v2 mW=4,mZ= 4 .
+The fourth generator remains unbroken since it is the one associated to the conserved U(1)em gauge symmetry, and its corresponding gauge field, the photon, remains massless.
+
+Hence, from the initial four degrees of freedom of the Higgs field, two are absorbed by the W$\pm$ gauge bosons, one by the Z gauge boson, and there is one remaining degree of freedom, H, that is the physical Higgs boson — a new scalar particle. The Higgs boson is neutral under the electromagnetic interactions and transforms as a singlet under SU(3)C and hence does not couple at tree level to the massless photons and gluons.
+
+The fermions of the SM acquire mass through renormalizable interactions between the Higgs field and the fermions: the Yukawa interactions, (vedi PDG per la lagrangiana)
+
+The SM Higgs boson is a CP-even scalar of spin 0. Its mass is given  by mH = 2$\lambda$ v, where $\lambda$ is the Higgs self-coupling parameter in V ($\phi$). The expectation value of the Higgs field, %v = (√2GF )−1/2 ≈ 246 GeV, is fixed by the Fermi coupling GF , which is determined with a precision of 0.6 ppm from muon decay measurements.
+%λ is a free parameter in the SM, and hence, there is no a priori prediction for the Higgs mass. Moreover the sign of the mass parameter m2 = −λv2 is crucial for the EW symmetry breaking to take place, but is not specified in the SM. The experimentally measured Higgs mass, mH ≃125 GeV, implies that λ ≃ 0.13 and |m| ≃ 88.8 GeV.
+
+The Higgs boson couplings to the fundamental particles are set by their masses; the SM Higgs couplings to fundamental fermions are linearly proportional to the fermion masses, whereas the couplings to bosons are proportional to the square of the boson masses.
+
+etc. pag 183
+ 
 
 Altro...\\ 
 (the interaction strengths of fermions with the Higgs boson H turns out to be proportional to their measured mass. Mass is thus a dynamic property of elementary particles due to their interaction with the Higgs field $\phi$. Mass is truly distinct from other intrinsic properties of particles like charge or spin. This is also true for the Higgs boson itself, which owes its mass to its own interaction with the Higgs field.)
+
+- From PDG
+
+The CP-even neutral component of the Higgs field acquires a vacuum expectation value $\rho_{0} \approx$ 246 GeV, which sets the scale of electroweak symmetry breaking. Three massless Goldstone bosons are generated and are absorbed to give masses to the W and Z gauge bosons. The remaining component of the complex doublet becomes the Higgs boson – a new fundamental scalar particle.
+
+as the SM Higgs boson is a scalar particle, at the quantum level it has sensitivity to high energy thresholds. Quite generally, the Higgs mass is affected by the presence of heavy particles and receives quantum corrections proportional to highest energy scale which destabilize the weak scale barring a large fine tuning of unrelated parameters. This is known as the hierarchy or naturalness problem.
+There are two broad classes of models addressing the naturalness problem1: one is based on a new fermion-boson symmetry in nature called supersymmetry (SUSY). in this case, the Higgs boson remains elementary and the corrections to its mass are screened at the scale at which SUSY [REF PDG] is broken and remain insensitive to the details of the physics at higher scales. These theories predict at least three neutral Higgs particles and a pair of charged Higgs particles. One of the neutral Higgs bosons, most often the lightest has properties that resemble those of the SM Higgs boson.
+
+The other approach invokes the existence of strong interactions at a scale of the order of a TeV or above and induces strong breaking of the electroweak symmetry [REF PDG] In the original incarnation of this second approach, dubbed technicolor, the strong interactions themselves trigger EWSB without the need of a Higgs boson.
+In the original incarnation of this second approach, dubbed technicolor, the strong interactions themselves trigger EWSB without the need of a Higgs boson.
+
+-- The naturalness problem has been the prime argument for new physics at the TeV scale, and sizable effects on the Higgs boson properties were expected.
 
 \subsection{Finally, the SM}
 The Standard Model Lagrangian is given in \ref{eq:SM_Lagr}.
@@ -375,6 +407,27 @@ The distribution of the diphoton reconstructed invariant mass with data collecte
  \label{fig:H-2gamma}
 \end{figure}
 
+
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=10cm]{HiggsMass_combined}
+	\caption{Summary of the CMS and ATLAS mass measurements in the $\gamma\gamma$ and ZZ channels in pp collisions during Run 1 and Run 2. (REF PDG19).}
+	 \label{fig:HiggsMass_combined}
+\end{figure}
+
+\subsection{Status of the Higgs boson physics - from PDG19}
+
+"Conclusion summary from PDG"\\
+Milestone measurements have been performed: (i) a clear observation of the Higgs boson decay to taus has been made by the CMS experiment; (ii) unambiguous evidence for the Higgs boson decay to a pair of b quarks was provided by both the ATLAS and CMS experiments; (iii) the ATLAS and CMS experiments have also provided evidence for the production of the Higgs boson through the  t$\bar{t}$ H mechanism, thus yielding direct evidence for the Yukawa coupling of the Higgs boson to top quarks, with a strength compatible with that of the Standard Model. These and all other experimental measurements are consistent with the EWSB mechanism of the Standard Model.
+
+Many extensions of the SM at higher energies call for an enlargement of the EWSB sector. Hence, direct searches for additional scalar states can provide valuable insights on the dynamics of the EWSB mechanism. The ATLAS and CMS experiments have searched for additional Higgs bosons in the Run 2 data, and imposed constraints in broad ranges of mass and couplings for various extended Higgs scenarios.
+
+
+
+
+
+
 \section{Physics Beyond the Standard Model}
 \subsection{Shortcomings of the SM}
 Shortcomings of the SM
@@ -402,13 +455,70 @@ However, the SM has several shortcomings, as described below.
 
 \subsection{SM extensions}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.75]{RunningCoupling}
+	\caption{Evolution of the couplings $\alpha_{i} = \frac{g_{i}^{2}}{4 \pi}$ as a function of the energy as predicted by the SM (on the left) and by the MSSM (on the right). The coupling constants of the strong weak and electromagnetic force are shown respectively in green, red and blue.}
+	\label{fig:RunningCoupling}
+\end{figure}
 
-\subsection{Analysis theorical intro}
-In nature there are no known symmetries that would forbid leptons decays in which the flavor is not conserved. 
-These lepton-flavor violation (LFV) decays can be of the kind: $l \rightarrow l' \gamma$, $l \rightarrow 3l'$ and $l \rightarrow 2\mu e/2e \mu$ 
-(where $l$ and $l'$ are leptons (e, $\mu$, $\tau$) with different flavor).
-Among these possible decays, the second one was chosen to be searched for in the work of this thesis. In particular, the analysis I have performed had the purpose to search for $\tau \rightarrow 3\mu$ decays. 
-Actually, in the SM with the neutrino oscillations, such kind of decays are possible and they are described in terms of Feynman diagrams as shown in Fig. \ref{fig:FD_SM}.
+\subsubsection*{Neutrino oscillations - by Wiki} 
+
+The so-called \emph{neutrino oscillations} is the phenomenon whereby a neutrino created with a specific lepton family number ("lepton flavor": electron, muon, or tau) can later be measured to have a different lepton family number.
+This phenomenon was predicted by Bruno Pontecorvo in 1957  and it has been observed by a several experiments in several different contexts. it implies that the neutrino has a non-zero mass, which requires a modification to the Standard Model of particle physics.
+
+The experimental discovery of neutrino oscillation, and thus neutrino mass, by the Super-Kamiokande Observatory and the Sudbury Neutrino Observatories was recognized with the 2015 Nobel Prize for Physics. 
+
+Neutrino oscillation arises from mixing between the flavor and mass eigenstates of neutrinos. That is, the three neutrino states that interact with the charged leptons in weak interactions are each a different superposition of the three (propagating) neutrino states of definite mass. Neutrinos are emitted and absorbed in weak processes in their flavor eigenstates[a] but travel as mass eigenstates.
+As a neutrino superposition propagates through space, the quantum mechanical phases of the three mass states advance at slightly different rates, due to the slight differences in their respective neutrino masses. This results in a changing superposition mixture of mass eigenstates as the neutrino travels.
+The electron flavor content of the neutrino will then continue to oscillate – as long as the quantum mechanical state maintains coherence. Since mass differences between neutrino flavors are small in comparison with long coherence lengths for neutrino oscillations, this microscopic quantum effect becomes observable over macroscopic distances.\\
+In contrast, due to their larger masses, the charged leptons (electrons, muons, and tau leptons) have never been observed to oscillate.
+
+The original Pontecorvo's idea was included in a quantitative theory developed by Maki, Nakagawa, and Sakata in 1962 and further elaborated by Pontecorvo in 1967 \cite{ref17}.
+
+This theory successfully explained the deficit observed in solar neutrinos the year later. 
+
+In its simplest form the neutrino oscillation is expressed as a unitary transformation relating the flavor and mass eigenbasis and can be written as:
+$$\ket{\nu_{\alpha}} = \sum_{i}U^{*}_{\alpha i}\ket{\nu_{i}}$$
+$$\ket{\nu_{i}} = \sum_{\alpha}U_{\alpha i}\ket{\nu_{\alpha}}$$
+where: 
+\begin{itemize}
+	\item $\ket{\nu_{\alpha}}$  is a neutrino with definite flavor $\alpha$ = e (electron), $\mu$ (muon) or $\tau$ (tauon),
+	\item $\ket{\nu_{i}}$ is a neutrino with definite mass $m_{i}, i=1,2,3$.
+\end{itemize}
+
+$U_{\alpha i}$ is the Pontecorvo–Maki–Nakagawa–Sakata matrix (PMNS matrix), which is the analogue of the CKM matrix describing the mixing of quarks. It is a  3$\times$3 matrix given by:
+$\begin{pmatrix}
+U_{e_{1}}	&	U_{e_{2}}	&	U_{e_{3}} \\
+U_{\mu_{1}}	&	U_{\mu_{2}}	&	U_{\mu_{3}} \\
+U_{\tau_{1}}	&	U_{\tau_{2}}	&	U_{\tau_{3}} \\
+\end{pmatrix} $
+
+Bla bla bla, se vuoi approfondisci ... (parametrizzazione matrice e risultati sperimentali up to now)
+
+\begin{equation}
+\begin{pmatrix}
+\nu_{e}\\
+\nu_{\mu}\\
+\nu_{\tau}\\
+\end{pmatrix}
+ = 
+\begin{pmatrix}
+U_{e_{1}}	&	U_{e_{2}}	&	U_{e_{3}} \\
+U_{\mu_{1}}	&	U_{\mu_{2}}	&	U_{\mu_{3}} \\
+U_{\tau_{1}}	&	U_{\tau_{2}}	&	U_{\tau_{3}} \\
+\end{pmatrix}
+\
+\begin{pmatrix}
+\nu_{e}\\
+\nu_{\mu}\\
+\nu_{\tau}\\
+\end{pmatrix}
+\label{PMNS_matrix}
+\end{equation}
+
+\section{Lepton Flavor Violation (LFV)}
+\subsection{LFV in SM}
 
 \begin{figure}[h]
 	\centering
@@ -417,10 +527,25 @@ Actually, in the SM with the neutrino oscillations, such kind of decays are poss
 	\label{fig:FD_SM}
 \end{figure}
 
-However, this kind of decay is predicted with a small branching fraction: $\mathcal{B}(\tau \rightarrow 3\mu\ \sim \mathcal{O}(10^{-14})$.  [ref. AN]
-In present day experiment a so low BR is not accessible!
-On the other hand, several theories that aim to extend the SM, called “Beyond Standard Model” (BSM) theories, allow these LFV decays with a BR which is enhanced of several orders of magnitude, resulting in cross section values which can be tested with current experiments[ref. AN].
-An example of the decay mechanisms predicted for this channel by one BSM is shown in Fig. \ref{fig:FD_BSM}.
+\subsection{LFV in BSM}
+
+\subsubsection*{Supersymmetric Model with R-Parity Violation}
+The discrete R-parity has been introduced into Supersymmetry \cite{ref15} because ...
+
+It is defined as: 
+\begin{equation}
+R_{p} = (-1)^{R} =
+\begin{cases}
++1 & \mathrm{for\ SM\ particles\ }(R-even)\\
+-1 & \mathrm{for\ SUSY\ particles\ }(R-odd)
+\end{cases}
+\end{equation}
+where $R$ is defined as $R=3B + L + 2S$ where $B$ and $L$ are respectively the baryon and the lepton numbers, while $S$ is the spin of the particle.
+
+This parity guarantees that the lightest supersymmetric particle is stable and therefore it is a good candidate for dark matter.
+
+In supersymmetric models with R-parity violation which are still possible with respect to the present experimental bounds, an additional non-diagonal Yukawa coupling between the charged leptons and sneutrinos allows lepton flavour violation in the charged lepton sector \cite{ref16}.\\
+The contributing Feynman diagram to the decay $\tau\rightarrow\mu\mu$ is depicted in Fig. \ref{fig:FD_BSM}.
 
 \begin{figure}[h]
 	\centering
@@ -428,6 +553,20 @@ An example of the decay mechanisms predicted for this channel by one BSM is show
 	\caption{FD/BSM.}
 	\label{fig:FD_BSM}
 \end{figure}
+
+
+\subsection{Analysis theorical intro}
+In nature there are no known symmetries that would forbid leptons decays in which the flavor is not conserved. 
+These lepton-flavor violation (LFV) decays can be of the kind: $l \rightarrow l' \gamma$, $l \rightarrow 3l'$ and $l \rightarrow 2\mu e/2e \mu$ 
+(where $l$ and $l'$ are leptons (e, $\mu$, $\tau$) with different flavor).
+Among these possible decays, the second one was chosen to be searched for in the work of this thesis. In particular, the analysis I have performed had the purpose to search for $\tau \rightarrow 3\mu$ decays. 
+Actually, in the SM with the neutrino oscillations, such kind of decays are possible and they are described in terms of Feynman diagrams as shown in Fig. \ref{fig:FD_SM}.
+
+
+However, this kind of decay is predicted with a small branching fraction: $\mathcal{B}(\tau \rightarrow 3\mu\ \sim \mathcal{O}(10^{-14})$.  [ref. AN]
+In present day experiment a so low BR is not accessible!
+On the other hand, several theories that aim to extend the SM, called “Beyond Standard Model” (BSM) theories, allow these LFV decays with a BR which is enhanced of several orders of magnitude, resulting in cross section values which can be tested with current experiments[ref. AN].
+An example of the decay mechanisms predicted for this channel by one BSM is shown in Fig. \ref{fig:FD_BSM}.
 
 The chosen of this particular decay channel to investigate this kind of violation is motivated by several reasons:
 \begin{enumerate}
@@ -1354,6 +1493,14 @@ If more than one triplet per event survives, it’s chosen the one with the best
 \mathrm{N_{sig(D)}} = N\ \cdot\frac{\mathcal{B}(D_{s} \rightarrow \tau \nu_{\tau})}{\mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu \mu \pi)}\ \frac{\mathcal{A}_{3\mu(D)}}{\mathcal{A}_{2\mu\pi}}\ \frac{\epsilon^{3\mu}_{reco}}{\epsilon^{2\mu\pi}_{reco}}\ \mathcal{B}(\tau \rightarrow 3\mu)
 \end{equation}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.6]{NDs_total}
+	\caption{NDs-total.}
+	\label{fig:NDs_total}
+\end{figure}
+
+
 \begin{table}[h!]\footnotesize
 	\centering
 	\begin{tabular}{|c|c|c|}
@@ -1657,6 +1804,18 @@ Concepts and Phenomena"}, Springer-Verlag, Berlin Heidelberg 1990.
 	\bibitem{ref12} CMS Collaboration, \emph{“Measurements of Higgs boson production via gluon fusion and vector boson fusion in the diphoton decay channel at $\sqrt{s}$ 13 TeV"}, CMS-PAS-HIG-18-029,\url{http://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/HIG-18-029/index.html}.	
 	\bibitem{ref13} ATLAS Collaboration, \emph{“Measurements and interpretations of the Higgs-boson fiducial cross sections in the diphotons decay channel using 139 $fb^{-1}$ of pp collision data at $\sqrt{s}$ = 13 TeV with the ATLAS detector"}, ATLAS-CONF-2019-029, \url{http://cds.cern.ch/record/2682800/files/ATLAS-CONF-2019-029.pdf?version=1}.
 
+	% Neutrino oscillations
+	\bibitem{ref17} B. Pontecorvo, \emph{“Neutrino Experiments and the Problem of Conservation of Leptonic Charge"}, Zh. Eksp. Teor. Fiz. 53: 1717–1725 (May 1968), \url{http://www.jetp.ac.ru/cgi-bin/dn/e_026_05_0984.pdf}.
+
+	\bibitem{ref18}
+	
+	% Ispirational thesis Giffels
+	\bibitem{ref14} M. Giffels thesis
+
+	% R-parity SUSY
+	\bibitem{ref15} R. Barbier et al., \emph{“R-parity violating supersymmetry"}, Physics Reports, 420 (2005), 1, \href{https://www.sciencedirect.com/science/article/abs/pii/S0370157305003327?via\%3Dihub}{doi:10.1016/j.physrep.2005.08.006}, \href{https://arxiv.org/abs/hep-ph/0406039}{arXiv:hep-ph/0406039}.
+	\bibitem{ref16} M. Giffels, J. Kallarackal, M. Kramer, B. O’Leary and A. Stahl, \emph{“The lepton-flavour violating decay $\tau\rightarrow\mu\mu$ at the LHC"}, Phys.Rev.D77:073010,2008, \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.77.073010}{doi:10.1103/PhysRevD.77.073010}, \href{https://arxiv.org/abs/0802.0049}{arXiv:0802.0049}.
+	
 	%Tau3Mu limits
 	\bibitem{ref102} Belle Collaboration, \emph{“Search for Lepton Flavor Violating Tau Decays into Three Leptons with 719 Million Produced Tau+Tau- Pairs”}, Phys. Lett. B 687 (2010) 139, \href{https://www.sciencedirect.com/science/article/pii/S0370269310003576?via\%3Dihub}{doi:10.1016/j.physletb.2010.03.037}, \href{https://arxiv.org/abs/1001.3221}{arXiv:1001.3221}.
 	\bibitem{ref103} BaBar Collaboration, \emph{“Limits on tau Lepton-Flavor Violating Decays in three charged leptons”}, Phys. Rev. D 81 (2010) 111101, \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.81.111101}{doi:10.1103/PhysRevD.81.111101}, \href{https://arxiv.org/abs/1002.4550}{arXiv:1002.4550}.
@@ -1664,9 +1823,6 @@ Concepts and Phenomena"}, Springer-Verlag, Berlin Heidelberg 1990.
 	\bibitem{ref108} ATLAS Collaboration, \emph{“Probing lepton flavour violation via neutrinoless $\tau\rightarrow 3\mu$ decays with the ATLAS detector”}, \href{https://arxiv.org/abs/1601.03567}{arXiv:1601.03567}.
 	
 
-%	\bibitem{ref14}
-%	\bibitem{ref15}
-%	\bibitem{ref16}
 %	\bibitem{ref17}
 %	\bibitem{ref18}
 %	\bibitem{ref19}
@@ -1762,42 +1918,42 @@ Concepts and Phenomena"}, Springer-Verlag, Berlin Heidelberg 1990.
 	
 		
 % Ref Analysis Note	
-%	\bibitem{ref100} X.-Y. Pham, \emph{“Lepton flavor changing in neutrinoless tau decays”}, Eur. Phys. J. C 8 (1999) 513–516, \href{https://link.springer.com/article/10.1007\%2Fs100529901088}{doi:10.1007/s100529901088}, \href{https://arxiv.org/abs/hep-ph/9810484}{ arXiv:hep-ph/9810484}.
-%	
-%	\bibitem{ref101} W. J. Marciano, T. Mori, and J. M. Roney, \emph{“Charged Lepton Flavor Violation Experiments”}, Ann. Rev. Nucl. Part. Sci. 58 (2008) 315, \href{https://www.annualreviews.org/doi/10.1146/annurev.nucl.58.110707.171126}{doi:10.1146/annurev.nucl.58.110707.171126}.
-%
-%	\bibitem{ref99} S. Mihara, J. P. Miller, P. Paradisi, and G. Piredda, \emph{“Charged Lepton Flavor-Violation Experiments”}, Ann. Rev. Nucl. Part. Sci. 63 (2013) 531–552, \href{https://www.annualreviews.org/doi/10.1146/annurev-nucl-102912-144530}{doi:10.1146/annurev-nucl-102912-144530}.
-%	
-%	\bibitem{ref104} T. Sjostrand, S. Mrenna, and P. Z. Skands, \emph{“A Brief Introduction to PYTHIA 8.1”}, Comput. Phys. Commun. 178 (2008) 852, \href{https://www.sciencedirect.com/science/article/pii/S0010465508000441?via\%3Dihub}{doi:10.1016/j.cpc.2008.01.036}, \href{https://arxiv.org/abs/0710.3820}{arXiv:0710.3820}.
-%
-%	%\bibitem{ref105} LHCb Collaboration, \emph{“The LHCb Detector at the LHC”}, JINST 3 (2008) S08005, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08005}{doi:10.1088/1748-0221/3/08/S08005}. -- Già messo!
-%	
-%	%\bibitem{ref106} ATLAS Collaboration, \emph{“The ATLAS Experiment at the CERN Large Hadron Collider”}, JINST 3 (2008) S08003, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08003}{doi:10.1088/1748-0221/3/08/S08003}. -- Già messo!
-%
-%	%\bibitem{ref109} CMS Collaboration, \emph{“The CMS experiment at the CERN LHC”}, JINST 3 (2008) S08004, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08004}{doi:10.1088/1748-0221/3/08/S08004}. -- Già messo!
-%
-%	\bibitem{ref110} CMS Collaboration, \emph{“Event generator tunes obtained from underlying event and multiparton scattering measurements”}, Eur. Phys. J. C 76 (2016), no. 3, 155, \href{https://link.springer.com/article/10.1140\%2Fepjc\%2Fs10052-016-3988-x}{doi:10.1140/epjc/s10052-016-3988-x}, \href{https://arxiv.org/abs/1512.00815}{arXiv:1512.00815}.
-%	
-%	\bibitem{ref111} GEANT4 Collaboration, \emph{“GEANT4 — a simulation toolkit”}, Nucl. Instrum. Meth. A 506 (2003) 250, \href{https://www.sciencedirect.com/science/article/pii/S0168900203013688?via\%3Dihub}{doi:10.1016/S0168-9002(03)01368-8}.
-%	
-%	\bibitem{ref112} Particle Data Group Collaboration, \emph{“Review of Particle Physics”}, Phys. Rev. D 98 (2018), no. 3, 030001, \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.030001}{doi:10.1103/PhysRevD.98.030001}. % AGGIORNALA !!!
-%	
-%	%\bibitem{ref113} CMS Collaboration, \emph{“Particle-flow reconstruction and global event description with the CMS detector”}, JINST 12 (2017) P10003, \href{https://iopscience.iop.org/article/10.1088/1748-0221/12/10/P10003}{doi:10.1088/1748-0221/12/10/P10003}, \href{https://arxiv.org/abs/1706.04965}{arXiv:1706.04965}.  -- Già messo!
-%	
-%	%\bibitem{ref114} CMS Collaboration, \emph{“Performance of the CMS muon detector and muon reconstruction with proton-proton collisions at $\sqrt{s}$=13 TeV"}, JINST 13 (2018) P06015, \href{https://iopscience.iop.org/article/10.1088/1748-0221/13/06/P06015}{doi:10.1088/1748-0221/13/06/P06015}, \href{https://arxiv.org/abs/1804.04528}{arXiv:1804.04528}. -- Già messo!
-%	
-%	\bibitem{ref115} CMS Collaboration, \emph{“Measurements of properties of the Higgs boson decaying into the four-lepton final state in pp collisions at $\sqrt{s}$ = 13 TeV"}, JHEP 11 (2017) 047, \href{https://link.springer.com/article/10.1007\%2FJHEP11\%282017\%29047}{doi:10.1007/JHEP11(2017)047}, \href{https://arxiv.org/abs/1706.09936}{arXiv:1706.09936}.
-%
-%	\bibitem{ref117b} G. Cowan, \emph{“Topics in statistical data analysis for high-energy physics"}, CERN Yellow Report CERN-2010-002, pp.197-218, \href{https://arxiv.org/abs/1012.3589}{arXiv:1012.3589}.
-%
-%	\bibitem{ref117} A. Hocker et al., \emph{“TMVA - Toolkit for Multivariate Data Analysis”}, PoS ACAT (2007)040, \href{https://arxiv.org/abs/physics/0703039}{arXiv:physics/0703039}.
-%	
-%	\bibitem{ref117c} Y. Freund and R. E. Schapire, \emph{A short introduction to boosting}, J. Jpn. Soc. Artif. Intell. 14 (1999) 771–780, \url{https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf}.
-%	
-%	\bibitem{ref118} T. Junk, \emph{“Confidence level computation for combining searches with small statistics”}, Nucl. Instrum. Meth. A 434 (1999) 435, \href{https://www.sciencedirect.com/science/article/pii/S0168900299004982?via\%3Dihub}{doi:10.1016/S0168-9002(99)00498-2}.
-%
-%	\bibitem{ref119} A. L. Read, \emph{“Presentation of search results: the CLs technique”}, J. Phys. G: Nucl. Part. Phys. 28 (2002) 2693, \href{https://iopscience.iop.org/article/10.1088/0954-3899/28/10/313}{doi:10.1088/0954-3899/28/10/313}.
-%	
+	\bibitem{ref100} X.-Y. Pham, \emph{“Lepton flavor changing in neutrinoless tau decays”}, Eur. Phys. J. C 8 (1999) 513–516, \href{https://link.springer.com/article/10.1007\%2Fs100529901088}{doi:10.1007/s100529901088}, \href{https://arxiv.org/abs/hep-ph/9810484}{ arXiv:hep-ph/9810484}.
+	
+	\bibitem{ref101} W. J. Marciano, T. Mori, and J. M. Roney, \emph{“Charged Lepton Flavor Violation Experiments”}, Ann. Rev. Nucl. Part. Sci. 58 (2008) 315, \href{https://www.annualreviews.org/doi/10.1146/annurev.nucl.58.110707.171126}{doi:10.1146/annurev.nucl.58.110707.171126}.
+
+	\bibitem{ref99} S. Mihara, J. P. Miller, P. Paradisi, and G. Piredda, \emph{“Charged Lepton Flavor-Violation Experiments”}, Ann. Rev. Nucl. Part. Sci. 63 (2013) 531–552, \href{https://www.annualreviews.org/doi/10.1146/annurev-nucl-102912-144530}{doi:10.1146/annurev-nucl-102912-144530}.
+	
+	\bibitem{ref104} T. Sjostrand, S. Mrenna, and P. Z. Skands, \emph{“A Brief Introduction to PYTHIA 8.1”}, Comput. Phys. Commun. 178 (2008) 852, \href{https://www.sciencedirect.com/science/article/pii/S0010465508000441?via\%3Dihub}{doi:10.1016/j.cpc.2008.01.036}, \href{https://arxiv.org/abs/0710.3820}{arXiv:0710.3820}.
+
+	%\bibitem{ref105} LHCb Collaboration, \emph{“The LHCb Detector at the LHC”}, JINST 3 (2008) S08005, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08005}{doi:10.1088/1748-0221/3/08/S08005}. -- Già messo!
+	
+	%\bibitem{ref106} ATLAS Collaboration, \emph{“The ATLAS Experiment at the CERN Large Hadron Collider”}, JINST 3 (2008) S08003, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08003}{doi:10.1088/1748-0221/3/08/S08003}. -- Già messo!
+
+	%\bibitem{ref109} CMS Collaboration, \emph{“The CMS experiment at the CERN LHC”}, JINST 3 (2008) S08004, \href{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08004}{doi:10.1088/1748-0221/3/08/S08004}. -- Già messo!
+
+	\bibitem{ref110} CMS Collaboration, \emph{“Event generator tunes obtained from underlying event and multiparton scattering measurements”}, Eur. Phys. J. C 76 (2016), no. 3, 155, \href{https://link.springer.com/article/10.1140\%2Fepjc\%2Fs10052-016-3988-x}{doi:10.1140/epjc/s10052-016-3988-x}, \href{https://arxiv.org/abs/1512.00815}{arXiv:1512.00815}.
+	
+	\bibitem{ref111} GEANT4 Collaboration, \emph{“GEANT4 — a simulation toolkit”}, Nucl. Instrum. Meth. A 506 (2003) 250, \href{https://www.sciencedirect.com/science/article/pii/S0168900203013688?via\%3Dihub}{doi:10.1016/S0168-9002(03)01368-8}.
+	
+	\bibitem{ref112} Particle Data Group Collaboration, \emph{“Review of Particle Physics”}, Phys. Rev. D 98 (2018), no. 3, 030001, \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.030001}{doi:10.1103/PhysRevD.98.030001}. % AGGIORNALA !!!
+	
+	%\bibitem{ref113} CMS Collaboration, \emph{“Particle-flow reconstruction and global event description with the CMS detector”}, JINST 12 (2017) P10003, \href{https://iopscience.iop.org/article/10.1088/1748-0221/12/10/P10003}{doi:10.1088/1748-0221/12/10/P10003}, \href{https://arxiv.org/abs/1706.04965}{arXiv:1706.04965}.  -- Già messo!
+	
+	%\bibitem{ref114} CMS Collaboration, \emph{“Performance of the CMS muon detector and muon reconstruction with proton-proton collisions at $\sqrt{s}$=13 TeV"}, JINST 13 (2018) P06015, \href{https://iopscience.iop.org/article/10.1088/1748-0221/13/06/P06015}{doi:10.1088/1748-0221/13/06/P06015}, \href{https://arxiv.org/abs/1804.04528}{arXiv:1804.04528}. -- Già messo!
+	
+	\bibitem{ref115} CMS Collaboration, \emph{“Measurements of properties of the Higgs boson decaying into the four-lepton final state in pp collisions at $\sqrt{s}$ = 13 TeV"}, JHEP 11 (2017) 047, \href{https://link.springer.com/article/10.1007\%2FJHEP11\%282017\%29047}{doi:10.1007/JHEP11(2017)047}, \href{https://arxiv.org/abs/1706.09936}{arXiv:1706.09936}.
+
+	\bibitem{ref117b} G. Cowan, \emph{“Topics in statistical data analysis for high-energy physics"}, CERN Yellow Report CERN-2010-002, pp.197-218, \href{https://arxiv.org/abs/1012.3589}{arXiv:1012.3589}.
+
+	\bibitem{ref117} A. Hocker et al., \emph{“TMVA - Toolkit for Multivariate Data Analysis”}, PoS ACAT (2007)040, \href{https://arxiv.org/abs/physics/0703039}{arXiv:physics/0703039}.
+	
+	\bibitem{ref117c} Y. Freund and R. E. Schapire, \emph{A short introduction to boosting}, J. Jpn. Soc. Artif. Intell. 14 (1999) 771–780, \url{https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf}.
+	
+	\bibitem{ref118} T. Junk, \emph{“Confidence level computation for combining searches with small statistics”}, Nucl. Instrum. Meth. A 434 (1999) 435, \href{https://www.sciencedirect.com/science/article/pii/S0168900299004982?via\%3Dihub}{doi:10.1016/S0168-9002(99)00498-2}.
+
+	\bibitem{ref119} A. L. Read, \emph{“Presentation of search results: the CLs technique”}, J. Phys. G: Nucl. Part. Phys. 28 (2002) 2693, \href{https://iopscience.iop.org/article/10.1088/0954-3899/28/10/313}{doi:10.1088/0954-3899/28/10/313}.
+	
 \end{thebibliography}
 
 \end{document}
