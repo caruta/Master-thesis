@@ -9,34 +9,24 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{SM extensions}{section.1.2}% 9
 \BOOKMARK [2][-]{subsection.1.2.3}{Analysis theorical intro}{section.1.2}% 10
 \BOOKMARK [0][-]{chapter.2}{The CMS experiment at LHC}{}% 11
-\BOOKMARK [1][-]{section.2.1}{The Large Hadron Collider}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.2}{The CMS experiment}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.1}{The coordinate system}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{Magnet}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.3}{Inner tracker}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.4}{Calorimeters}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.5}{Muon system}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.6}{CMS trigger system}{section.2.2}% 19
-\BOOKMARK [1][-]{section.2.3}{The World LHC Computing Grid}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Events reconstruction in CMS}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Particle Flow algorithm}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Tracks and Primary Vertex reconstruction}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Tracking of charged particles }{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{Tracking efficiency}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.3}{Primary Vertex reconstruction}{section.3.2}% 26
-\BOOKMARK [1][-]{section.3.3}{Muon reconstruction}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.1}{Local muon reconstruction}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.2}{Stand-alone muon reconstruction}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.3}{Global muon reconstruction}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.4}{Tracker muon reconstruction}{section.3.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.5}{Muon Identification}{section.3.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.6}{Muon efficiency}{section.3.3}% 33
-\BOOKMARK [1][-]{section.3.4}{Electron reconstruction}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.4.1}{Energy measurement}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.2}{Seeding}{section.3.4}% 36
-\BOOKMARK [2][-]{subsection.3.4.3}{Tracking}{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.4}{Association track-cluster}{section.3.4}% 38
-\BOOKMARK [1][-]{section.3.5}{Jets reconstruction}{chapter.3}% 39
-\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 40
-\BOOKMARK [1][-]{section.4.1}{Preliminary considerations}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.1.1}{Production of \040leptons at LHC}{section.4.1}% 42
+\BOOKMARK [0][-]{chapter.3}{Events reconstruction in CMS}{}% 12
+\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 13
+\BOOKMARK [1][-]{section.4.1}{Preliminary considerations}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.1.1}{Production of \040leptons at LHC}{section.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.1.2}{Signal acceptance}{section.4.1}% 16
+\BOOKMARK [1][-]{section.4.2}{Outline: search strategy}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Data and MonteCarlo samples}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{Datasets}{section.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.3.2}{MonteCarlo samples}{section.4.3}% 20
+\BOOKMARK [1][-]{section.4.4}{Event selection}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.5}{Signal Normalization}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.5.1}{Events triggered by DoubleMu L1 seeds}{section.4.5}% 23
+\BOOKMARK [2][-]{subsection.4.5.2}{B/D ratio}{section.4.5}% 24
+\BOOKMARK [2][-]{subsection.4.5.3}{Control channel}{section.4.5}% 25
+\BOOKMARK [1][-]{section.4.6}{Multivariate Analysis \(MVA\)}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.6.1}{Introduction to MVA: why to use it?}{section.4.6}% 27
+\BOOKMARK [2][-]{subsection.4.6.2}{Boosted Decision Tree \(BDT\)}{section.4.6}% 28
+\BOOKMARK [2][-]{subsection.4.6.3}{BDT training}{section.4.6}% 29
+\BOOKMARK [2][-]{subsection.4.6.4}{Event categorization}{section.4.6}% 30
+\BOOKMARK [1][-]{section.4.7}{Evaluation of systematics}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.8}{Results}{chapter.4}% 32
