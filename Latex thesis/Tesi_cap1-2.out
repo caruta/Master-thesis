@@ -2,35 +2,33 @@
 \BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
 \BOOKMARK [2][-]{subsection.1.1.1}{Fundamental particles and gauge symmetries}{section.1.1}% 3
 \BOOKMARK [2][-]{subsection.1.1.2}{Spontaneous Symmetry Breaking}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{Finally, the SM}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.4}{The discovery of the Higgs boson}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.5}{Status of the Higgs boson physics - from PDG19}{section.1.1}% 7
-\BOOKMARK [1][-]{section.1.2}{Physics Beyond the Standard Model}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.2.1}{Shortcomings of the SM}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.2}{SM extensions}{section.1.2}% 10
-\BOOKMARK [1][-]{section.1.3}{Lepton Flavor Violation \(LFV\)}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.3.1}{LFV in SM}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.2}{LFV in BSM}{section.1.3}% 13
-\BOOKMARK [2][-]{subsection.1.3.3}{Analysis theorical intro}{section.1.3}% 14
-\BOOKMARK [0][-]{chapter.2}{The CMS experiment at LHC}{}% 15
-\BOOKMARK [0][-]{chapter.3}{Events reconstruction in CMS}{}% 16
-\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 17
-\BOOKMARK [1][-]{section.4.1}{Preliminary considerations}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.1.1}{Production of \040leptons at LHC}{section.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.1.2}{Signal acceptance}{section.4.1}% 20
-\BOOKMARK [1][-]{section.4.2}{Outline: search strategy}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.3}{Data and MonteCarlo samples}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.3.1}{Datasets}{section.4.3}% 23
-\BOOKMARK [2][-]{subsection.4.3.2}{MonteCarlo samples}{section.4.3}% 24
-\BOOKMARK [1][-]{section.4.4}{Event selection}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.5}{Signal Normalization}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.5.1}{Events triggered by DoubleMu L1 seeds}{section.4.5}% 27
-\BOOKMARK [2][-]{subsection.4.5.2}{B/D ratio}{section.4.5}% 28
-\BOOKMARK [2][-]{subsection.4.5.3}{Control channel}{section.4.5}% 29
-\BOOKMARK [1][-]{section.4.6}{Multivariate Analysis \(MVA\)}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.6.1}{Introduction to MVA: why to use it?}{section.4.6}% 31
-\BOOKMARK [2][-]{subsection.4.6.2}{Boosted Decision Tree \(BDT\)}{section.4.6}% 32
-\BOOKMARK [2][-]{subsection.4.6.3}{BDT training}{section.4.6}% 33
-\BOOKMARK [2][-]{subsection.4.6.4}{Event categorization}{section.4.6}% 34
-\BOOKMARK [1][-]{section.4.7}{Evaluation of systematics}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.8}{Results}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.1.1.3}{Status of the Higgs boson physics}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{Shortcomings of the SM}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Physics Beyond the Standard Model}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{SM extensions}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Lepton Flavor Violation \(LFV\)}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{LFV in SM}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{LFV in BSM}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Analysis theorical intro}{section.1.3}% 12
+\BOOKMARK [0][-]{chapter.2}{The CMS experiment at LHC}{}% 13
+\BOOKMARK [0][-]{chapter.3}{Events reconstruction in CMS}{}% 14
+\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 15
+\BOOKMARK [1][-]{section.4.1}{Preliminary considerations}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{Production of \040leptons at LHC}{section.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.1.2}{Signal acceptance}{section.4.1}% 18
+\BOOKMARK [1][-]{section.4.2}{Outline: search strategy}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Data and MonteCarlo samples}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.3.1}{Datasets}{section.4.3}% 21
+\BOOKMARK [2][-]{subsection.4.3.2}{MonteCarlo samples}{section.4.3}% 22
+\BOOKMARK [1][-]{section.4.4}{Event selection}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.5}{Signal Normalization}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.5.1}{Events triggered by DoubleMu L1 seeds}{section.4.5}% 25
+\BOOKMARK [2][-]{subsection.4.5.2}{B/D ratio}{section.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.5.3}{Control channel}{section.4.5}% 27
+\BOOKMARK [1][-]{section.4.6}{Multivariate Analysis \(MVA\)}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.6.1}{Introduction to MVA: why to use it?}{section.4.6}% 29
+\BOOKMARK [2][-]{subsection.4.6.2}{Boosted Decision Tree \(BDT\)}{section.4.6}% 30
+\BOOKMARK [2][-]{subsection.4.6.3}{BDT training}{section.4.6}% 31
+\BOOKMARK [2][-]{subsection.4.6.4}{Event categorization}{section.4.6}% 32
+\BOOKMARK [1][-]{section.4.7}{Evaluation of systematics}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.8}{Results}{chapter.4}% 34
