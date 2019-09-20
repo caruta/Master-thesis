@@ -1,9 +1,9 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Standard Model and new physics searches}{4}{chapter.1}
+\contentsline {chapter}{\numberline {1}The Standard Model and its extensions}{4}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Fundamental particles and gauge symmetries}{4}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Spontaneous Symmetry Breaking}{9}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Status of the Higgs boson physics}{13}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Status of the Higgs boson physics and last observations}{13}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Physics Beyond the Standard Model}{16}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Shortcomings of the SM}{16}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}SM extensions}{18}{subsection.1.2.2}
@@ -11,26 +11,33 @@
 \contentsline {subsection}{\numberline {1.3.1}LFV in the SM with neutrino oscillations}{21}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}LFV in BSM theories}{22}{subsection.1.3.2}
 \contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{24}{chapter.2}
-\contentsline {chapter}{\numberline {3}Events reconstruction in CMS}{25}{chapter.3}
-\contentsline {chapter}{\numberline {4}Analysis }{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Preliminary considerations}{26}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Motivations and previous results}{26}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Production of $\tau $ leptons at LHC}{27}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Signal acceptance}{28}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Outline: search strategy}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Data and MonteCarlo samples}{28}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Datasets}{28}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}MonteCarlo samples}{28}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Event selection}{29}{section.4.4}
-\contentsline {section}{\numberline {4.5}Signal Normalization}{30}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Events triggered by DoubleMu L1 seeds}{30}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}B/D ratio}{31}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Control channel}{31}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Multivariate Analysis (MVA)}{33}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Introduction to MVA: why to use it?}{33}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Boosted Decision Tree (BDT)}{33}{subsection.4.6.2}
-\contentsline {subsubsection}{Training a decision tree}{35}{section*.33}
-\contentsline {subsection}{\numberline {4.6.3}BDT training}{37}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Event categorization}{37}{subsection.4.6.4}
-\contentsline {section}{\numberline {4.7}Evaluation of systematics}{37}{section.4.7}
-\contentsline {section}{\numberline {4.8}Results}{38}{section.4.8}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{24}{section.2.1}
+\contentsline {section}{\numberline {2.2}The CMS experiment}{28}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The coordinate system}{28}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnet}{29}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Inner tracker}{30}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Calorimeters}{31}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Muon system}{34}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}CMS trigger system}{38}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}The World LHC Computing Grid}{40}{section.2.3}
+\contentsline {chapter}{\numberline {3}Events reconstruction in CMS}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Particle Flow algorithm}{41}{section.3.1}
+\contentsline {section}{\numberline {3.2}Tracks and Primary Vertex reconstruction}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tracking of charged particles }{43}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Tracking efficiency}{45}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Primary Vertex reconstruction}{47}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Muon reconstruction}{48}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Local muon reconstruction}{49}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Stand-alone muon reconstruction}{50}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Global muon reconstruction}{50}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Tracker muon reconstruction}{51}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Muon Identification}{51}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Muon efficiency}{53}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Electron reconstruction}{55}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Energy measurement}{55}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Seeding}{56}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Tracking}{56}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Association track-cluster}{57}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Jets reconstruction}{57}{section.3.5}
+\contentsline {chapter}{\numberline {4}Analysis }{59}{chapter.4}
+\contentsline {chapter}{Bibliography}{60}{chapter*.62}
