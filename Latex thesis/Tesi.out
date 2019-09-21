@@ -1,0 +1,24 @@
+\BOOKMARK [0][-]{chapter.1}{The Standard Model and its extensions}{}% 1
+\BOOKMARK [0][-]{chapter.2}{The CMS experiment at LHC}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Events reconstruction in CMS}{}% 3
+\BOOKMARK [0][-]{chapter.4}{Analysis }{}% 4
+\BOOKMARK [1][-]{section.4.1}{Preliminary considerations}{chapter.4}% 5
+\BOOKMARK [2][-]{subsection.4.1.1}{Motivations and previous results}{section.4.1}% 6
+\BOOKMARK [2][-]{subsection.4.1.2}{Production of \040leptons at LHC}{section.4.1}% 7
+\BOOKMARK [2][-]{subsection.4.1.3}{Signal acceptance}{section.4.1}% 8
+\BOOKMARK [2][-]{subsection.4.1.4}{Outline: search strategy}{section.4.1}% 9
+\BOOKMARK [1][-]{section.4.2}{Data and MonteCarlo samples}{chapter.4}% 10
+\BOOKMARK [2][-]{subsection.4.2.1}{Datasets}{section.4.2}% 11
+\BOOKMARK [2][-]{subsection.4.2.2}{MonteCarlo samples}{section.4.2}% 12
+\BOOKMARK [1][-]{section.4.3}{Event selection}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.4}{Signal Normalization}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.4.1}{Events triggered by DoubleMu L1 seeds}{section.4.4}% 15
+\BOOKMARK [2][-]{subsection.4.4.2}{B/D ratio}{section.4.4}% 16
+\BOOKMARK [2][-]{subsection.4.4.3}{Control channel}{section.4.4}% 17
+\BOOKMARK [1][-]{section.4.5}{Multivariate Analysis \(MVA\)}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.5.1}{Introduction to MVA: why to use it?}{section.4.5}% 19
+\BOOKMARK [2][-]{subsection.4.5.2}{Boosted Decision Tree \(BDT\)}{section.4.5}% 20
+\BOOKMARK [2][-]{subsection.4.5.3}{Event categorization}{section.4.5}% 21
+\BOOKMARK [1][-]{section.4.6}{Evaluation of systematics}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.7}{Results}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter*.44}{Bibliography}{}% 24
