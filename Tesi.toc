@@ -1,0 +1,43 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}The Standard Model and its extensions}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Fundamental particles and gauge symmetries}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Spontaneous Symmetry Breaking}{10}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Status of SM observations at LHC}{14}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Physics Beyond the Standard Model}{19}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Shortcomings of the SM}{19}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}SM extensions}{21}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Lepton Flavor Violation (LFV)}{23}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}LFV in the SM with neutrino oscillations}{24}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}LFV in BSM theories}{24}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}The CMS experiment}{31}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The coordinate system}{31}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnet}{32}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Inner tracker}{33}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Calorimeters}{34}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Muon system}{37}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}CMS trigger system}{41}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}The World LHC Computing Grid}{43}{section.2.3}
+\contentsline {chapter}{\numberline {3}Events reconstruction in CMS}{44}{chapter.3}
+\contentsline {section}{\numberline {3.1}Particle Flow algorithm}{44}{section.3.1}
+\contentsline {section}{\numberline {3.2}Tracks and Primary Vertex reconstruction}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tracking of charged particles }{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Tracking efficiency}{48}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Primary Vertex reconstruction}{50}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Muon reconstruction}{51}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Local muon reconstruction}{52}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Stand-alone muon reconstruction}{53}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Global muon reconstruction}{53}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Tracker muon reconstruction}{54}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Muon Identification}{54}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Muon efficiency}{56}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Electron reconstruction}{58}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Energy measurement}{58}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Seeding}{59}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Tracking}{59}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Association track-cluster}{60}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Jets reconstruction}{60}{section.3.5}
+\contentsline {chapter}{\numberline {4}Analysis }{62}{chapter.4}
+\contentsline {chapter}{Bibliography}{63}{chapter*.64}
