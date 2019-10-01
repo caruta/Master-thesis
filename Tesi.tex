@@ -731,6 +731,7 @@
 %Starting from the MSSM, several theories with additional requirements have been developed; I will describe in more details two of them, the MSSM with See-Saw mechanism and the MSSM with R-Parity Violation, whose predictions will be tested in the physics analysis described in this thesis.
 %
 %\section{Lepton Flavor Violation (LFV)}
+%\label{LFV}
 %As discussed in section \ref{symm}, many fundamental conservation laws are the consequence of the Noether's theorem (e.g. energy, momentum and charge conservation). Additional conservation laws have been introduced in the SM without an underlying simmetry, in order to account for the lack of observation of some processes which are in principle allowed in the theory. \\
 %This is, for example, the case of the lepton flavor.
 %
@@ -805,6 +806,7 @@
 %After an overview of the accelerator, I will describe in detail the Compact Muon Solenoid (CMS) experiment, which is the one, among the experiments located around the LHC ring, that collected the data used in the analysis described in this thesis.
 %
 %\section{The Large Hadron Collider}
+%\label{LHC}
 %The LHC is a proton-proton (pp) and heavy ions collider built by the European Organization for Nuclear Research (CERN) between 1998 and 2008 and situated beneath the France-Switzerland border near the city of Geneva \cite{ref30}. The accelerator, along with the detectors, is the product of an impressive effort that has required the collaboration of more than 100 countries with over 10 thousand scientists.
 %LHC is placed in a tunnel of 26.7 km in circumference, previously used for the Large Electron Positron (LEP) collider \cite{ref31}, with an average depth of about 100 metres underground. The whole accelerating system is made up of different stages, as shown in Fig. \ref{fig:LHC_complex}. 
 %
@@ -1119,6 +1121,7 @@
 %In order to minimize the decision time, the selection is made in a sequence of nested logical steps: initially only some parts of the event, the less expensive in computational terms, are reconstructed (e.g. the deposit energy in the ECAL) and a filter is applied in order to decide if the reconstructed objects pass the trigger thresholds. If this is the case, the reconstruction continues with the successive step, otherwise the execution of the path is stopped.
 %
 %\section{The World LHC Computing Grid}
+%\label{WLCG}
 %Events that have fired the HLT are stored and then reprocessed in order to be analysed.
 %In order to deal with the very demanding requirements that storing, processing and analysing the huge amount of data produced at LHC experiments pose, an infrastructures worldwide distributed, called \emph{World LHC Computing Grid} (WLCG) has been created \cite{ref50}.
 %It is made up of 170 computer centres distributed in 42 countries, with a total of $\sim$1 million of computer cores and 1 exabyte of storage.
@@ -1495,26 +1498,17 @@
 %\end{figure}
 
 \newpage
-\chapter{Analysis }
-(This analysis was performed in CMS on the 2016 data: int. lumi of 33 $fb^{-1}$ of pp collision at center of mass energy $\sqrt{s}$ = 13 TeV. No signal has been observed, putting an upper limit on the branching fraction of the tau lepton decaying in 3 muons $\mathcal{B}(\tau \rightarrow 3\mu)$ of 8.8 $\times10^{-8}$ at 90\% confidence level. -> Si può citare il PAS ?) 
+\chapter{Analysis}
+In this chapter I will be described the search for the $\tau \rightarrow 3\mu$ decay carried out using the $\tau$ leptons produced from the decay of $D$ and $B$ mesons, in data collected by CMS experiment in pp collisions during the 2017 data-taking, at a center of mass energy of 13 TeV. \\
+The motivations underlying the choice of this analysis have been extensively described in section \ref{LFV}. There can be just recalled the most important of them, i.e. the fact that, form one side LHC is a tau factory and on the other side CMS is very performant in the muon detection, as well as the large enhancement in the branching fraction of this decay expected from some BSM theories.
 
-In this chapter the search for the decay $\tau \rightarrow 3\mu$ using the data collected by CMS in pp collisions during the 2017 data-taking at a center of mass energy of 13 TeV, will be described. 
-First of all some preliminary information about previous results obtained by other experiments searching for this decay will be given, along with technical information ??.\\
-Then the search strategy will be outlined, and each step of the analysis will be described in details and finally, the obtained results will be discussed.
-
-
+In the first part of the chapter some information about previous searches for this decay will be provided, along with preliminary considerations about the feasibility of this search based on the expected number of tau leptons and the signal acceptance in CMS.\\
+Then, in the second part, the strategy of this search will be outlined, and each step of the analysis will be described in details together with the obtained results.
 
 \section{Preliminary considerations}
-\subsection{Motivations and previous results}
-The chosen of the decay $\tau \rightarrow 3 \mu$ is motivated by several reasons:
-\begin{itemize}
-	\item As already seen in (REF paragrafo), Other kind of LFV decays are expected to be extremely suppressed, with a BR many orders of magnitude smaller! (For example: $\mathcal{B}(\tau \rightarrow \mu\gamma\ \sim \mathcal{O}(10^{- 40})$). Moreover the enhancement of the BR is mass-dependent!
-	\item LHC is a $\tau$ factory! the expected inclusive production cross section for pp collisions is about 2 $\times$ 10$^{11}$ fb . [ref. AN] 
-	\item CMS is brilliant in detecting muons
-\end{itemize}
-
-The search for this kind of decay has been already performed in the last years by different experiments, but no signal has never been observed, leading to the determination of an upper limit value for the BR of the process.
-The best experimental value set for this upper limit, up to now, is the one obtained by Belle experiment: $\mathcal{B}(\tau \rightarrow 3\mu\ \leq\ 2.1\cdot10^{-8}$ at 90\% confidence level \cite{ref102}. A similar result was obtained by BaBar, another experiment operating, as Belle, at an $e^{+}e^{-}$ collider and now decommissioned; it set the limit at $3.3\cdot10^{-8}$ \cite{ref103}.
+\subsection{Previous results}
+The search for this kind of decay has been already performed in the last years by different experiments, but no signal has never been observed, leading to the determination of an upper limit value for the BR of the process.\\
+The best experimental value set for this upper limit, up to now, is the one obtained by Belle experiment: $\mathcal{B}(\tau \rightarrow 3\mu\ \leq\ 2.1\cdot10^{-8}$ at 90\% confidence level \cite{ref102}. A similar result was obtained by BaBar, another experiment operating, as Belle, at an $e^{+}e^{-}$ collider and now decommissioned; it set the upper limit at $3.3\cdot10^{-8}$ \cite{ref103}.
 
 Also LHC experiments have looked for this decay, with the following results:
 \begin{itemize}
@@ -1523,19 +1517,11 @@ Also LHC experiments have looked for this decay, with the following results:
 	\item CMS (only 2016 data - 33 $fb^{-1}$) : 8.8 $\times 10^{-8}$ \cite{ref108a}.\\
 	Nominare Manzoni ?
 \end{itemize}
+
+(This analysis was performed in CMS on the 2016 data: int. lumi of 33 $fb^{-1}$ of pp collision at center of mass energy $\sqrt{s}$ = 13 TeV. No signal has been observed, putting an upper limit on the branching fraction of the tau lepton decaying in 3 muons $\mathcal{B}(\tau \rightarrow 3\mu)$ of 8.8 $\times10^{-8}$ at 90\% confidence level. -> Si può citare il PAS ?) 
+
 \subsection{Production of $\tau$ leptons at LHC}
-
-As said previously, the LHC collider is a $\tau$ factory! 
-These leptons can be produced in different processes, leading to an estimation of the total INCLUSIVE number of them of $\sim$ 2 $\times$ 10$^{11}$ fb.
-
-( qui ci sarebbe la tabella con i vari processi e il relativo numero di leptoni … quella della Florida è riferita alla luminosità del 2016)!
-
-In pp collisions, $\tau$ leptons are produced mainly from hadrons containing c or b quarks (in particular from D and B mesons and only rarely from c/b-baryons) and from the decays of W and Z bosons: $W \rightarrow \tau \nu_{\tau }$ and $Z\rightarrow \tau^{+}\tau^{-}$. 
-
-Tau leptons can be originated also by B meson decaying in D mesons that in turn decays in tau lepton + neutrino. 
-These “indirect” decays can be distinguished from the “direct/prompt” ones (from directly produced D mesons) because they are characterized by larger transverse momenta and displaced vertices.
-
-The expected inclusive number of $\tau$ coming from different processes, for the integrated luminosity of the 2017 data-taking, i.e. $\mathcal{L} = 38\ fb^{-1}$, is reported in Tab. \ref{tab:ExpectedTau}. 
+At LHC $\tau$ leptons can be produced in different processes, and the expected inclusive production cross section, at a center of mass energy of 13 TeV, is of $\sim$ 2 $\times$ 10$^{11}$ fb. The expected inclusive number of them, for the different processes, for an integrated luminosity of $\mathcal{L} = 38\ fb^{-1}$ (which is the one of 2017), are listed in Tab. \ref{tab:ExpectedTau}. 
 
 \begin{table}[h!]\footnotesize
 	\centering
@@ -1552,13 +1538,18 @@ The expected inclusive number of $\tau$ coming from different processes, for the
 	$pp\rightarrow Z+...$	&	$Z+...\rightarrow\tau\tau+...$	&	$1.50\cdot10^{8}$\\ 
 	\hline
 	\end{tabular}
-	\caption{List of processes from which $\tau$ leptons are produced, with their corresponding expected inclusive number for $\mathcal{L} = 38\ fb^{-1}$. The charge-conjugated states are included. }
+	\caption{List of processes from which $\tau$ leptons are produced at LHC, with the corresponding expected inclusive numbers for $\mathcal{L} = 38\ fb^{-1}$. The charge-conjugated states are included.\\ The expected number of $\tau$ coming from decays of $D/B$ mesons was estimated using the LO event generator PYTHIA 8  \cite{ref104} set for inelastic pp interactions using a total inelastic cross section of 80 mb. The expected number of $\tau$ produced by $W$ and $Z$ bosons was extimated using the NNLO $pp \rightarrow W \rightarrow \tau \nu_{\tau}$ and $pp \rightarrow Z \rightarrow \tau \tau$ cross sections at 13 TeV 19.7 and 1.87 nb, respectively.}
 	\label{tab:ExpectedTau}
 \end{table}
 
-Non so se ho già detto da qualche parte che noi abbiamo scelto di guardare in particolare ai tau prodotti dai mesoni con heavy flavor, ma che in realtà un certo numero di tau è anche prodotto dai bosoni W e Z (vedi Manzoni).
+As it is evident from the table, the main sources of $\tau$ leptons are the hadrons containing $c$ or $b$ quarks, in particular they are essentially $D$ and $B$ mesons, and only rarely $c/b$-baryons. Actually, this last contribution is so small in comparison to direct D/B-decays therefore, it is henceforth ignored.\\ 
+Another possible source of these leptons are the $W$ and $Z$ bosons, that can decay in the following ways: $W \rightarrow \tau \nu_{\tau }$ and $Z\rightarrow \tau^{+}\tau^{-}$. \\
+The leptons originated from the $D$ and $B$ mesons have different characteristics from the ones produced by the decay of $W$ and $Z$ bosons (The average transverse momenta of last taus are expected to be very high in comparison to the ones coming from B/D mesons of direct production), therefore different analysis strategy are needed to search these "two kinds of leptons". For the search described in this theses, only $\tau$ of the first type, i.e. coming from the decay of $D$ and $B$ mesons, have been used.
 
-The relative $\tau$ yields are listed in Tab. \ref{tab:relativeTauYield}. It is possible to notice that the largest contribution to the number of $\tau$ comes from the decay of $D$ mesons, which happens in 75\% of the cases (in particular from the decay of the $\mathrm{D_{s}}$ mesons), but there is also a contribution from the decay of the $B$ mesons, which occurs in the 25\% of the total cases.
+Tau leptons can, not only originated from the decay of D mesons produced "promptly", but also from the D mesons produced from the decay of a B meson, which are listed separately in the table. These “indirect” decays can be distinguished from the “direct/prompt” ones (from directly produced D mesons) because they are characterized by larger transverse momenta and displaced vertices. // as it will be shown later...
+
+The relative $\tau$ yields from the different mother-mesons are listed in Tab. \ref{tab:relativeTauYield}.\\
+Rivedere: It is possible to notice that the largest contribution to the number of $\tau$ comes from the decay of $D$ mesons, which happens in 75\% of the cases (in particular from the decay of the $\mathrm{D_{s}}$ mesons), but there is also a contribution from the decay of the $B$ mesons, which occurs in the 25\% of the total cases.
 
 \begin{table}[h!]\footnotesize
 	\centering
@@ -1576,8 +1567,17 @@ The relative $\tau$ yields are listed in Tab. \ref{tab:relativeTauYield}. It is 
 	\label{tab:relativeTauYield}
 \end{table}
 
+The $D_{s}^{\pm}$ mesons decays in $c\hat{s} \rightarrow W^{*} \rightarrow \tau + \nu_{\tau}$ and charge conjugate (CC), have a branching fraction of $\mathcal{B}(D_{s} \rightarrow \tau + \nu_{\tau})$ = 5.48\% \cite{ref112}. These decays are very similar to the decay of pions : $\pi \rightarrow \mu \nu_{\mu}$.\\
+The $D^{\pm}$ mesons decays: $c\hat{d} \rightarrow W^{*} \rightarrow \tau + \nu_{\tau}$ (and CC) are suppressed by the Cabibbo angle and very little phase space available, because $m_{D}^{+} - m_{\tau} \sim$ 100 MeV). $D_{0}$ mesons ($c\hat{u}$ and CC) cannot decay to $\tau$ leptons (with only one EWK vertex involved) since at least one more charged Kaon/pion ($c \rightarrow (s/d)W^{*}$) needs to be produced in such a decay, which is not kinematically possible. Indeed, $m_{D_{0}} (1,865) <
+80 m_{\tau} (1,777) + m_{\pi^{\pm}} (140)$,where particles’ masses shown in parentheses are given in MeV.
 
-\subsection{Signal acceptance}
+$B$ mesons decay directly to $\tau$ leptons via $b \rightarrow cW^{*} \rightarrow c(\tau \nu_{\tau})$ with the branching fraction of 3\% \cite{ref112}. Decays $b \rightarrow uW^{*}$ are highly suppressed by the small CKM mixing angle between 1st and 3rd fermion generations. All $B$ meson decays almost always produce $D$ mesons, some of which in turn can decay to $\tau$ leptons, as described above.
+
+
+\subsection{Signal acceptance at generator level}
+
+Challenge for CMS: muons from the $\tau \rightarrow 3\mu$ decays, with $\tau$ coming from B and D mesons, have very low momenta and are significantly boosted in the forward direction, as it is possible to see in Fig. \ref{fig:Momentum_genLevel}. In particular, even if the mother particles have different kinematics, the difference in momentum of $\tau$ leptons is barely visible, despite $B$ mesons are quite heavier than $D$ mesons.\\
+Figure varie... 
 
 \begin{figure}[h!]
    \centering
@@ -1586,6 +1586,8 @@ The relative $\tau$ yields are listed in Tab. \ref{tab:relativeTauYield}. It is 
 	\label{fig:Momentum_genLevel}
 \end{figure}
 
+The CMS fiducial volume to reconstruct muons is $|\eta| <$ 2.4 and $p >$ 2.5 GeV (muons of momentum less than 2.5 GeV have no chance at all to reach the Muon chambers) - REF. From Fig. varie \ref{fig:Eta_genLevel}, it can be seen that only about 2\% generator level events are in this fiducial volume.
+
 \begin{figure}[h!]
    \centering
    \includegraphics[width=15cm]{Eta_genLevel}
@@ -1593,13 +1595,21 @@ The relative $\tau$ yields are listed in Tab. \ref{tab:relativeTauYield}. It is 
 	\label{fig:Eta_genLevel}
 \end{figure}
 
+To better illustrate the effect of muon momentum or transverse momentum cut on signal acceptance, Fig. \ref{fig:Efficiency_genLevel} plots efficiencies as a function of cut on p or pT of all 3 muons, while all muons have $|\eta| <$ 2.4.
+
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=15cm]{Efficiency_genLevel}
+	\caption{Efficiency\_genLevel}
+	\label{fig:Efficiency_genLevel}
+\end{figure}
+
 \section{Data and MonteCarlo samples}
 \subsection{Datasets}
-For the analysis described in this thesis, I have used data collected by CMS in pp collisions at a center of mass energy $\sqrt{s}$ = 13 TeV during Run II in the whole 2017.\\ 
-(from raffa: The data recorded by CMS are stored in several different datasets. All events that are accepted by a specific set of high level triggers enter one specific dataset, so that the choice of a trigger for the analysis defines which dataset has to be used.
-During 2017 there have been 5 running periods labeled from B to F. 
-The datasets used in this analysis are the \emph{DoubleMuonLowMass} datasets, which are listed in Tab. \ref{tab:2017datasets}.\\
-They correspond to a total integrated luminosity: $\mathcal{L} = 38\ fb^{-1}$.\\
+For the analysis described in this thesis, I have used data collected by CMS in pp collisions at a center of mass energy $\sqrt{s}$ = 13 TeV during Run II in the whole 2017 data-taking. During 2017 there have been 5 running periods labeled from B to F. \\
+As already said in \ref{WLCG}, the data recorded by CMS are stored in several different primary datasets, depending on the trigger with which they were collected.
+The datasets used in this analysis are the \emph{DoubleMuonLowMass} ones, which are listed in Tab. \ref{tab:2017datasets}, along with their run ranges and integrated luminosity.\\
+The whole data used correspond to a total integrated luminosity: $\mathcal{L} = 38\ fb^{-1}$.\\
 
 \begin{table}[h!]\footnotesize
 	\centering
@@ -1618,20 +1628,20 @@ They correspond to a total integrated luminosity: $\mathcal{L} = 38\ fb^{-1}$.\\
 	\label{tab:2017datasets}
 \end{table}
 
-(Only runs that satisfy the data quality criteria were used in the analysis. These runs are listed in a file in the JSON format)
-The json file used for data processing is: 
+Only runs that satisfy the data quality criteria, ensuring that they were recorded when all detector subsystems were at the nominal operation conditions, which are listed in a file in the JSON format, were used in the analysis. The json file used for data processing is: 
 Collisions17/13TeV/ReReco/Cert\_294927-306462\_13TeV\_EOY2017ReReco\_Collisions17\_JSON\_v1.txt.
-The integrated luminosity of the whole 2017 is of $\sim38 fb^{-1}$. 
+
+- Devo elencare già qui gli L1 e HLT trigger ?
 
 \subsection{MonteCarlo samples}
-
-The MC samples used in this analysis are listed in Tab. \ref{tab:MCsamples}.
+The MC samples, used to model signal and normalization processes, that have been used in this analysis are listed in Tab. \ref{tab:MCsamples}.\\
+They are official CMS productions and they simulate $\tau$ coming from $D_{s}$, $B^{\pm}$ and $B^{0}$ decays, which correspond to  $sim$94\% of total $\tau$ production, as shown in \ref{tab:relativeTauYield}.
 
 \begin{table}[h!]\footnotesize
 	\centering
 	\begin{tabular}{|l|l|c|}
 	\hline
-	Simulated process 	& 	MC Dataset name	&	N. events (M)\\ \hline \hline
+	Simulated process 	& 	MC Dataset name	&	N. events \\ \hline \hline
 	$D_{s} \rightarrow \tau \nu_{\tau} \rightarrow 3\mu \nu_{\tau}$	&	/DsToTau_To3Mu\_MuFilter\_TuneCUEP8M1\_13TeV-	&	\\
 		& pythia8/RunIIFall17DRPremix-PU2017\_94X\_mc2017\_	&	\\
 			&	realistic\_v11-v1/AODSIM	&	$3.6\ \cdot\ 10^{6}$\\
@@ -1641,16 +1651,30 @@ The MC samples used in this analysis are listed in Tab. \ref{tab:MCsamples}.
 	$B^{\pm}\rightarrow\tau \nu_{\tau}\rightarrow 3\mu \nu_{\tau}$	&	/BdToTau\_To3Mu\_MuFilter\_TuneCUEP8M1\_13TeV-	&	\\
 		& pythia8/RunIISummer16DR80Premix PUMoriond17\_	&	\\
 			&	80X\_mcRun2_asymptotic\_2016\_TrancheIV_v6-v1/AODSIM	&	000\\
-	$D_{s} \rightarrow \phi \pi \rightarrow 2 \mu \pi$	&	/DsPhiPi/fsimone-crab\_crab_DsPhiPi\_13TeV\_RECO-	&	\\
-		& c3763c515b5d7d94a8137c090655e1bb/USER\ PRIVATE	&	000\\
+	$D_{s} \rightarrow \phi \pi \rightarrow 2 \mu \pi$	&	-	&	\\
+		& -	&	000\\
 	\hline
 	\end{tabular}
 	\caption{MC samples used for the analysis described in this thesis.}
 	\label{tab:MCsamples}
 \end{table}
 
+Dalla nota:\\
+The samples were generated using PYTHIA 8 \cite{ref104} with a MinimumBias configuration, and the decay chains are performed by EVTGEN \cite{ref110}  package. As for $B^{+}$ and $B^{0}$ production, a $b$-quark filter is applied on top of the MinimumBias configuration: an event is kept if there is a $b$-quark at the parton level, otherwise it is thrown away before hadronization. The decay chain is programmed using the EVTGEN as following - taking $D_{s} \rightarrow \tau$ as an example - if a $D_{s}$ meson is found after hadronization, it is forced to decay to a $\tau$, which is subsequently set to decay to 3$\mu$. In case multiple $D_{s}$ in one event, only one such decay chain is allowed. If no $D_{s}$ is found, the event is discarded. The $tau \rightarrow 3\mu$ process is asummed to be 3-body phase-space decay.\\ 
+The normalization channel is generated in the same way, but with the $D_{s} \rightarrow \phi(\mu\mu)\pi$ decay chain programmed ($D_{s} \rightarrow \phi\pi$ is set to be scalar to vector plus scalar decay, while $\phi \rightarrow \mu\mu$ vector to leptons decay with radiative correction, as programed in EVTGEN) . As for $D_{s}$ samples, both $D_{s}$ from prompt production and $b$-hadron decays are included.
 
-The branching fractions of the B and D mesons decays are listed in Tab. \ref{tab:MesonsBR}.
+Only generated events that fullfill the following criteria are processed with time consuming
+full simulation: at least 2 generator level $\mu$ should have $\mathrm{p_{T}} >$ 2.7 GeV and $|\eta| <$ 2.45, which matches, but is looser than, the trigger requirements used in the analysis (described below).\\ 
+In summary, there are three filters applied at the generator level:
+\begin{itemize}
+	\item Only if it is $B^{+}$ or $B^{0}$ production, a parton-level $b$-quark filter,
+	\item Mother meson ($D_{s}$, $B^{+}$ or $B^{0}$) filter
+	\item 2 $\mu$ in trigger acceptance filter
+\end{itemize}
+
+
+The analysis does not rely on the knowledge of absolute cross sections for $D_{s}$ and $B$ meson production. The signal event rate associated with hadronically produced $\tau$-leptons is derived from measurements of $D_{s} \rightarrow \phi \pi \rightarrow \mu\mu\pi$ production rate. For such a conversion, we use a number of decay branching fractions, which are shown in Tab. \ref{tab:MesonsBR} together with their uncertainties. 
+
 \begin{table}[h!]\footnotesize
 	\centering
 	\begin{tabular}{|l|r|c|}
@@ -1666,13 +1690,14 @@ The branching fractions of the B and D mesons decays are listed in Tab. \ref{tab
 	$D_{s}\rightarrow \phi(\mu\mu)\pi$	&	1.3($\pm$ 0.1 $\cdot 10^{-5}$)	&	PDG \cite{ref112}\\
 	\hline
 	\end{tabular}
-	\caption{MC samples used for the analysis described in this thesis.}
+	\caption{$D$ and $B$ meson decay branching fractions and their uncertainties used in this analysis.}
 	\label{tab:MesonsBR}
 \end{table}
 
+
 \subsection{Pile-up Reweighting}
 
-from Raffa translated - In MC simulations is important to consider the pile up effect, that is present in each event in CMS (as already explained in -REF).
+from Raffa translated - In MC simulations is important to consider the pile up effect, that is present in each event in CMS (as already explained in \ref{LHC}).
 The MC have been produced with a certainn pile-up distribution that, however, is different from the real one, id est the one of the collected data, as is possible to notice in Fig. \ref{fig:PU_comp}.
 
 \begin{figure}[h!]
@@ -1690,7 +1715,7 @@ w_{pu}(i) = \frac{N_{D}(i)}{N_{MC}(i)}
 \label{eq:PU_rew}
 \end{equation}
 
-The "function of the weights" that must be multiplied to the MC events (? spiega bene) in order to "reweighting" it, id est the value of the weight computed with the eq. \ref{eq:PU_rew} as a function of number of pile-up events, is reported in Fig. \ref{fig:PU_weights}.
+The weight $w_{pu}$ computed in this way, is shown as a function of the MC pile-up, in Fig. \ref{fig:PU_weights}. 
 
 \begin{figure}[h!]
    \centering
@@ -1699,9 +1724,7 @@ The "function of the weights" that must be multiplied to the MC events (? spiega
 \label{fig:PU_weights}
  \end{figure}
 
-- Specificare bene a quale MC sto facendo riferimento (DsTau3MU).
-
-The effect of the pile-up reweighting is visibile especially in the distribution of the reconstructed vertices, as is shown in Fig. \ref{fig:PU_Vertices}.
+The effect of the pile-up reweighting is visibile especially in the distribution of the reconstructed vertices, as it is shown in Fig. \ref{fig:PU_Vertices}.
 
 \begin{figure}[h!]
 \begin{minipage}[b]{7.3cm}
@@ -1712,19 +1735,26 @@ The effect of the pile-up reweighting is visibile especially in the distribution
   \centering
    \includegraphics[width=7.2cm]{PU_Vertices_After}
  \end{minipage}
-    \caption{N of primary vertices in MC before (on the left) and after (on the right) the pile-up reweighting, compared to the same quantity in data. From this comparison the importance of the pile-up reweighting procedure is clear. (rifrasa?)}
+    \caption{N. of primary vertices in MC before (on the left) and after (on the right) the pile-up reweighting, compared to the same quantity in data.}
 	\label{fig:PU_Vertices}
  \end{figure}
 
 \section{Search strategy}
-The events with D and B mesons decaying in a tau lepton that in turn decays in 3 muons, are characterized by low pT muons, therefore the selection of the muon candidates must be optimised for muons with these characteristics, but at the same time they should reject the $\pi$ and $K$ mesons, which can "easily" be misidentified and recostructed as low pT muons... (since CMS is not really optimized to recognize this kind of muons...)
-Attenzione anche ai muons from $K$ and $\pi$ decays in flight!
+\label{strategy}
+The events with $D$ and $B$ mesons decaying in a $\tau$ lepton that in turn decays in 3 muons, are characterized by low $\mathrm{p_{T}}$ muons, therefore the selection of the muon candidates must be optimised for muons with these characteristics, but at the same time they should reject the $\pi$ and $K$ mesons, which can be misidentified and recostructed as low $\mathrm{p_{T}}$ muons or the muons coming from the $K$ and $\pi$ decays in flight.
 The former are characterized by calorimetric and muon-system related observables while the latter are real muons that can be distinguished from the prompt muons just by the study of the secondary vertex and its related variables measured in the tracker.
 
+The production cross section of $D$ and $B$ mesons in the kinematic phase space relevant for the search is not know a priori, therefore it is obtained directly from data by measuring the event rate coming from $D_{s} \rightarrow \phi\pi \rightarrow(\mu\mu)\pi$ decays.\\
+
+The signal is expected to form a narrow peak at the $tau$ mass, over a smoothly distributed background, in the trimuon mass distribution.\\
+The analysis does not assume a priori knowledge of the nature of background and, in order to suppress it, a multi-variate analysis (MVA) is performed with a discriminant trained to distinguish signal events from background. To train the discriminant, for signal we rely on a simulated sample, while for background we use data events observed in the trimuon distribution sidebands, outside the region where the signal is expected to appear.
+
+In order to improve the search sensitivity, all events that pass come "basics" selections, before being passed to the MVA, are sorted into 3 exclusive categories based on their expected trimuon mass resolutions.
+After the MVA, the three trimuon mass-resolution categories are divided into three sub-categories based on the expected per-event S/B ratio as predicted by the MVA discriminant, the best two of which are then retained for the further statistical analysis. Finally, the signal is searched by simultaneously analyzing the thus-formed 6 unbinned mass distributions.
 
 
 \section{Event selection}
-
+\label{Event_selection}
 %\begin{table}[h!]\footnotesize
 %	\centering
 %	\begin{tabular}{|l|cc|c|}
@@ -1741,193 +1771,127 @@ The former are characterized by calorimetric and muon-system related observables
 %	\caption{Bla Bla}
 %	\label{tab:NEvents}
 %\end{table}
+In order to be kept, data should satisfy different requirements, which are organized in 2 levels, that I will call "Pre-selections" and "Selections".
 
-The PRE-selections applied to choose the interesting (DsTau3Mu) events are the following:
+The Pre-selections applied to choose the interesting $D_{s} \rightarrow \tau \nu \rightarrow
+3 \mu \nu$ events are the following:
 \begin{enumerate}
-	\item Fired HLT : at least one HLT path among 
+	\item The event has fired at least one among the following HLT paths:
 		\begin{itemize}
 			\item \emph{HLT\_DoubleMu3\_Trk\_Tau3mu\_v*}
 			\item \emph{HLT\_DoubleMu3\_TkMu\_DsTau3Mu\_v*}
 			\item \emph{HLT\_DoubleMu3\_Trk\_Tau3mu\_NoL1Mass\_v*}
 		\end{itemize}
-	\item At least 3 muons with :
+	\item The events must have at least a triplet of muons with the following characteristics:
 		\begin{itemize}
-			\item $\mathrm{p_{T}\ >\ 0.5}$
-			\item $|\eta|\ <\ 2.4$
-			\item innerTrack().isNonnull
-			\item charge $\neq$ 0
-			\item innerTrack().hitPattern().numberOfValidPixelHits()$>$ 0
+			\item $\mathrm{p_{T}\ >\ 0.5}$,
+			\item $|\eta|\ <\ 2.4$,
+			\item at least 1 hit in the inner tracker,
+			\item the total electric charge of the triplet must be different equal to $pm$ 1,
+			\item there must be at least one hit in the pixel detectors of the inner tracker.
 		\end{itemize}
-	\item At least 1 triplet with charge = $pm$ 1
 \end{enumerate}
 
-The selections applied on the triplets to choose the interesting (DsTau3Mu) ones are the following:
+After these very basic pre-selections, additional selections are applied in order to select only the triplets of interest for this analysis:
 \begin{enumerate}
 	\item The $\chi^2$ of the triplet vertex is in (0-15)
-	\item The 3 possible pairs of mu of the triplet have $\Delta R <$ 0.8
-	\item The 3 possible pairs of mu of the triplet have $|\Delta Z| <$ 0.5
-	\item VETO on mass of o.s. muons of the triplet compatible with $\phi$ meson
-	\item VETO on mass of o.s. muons of the triplet compatible with $\omega$ meson
+	\item The 3 muons are \emph{Global Muons} (REF)
+	\item The 3 possible pairs of mu of the triplet have $\Delta R <$ 0.8 (REF)
+	\item The 3 possible pairs of mu of the triplet have $|\Delta Z| <$ 0.5 (cos'è Delta Z)
+	\item A veto on mass of opposite sign muons of the triplet compatible with $\phi$ meson
+	\item A veto on mass of opposite sign muons of the triplet compatible with $\omega$ meson
 	\item Mass window ??
 	\item L1 ???
 	\item trigger matching requirements
 \end{enumerate}
-If more than one triplet per event survives, it’s chosen the one with the best (min) $\chi^2$ value.
+If more than one triplet per event survives these selections (which happens very rarely, $\sim$ 1\% of the cases), it is chosen the one with the best $\chi^2$ value.
+
+- Background:\\
+To obtain an insight into the major source of background passing the described event selection criteria, a minimum bias sample of events have been simulated. N. events that pass all selection criteria are mostly due to B meson production with dimuon cascade decays of one the two $B$ mesons. The third reconstructed muon in an event is typically associated with a pion/Kaon faking a muon, half of the time via decaying to a muon in flight.
+
 
 \newpage
 \subsubsection*{Event categorization}
+As already said in \ref{strategy}, in order to improve the search sensitivity, all events selected in the previous steps are classified into 3 exclusive categories based on their expected trimuon mass resolutions.\\
+It is calculated as ...(spiega)
+
+ 
 
 \begin{figure}[h!]
-\begin{minipage}[b]{7.3cm}
    \centering
    \includegraphics[width=7.2cm]{MassTripReso}
- \end{minipage}
- \begin{minipage}[b]{7.3cm}
+    \caption{Mass resolution of the muon triplet per event in signal MC (solid line) and data events (dots), on the left and corresponding |eta| of the most forward muon of the triplet. Distributions are normalized to unity. The event categorization is indicated by vertical bars in the figure: category A (blue) - $\Delta m/m <$ 0.007; category B (red) - 0.007 $< \Delta m/m <$ 0.01; category C (black) - $\Delta m/m >$ 0.01.}
+	\label{fig:MassTripReso}
+\end{figure}
+
+\begin{figure}[h!]
   \centering
    \includegraphics[width=7.2cm]{MassTripReso_eta}
- \end{minipage}
- \caption{Mass resolution of the muon triplet per event in signal MC (solid line) and data events (dots), on the left and corresponding |eta| of the most forward muon of the triplet. Distributions are normalized to unity. The event categorization is indicated by vertical bars in the figure: category A (blue) - $\Delta m/m <$ 0.007; category B (red) - 0.007 $< \Delta m/m <$ 0.01; category C (black) - $\Delta m/m >$ 0.01.}
-\label{fig:MassTripReso}
+    \caption{Pseudorapidity value of the trailing muon of the triplets, shown for the 3 different categories : descrivi colori}
+	\label{fig:MassTripReso_eta}
 \end{figure}
+
+It is evident from Fig. \ref{fig:MassTripReso_eta} that the resolution of the mass of the triplet strongly depends on whether the trailing muon of the triplet (i.e. the muon with the lowest $mathrm{p_{T}}$ value is in the central or forward regions.
 
 \newpage
 \section{Signal Normalization}
 \subsection{Events triggered by DoubleMu L1 seeds}
+Dalla nota-\\
+First, we consider signal events that are expected to be triggered by DoubleMu L1 seeds, about 75\% of all signal events according to MC. We start from the dominant source of $tau$ lepton, $D_{s} \rightarrow \tau$. $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel is used to extract the total $D_{s}$ number from data. Besides, it moniters the perforamace of the L1 and high level trigger, as this $D_{s} \rightarrow \phi(\mu\mu)\pi$ events are collected with the same trigger path as the signal channel. In addition, by comparing kinematics of this channel in data and MC, it can be validated how well signal MC models data.
+
+The expected $tau \rightarrow 3\mu$ signal event yield associated with $D_{s}$ can be written as reported in eq. \ref{eq:N_sigD}.
+
 \begin{equation}
 \mathrm{N_{sig(D)}} = \mathcal{L}\ \sigma(pp \rightarrow D_{s})\ \mathcal{B}(D_{s} \rightarrow \tau \nu_{\tau})\ \mathcal{B}(\tau \rightarrow 3\mu)\ \mathcal{A}_{3\mu(D)}\ \epsilon^{3\mu}_{reco}\ \epsilon^{2\mu}_{trig}
+\label{eq:N_sigD}
 \end{equation}
+
+On the other hand, the number of $D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi$ events is reported in eq. \ref{eq:N}.
 
 \begin{equation}
 \mathrm{N} = \mathcal{L}\ \sigma(pp \rightarrow D_{s})\ \mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu \mu \pi)\ \mathcal{A}_{2\mu\pi}\ \epsilon^{2\mu\pi}_{reco}\ \epsilon^{2\mu}_{trig}
+\label{eq:N}
 \end{equation}
+
+In these two equations, $\mathcal{L}$ is the integrated luminosity, $\sigma(pp \rightarrow D_{s})$ is the $D_{s}$ production cross section, $\mathcal{B}(D_{s} \rightarrow \tau \nu)$, $\mathcal{B}(\tau \rightarrow 3\mu)$, $\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ are decay branching fractions, $\mathcal{A}$ is the event selection acceptance, $\epsilon_{trig}$ and $\epsilon_{reco}$ are instrumental trigger and reconstruction efficiencies.
+
+By measuring $D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi$ decay rate $N$, one can predict $N_{sig}$ with significantly reduced systematic uncertainties:
 
 \begin{equation}
 \mathrm{N_{sig(D)}} = N\ \cdot\frac{\mathcal{B}(D_{s} \rightarrow \tau \nu_{\tau})}{\mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu \mu \pi)}\ \frac{\mathcal{A}_{3\mu(D)}}{\mathcal{A}_{2\mu\pi}}\ \frac{\epsilon^{3\mu}_{reco}}{\epsilon^{2\mu\pi}_{reco}}\ \mathcal{B}(\tau \rightarrow 3\mu)
+\label{eq:N_sigD_2}
 \end{equation}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=12cm]{NDs_total}
-	\caption{Full 2017 data in $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel. The $D_{s}$ and $D^{+}$ peaks are fitted with Crystal Ball functions (in red), while the background is fitted with an exponential (in green).}
-	\label{fig:NDs_total}
-\end{figure}
-
-\begin{table}[h!]\footnotesize
-	\centering
-	\begin{tabular}{|c|c|c|}
-	\hline
-	Run 	& 	Fitted $D_{s}\rightarrow\phi(\mu\mu)\pi$ yields ($fb^{-1}$)	&	Data/MC ratio\\ \hline 
-	2017 B	&	000	&	000\\
-	2017 C	&	000	&	000\\
-	2017 D	&	000	&	000\\
-	2017 E	&	000	&	000\\
-	2017 F	&	000	&	000\\ \hline
-	Whole 2017	&	000	&	000\\
-	\hline
-	\end{tabular}
-	\caption{Bla Bla}
-	\label{tab:N_Ds}
-\end{table}
-
-\newpage
-\begin{figure}[h!]
- \begin{minipage}[b]{7.3cm}
-   \centering
-   \includegraphics[width=7.2cm]{NDs_runB}
- \end{minipage}
- \begin{minipage}[b]{7.3cm}
-  \centering
-   \includegraphics[width=7.2cm]{NDs_runC}
- \end{minipage}
-\end{figure}
-\begin{figure}[h!]
-\begin{minipage}[b]{7.3cm}
-   \centering
-   \includegraphics[width=7.2cm]{NDs_runD}
- \end{minipage}
- \begin{minipage}[b]{7.3cm}
-  \centering
-   \includegraphics[width=7.2cm]{NDs_runE}
- \end{minipage}
-\end{figure}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=7.2cm]{NDs_runF}
-	 \caption{2017 data in $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel plotted run by run. Fior each of them the same fit described in \ref{fig:NDs_total} has been performed.}
-	\label{fig:NDs_runByrun}
-\end{figure}
-
-
-\newpage
-Spiega calcolo sistematics sul numero Ds bla bla... shown in Fig. \ref{fig:Systematics_Ds}.
-
-\begin{figure}[h!]
- \begin{minipage}[b]{7.4cm}
-  \centering
-   \includegraphics[width=7.3cm]{Systematics_Ds}
- \end{minipage}
-\begin{minipage}[b]{7.4cm}
-	\centering
-	\includegraphics[width=7.3cm]{Systematics_Ds_ratio}
-\end{minipage}
-	 \caption{For each of 2017 runs, the $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields and the $D_{s} \rightarrow 3\mu$ yields per $fb^{-1}$ are reported on the left, while their ratio is displayed on the right. (Eventuali richieste trigger ? Es. DoubleMu L1 seeds)}
-	\label{fig:Systematics_Ds}
-\end{figure}
-
-
-\newpage
-\subsection{B/D ratio}
-
-\begin{equation}
-\mathrm{N_{sig(B)}} = \mathcal{L}\ \sigma(pp \rightarrow B)\ \mathcal{B}(B \rightarrow \tau+...)\ \mathcal{B}(\tau \rightarrow 3\mu)\ \mathcal{A}_{3\mu(B)}\ \epsilon^{3\mu}_{reco}\ \epsilon^{2\mu}_{trig}
-\end{equation}
-
-\begin{equation}
-f\ =\ \frac{\sigma(pp \rightarrow B)\ \mathcal{B}(B \rightarrow D_{s}+...)}{\sigma(pp \rightarrow D_{s})}
-\end{equation}
-
-\begin{equation}
-\mathrm{N_{sig(B)}} = N \cdot\ f \cdot\ \frac{\mathcal{B}(B \rightarrow \tau+...)}{\mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu \mu \pi)\ \mathcal{B}(B \rightarrow D_{s}+...)}\ \frac{\mathcal{A}_{3\mu(B)}}{\mathcal{A}_{2\mu\pi}}\ \frac{\epsilon^{3\mu}_{reco}}{\epsilon^{2\mu\pi}_{reco}}\ \mathcal{B}(\tau \rightarrow 3\mu)
-\end{equation}
-
-- No plot, solo parole che spieganno che ho calcolato il fattore dal MC a livello di gen
-
-%\begin{figure}[h!]
-%	\centering
-%	\includegraphics[width=10cm]{B-D_normalization}
-%	 \caption{Copiato dalla nota - Fit prompt and non-prompt Ds contributions to data. The histograms are from $D_{s} \rightarrow \phi(\mu\mu)\pi$ MC. The filled histogram is the $B \rightarrow D_{s}$ component, while the opened histogram stacked on the other is the prompt $D_{s}$ component. They fit to data (sideband subtracted) using the proper decay length $(L \cdot M/p)$...-}
-%	\label{fig:B-D_normalization}
-%\end{figure}
-
-\subsection{Control channel} 
-MC validation with $D_{s}\rightarrow\phi(\mu\mu)\pi$.
+The selections in $D_{s} \rightarrow \phi(\mu\mu)\pi$ are almost identical as those described in section \ref{Event_selection}, with the exception that, instead of three, two muons are required.
+The 2 muons must be of opposite charge, and the invariant mass in the region of [1.00, 1.04] GeV, consistent with $\phi$ meson mass.
+One additional track, pT $>$ 2 GeV, should be found to fit a secondary vertex together with the 2 muons, with normalized Chi2 of the vertex fitting smaller than 5. The quality requirements on this track include: at least 6 layers tracker measurements; at least 1 layer pixel measurements; transvere and longitudinal impact paramter with respect to the beam spot should be smaller than 0.3 cm and 20 cm respectively.
 
 PRE-selections applied on the events:
 \begin{enumerate}
-	\item Fired HLT path: \emph{HLT\_DoubleMu3\_Trk\_Tau3mu\_v*}
-	\item at least 1 triplet with:
+	\item The event has fired the HLT path: \emph{HLT\_DoubleMu3\_Trk\_Tau3mu\_v*}
+	\item There must be at least 1 triplet containing:
 		\begin{itemize}
-			\item 2 muons with:
+			\item 2 muons with the following characteristics:
 				\begin{itemize}
-					\item $\mathrm{p_{T}\ >\ 0.5}$
-					\item  $|\eta|\ <\ 2.4$
-					\item innerTrack().isNonnull
-					\item charge $\neq$ 0
-					\item innerTrack().hitPattern().numberOfValidPixelHits() $>$ 0
+					\item $\mathrm{p_{T}\ >\ 0.5}$, 
+					\item  $|\eta|\ <\ 2.4$, 
+					\item there must be at least 1 hit in the inner tracker,
+					\item the electric charge must be different from 0,
+					\item there must be at least one hit in the pixel detectors of the inner tracker.
 				\end{itemize}
-			\item 1 track with:
+			\item 1 track with the following characteristics:
 				\begin{itemize}
-					\item $\mathrm{p_{T}\ >\ 2}$
-					\item $|\eta|\ <\ 2.4$
-					\item charge $\neq$ 0
-					\item hitPattern().trackerLayersWithMeasurement() $>$ 5
-					\item hitPattern().pixelLayersWithMeasurement() $\geq$ 1
+					\item $\mathrm{p_{T}\ >\ 2}$, 
+					\item $|\eta|\ <\ 2.4$, 
+					\item the electric charge must be different from 0,
+					\item there must be at least 6 hits in the inner tracker,
+					\item there must be at least one hit in the pixel detectors of the inner tracker.
 				\end{itemize}					
 		\end{itemize}
-	\item the triplet must have:
+	\item Moreover, the triplet must have:
 		\begin{itemize}
-			\item mass in [0.5 - 10] GeV
-			\item charge = $\pm$1
+			\item mass in [0.5 - 10] GeV,
+			\item total electric charge = $\pm$1.
 		\end{itemize}			
 \end{enumerate}
 
@@ -1947,6 +1911,153 @@ The selections applied on the triplets are:
 		\end{itemize}
 \end{enumerate}
 If more than one triplet per event survives, it’s chosen the one with the best (min) $\chi^2$ value.
+
+After selections, the ”2 muon and 1 track” invariant mass region of [1.68, 2.02] GeV is used to extract $D_{s}$ yields. The distribution is fitted with 2 Crystal Ball functions and an exponential function, as shown in Fig. \ref{fig:NDs_total}. The smaller bump at 1.87 GeV is $D^{\pm}$. (For information, $\mathcal{B}(D^{+} \rightarrow \phi\pi \rightarrow \mu\mu\pi$ is 1.55 $ctimes\ 10^{-6}$).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=16cm]{NDs_total_bis.png}
+	\caption{Full 2017 data in $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel. The $D_{s}$ and $D^{+}$ peaks are fitted with Crystal Ball functions (in red), while the background is fitted with an exponential (in green).}
+	\label{fig:NDs_total}
+\end{figure}
+
+The same fit but for each 2017 run era separately, is shown in Fig. \ref{fig:NDs_runByrun}, while the fitted $D_{s}$ yields from data, normalized to integrated luminosity, compared with MC predictions, are listed in Tab. \ref{tab:N_Ds}.\\
+Dramatic fluctuation is observed over the year - problema run B e F !!!
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	Run 		& 	$D_{s}$ yields	&	$D_{s}$ yields per $fb^{-1}$	&	Data/MC ratio\\ \hline 
+	2017 B	&	4895	&	1022		&	0.366\\
+	2017 C	&	25451	&	2643	&	0.945\\
+	2017 D	&	11549	&	2724		&	0.974\\
+	2017 E	&	24036	&	2585	&	0.924\\
+	2017 F	&	17862	&	1779		&	0.636\\ \hline
+	Whole 2017	&	95565	&	2515	&	0.900\\
+	\hline
+	\end{tabular}
+	\caption{Fitted $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields for each of the 2017 runs.}
+	\label{tab:N_Ds}
+\end{table}
+
+
+\newpage
+\begin{figure}[h!]
+ \begin{minipage}[b]{7.7cm}
+   \centering
+   \includegraphics[width=7.7cm]{NDs_runB.png}
+ \end{minipage}
+ \begin{minipage}[b]{7.7cm}
+  \centering
+   \includegraphics[width=7.7cm]{NDs_runC.png}
+ \end{minipage}
+\end{figure}
+\begin{figure}[h!]
+\begin{minipage}[b]{7.7cm}
+   \centering
+   \includegraphics[width=7.7cm]{NDs_runD.png}
+ \end{minipage}
+ \begin{minipage}[b]{7.7cm}
+  \centering
+   \includegraphics[width=7.7cm]{NDs_runE.png}
+ \end{minipage}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=7.7cm]{NDs_runF.png}
+	 \caption{2017 data in $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel plotted run by run. Fior each of them the same fit described in \ref{fig:NDs_total} has been performed.}
+	\label{fig:NDs_runByrun}
+\end{figure}
+
+
+\newpage
+- Dalla nota\\
+In order to further study the $D_{s}$ yields instability, the 3$\mu$ sideband yields are compared with the $D_{s}$ yields. The 3$\mu$ sideband events should pass the preselections in Section 5, and in addition,  the 3$\mu$ vertex is asked to be at least 3 sigma displaced from the primary vertex (so they are even more signal-like). Only events firing DoubleMu L1 seeds (L1 DoubleMu0er1p6 dEta Max1p8 OS or L1 DoubleMu 10 0 dEta Max1p8) are under study here. Figure 10 (left) shows the $D_{s}$ yields and 3$\mu$ sideband yields over the year. The same pattern is found for their variation. The data era B to E have only about half event rates, with respect to those in data era G and H. A mixed effect of Tracker APV issue and EMTF issue is visible. The latter was fixed during era E, which introduces a jump at data era F. The Tracker APV issue was fixed during era F, that is why rates in era G and H largely increased.\\
+Nevertheless, if a ratio of 3$\mu$ sideband yields and $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields is made, as shown in Figure 10 (right), it is rather stable over the whole 2016. 
+Using the Scale-Factor Method \cite{ref112}, the uncertainty assocaited with the fluctuation is found to be 3.3\%
+($\sqrt{\chi^{2}/(nd\ f-1)} \cdot \Delta p_{0}/p_{0}$ = 3.3\%, based on the linear fit parameters). 
+This is taken as a measure of systematics accociated with the $D_{s}$ normalization.
+
+Fig. \ref{fig:Systematics_Ds} e Fig. \ref{fig:Systematics_Ds_ratio}.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[width=14cm]{Systematics_Ds}
+   \caption{For each of 2017 runs, the $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields and the $D_{s} \rightarrow 3\mu$ yields per $fb^{-1}$ are reported. (Eventuali richieste trigger ? Es. DoubleMu L1 seeds)}
+	\label{fig:Systematics_Ds}
+\end{figure}
+   
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=14cm]{Systematics_Ds_ratio}
+	 \caption{For each of 2017 runs, the ratio of the $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields and the $D_{s} \rightarrow 3\mu$ yields per $fb^{-1}$ are reported. (Eventuali richieste trigger ? Es. DoubleMu L1 seeds)}
+	\label{fig:Systematics_Ds_ratio}
+\end{figure}
+
+To summarize the observations from Figure 10 and Figure 11: 
+\begin{itemize}
+	\item  3$\mu$ sideband and $D_{s} \rightarrow \phi(\mu\mu)\pi$ yields ratio is stable. 
+	\item The inefficiency in the first half of 2016 data does not significantly depend on a certain kinematical variable. Therefore we don’t apply kinematic reweighting to data B to F. The overall scale factor 0.67 (Table 9) is used to correct the $D_{s}$ yield difference between data and MC, and a 3.3\% uncertainty is assigned to this scale factor based on 3$\mu$ sideband and $D_{s}$ ratio seen above. In addition, we include the uncertainties on decay branching ratios involved in the normalization procedue, which are $\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ (8\%) and
+$\mathcal{B}(D_{s} \rightarrow \tau\nu$) (4\%). This overall scale factor is applied to signal events firing DoubleMu l1 seeds, which is 75\% of the total.
+\end{itemize}
+
+
+\newpage
+\subsection{B/D ratio}
+
+Dalla nota-\\
+Direct $B \rightarrow \tau + ...$ decays are the second largest source of $\tau$-leptons. Their contribution to the signal can be written as reported in eq. \ref{eq:N_sigB}.
+
+\begin{equation}
+\mathrm{N_{sig(B)}} = \mathcal{L}\ \sigma(pp \rightarrow B)\ \mathcal{B}(B \rightarrow \tau+...)\ \mathcal{B}(\tau \rightarrow 3\mu)\ \mathcal{A}_{3\mu(B)}\ \epsilon^{3\mu}_{reco}\ \epsilon^{2\mu}_{trig}
+\label{eq:N_sigB}
+\end{equation}
+
+It cannot be directly normalized by $D_{s} \rightarrow \phi(\mu\mu)\pi$. 
+Nevertheless, we can indirectly check if the ratio of $B$ meson and $D$ meson production rate in data is consistent with the MC prediction. 
+The $D_{s}$ production is a mixture of prompt $D_{s}$ and $B \rightarrow D_{s}$. 
+These two components are so different in terms of decay length. Figure 12 shows $D_{s} \rightarrow \phi(\mu\mu)\pi$ proper decay length, $L \cdot M/p$, where $L$ is the displacement of the $D_{s}$ vertext to the primary vertex in the laboratory frame, $M$ is the invariant mass of $\mu\mu\pi$, and p is the momentum of the $\mu\mu\pi$ system. The $D_{s} \rightarrow \phi(\mu\mu)\pi$ data distribution is mass-sideband subtracted. (Only data G and H are used, and only when the L1 seeds used were not pre-scaled.) 
+The filled histogram is the $B \rightarrow D_{s}$ component, and the open histogram is the prompt $D_{s}$. They are both from $D_{s} \rightarrow \phi(\mu\mu)\pi$ MC, with which one can fit the relative rates to data: (the $B \rightarrow D_{s}$ fraction with respect to the total)
+
+\begin{equation}
+f\ =\ \frac{\sigma(pp \rightarrow B)\ \mathcal{B}(B \rightarrow D_{s}+...)}{\sigma(pp \rightarrow D_{s})}
+\label{eq:f}
+\end{equation}
+
+By combining Eqs. \ref{eq:N}, \ref{eq:N_sigB}, \ref{eq:f}, the predicted contribution of direct $B$-decays to the signal is:
+
+\begin{equation}
+\mathrm{N_{sig(B)}} = N \cdot\ f \cdot\ \frac{\mathcal{B}(B \rightarrow \tau+...)}{\mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu \mu \pi)\ \mathcal{B}(B \rightarrow D_{s}+...)}\ \frac{\mathcal{A}_{3\mu(B)}}{\mathcal{A}_{2\mu\pi}}\ \frac{\epsilon^{3\mu}_{reco}}{\epsilon^{2\mu\pi}_{reco}}\ \mathcal{B}(\tau \rightarrow 3\mu)
+\label{eq:N_sigB_2}
+\end{equation}
+
+where $N$ and $f$ can be measured. The measured value of $f$ is 0.267 $\pm$ 0.015. The uncertainty includes 2.4\% statistical from the fit, and 5.2\% systematics assessed by 10\% more (or less) background subtraction which leads to slight changes of shape of $D_{s} \rightarrow \phi(\mu\mu)\pi$ data. The MC predicted $f$ is 0.240, in a good agreement with the measured $f$ . The MC predicted value is used, and the relative difference of 11\%, is treated as a systematic uncertainty. On the other hand, the uncertainties on decay branching ratios involved in this data-driven validation procedue are included,namely, $\mathcal{B}(D_{s} \rightarrow \phi \pi \rightarrow \mu\mu\pi$)(8\%), $\mathcal{B}(B \rightarrow \tau+X)$(11\%) and $\mathcal{B}(B\rightarrow D+X)$(16\%).\\
+Furthermore, the small contribution from $D^{+} \rightarrow \tau (B_{s} \rightarrow \tau)$ is added by scaling up the $D_{s} \rightarrow \tau$ ($B^{0}$ and $B^{+} \rightarrow \tau$), according to MC prediction (Table 2). 100\% uncertainties are assumed for these scalings.
+
+- No plot, solo parole che spieganno che ho calcolato il fattore dal MC a livello di gen
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=10cm]{B-D_normalization}
+%	 \caption{Copiato dalla nota - Fit prompt and non-prompt Ds contributions to data. The histograms are from $D_{s} \rightarrow \phi(\mu\mu)\pi$ MC. The filled histogram is the $B \rightarrow D_{s}$ component, while the opened histogram stacked on the other is the prompt $D_{s}$ component. They fit to data (sideband subtracted) using the proper decay length $(L \cdot M/p)$...-}
+%	\label{fig:B-D_normalization}
+%\end{figure}
+
+\subsection{Events triggered exclusivly by the TripleMu L1 seed}
+???
+
+
+\subsection{MC validation} 
+MC validation with $D_{s}\rightarrow\phi(\mu\mu)\pi$.
+
+From Nota:\\
+The $D_{s}\rightarrow\phi(\mu\mu)\pi$ channel is also used to validate how well MC models data. Only data 2016 G and H are used to compare with MC, because of trigger inefficiency in data B to F. Moreover, only data events triggered when neither L1 DoubleMu 10 0 dEta Max1p8 nor  L1 DoubleMu0er1p6 dEta Max1p8 OS was pre-scaled are used here.
+For a certain distribution x, data events having ”2 muon and 1 track” invariant mass in (1.93,
+347 2.01) GeV are taken as $D_{s}\rightarrow\phi(\mu\mu)\pi$ candidates, the distribution of which is xpeak. On the other hand, data events in (1.70, 1.80) GeV region are used as sideband events, and their distribution is xsideband. Then xsideband is scaled, according to the fitted background shape (Figure 9), to the number of expcted background events in (1.93, 2.01) GeV region, before xsideband is subtracted from xpeak. In this way, the non-$D_{s}$ contamination is subtracted. The data comparison with $D_{s}\rightarrow\phi(\mu\mu)\pi$ MC is shown in Figs. \ref{fig:ControlPlots_1} and \ref{fig:ControlPlots_2}. \\
+(The $D_{s}$ MC includes prompt $D_{s}$ and $B \rightarrow D_{s}$.) 
+
+It is found that for all distributions MC agrees reasonably well with data.
 
 %%% Control plotssss
 \newpage
@@ -2021,7 +2132,6 @@ If more than one triplet per event survives, it’s chosen the one with the best
 %%%%%%%%% End control plots
 
 
-
 \section{Multivariate Analysis (MVA)}
 \subsection{Introduction to MVA: why to use it?}
 The Multivariate analysis has assumed progressively a central role in high energy physics searches \cite{ref117b}. In this field, this kind of analysis aims to exploit as much information as possible from the characteristics of each event in order to distinguish between event types (eg. signal and background).
@@ -2082,6 +2192,34 @@ The multivariate analysis presented in this thesis has been implemented with the
 
 \newpage
 \subsubsection*{BDT input variables}
+At this stage, all data and signal MC events have passed the basic selections in section 5. Signal MC is normalized as described in section 6.
+The data and MC events are given to BDT to further separate the two. 10 variables are used to train the BDT.
+
+Kinematics:
+\begin{itemize}
+	\item p: The momentum of the lowest momentum muon in the event
+\end{itemize}
+Muon identificaiton: (Each variable has 3 values from the 3 muons, of which the ”worst” is used)
+\begin{itemize}
+	\item cLP: Inner track and muon outer track position matching Chi2
+	\item tKink: The ”kink” of the inner track (a sign of light flavor decay-in-flight)
+	\item segmcomp: Inner track and muon segment position compatibility
+\end{itemize}
+Vertexing and displacement:
+\begin{itemize}
+	\item fv\_nC: The normalized Chi2 of the 3$\mu$ vertex fitting
+	\item fv\_dphi3D: The 3D angle between the 3$\mu$ momentum vector and the Vertex(3$\mu$)-PV
+vector
+	\item fv\_d3Dsig: The 3D displacement significance of the 3$\mu$ vertex with respect to the PV
+	\item d0sig: The transverse impact parameter significance of a muon with respect to the PV. The smallest of the three is used
+\end{itemize}	
+Isolation (i.e. additional tracks close to the 3$\mu$ candidates):
+\begin{itemize}
+	\item mindca iso: The closest distance of the 3$\mu$ vertex to any other track in the event (pT$>$1GeV)
+	\item trkrel: The ratio of the pT of surounding tracks to that of the muon. Tracks are counted if pT $>$ 1 GeV, deltaR $<$0.3 and distance of the closest approach smaller than 1 mm to the muon. The largest value from the three muon is used
+\end{itemize}
+
+Fig. \ref{fig:BDT_inputs} shows the signal and background (3$\mu$ sideband in data) comparison of all these 10 variables.
 
 \begin{figure}[h]
 	\centering
@@ -2093,6 +2231,16 @@ The multivariate analysis presented in this thesis has been implemented with the
 	\caption{Input variables used in the BDT.}
 	\label{fig:BDT_inputs}
 \end{figure}
+
+About N. signal MC events and N. data sideband events have passed the selections in section 5. Half of these events are used to train BDT, and BDT outputs are compared with the other half of events. The BDT output distribution should be consistent between the 2 halves (known as ”training sample” and ”test sample”), to avoid ”overtraining”, as checked in Figure 21. No sign of overtraining is seen. 
+
+These input values are sorted in a "ranking" based on (vedi spiegazione su) and they are listed in Tab. \ref{tab:BDT_ranking}.\\
+The matrices reporting the linear correlations among the input variable are shown in Fig. \ref{fig:CorrelationMatrix}, both for the signal and the background.
+
+Fig. \ref{fig:BDT_KStest} shows BDT output in different trimuon mass bins. No sign of BDT output correlation with trimuon mass is seen for either signal or background. -> parla del KS test!
+
+Techinical parameters used in the BDT training are listed in Tab. \ref{tab:BDT_parameters}.
+
 
 \begin{figure}[h!]
 \begin{minipage}[b]{7.3cm}
@@ -2163,6 +2311,10 @@ The multivariate analysis presented in this thesis has been implemented with the
 
 
 \newpage
+
+The three trimuon mass resolution components (REF) are hereinafter referred to as event category A, B and C respectively, from the best to the worst mass resolution.\\
+Fig. \ref{fig:BDT_out} shows the BDT output of signal and background in the three categories separately. Cuts are applied on BDT outputs to improve signal background ratio, before the final results are extracted. Two cuts are made to each category, as indicated by the two vertical bars in each figure. Events sitting on the right to the right hand side vertical bar are referred to as ”sub-category 1”, while events between the two vertical bars are referred to as ”sub-category 2”. The two cuts are scanned simultaneously such that the best combined signal significance is obtained in each category (An optimization based on the best combined upper limit leads to the same cut values). As a result, we will have six categories in total, three mass resolution categories, times two BDT output categories.
+
 \begin{figure}[h!]
 \begin{minipage}[b]{7.3cm}
    \centering
@@ -2182,6 +2334,9 @@ The multivariate analysis presented in this thesis has been implemented with the
 
 
 \newpage
+As the final results will be extracted by fitting the trimuon mass spectrum, mass distributions
+are parameterized for signal and background. Fig. \ref{fig:Final_cat} shows the data trimuon mass distributions surviving cuts on BDT output, for the six categories separately. The shapes are fitted with an exponential function.
+
 \begin{figure}[h!]
  \begin{minipage}[b]{7.3cm}
    \centering
@@ -2218,7 +2373,37 @@ The multivariate analysis presented in this thesis has been implemented with the
 
 
 \section{Evaluation of systematics}
-Bla Bla \cite{ref118}
+
+Dalla nota-\\
+The dominant systematics is the uncertainty on signal normalization. The normalization procedure is detailed in Section 6 and briefly summarized here. The signal prediction is first taken from MC, and then the overall scale factor 0.67 is applied. Depending on the mother particle of the $\tau$ ($D$ source or $B$ source), further corrections are applied and systematics are assigned, based on Eq. \ref{eq:N_sigD_2} and Eq. \ref{eq:N_sigB_2} respectively. Depending on if the event is triggerred exclusively by the TripleMu L1 seed, the corrections and systematics discussed in Section 6.3 are applied.\\
+Below is a full list of systematics.
+
+- Uncertainty on $D_{s}$ normalization is 3.3\%. They apply to all events, either $D$ source or $B$ source, either triggerred by DoubleMu L1 seeds, or TripleMu L1 seed.
+
+- Uncertainties associated with $D$ source events (68\% of the total events, Table 8) are inferred from Eq. \ref{eq:N_sigD_2}. The uncertainty on $D_{s} \rightarrow \tau\nu$ branching ratio is 4\%, which means 3\% net effect on the total. The uncertainty on scaling $D_{s}$ to include $D^{+}$ is 4\% (assuming the $D^{+}$ contribution has 100\% uncertainty), the net effect of which is 3\%.
+
+- Uncertainties associated with B source events (32\% of the total) are inferred from Eq. \ref{eq:N_sigB_2}. The uncertainty on B/D ratio is assigned to be 11\%, which is 3\% net effect on the total. The uncertainty on $B \rightarrow D_{s} + anything$ branching ratio is 16\%, leading to 5\% net effect. The uncertainty on $B \rightarrow \tau + anything$  branching ratio is 11\%, bringing 3\% net effect on the total. The uncertainty on scaling $B$ mesons to include $B_{s}$ is 12\%, leading to 4\% net effect on the total.
+
+- The uncertainty on $D_{s} \rightarrow \phi(\mu\mu)\pi$ branching ratio is 8\%. As it appears in both Eq. \ref{eq:N_sigD_2} and  Eq. \ref{eq:N_sigB_2}, it applies to all signal events. Similarly the uncertainties on the ratio of event selection acceptances, and on muon reconstruction efficiency apply to all signal events. (Details below)
+
+-As discussed in Section 6.3, number of events triggered by TripleMu L1 seed has an additional  uncertainty of 12\%, which is 3\% on total number of events.
+
+-The uncertainty on the ratio of event selection acceptances, Asig/A2$\mu\pi$, are estimated by changing PDF sets in simulation of the two processes. $D_{s} \rightarrow \tau\nu$ signal sameples and $D_{s} \rightarrow \phi(\mu\mu)\pi$ normlization samples are generated using PYTHIA, with alternative PDF+Tune settings, namely, CUETP8M1-NNPDF2.3LO (the default in official CMS production), CUETP8S1-CTEQ6L1, CUETP8S1-HERAPDF1.5LO. The kinematic acceptances are defined as all 3(2) generator-level muons from $\tau(\phi)$having p$>$2.5 GeV and $|\eta|<$ 2.4,while the $\pi$ in $D_{s} \rightarrow\phi(\mu\mu)\pi$ have pT $>$1GeV and $|\eta| <$ 2.4. Although acceptances themselves were found to change by as much as 7\% for different PDF+Tune settings, the ratio of the two channels remained constant within $mathcal{O}$(1\%), which is taken as systematics associated with the acceptance ratio.
+
+- The GlobalMuon reconstruction efficiency scale factor is measured using data. We observe a difference of 1\% in signal event yield prediction when we apply the scale factor to the lowest pT muon or highest pT muon. If we modify the muon scale factors by 1$\sigma$ of the statistical uncertainty of the measurements, the net effect on the signal yield is not larger than 1\%. Therefore, we assign a total systematic uncertainty of 1.5\% (the two numbers added in quadrature) on the signal event yield associated with the muon reconstruction efficiency uncertainties. BDT cut efficiency uncertain is assigned to be 5\% as discussed earlier.
+
+- The muon momentum scale uncertainty and momentum resolution uncertainty are both studied using $D_{s} \rightarrow \phi(\mu\mu)\pi$ events in data and MC. The Ds mass peak is fitted in different $\eta$ regions (the $\eta$ of the most forward decay product), with the binning [0, 0.6, 1.2, 1.8, 2.4]. Figure 30 shows  the fitted mass in data and MC. It seems the mass in data is (almost constantly) 0.07\% lower than that in MC, therefore we scale the mass distribution in $\tau \rightarrow 3\mu$ signal MC down by 0.07\%.
+
+- In addition, a 0.07\% uncertainty is assigned to the mass peak position. At the same time, the fitted mass resolution is compared in each $\eta$ bin between data and MC, as shown in Figure 31. Based on the linear fit of the resolutions, the $\tau \rightarrow 3\mu$ mass peak width in MC is increased by 2\%, and the uncertainty of the width is assigned to be 2.5\%. The above described mass peak position and width effects are included as parametric uncertainties on the signal shapes in the final fit model.
+
+Table \ref{tab:Uncertainties} summarizes all sources of systematic uncertainties associated with modeling the signal event yields and trimuon mass distribution shapes.
+
+The statistical uncertainties on background prediction in the signal region are defined by the number of observed events in side band, and vary from 3 to 15\%, depending on event sub-category. 
+These uncertainties are a priori accounted in the statistical analysis. The systematic uncertainty is associated with a choice of the fit functional form. In this analysis, we use exponential (exp(-Am)), 2nd and 3rd-order polynomial functions. 
+In the statistical analysis described in the next section, these choices are treated as discrete “values” for a nuisance parameter associated with background functional form uncertainty (the MultiPdf option in the CMS Higgs CombinedLimit tool). The net effect on the final limit is found to be smaller than 1\%.
+
+
+ \cite{ref118}
 
 \begin{table}[h!]\footnotesize
 	\centering
@@ -2239,13 +2424,18 @@ Bla Bla \cite{ref118}
 %	Muon momentum resolution uncertainty [ 10\% ]	&	-\\
 	\hline
 	\end{tabular}
-	\caption{Bla Bla}
+	\caption{-- modifica ! - Sources of systematic uncertainties affecting signal modeling and their impact on the expected signal event yield and trimuon mass distribution shape.}
 	\label{tab:Uncertainties}
 \end{table}
-\newpage
-\section{Results}
 
 Efficienza di ricostruzione muoni : valore indicativo (grande, per essere conservativi)
+
+\newpage
+\section{Results}
+The expected signal and data yields in the region 1.62–2.00 GeV are shown in Fig. \ref{fig:Final_plot} and given in Tab. \ref{tab:Results}.
+
+Upper limits on branching fraction $\mathcal{B}(\tau \rightarrow 3\mu)$ are set using the modified frequentist CLs criterion \cite{ref118, ref119}...
+
 
 \begin{figure}[h!]
    \centering
@@ -2277,17 +2467,17 @@ q_{\mu} = -\mathrm{2\ ln}\ \frac{\mathcal{L}\ (\mathrm{obs}|\ \mu\cdot s+b,\ \ha
 	Category C	&	000	&	000	&	000	&	000\\
 	\hline
 	\end{tabular}
-	\caption{Bla Bla}
+	\caption{Signal and data yields for six event categories in the mass range 1.62–2.00 GeV. The signal yields are shown for $\mathcal{B}(\tau \rightarrow 3\mu) = 10^{-7}$. The data yelds in () are in the mass ranges of 1.777 $\pm$ 2$\sigma$, where $\sigma$ is the mass resolution (12 MeV, 19 MeV and 25 MeV for the category A, B and C respectively).}
 	\label{tab:Results}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\chapter*{Conclusions}
-A search for dimuon decays of heavy neutral resonances has been performed using proton-proton collision data collected at $\sqrt{s}$= 13 TeV by the CMS experiment at the LHC in 2015. The data set corresponds to an integrated luminosity of 2.8 $fb^{-1}$.
-This analysis represents an important search channel for new physics.
-The dimuon mass distribution is consistent with Standard Model predictions. An upper limit on the ratio of the cross section times branching fraction of new bosons, normalized to the cross section times branching fraction of the Z boson, is set at the 95\% confidence level.
-A further increase to a center-of-mass energy of 14 TeV is planned until the end of this LHC run. With the full dataset of an integrated luminosity of about 300 $fb^{-1}$, that is expected to be collected until the next long shutdown of the LHC, the discovery potential can reach resonance masses beyond 4.5 TeV.
+%A search for dimuon decays of heavy neutral resonances has been performed using proton-proton collision data collected at $\sqrt{s}$= 13 TeV by the CMS experiment at the LHC in 2015. The data set corresponds to an integrated luminosity of 2.8 $fb^{-1}$.
+%This analysis represents an important search channel for new physics.
+%The dimuon mass distribution is consistent with Standard Model predictions. An upper limit on the ratio of the cross section times branching fraction of new bosons, normalized to the cross section times branching fraction of the Z boson, is set at the 95\% confidence level.
+%A further increase to a center-of-mass energy of 14 TeV is planned until the end of this LHC run. With the full dataset of an integrated luminosity of about 300 $fb^{-1}$, that is expected to be collected until the next long shutdown of the LHC, the discovery potential can reach resonance masses beyond 4.5 TeV.
 
 
 \begin{thebibliography}{90}             

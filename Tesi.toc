@@ -2,25 +2,26 @@
 \contentsline {chapter}{\numberline {1}The Standard Model and its extensions}{4}{chapter.1}
 \contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}Events reconstruction in CMS}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Analysis }{7}{chapter.4}
+\contentsline {chapter}{\numberline {4}Analysis}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Preliminary considerations}{7}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Motivations and previous results}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Previous results}{7}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Production of $\tau $ leptons at LHC}{8}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Signal acceptance}{9}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Data and MonteCarlo samples}{9}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Datasets}{9}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}MonteCarlo samples}{10}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Pile-up Reweighting}{11}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Search strategy}{12}{section.4.3}
-\contentsline {section}{\numberline {4.4}Event selection}{13}{section.4.4}
-\contentsline {section}{\numberline {4.5}Signal Normalization}{16}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Events triggered by DoubleMu L1 seeds}{16}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}B/D ratio}{19}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Control channel}{19}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Multivariate Analysis (MVA)}{23}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Introduction to MVA: why to use it?}{23}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Boosted Decision Tree (BDT)}{23}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Training, variable ranking, performance }{25}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Evaluation of systematics}{31}{section.4.7}
-\contentsline {section}{\numberline {4.8}Results}{32}{section.4.8}
-\contentsline {chapter}{Bibliography}{34}{chapter*.48}
+\contentsline {subsection}{\numberline {4.1.3}Signal acceptance at generator level}{9}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Data and MonteCarlo samples}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Datasets}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}MonteCarlo samples}{12}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Pile-up Reweighting}{13}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Search strategy}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event selection}{15}{section.4.4}
+\contentsline {section}{\numberline {4.5}Signal Normalization}{18}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Events triggered by DoubleMu L1 seeds}{18}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}B/D ratio}{24}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Events triggered exclusivly by the TripleMu L1 seed}{25}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}MC validation}{25}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Multivariate Analysis (MVA)}{28}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Introduction to MVA: why to use it?}{28}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Boosted Decision Tree (BDT)}{28}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Training, variable ranking, performance }{30}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Evaluation of systematics}{36}{section.4.7}
+\contentsline {section}{\numberline {4.8}Results}{40}{section.4.8}
+\contentsline {chapter}{Bibliography}{41}{chapter*.51}

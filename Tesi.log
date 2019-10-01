@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  30 SEP 2019 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  1 OCT 2019 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,7 +1960,7 @@ LaTeX Info: Redefining \ohm on input line 39.
 Package gensymb Info: Using \textohm for \ohm on input line 39.
 Package gensymb Info: Using \textmu for \micro on input line 39.
 
-<logoUniba.jpeg, id=104, 569.0058pt x 455.301pt>
+<logoUniba.jpeg, id=108, 569.0058pt x 455.301pt>
 File: logoUniba.jpeg Graphic file (type jpg)
  <use logoUniba.jpeg>
 Package pdftex.def Info: logoUniba.jpeg used on input line 47.
@@ -1988,529 +1988,584 @@ Chapter 3.
 
 ]
 Chapter 4.
+
+LaTeX Warning: Reference `LFV' on page 7 undefined on input line 1503.
+
 [7
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1526.
+(hyperref)                removing `math shift' on input line 1523.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 1526.
+(hyperref)                removing `\tau' on input line 1523.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1526.
+(hyperref)                removing `math shift' on input line 1523.
 
-[8] <Momentum_genLevel.png, id=199, 1047.915pt x 596.2275pt>
+[8] <Momentum_genLevel.png, id=211, 1047.915pt x 596.2275pt>
 File: Momentum_genLevel.png Graphic file (type png)
 
 <use Momentum_genLevel.png>
 Package pdftex.def Info: Momentum_genLevel.png used on input line 1584.
 (pdftex.def)             Requested size: 426.79134pt x 242.82637pt.
 
-<Eta_genLevel.png, id=201, 1018.80624pt x 433.62pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] <Eta_genLevel.png, id=221, 1018.80624pt x 433.62pt>
 File: Eta_genLevel.png Graphic file (type png)
  <use Eta_genLevel.png>
-Package pdftex.def Info: Eta_genLevel.png used on input line 1591.
+Package pdftex.def Info: Eta_genLevel.png used on input line 1593.
 (pdftex.def)             Requested size: 426.79134pt x 181.64938pt.
 
+<Efficiency_genLevel.png, id=223, 719.68875pt x 304.13625pt>
+File: Efficiency_genLevel.png Graphic file (type png)
+
+<use Efficiency_genLevel.png>
+Package pdftex.def Info: Efficiency_genLevel.png used on input line 1602.
+(pdftex.def)             Requested size: 426.79134pt x 180.36697pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1603
+LaTeX Warning: Reference `WLCG' on page 10 undefined on input line 1610.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1609--1613
 
  []
 
-[9 <./Momentum_genLevel.png>]
-Overfull \hbox (0.32281pt too wide) in paragraph at lines 1621--1625
-\OT1/cmr/m/n/10.95 sions17/13TeV/ReReco/Cert[]-294927-306462[]-13TeV[]-EOY2017R
-eReco[]-Col-li-sions17[]-JSON[]-
- []
+[10 <./Momentum_genLevel.png> <./Eta_genLevel.png>] [11 <./Efficiency_genLevel.
+png>] [12]
 
+LaTeX Warning: Reference `LHC' on page 13 undefined on input line 1700.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./Eta_genLevel.png>] <PU_comp.pdf, id=231, 569.12625pt x 371.3875pt>
+<PU_comp.pdf, id=260, 569.12625pt x 371.3875pt>
 File: PU_comp.pdf Graphic file (type pdf)
-
-<use PU_comp.pdf>
-Package pdftex.def Info: PU_comp.pdf used on input line 1680.
+ <use PU_comp.pdf>
+Package pdftex.def Info: PU_comp.pdf used on input line 1705.
 (pdftex.def)             Requested size: 341.43306pt x 222.81154pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PU_weights.pdf, id=235, 569.12625pt x 371.3875pt>
+ [13 <./PU_comp.pdf, page is rotated 90 degrees>]
+<PU_weights.pdf, id=313, 569.12625pt x 371.3875pt>
 File: PU_weights.pdf Graphic file (type pdf)
  <use PU_weights.pdf>
-Package pdftex.def Info: PU_weights.pdf used on input line 1697.
+Package pdftex.def Info: PU_weights.pdf used on input line 1722.
 (pdftex.def)             Requested size: 341.43306pt x 222.81154pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PU_Vertices_Before.png, id=237, 482.80376pt x 414.54875pt>
+<PU_Vertices_Before.png, id=315, 482.80376pt x 414.54875pt>
 File: PU_Vertices_Before.png Graphic file (type png)
 
 <use PU_Vertices_Before.png>
-Package pdftex.def Info: PU_Vertices_Before.png used on input line 1709.
+Package pdftex.def Info: PU_Vertices_Before.png used on input line 1732.
 (pdftex.def)             Requested size: 204.85974pt x 175.8994pt.
 
-<PU_Vertices_After.png, id=238, 641.39626pt x 418.56375pt>
+<PU_Vertices_After.png, id=316, 641.39626pt x 418.56375pt>
 File: PU_Vertices_After.png Graphic file (type png)
 
 <use PU_Vertices_After.png>
-Package pdftex.def Info: PU_Vertices_After.png used on input line 1713.
+Package pdftex.def Info: PU_Vertices_After.png used on input line 1736.
 (pdftex.def)             Requested size: 204.85974pt x 133.68765pt.
- [11]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <./PU_comp.pdf, page is rotated 90 degrees> <./PU_weights.pdf, page is rota
-ted 90 degrees>] [13 <./PU_Vertices_Before.png> <./PU_Vertices_After.png>]
-[14] <MassTripReso.png, id=362, 444.66125pt x 422.57875pt>
-File: MassTripReso.png Graphic file (type png)
 
-<use MassTripReso.png>
-Package pdftex.def Info: MassTripReso.png used on input line 1783.
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
+
+ []
+
+[14 <./PU_weights.pdf, page is rotated 90 degrees>] [15 <./PU_Vertices_Before.p
+ng> <./PU_Vertices_After.png>] [16]
+<MassTripReso.png, id=390, 444.66125pt x 422.57875pt>
+File: MassTripReso.png Graphic file (type png)
+ <use MassTripReso.png>
+Package pdftex.def Info: MassTripReso.png used on input line 1822.
 (pdftex.def)             Requested size: 204.85974pt x 194.68518pt.
- <MassTripReso_eta.png, id=363, 449.68pt x 428.60126pt>
+
+<MassTripReso_eta.png, id=391, 449.68pt x 428.60126pt>
 File: MassTripReso_eta.png Graphic file (type png)
 
 <use MassTripReso_eta.png>
-Package pdftex.def Info: MassTripReso_eta.png used on input line 1787.
+Package pdftex.def Info: MassTripReso_eta.png used on input line 1829.
 (pdftex.def)             Requested size: 204.85974pt x 195.25584pt.
- [15 <./MassTripReso.png> <./MassTripReso_eta.png>]
-<NDs_total.png, id=372, 794.97pt x 532.99126pt>
-File: NDs_total.png Graphic file (type png)
- <use NDs_total.png>
-Package pdftex.def Info: NDs_total.png used on input line 1810.
-(pdftex.def)             Requested size: 341.43306pt x 228.92152pt.
- [16 <./NDs_total.png>] <NDs_runB.png, id=384, 585.18625pt x 563.10374pt>
+ [17 <./MassTripReso.png> <./MassTripReso_eta.png>]
+[18] <NDs_total_bis.png, id=414, 1153.30875pt x 711.65875pt>
+File: NDs_total_bis.png Graphic file (type png)
+
+<use NDs_total_bis.png>
+Package pdftex.def Info: NDs_total_bis.png used on input line 1919.
+(pdftex.def)             Requested size: 455.24408pt x 280.9121pt.
+
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1919--1920
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./NDs_total_bis.png>]
+<NDs_runB.png, id=438, 991.705pt x 637.38126pt>
 File: NDs_runB.png Graphic file (type png)
+ <use NDs_runB.png>
+Package pdftex.def Info: NDs_runB.png used on input line 1949.
+(pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<use NDs_runB.png>
-Package pdftex.def Info: NDs_runB.png used on input line 1836.
-(pdftex.def)             Requested size: 204.85974pt x 197.13222pt.
- <NDs_runC.png, id=385, 586.19pt x 562.1pt>
+<NDs_runC.png, id=439, 991.705pt x 637.38126pt>
 File: NDs_runC.png Graphic file (type png)
+ <use NDs_runC.png>
+Package pdftex.def Info: NDs_runC.png used on input line 1953.
+(pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<use NDs_runC.png>
-Package pdftex.def Info: NDs_runC.png used on input line 1840.
-(pdftex.def)             Requested size: 204.85974pt x 196.43774pt.
- <NDs_runD.png, id=386, 583.17876pt x 551.05875pt>
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 1947--1955
+[][] [] 
+ []
+
+<NDs_runD.png, id=440, 991.705pt x 637.38126pt>
 File: NDs_runD.png Graphic file (type png)
+ <use NDs_runD.png>
+Package pdftex.def Info: NDs_runD.png used on input line 1959.
+(pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<use NDs_runD.png>
-Package pdftex.def Info: NDs_runD.png used on input line 1846.
-(pdftex.def)             Requested size: 204.85974pt x 193.57135pt.
- <NDs_runE.png, id=387, 589.20125pt x 551.05875pt>
+<NDs_runE.png, id=441, 991.705pt x 637.38126pt>
 File: NDs_runE.png Graphic file (type png)
+ <use NDs_runE.png>
+Package pdftex.def Info: NDs_runE.png used on input line 1963.
+(pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<use NDs_runE.png>
-Package pdftex.def Info: NDs_runE.png used on input line 1850.
-(pdftex.def)             Requested size: 204.85974pt x 191.59535pt.
- <NDs_runF.png, id=388, 581.17125pt x 556.0775pt>
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 1957--1965
+[][] [] 
+ []
+
+<NDs_runF.png, id=442, 991.705pt x 637.38126pt>
 File: NDs_runF.png Graphic file (type png)
-
-<use NDs_runF.png>
-Package pdftex.def Info: NDs_runF.png used on input line 1855.
-(pdftex.def)             Requested size: 204.85974pt x 196.01309pt.
- [17 <./NDs_runB.png> <./NDs_runC.png> <./NDs_runD.png> <./NDs_runE.png> <./NDs
+ <use NDs_runF.png>
+Package pdftex.def Info: NDs_runF.png used on input line 1968.
+(pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
+ [21 <./NDs_runB.png> <./NDs_runC.png> <./NDs_runD.png> <./NDs_runE.png> <./NDs
 _runF.png>]
-<Systematics_Ds.png, id=404, 913.4125pt x 564.1075pt>
+<Systematics_Ds.png, id=454, 913.4125pt x 564.1075pt>
 File: Systematics_Ds.png Graphic file (type png)
  <use Systematics_Ds.png>
-Package pdftex.def Info: Systematics_Ds.png used on input line 1867.
-(pdftex.def)             Requested size: 207.7052pt x 128.2701pt.
+Package pdftex.def Info: Systematics_Ds.png used on input line 1986.
+(pdftex.def)             Requested size: 398.33858pt x 246.00452pt.
 
-<Systematics_Ds_ratio.png, id=405, 529.98pt x 328.22626pt>
+<Systematics_Ds_ratio.png, id=455, 529.98pt x 328.22626pt>
 File: Systematics_Ds_ratio.png Graphic file (type png)
 
 <use Systematics_Ds_ratio.png>
-Package pdftex.def Info: Systematics_Ds_ratio.png used on input line 1871.
-(pdftex.def)             Requested size: 207.7052pt x 128.63376pt.
- [18 <./Systematics_Ds.png> <./Systematics_Ds_ratio.png>] [19] [20] <Control_pT
-mu1.png, id=435, 566.115pt x 534.99875pt>
-File: Control_pTmu1.png Graphic file (type png)
+Package pdftex.def Info: Systematics_Ds_ratio.png used on input line 1993.
+(pdftex.def)             Requested size: 398.33858pt x 246.69997pt.
 
-<use Control_pTmu1.png>
-Package pdftex.def Info: Control_pTmu1.png used on input line 1956.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./Systematics_Ds.png>] [23 <./Systematics_Ds_ratio.png>] [24] [25]
+<Control_pTmu1.png, id=490, 566.115pt x 534.99875pt>
+File: Control_pTmu1.png Graphic file (type png)
+ <use Control_pTmu1.png>
+Package pdftex.def Info: Control_pTmu1.png used on input line 2067.
 (pdftex.def)             Requested size: 204.85974pt x 193.59534pt.
 
-<Control_etaMu1.png, id=436, 555.07375pt x 532.99126pt>
+<Control_etaMu1.png, id=491, 555.07375pt x 532.99126pt>
 File: Control_etaMu1.png Graphic file (type png)
 
 <use Control_etaMu1.png>
-Package pdftex.def Info: Control_etaMu1.png used on input line 1960.
+Package pdftex.def Info: Control_etaMu1.png used on input line 2071.
 (pdftex.def)             Requested size: 204.85974pt x 196.70758pt.
- <Control_pTmu2.png, id=437, 552.0625pt x 529.98pt>
+ <Control_pTmu2.png, id=492, 552.0625pt x 529.98pt>
 File: Control_pTmu2.png Graphic file (type png)
 
 <use Control_pTmu2.png>
-Package pdftex.def Info: Control_pTmu2.png used on input line 1966.
+Package pdftex.def Info: Control_pTmu2.png used on input line 2077.
 (pdftex.def)             Requested size: 204.85974pt x 196.66368pt.
 
-<Control_etaMu2.png, id=438, 553.06625pt x 526.96875pt>
+<Control_etaMu2.png, id=493, 553.06625pt x 526.96875pt>
 File: Control_etaMu2.png Graphic file (type png)
 
 <use Control_etaMu2.png>
-Package pdftex.def Info: Control_etaMu2.png used on input line 1970.
+Package pdftex.def Info: Control_etaMu2.png used on input line 2081.
 (pdftex.def)             Requested size: 204.85974pt x 195.19247pt.
- <Control_pTpi.png, id=439, 562.1pt x 525.965pt>
+ <Control_pTpi.png, id=494, 562.1pt x 525.965pt>
 File: Control_pTpi.png Graphic file (type png)
 
 <use Control_pTpi.png>
-Package pdftex.def Info: Control_pTpi.png used on input line 1976.
+Package pdftex.def Info: Control_pTpi.png used on input line 2087.
 (pdftex.def)             Requested size: 204.85974pt x 191.6907pt.
 
-<Control_EtaTriplet.png, id=440, 561.09625pt x 529.98pt>
+<Control_EtaTriplet.png, id=495, 561.09625pt x 529.98pt>
 File: Control_EtaTriplet.png Graphic file (type png)
 
 <use Control_EtaTriplet.png>
-Package pdftex.def Info: Control_EtaTriplet.png used on input line 1980.
+Package pdftex.def Info: Control_EtaTriplet.png used on input line 2091.
 (pdftex.def)             Requested size: 204.85974pt x 193.49364pt.
- [21 <./Control_pTmu1.png> <./Control_etaMu1.png> <./Control_pTmu2.png> <./Cont
+ [26 <./Control_pTmu1.png> <./Control_etaMu1.png> <./Control_pTmu2.png> <./Cont
 rol_etaMu2.png> <./Control_pTpi.png> <./Control_EtaTriplet.png>] <Control_Decay
-Length.png, id=454, 359.3425pt x 333.245pt>
+Length.png, id=508, 359.3425pt x 333.245pt>
 File: Control_DecayLength.png Graphic file (type png)
 
 <use Control_DecayLength.png>
-Package pdftex.def Info: Control_DecayLength.png used on input line 1991.
+Package pdftex.def Info: Control_DecayLength.png used on input line 2102.
 (pdftex.def)             Requested size: 204.85974pt x 189.9872pt.
 
-<Control_DecayLengthSign.png, id=455, 369.38pt x 350.30875pt>
+<Control_DecayLengthSign.png, id=509, 369.38pt x 350.30875pt>
 File: Control_DecayLengthSign.png Graphic file (type png)
 
 <use Control_DecayLengthSign.png>
-Package pdftex.def Info: Control_DecayLengthSign.png used on input line 1995.
+Package pdftex.def Info: Control_DecayLengthSign.png used on input line 2106.
 (pdftex.def)             Requested size: 204.85974pt x 194.28467pt.
 
-<Control_DeltaR_2mu.png, id=456, 367.3725pt x 345.29pt>
+<Control_DeltaR_2mu.png, id=510, 367.3725pt x 345.29pt>
 File: Control_DeltaR_2mu.png Graphic file (type png)
 
 <use Control_DeltaR_2mu.png>
-Package pdftex.def Info: Control_DeltaR_2mu.png used on input line 2001.
+Package pdftex.def Info: Control_DeltaR_2mu.png used on input line 2112.
 (pdftex.def)             Requested size: 204.85974pt x 192.54968pt.
 
-<Control_segmComp.png, id=457, 365.365pt x 344.28625pt>
+<Control_segmComp.png, id=511, 365.365pt x 344.28625pt>
 File: Control_segmComp.png Graphic file (type png)
 
 <use Control_segmComp.png>
-Package pdftex.def Info: Control_segmComp.png used on input line 2005.
+Package pdftex.def Info: Control_segmComp.png used on input line 2116.
 (pdftex.def)             Requested size: 204.85974pt x 193.04063pt.
 
-<Control_other1.png, id=458, 366.36874pt x 353.32pt>
+<Control_other1.png, id=512, 366.36874pt x 353.32pt>
 File: Control_other1.png Graphic file (type png)
  <use Control_other1.png>
-Package pdftex.def Info: Control_other1.png used on input line 2011.
+Package pdftex.def Info: Control_other1.png used on input line 2122.
 (pdftex.def)             Requested size: 204.85974pt x 197.56673pt.
 
-<Control_other2.png, id=459, 366.36874pt x 353.32pt>
+<Control_other2.png, id=513, 366.36874pt x 353.32pt>
 File: Control_other2.png Graphic file (type png)
  <use Control_other2.png>
-Package pdftex.def Info: Control_other2.png used on input line 2015.
+Package pdftex.def Info: Control_other2.png used on input line 2126.
 (pdftex.def)             Requested size: 204.85974pt x 197.56673pt.
 
-[22 <./Control_DecayLength.png> <./Control_DecayLengthSign.png> <./Control_Delt
+[27 <./Control_DecayLength.png> <./Control_DecayLengthSign.png> <./Control_Delt
 aR_2mu.png> <./Control_segmComp.png> <./Control_other1.png> <./Control_other2.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2030
+Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
 
  []
 
-<MVA_examples.png, id=475, 817.0525pt x 242.9075pt>
+<MVA_examples.png, id=528, 817.0525pt x 242.9075pt>
 File: MVA_examples.png Graphic file (type png)
  <use MVA_examples.png>
-Package pdftex.def Info: MVA_examples.png used on input line 2033.
+Package pdftex.def Info: MVA_examples.png used on input line 2143.
 (pdftex.def)             Requested size: 408.52525pt x 121.45345pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
 
  []
 
-<DecisionTree.png, id=479, 456.70625pt x 379.4175pt>
+<DecisionTree.png, id=532, 456.70625pt x 379.4175pt>
 File: DecisionTree.png Graphic file (type png)
  <use DecisionTree.png>
-Package pdftex.def Info: DecisionTree.png used on input line 2047.
+Package pdftex.def Info: DecisionTree.png used on input line 2157.
 (pdftex.def)             Requested size: 274.02585pt x 227.65225pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./MVA_examples.png>] [24 <./DecisionTree.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2080--2082
+[28 <./MVA_examples.png>] [29 <./DecisionTree.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2192
 
  []
 
-[25] <BDT_in1.png, id=512, 949.5475pt x 496.85625pt>
+[30] <BDT_in1.png, id=564, 949.5475pt x 496.85625pt>
 File: BDT_in1.png Graphic file (type png)
  <use BDT_in1.png>
-Package pdftex.def Info: BDT_in1.png used on input line 2088.
+Package pdftex.def Info: BDT_in1.png used on input line 2226.
 (pdftex.def)             Requested size: 426.79134pt x 223.31789pt.
 
-<BDT_in2.png, id=513, 948.54375pt x 498.86375pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<BDT_in2.png, id=565, 948.54375pt x 498.86375pt>
 File: BDT_in2.png Graphic file (type png)
  <use BDT_in2.png>
-Package pdftex.def Info: BDT_in2.png used on input line 2092.
+Package pdftex.def Info: BDT_in2.png used on input line 2230.
 (pdftex.def)             Requested size: 426.79134pt x 224.45616pt.
 
-<CorrelationMatrix_signal.png, id=514, 453.695pt x 421.575pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] <CorrelationMatrix_signal.png, id=577, 453.695pt x 421.575pt>
 File: CorrelationMatrix_signal.png Graphic file (type png)
 
 <use CorrelationMatrix_signal.png>
-Package pdftex.def Info: CorrelationMatrix_signal.png used on input line 2100.
+Package pdftex.def Info: CorrelationMatrix_signal.png used on input line 2248.
 (pdftex.def)             Requested size: 204.85974pt x 190.35669pt.
 
-<CorrelationMatrix_bkg.png, id=515, 453.695pt x 421.575pt>
+<CorrelationMatrix_bkg.png, id=578, 453.695pt x 421.575pt>
 File: CorrelationMatrix_bkg.png Graphic file (type png)
 
 <use CorrelationMatrix_bkg.png>
-Package pdftex.def Info: CorrelationMatrix_bkg.png used on input line 2104.
+Package pdftex.def Info: CorrelationMatrix_bkg.png used on input line 2252.
 (pdftex.def)             Requested size: 204.85974pt x 190.35669pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./BDT_in1.png> <./BDT_in2.png>] [27 <./CorrelationMatrix_signal.png> <./Co
-rrelationMatrix_bkg.png>] <BDT_KStest.png, id=534, 608.2725pt x 448.67625pt>
+[32 <./BDT_in1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 <./BDT_in2.png> <./CorrelationMatrix_signal.png> <./CorrelationMatrix_bkg.p
+ng>] <BDT_KStest.png, id=596, 608.2725pt x 448.67625pt>
 File: BDT_KStest.png Graphic file (type png)
-
-<use BDT_KStest.png>
-Package pdftex.def Info: BDT_KStest.png used on input line 2152.
+ <use BDT_KStest.png>
+Package pdftex.def Info: BDT_KStest.png used on input line 2300.
 (pdftex.def)             Requested size: 284.52756pt x 209.87831pt.
- <ROC_curve.png, id=535, 650.43pt x 476.78125pt>
+
+<ROC_curve.png, id=597, 650.43pt x 476.78125pt>
 File: ROC_curve.png Graphic file (type png)
-
-<use ROC_curve.png>
-Package pdftex.def Info: ROC_curve.png used on input line 2159.
+ <use ROC_curve.png>
+Package pdftex.def Info: ROC_curve.png used on input line 2307.
 (pdftex.def)             Requested size: 284.52756pt x 208.56944pt.
- [28 <./BDT_KStest.png> <./ROC_curve.png>]
-<BDT_out_A.png, id=544, 443.6575pt x 422.57875pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34 <./BDT_KStest.png>] <BDT_out_A.png, id=605, 443.6575pt x 422.57875pt>
 File: BDT_out_A.png Graphic file (type png)
- <use BDT_out_A.png>
-Package pdftex.def Info: BDT_out_A.png used on input line 2169.
+
+<use BDT_out_A.png>
+Package pdftex.def Info: BDT_out_A.png used on input line 2321.
 (pdftex.def)             Requested size: 204.85974pt x 195.12366pt.
-
-<BDT_out_B.png, id=545, 446.66875pt x 422.57875pt>
+ <BDT_out_B.png, id=606, 446.66875pt x 422.57875pt>
 File: BDT_out_B.png Graphic file (type png)
- <use BDT_out_B.png>
-Package pdftex.def Info: BDT_out_B.png used on input line 2173.
-(pdftex.def)             Requested size: 204.85974pt x 193.8147pt.
 
-<BDT_out_C.png, id=546, 433.62pt x 427.5975pt>
+<use BDT_out_B.png>
+Package pdftex.def Info: BDT_out_B.png used on input line 2325.
+(pdftex.def)             Requested size: 204.85974pt x 193.8147pt.
+ <BDT_out_C.png, id=607, 433.62pt x 427.5975pt>
 File: BDT_out_C.png Graphic file (type png)
- <use BDT_out_C.png>
-Package pdftex.def Info: BDT_out_C.png used on input line 2178.
+
+<use BDT_out_C.png>
+Package pdftex.def Info: BDT_out_C.png used on input line 2330.
 (pdftex.def)             Requested size: 204.85974pt x 202.01479pt.
- [29 <./BDT_out_A.png> <./BDT_out_B.png> <./BDT_out_C.png>]
-<Final_A1.png, id=556, 452.69125pt x 432.61626pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./ROC_curve.png> <./BDT_out_A.png> <./BDT_out_B.png>]
+<Final_A1.png, id=618, 452.69125pt x 432.61626pt>
 File: Final_A1.png Graphic file (type png)
  <use Final_A1.png>
-Package pdftex.def Info: Final_A1.png used on input line 2188.
+Package pdftex.def Info: Final_A1.png used on input line 2343.
 (pdftex.def)             Requested size: 196.32384pt x 187.61224pt.
 
-<Final_A2.png, id=557, 453.695pt x 434.62375pt>
+<Final_A2.png, id=619, 453.695pt x 434.62375pt>
 File: Final_A2.png Graphic file (type png)
  <use Final_A2.png>
-Package pdftex.def Info: Final_A2.png used on input line 2192.
+Package pdftex.def Info: Final_A2.png used on input line 2347.
 (pdftex.def)             Requested size: 196.32384pt x 188.07166pt.
 
-<Final_B1.png, id=558, 457.71pt x 430.60875pt>
+<Final_B1.png, id=620, 457.71pt x 430.60875pt>
 File: Final_B1.png Graphic file (type png)
  <use Final_B1.png>
-Package pdftex.def Info: Final_B1.png used on input line 2198.
+Package pdftex.def Info: Final_B1.png used on input line 2353.
 (pdftex.def)             Requested size: 196.32384pt x 184.6982pt.
 
-<Final_B2.png, id=559, 450.68375pt x 428.60126pt>
+<Final_B2.png, id=621, 450.68375pt x 428.60126pt>
 File: Final_B2.png Graphic file (type png)
  <use Final_B2.png>
-Package pdftex.def Info: Final_B2.png used on input line 2202.
+Package pdftex.def Info: Final_B2.png used on input line 2357.
 (pdftex.def)             Requested size: 196.32384pt x 186.70818pt.
 
-<Final_C1.png, id=560, 447.6725pt x 431.6125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Final_C1.png, id=622, 447.6725pt x 431.6125pt>
 File: Final_C1.png Graphic file (type png)
  <use Final_C1.png>
-Package pdftex.def Info: Final_C1.png used on input line 2208.
+Package pdftex.def Info: Final_C1.png used on input line 2363.
 (pdftex.def)             Requested size: 196.32384pt x 189.28442pt.
 
-<Final_C2.png, id=561, 446.66875pt x 435.6275pt>
+<Final_C2.png, id=623, 446.66875pt x 435.6275pt>
 File: Final_C2.png Graphic file (type png)
  <use Final_C2.png>
-Package pdftex.def Info: Final_C2.png used on input line 2212.
+Package pdftex.def Info: Final_C2.png used on input line 2367.
 (pdftex.def)             Requested size: 196.32384pt x 191.47063pt.
- [30 <./Final_A1.png> <./Final_A2.png> <./Final_B1.png> <./Final_B2.png> <./Fin
-al_C1.png> <./Final_C2.png>] [31] <Final_plot.png, id=583, 316.18124pt x 310.15
-875pt>
-File: Final_plot.png Graphic file (type png)
 
-<use Final_plot.png>
-Package pdftex.def Info: Final_plot.png used on input line 2252.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36 <./BDT_out_C.png> <./Final_A1.png> <./Final_A2.png>] [37 <./Final_B1.png> <
+./Final_B2.png> <./Final_C1.png> <./Final_C2.png>] [38] [39]
+<Final_plot.png, id=666, 316.18124pt x 310.15875pt>
+File: Final_plot.png Graphic file (type png)
+ <use Final_plot.png>
+Package pdftex.def Info: Final_plot.png used on input line 2442.
 (pdftex.def)             Requested size: 204.85974pt x 200.96188pt.
- [32 <./Final_plot.png>] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 2299--2300
+
+[40 <./Final_plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2489--2490
 []\OT1/cmr/m/n/10.95 Emmy Noether, M. A. Tavel, \OT1/cmr/m/it/10.95 \In-vari-an
 t Vari-a-tion Prob-lems"\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2299--2300
+Underfull \hbox (badness 10000) in paragraph at lines 2489--2490
 \OT1/cmr/m/n/10.95 Gott.Nachr.1918:235-257,1918; Transp.Theory Statist.Phys.1:1
 86-207,1971,
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 2315--2316
+Underfull \hbox (badness 2150) in paragraph at lines 2505--2506
 []\OT1/cmr/m/n/10.95 Gerald S. Gu-ral-nik, Carl R. Ha-gen and Thomas W. Kib-ble
 , \OT1/cmr/m/it/10.95 \Global Con-
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 2315--2316
+Underfull \hbox (badness 1142) in paragraph at lines 2505--2506
 \OT1/cmr/m/it/10.95 ser-va-tion Laws and Mass-less Par-ti-cles"\OT1/cmr/m/n/10.
 95 , Phys. Rev. Lett. 13, 585-587 (1964),
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 2322--2323
+Underfull \hbox (badness 2932) in paragraph at lines 2512--2513
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Ob-ser-va-tion
  of a new bo-son at a mass of 125 GeV
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 2322--2323
+Underfull \hbox (badness 5667) in paragraph at lines 2512--2513
 \OT1/cmr/m/it/10.95 with the CMS ex-per-i-ment at the LHC"\OT1/cmr/m/n/10.95 , 
 Phys. Lett. B 716 (2012) 30,
  []
 
-[34
+[41
 
 ]
-Underfull \hbox (badness 2600) in paragraph at lines 2325--2326
+Underfull \hbox (badness 2600) in paragraph at lines 2515--2516
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Mea-sure-ments
  of prop-er-ties of the Higgs bo-son in the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2325--2326
+Underfull \hbox (badness 10000) in paragraph at lines 2515--2516
 \OT1/cmr/m/n/10.95 HIG-19-001, []$\OT1/cmtt/m/n/10.95 http : / / cms-[]results 
 . web . cern . ch / cms-[]results / public-[]results /
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 2327--2328
+Underfull \hbox (badness 2564) in paragraph at lines 2517--2518
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Mea-sure-ments
  of Higgs bo-son pro-duc-tion via gluon fu-
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 2327--2328
+Underfull \hbox (badness 6775) in paragraph at lines 2517--2518
 \OT1/cmr/m/it/10.95 sion and vec-tor bo-son fu-sion in the dipho-ton de-cay cha
 n-nel at $[]$ 13
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 2327--2328
+Underfull \hbox (badness 4416) in paragraph at lines 2517--2518
 \OT1/cmr/m/it/10.95 TeV"\OT1/cmr/m/n/10.95 , CMS-PAS-HIG-18-029, []$\OT1/cmtt/m
 /n/10.95 http : / / cms-[]results . web . cern . ch / cms-[]results /
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 2336--2337
+Underfull \hbox (badness 5578) in paragraph at lines 2526--2527
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Com-bined mea-
 sure-ments of Higgs bo-son cou-plings in
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2336--2337
+Underfull \hbox (badness 1430) in paragraph at lines 2526--2527
 \OT1/cmr/m/it/10.95 proton-proton col-li-sions at $[]$ = 13 TeV"\OT1/cmr/m/n/10
 .95 , Eur. Phys. J. C 79 (2019) 421,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2337--2338
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2528
 []\OT1/cmr/m/n/10.95 CMS Pub-lic re-sults []$\OT1/cmtt/m/n/10.95 https : / / tw
 iki . cern . ch / twiki / bin / view / CMSPublic /
  []
 
-[35]
-Underfull \hbox (badness 3826) in paragraph at lines 2353--2354
+[42]
+Underfull \hbox (badness 3826) in paragraph at lines 2543--2544
 \OT1/cmr/m/it/10.95 flavour vi-o-lat-ing de-cay $\OML/cmm/m/it/10.95 ^^\ \OMS/c
 msy/m/n/10.95 ! \OML/cmm/m/it/10.95 ^^V^^V$ \OT1/cmr/m/it/10.95 at the LHC"\OT1
 /cmr/m/n/10.95 , Phys.Rev.D77:073010,2008,
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 2367--2368
+Underfull \hbox (badness 1838) in paragraph at lines 2557--2558
 []\OT1/cmr/m/it/10.95 \The Large Electron-Positron Col-lider"\OT1/cmr/m/n/10.95
  , []$\OT1/cmtt/m/n/10.95 http : / / cds . cern . ch / record / 1997351 ,[]
  []
 
-[36]
-Underfull \hbox (badness 4686) in paragraph at lines 2402--2403
+[43]
+Underfull \hbox (badness 4686) in paragraph at lines 2592--2593
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \The muon proje
 ct: Tech-ni-cal De-sign Re-port"\OT1/cmr/m/n/10.95 , 1997.
  []
 
-[37] [38]
-Underfull \hbox (badness 1412) in paragraph at lines 2454--2455
+[44] [45]
+Underfull \hbox (badness 1412) in paragraph at lines 2644--2645
 []\OT1/cmr/m/n/10.95 BaBar Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Lim-its on t
 au Lepton-Flavor Vi-o-lat-ing De-cays in three
  []
 
 
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 24
-55.
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 26
+45.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
+Underfull \hbox (badness 10000) in paragraph at lines 2649--2650
 []\OT1/cmr/m/n/10.95 W. J. Mar-ciano, T. Mori, and J. M. Roney, \OT1/cmr/m/it/1
 0.95 \Charged Lep-ton Fla-
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 2459--2460
+Underfull \hbox (badness 6641) in paragraph at lines 2649--2650
 \OT1/cmr/m/it/10.95 vor Vi-o-la-tion Ex-per-i-ments"\OT1/cmr/m/n/10.95 , Ann. R
 ev. Nucl. Part. Sci. 58 (2008) 315,
  []
 
-[39]
-Underfull \hbox (badness 2165) in paragraph at lines 2463--2464
+[46]
+Underfull \hbox (badness 2165) in paragraph at lines 2653--2654
 \OT1/cmr/m/it/10.95 8.1"\OT1/cmr/m/n/10.95 , Com-put. Phys. Com-mun. 178 (2008)
  852, []doi:10.1016/j.cpc.2008.01.036[],
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 2475--2476
+Underfull \hbox (badness 1997) in paragraph at lines 2665--2666
 \OT1/cmr/m/n/10.95 Ar-tif. In-tell. 14 (1999) 771{780, []$\OT1/cmtt/m/n/10.95 h
 ttps : / / cseweb . ucsd . edu / []yfreund / papers /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2485.
-[40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2485.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2675.
+[47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2675.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2485.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2485.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2675.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2675.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: F9177BC470F1BF6F284B06013A59402F;1763.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2485.
+(rerunfilecheck)             Checksum: 3D227E08D672C7DD1DE58DD902B76673;1868.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2675.
  ) 
 Here is how much of TeX's memory you used:
- 17661 strings out of 492995
- 296573 string characters out of 6132705
- 373058 words of memory out of 5000000
- 20754 multiletter control sequences out of 15000+600000
+ 17691 strings out of 492995
+ 297021 string characters out of 6132705
+ 370655 words of memory out of 5000000
+ 20772 multiletter control sequences out of 15000+600000
  31282 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,43p,10395b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,43p,10395b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2536,10 +2591,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (40 pages, 10547148 bytes).
+Output written on Tesi.pdf (47 pages, 9127903 bytes).
 PDF statistics:
- 990 PDF objects out of 1000 (max. 8388607)
- 773 compressed objects within 8 object streams
- 236 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1069 PDF objects out of 1200 (max. 8388607)
+ 847 compressed objects within 9 object streams
+ 247 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
