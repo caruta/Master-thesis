@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  2 OCT 2019 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  4 OCT 2019 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,7 +1960,7 @@ LaTeX Info: Redefining \ohm on input line 39.
 Package gensymb Info: Using \textohm for \ohm on input line 39.
 Package gensymb Info: Using \textmu for \micro on input line 39.
 
-<logoUniba.jpeg, id=152, 569.0058pt x 455.301pt>
+<logoUniba.jpeg, id=112, 569.0058pt x 455.301pt>
 File: logoUniba.jpeg Graphic file (type jpg)
  <use logoUniba.jpeg>
 Package pdftex.def Info: logoUniba.jpeg used on input line 47.
@@ -1978,179 +1978,18 @@ niba.jpeg>] (./Tesi.toc [2
 Chapter 1.
 [4
 
-] <Particles_SM.png, id=223, 1133.23375pt x 1084.05pt>
-File: Particles_SM.png Graphic file (type png)
-
-<use Particles_SM.png>
-Package pdftex.def Info: Particles_SM.png used on input line 119.
-(pdftex.def)             Requested size: 260.63828pt x 249.32625pt.
- [5 <./Particles_SM.png>] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
-
- []
-
-[9]
-Overfull \hbox (3.0382pt too wide) in paragraph at lines 311--313
-[]\OT1/cmr/m/it/10.95 electromagnetic cur-rents\OT1/cmr/m/n/10.95 : in-ter-ac-t
-ions char-ac-ter-ized by the cou-pling of $\OML/cmm/m/it/10.95 A[]$ \OT1/cmr/m/
-n/10.95 with charged
- []
-
-[10] <V_Higgs1D.png, id=316, 419.5675pt x 245.91875pt>
-File: V_Higgs1D.png Graphic file (type png)
- <use V_Higgs1D.png>
-Package pdftex.def Info: V_Higgs1D.png used on input line 360.
-(pdftex.def)             Requested size: 210.55022pt x 123.40935pt.
-
-<V_Higgs2D.jpg, id=317, 328.22626pt x 212.795pt>
-File: V_Higgs2D.jpg Graphic file (type jpg)
- <use V_Higgs2D.jpg>
-Package pdftex.def Info: V_Higgs2D.jpg used on input line 367.
-(pdftex.def)             Requested size: 210.55022pt x 136.50328pt.
-
-Overfull \hbox (5.33763pt too wide) in paragraph at lines 358--371
-[][]       [] 
- []
-
-[11 <./V_Higgs1D.png> <./V_Higgs2D.jpg>] [12] [13] [14]
-<HiggsMass_combined.png, id=371, 504.88625pt x 470.75874pt>
-File: HiggsMass_combined.png Graphic file (type png)
-
-<use HiggsMass_combined.png>
-Package pdftex.def Info: HiggsMass_combined.png used on input line 527.
-(pdftex.def)             Requested size: 284.52756pt x 265.29678pt.
- <Higgs_prod.png, id=375, 546.04pt x 525.965pt>
-File: Higgs_prod.png Graphic file (type png)
-
-<use Higgs_prod.png>
-Package pdftex.def Info: Higgs_prod.png used on input line 539.
-(pdftex.def)             Requested size: 207.7052pt x 200.06941pt.
- <FD_Higgs_prod.png, id=376, 1286.8075pt x 813.0375pt>
-File: FD_Higgs_prod.png Graphic file (type png)
-
-<use FD_Higgs_prod.png>
-Package pdftex.def Info: FD_Higgs_prod.png used on input line 543.
-(pdftex.def)             Requested size: 213.39566pt x 134.82773pt.
- [15 <./HiggsMass_combined.png>]
-<Higgs_decay.png, id=394, 768.8725pt x 710.655pt>
-File: Higgs_decay.png Graphic file (type png)
- <use Higgs_decay.png>
-Package pdftex.def Info: Higgs_decay.png used on input line 558.
-(pdftex.def)             Requested size: 213.39566pt x 197.2362pt.
-
-<CMS_H-4l.pdf, id=399, 569.12625pt x 546.04pt>
-File: CMS_H-4l.pdf Graphic file (type pdf)
- <use CMS_H-4l.pdf>
-Package pdftex.def Info: CMS_H-4l.pdf used on input line 566.
-(pdftex.def)             Requested size: 207.7052pt x 199.2821pt.
-
-<ATLAS_H-4l.png, id=400, 585.18625pt x 545.03625pt>
-File: ATLAS_H-4l.png Graphic file (type png)
- <use ATLAS_H-4l.png>
-Package pdftex.def Info: ATLAS_H-4l.png used on input line 570.
-(pdftex.def)             Requested size: 213.39566pt x 198.75777pt.
-
-<CMS_H-2gamma.pdf, id=405, 569.12625pt x 546.04pt>
-File: CMS_H-2gamma.pdf Graphic file (type pdf)
- <use CMS_H-2gamma.pdf>
-Package pdftex.def Info: CMS_H-2gamma.pdf used on input line 578.
-(pdftex.def)             Requested size: 199.16928pt x 191.09186pt.
-
-<ATLAS_H-2gamma.png, id=406, 832.10875pt x 603.25375pt>
-File: ATLAS_H-2gamma.png Graphic file (type png)
-
-<use ATLAS_H-2gamma.png>
-Package pdftex.def Info: ATLAS_H-2gamma.png used on input line 582.
-(pdftex.def)             Requested size: 213.39566pt x 154.70673pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--587
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <./Higgs_prod.png> <./FD_Higgs_prod.png>] [17 <./Higgs_decay.png> <./CMS_H-
-4l.pdf, page is rotated 90 degrees> <./ATLAS_H-4l.png>]
-<Higgs_couplings.png, id=486, 685.56125pt x 647.41875pt>
-File: Higgs_couplings.png Graphic file (type png)
-
-<use Higgs_couplings.png>
-Package pdftex.def Info: Higgs_couplings.png used on input line 598.
-(pdftex.def)             Requested size: 256.0748pt x 241.83307pt.
-
-<CMS_CrossSection.pdf, id=490, 569.12625pt x 350.30875pt>
-File: CMS_CrossSection.pdf Graphic file (type pdf)
-
-<use CMS_CrossSection.pdf>
-Package pdftex.def Info: CMS_CrossSection.pdf used on input line 607.
-(pdftex.def)             Requested size: 426.79134pt x 262.70953pt.
- [18 <./CMS_H-2gamma.pdf, page is rotated 90 degrees> <./ATLAS_H-2gamma.png> <.
-/Higgs_couplings.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 612--616
-
- []
-
-[19 <./CMS_CrossSection.pdf, page is rotated 90 degrees>] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 643--645
-
- []
-
-<RunningCoupling.jpg, id=609, 569.0058pt x 232.4685pt>
-File: RunningCoupling.jpg Graphic file (type jpg)
-
-<use RunningCoupling.jpg>
-Package pdftex.def Info: RunningCoupling.jpg used on input line 650.
-(pdftex.def)             Requested size: 426.7533pt x 174.35094pt.
- [21 <./RunningCoupling.jpg>] [22] [23] [24]
-<FD_SM.png, id=648, 367.3725pt x 210.7875pt>
-File: FD_SM.png Graphic file (type png)
- <use FD_SM.png>
-Package pdftex.def Info: FD_SM.png used on input line 773.
-(pdftex.def)             Requested size: 238.78928pt x 137.01025pt.
- [25 <./FD_SM.png>] <FD_seesaw.png, id=663, 367.3725pt x 216.81pt>
-File: FD_seesaw.png Graphic file (type png)
- <use FD_seesaw.png>
-Package pdftex.def Info: FD_seesaw.png used on input line 796.
-(pdftex.def)             Requested size: 238.78928pt x 140.92482pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<FD_BSM.png, id=668, 679.53876pt x 347.2975pt>
-File: FD_BSM.png Graphic file (type png)
- <use FD_BSM.png>
-Package pdftex.def Info: FD_BSM.png used on input line 808.
-(pdftex.def)             Requested size: 339.76855pt x 173.64832pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26] [27 <./FD_seesaw.png> <./FD_BSM.png>]
+]
 Chapter 2.
-[28
+[5
 
 ]
 Chapter 3.
-[29
+[6
 
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1539--1546
-
- []
+LaTeX Warning: Reference `LFV' on page 7 undefined on input line 1532.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1539--1546
@@ -2162,7 +2001,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1539--1546
 
  []
 
-[30
+
+Underfull \hbox (badness 10000) in paragraph at lines 1539--1546
+
+ []
+
+[7
 
 ]
 
@@ -2192,7 +2036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1576--1604
 
  []
 
-[31] <Momentum_genLevel.png, id=730, 1047.915pt x 596.2275pt>
+[8] <Momentum_genLevel.png, id=215, 1047.915pt x 596.2275pt>
 File: Momentum_genLevel.png Graphic file (type png)
 
 <use Momentum_genLevel.png>
@@ -2200,17 +2044,16 @@ Package pdftex.def Info: Momentum_genLevel.png used on input line 1610.
 (pdftex.def)             Requested size: 426.79134pt x 242.82637pt.
 
 
-LaTeX Warning: Reference `Muon reconstruction' on page 32 undefined on input li
-ne 1615.
+LaTeX Warning: Reference `Muon reconstruction' on page 9 undefined on input lin
+e 1615.
 
-[32] <Eta_genLevel.png, id=738, 1018.80624pt x 433.62pt>
+[9] <Eta_genLevel.png, id=225, 1018.80624pt x 433.62pt>
 File: Eta_genLevel.png Graphic file (type png)
-
-<use Eta_genLevel.png>
+ <use Eta_genLevel.png>
 Package pdftex.def Info: Eta_genLevel.png used on input line 1620.
 (pdftex.def)             Requested size: 426.79134pt x 181.64938pt.
 
-<Efficiency_genLevel.png, id=740, 719.68875pt x 304.13625pt>
+<Efficiency_genLevel.png, id=227, 719.68875pt x 304.13625pt>
 File: Efficiency_genLevel.png Graphic file (type png)
 
 <use Efficiency_genLevel.png>
@@ -2221,14 +2064,14 @@ Package pdftex.def Info: Efficiency_genLevel.png used on input line 1629.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `WLCG' on page 33 undefined on input line 1637.
+LaTeX Warning: Reference `WLCG' on page 10 undefined on input line 1637.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1636--1640
 
  []
 
-[33 <./Momentum_genLevel.png> <./Eta_genLevel.png>]
+[10 <./Momentum_genLevel.png> <./Eta_genLevel.png>]
 Overfull \hbox (3.87718pt too wide) in paragraph at lines 1643--1654
  [][] 
  []
@@ -2239,75 +2082,124 @@ Overfull \hbox (0.32281pt too wide) in paragraph at lines 1658--1660
 eReco[]-Col-li-sions17[]-JSON[]-
  []
 
-[34 <./Efficiency_genLevel.png>] [35]
+[11 <./Efficiency_genLevel.png>] [12]
 
-LaTeX Warning: Reference `LHC' on page 36 undefined on input line 1724.
+LaTeX Warning: Reference `LHC' on page 13 undefined on input line 1730.
 
-<PU_comp.pdf, id=778, 569.12625pt x 371.3875pt>
+<PU_comp.pdf, id=266, 569.12625pt x 371.3875pt>
 File: PU_comp.pdf Graphic file (type pdf)
  <use PU_comp.pdf>
-Package pdftex.def Info: PU_comp.pdf used on input line 1729.
-(pdftex.def)             Requested size: 341.43306pt x 222.81154pt.
- [36 <./PU_comp.pdf, page is rotated 90 degrees>]
-<PU_weights.pdf, id=830, 569.12625pt x 371.3875pt>
-File: PU_weights.pdf Graphic file (type pdf)
- <use PU_weights.pdf>
-Package pdftex.def Info: PU_weights.pdf used on input line 1745.
+Package pdftex.def Info: PU_comp.pdf used on input line 1735.
 (pdftex.def)             Requested size: 341.43306pt x 222.81154pt.
 
-<PU_Vertices_Before.png, id=832, 482.80376pt x 414.54875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PU_weights.pdf, id=269, 569.12625pt x 371.3875pt>
+File: PU_weights.pdf Graphic file (type pdf)
+ <use PU_weights.pdf>
+Package pdftex.def Info: PU_weights.pdf used on input line 1751.
+(pdftex.def)             Requested size: 341.43306pt x 222.81154pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13] <PU_Vertices_Before.png, id=280, 482.80376pt x 414.54875pt>
 File: PU_Vertices_Before.png Graphic file (type png)
 
 <use PU_Vertices_Before.png>
-Package pdftex.def Info: PU_Vertices_Before.png used on input line 1755.
+Package pdftex.def Info: PU_Vertices_Before.png used on input line 1761.
 (pdftex.def)             Requested size: 204.85974pt x 175.8994pt.
 
-<PU_Vertices_After.png, id=833, 641.39626pt x 418.56375pt>
+<PU_Vertices_After.png, id=281, 641.39626pt x 418.56375pt>
 File: PU_Vertices_After.png Graphic file (type png)
 
 <use PU_Vertices_After.png>
-Package pdftex.def Info: PU_Vertices_After.png used on input line 1759.
+Package pdftex.def Info: PU_Vertices_After.png used on input line 1765.
 (pdftex.def)             Requested size: 204.85974pt x 133.68765pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37 <./PU_weights.pdf, page is rotated 90 degrees>] [38 <./PU_Vertices_Before.p
-ng> <./PU_Vertices_After.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
+[14 <./PU_comp.pdf, page is rotated 90 degrees> <./PU_weights.pdf, page is rota
+ted 90 degrees>] [15 <./PU_Vertices_Before.png> <./PU_Vertices_After.png>]
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 1841--1842
 
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 1844--1846
+
+Overfull \hbox (17.35876pt too wide) in paragraph at lines 1847--1861
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1884--1885
 
  []
 
-[40] <MassTripReso.png, id=915, 444.66125pt x 422.57875pt>
-File: MassTripReso.png Graphic file (type png)
-
-<use MassTripReso.png>
-Package pdftex.def Info: MassTripReso.png used on input line 1856.
-(pdftex.def)             Requested size: 284.52756pt x 270.39789pt.
- <MassTripReso_eta.png, id=917, 449.68pt x 428.60126pt>
-File: MassTripReso_eta.png Graphic file (type png)
-
-<use MassTripReso_eta.png>
-Package pdftex.def Info: MassTripReso_eta.png used on input line 1865.
-(pdftex.def)             Requested size: 284.52756pt x 271.20393pt.
+<Bkg_study1.png, id=399, 777.6252pt x 425.4294pt>
+File: Bkg_study1.png Graphic file (type png)
+ <use Bkg_study1.png>
+Package pdftex.def Info: Bkg_study1.png used on input line 1888.
+(pdftex.def)             Requested size: 426.79134pt x 233.50002pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41 <./MassTripReso.png>] [42 <./MassTripReso_eta.png>] [43]
-<NDs_total_bis.png, id=948, 1153.30875pt x 711.65875pt>
+[17] <Bkg_study2.png, id=409, 776.6616pt x 424.4658pt>
+File: Bkg_study2.png Graphic file (type png)
+ <use Bkg_study2.png>
+Package pdftex.def Info: Bkg_study2.png used on input line 1903.
+(pdftex.def)             Requested size: 426.79134pt x 233.24965pt.
+
+[18 <./Bkg_study1.png> <./Bkg_study2.png>]
+<Bkg_study3.png, id=418, 776.6616pt x 424.4658pt>
+File: Bkg_study3.png Graphic file (type png)
+ <use Bkg_study3.png>
+Package pdftex.def Info: Bkg_study3.png used on input line 1918.
+(pdftex.def)             Requested size: 426.79134pt x 233.24965pt.
+
+<Bkg_study4.png, id=420, 776.6616pt x 424.4658pt>
+File: Bkg_study4.png Graphic file (type png)
+ <use Bkg_study4.png>
+Package pdftex.def Info: Bkg_study4.png used on input line 1933.
+(pdftex.def)             Requested size: 426.79134pt x 233.24965pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./Bkg_study3.png>] [20 <./Bkg_study4.png>]
+<TripletMassReso.pdf, id=443, 569.12625pt x 365.365pt>
+File: TripletMassReso.pdf Graphic file (type pdf)
+
+<use TripletMassReso.pdf>
+Package pdftex.def Info: TripletMassReso.pdf used on input line 1969.
+(pdftex.def)             Requested size: 455.24408pt x 292.2701pt.
+
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 1969--1970
+ [][] 
+ []
+
+<MassTripReso_eta.png, id=445, 895.345pt x 637.38126pt>
+File: MassTripReso_eta.png Graphic file (type png)
+
+<use MassTripReso_eta.png>
+Package pdftex.def Info: MassTripReso_eta.png used on input line 1978.
+(pdftex.def)             Requested size: 341.43306pt x 243.06325pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./TripletMassReso.pdf, page is rotated 90 degrees>] [22 <./MassTripReso_et
+a.png>] <NDs_total_bis.png, id=503, 1153.30875pt x 711.65875pt>
 File: NDs_total_bis.png Graphic file (type png)
 
 <use NDs_total_bis.png>
-Package pdftex.def Info: NDs_total_bis.png used on input line 1964.
+Package pdftex.def Info: NDs_total_bis.png used on input line 2044.
 (pdftex.def)             Requested size: 455.24408pt x 280.9121pt.
 
-Overfull \hbox (21.62408pt too wide) in paragraph at lines 1964--1965
+Overfull \hbox (21.62408pt too wide) in paragraph at lines 2044--2045
  [][] 
  []
 
@@ -2315,419 +2207,528 @@ Overfull \hbox (21.62408pt too wide) in paragraph at lines 1964--1965
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2052
 
-[44] <NDs_runB.png, id=967, 991.705pt x 637.38126pt>
+ []
+
+[23] [24 <./NDs_total_bis.png>]
+<NDs_runB.png, id=526, 991.705pt x 637.38126pt>
 File: NDs_runB.png Graphic file (type png)
  <use NDs_runB.png>
-Package pdftex.def Info: NDs_runB.png used on input line 1995.
+Package pdftex.def Info: NDs_runB.png used on input line 2078.
 (pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<NDs_runC.png, id=968, 991.705pt x 637.38126pt>
+<NDs_runC.png, id=527, 991.705pt x 637.38126pt>
 File: NDs_runC.png Graphic file (type png)
  <use NDs_runC.png>
-Package pdftex.def Info: NDs_runC.png used on input line 1999.
+Package pdftex.def Info: NDs_runC.png used on input line 2082.
 (pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 1993--2001
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 2076--2084
 [][] [] 
  []
 
-<NDs_runD.png, id=969, 991.705pt x 637.38126pt>
+<NDs_runD.png, id=528, 991.705pt x 637.38126pt>
 File: NDs_runD.png Graphic file (type png)
  <use NDs_runD.png>
-Package pdftex.def Info: NDs_runD.png used on input line 2005.
+Package pdftex.def Info: NDs_runD.png used on input line 2088.
 (pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-<NDs_runE.png, id=970, 991.705pt x 637.38126pt>
+<NDs_runE.png, id=529, 991.705pt x 637.38126pt>
 File: NDs_runE.png Graphic file (type png)
  <use NDs_runE.png>
-Package pdftex.def Info: NDs_runE.png used on input line 2009.
+Package pdftex.def Info: NDs_runE.png used on input line 2092.
 (pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 2003--2011
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 2086--2094
 [][] [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<NDs_runF.png, id=971, 991.705pt x 637.38126pt>
+<NDs_runF.png, id=530, 991.705pt x 637.38126pt>
 File: NDs_runF.png Graphic file (type png)
  <use NDs_runF.png>
-Package pdftex.def Info: NDs_runF.png used on input line 2014.
+Package pdftex.def Info: NDs_runF.png used on input line 2097.
 (pdftex.def)             Requested size: 219.08612pt x 140.80785pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45 <./NDs_total_bis.png> <./NDs_runB.png> <./NDs_runC.png>]
-<Systematics_Ds.png, id=982, 913.4125pt x 564.1075pt>
-File: Systematics_Ds.png Graphic file (type png)
- <use Systematics_Ds.png>
-Package pdftex.def Info: Systematics_Ds.png used on input line 2028.
-(pdftex.def)             Requested size: 398.33858pt x 246.00452pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Systematics_Ds_ratio.png, id=983, 529.98pt x 328.22626pt>
-File: Systematics_Ds_ratio.png Graphic file (type png)
-
-<use Systematics_Ds_ratio.png>
-Package pdftex.def Info: Systematics_Ds_ratio.png used on input line 2035.
-(pdftex.def)             Requested size: 398.33858pt x 246.69997pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[46 <./NDs_runD.png> <./NDs_runE.png> <./NDs_runF.png>] [47 <./Systematics_Ds.p
-ng> <./Systematics_Ds_ratio.png>] [48] [49] [50]
-<Control_pT_mu1.png, id=1029, 899.36pt x 621.32124pt>
+ [25 <./NDs_runB.png> <./NDs_runC.png> <./NDs_runD.png> <./NDs_runE.png> <./NDs
+_runF.png>]
+<Control_pT_mu1.png, id=544, 899.36pt x 621.32124pt>
 File: Control_pT_mu1.png Graphic file (type png)
  <use Control_pT_mu1.png>
-Package pdftex.def Info: Control_pT_mu1.png used on input line 2135.
+Package pdftex.def Info: Control_pT_mu1.png used on input line 2142.
 (pdftex.def)             Requested size: 219.08612pt x 151.35756pt.
 
-<Control_Eta_mu1.png, id=1030, 899.36pt x 617.30624pt>
+<Control_Eta_mu1.png, id=545, 899.36pt x 617.30624pt>
 File: Control_Eta_mu1.png Graphic file (type png)
 
 <use Control_Eta_mu1.png>
-Package pdftex.def Info: Control_Eta_mu1.png used on input line 2139.
+Package pdftex.def Info: Control_Eta_mu1.png used on input line 2146.
 (pdftex.def)             Requested size: 219.08612pt x 150.37949pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 2133--2141
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 2140--2148
 [][] [] 
  []
 
-<Control_pT_mu2.png, id=1031, 903.375pt x 623.32875pt>
-File: Control_pT_mu2.png Graphic file (type png)
 
-<use Control_pT_mu2.png>
-Package pdftex.def Info: Control_pT_mu2.png used on input line 2145.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Control_pT_mu2.png, id=546, 903.375pt x 623.32875pt>
+File: Control_pT_mu2.png Graphic file (type png)
+ <use Control_pT_mu2.png>
+Package pdftex.def Info: Control_pT_mu2.png used on input line 2152.
 (pdftex.def)             Requested size: 219.08612pt x 151.1713pt.
 
-<Control_Eta_mu2.png, id=1032, 901.3675pt x 615.29875pt>
+<Control_Eta_mu2.png, id=547, 901.3675pt x 615.29875pt>
 File: Control_Eta_mu2.png Graphic file (type png)
 
 <use Control_Eta_mu2.png>
-Package pdftex.def Info: Control_Eta_mu2.png used on input line 2149.
+Package pdftex.def Info: Control_Eta_mu2.png used on input line 2156.
 (pdftex.def)             Requested size: 219.08612pt x 149.55244pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 2143--2151
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 2150--2158
 [][] [] 
  []
 
-<Control_pT_track.png, id=1033, 906.38625pt x 616.3025pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Control_pT_track.png, id=548, 906.38625pt x 616.3025pt>
 File: Control_pT_track.png Graphic file (type png)
 
 <use Control_pT_track.png>
-Package pdftex.def Info: Control_pT_track.png used on input line 2155.
+Package pdftex.def Info: Control_pT_track.png used on input line 2162.
 (pdftex.def)             Requested size: 219.08612pt x 148.96887pt.
 
-<Control_Eta_track.png, id=1034, 900.36375pt x 618.31pt>
+<Control_Eta_track.png, id=549, 900.36375pt x 618.31pt>
 File: Control_Eta_track.png Graphic file (type png)
 
 <use Control_Eta_track.png>
-Package pdftex.def Info: Control_Eta_track.png used on input line 2159.
+Package pdftex.def Info: Control_Eta_track.png used on input line 2166.
 (pdftex.def)             Requested size: 219.08612pt x 150.44475pt.
 
-Overfull \hbox (6.98558pt too wide) in paragraph at lines 2153--2161
+Overfull \hbox (6.98558pt too wide) in paragraph at lines 2160--2168
 [][] [] 
  []
 
-[51 <./Control_pT_mu1.png> <./Control_Eta_mu1.png> <./Control_pT_mu2.png> <./Co
-ntrol_Eta_mu2.png> <./Control_pT_track.png> <./Control_Eta_track.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2206--2207
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26] [27 <./Control_pT_mu1.png> <./Control_Eta_mu1.png> <./Control_pT_mu2.png> 
+<./Control_Eta_mu2.png> <./Control_pT_track.png> <./Control_Eta_track.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2209
 
  []
 
-<MVA_examples.png, id=1049, 817.0525pt x 242.9075pt>
+[28]
+Overfull \hbox (23.12848pt too wide) in paragraph at lines 2252--2263
+ [][] 
+ []
+
+<L1_yields.pdf, id=584, 569.12625pt x 453.695pt>
+File: L1_yields.pdf Graphic file (type pdf)
+ <use L1_yields.pdf>
+Package pdftex.def Info: L1_yields.pdf used on input line 2272.
+(pdftex.def)             Requested size: 213.39566pt x 170.11444pt.
+
+<L1_ratio.pdf, id=585, 569.12625pt x 453.695pt>
+File: L1_ratio.pdf Graphic file (type pdf)
+ <use L1_ratio.pdf>
+Package pdftex.def Info: L1_ratio.pdf used on input line 2276.
+(pdftex.def)             Requested size: 213.39566pt x 170.11444pt.
+ [29 <./L1_yields.pdf, page is rotated 90 degrees> <./L1_ratio.pdf, page is rot
+ated 90 degrees>]
+Overfull \hbox (4.80759pt too wide) in paragraph at lines 2310--2321
+ [][] 
+ []
+
+<DsYield.pdf, id=685, 569.12625pt x 453.695pt>
+File: DsYield.pdf Graphic file (type pdf)
+ <use DsYield.pdf>
+Package pdftex.def Info: DsYield.pdf used on input line 2328.
+(pdftex.def)             Requested size: 213.39566pt x 170.11444pt.
+
+<YieldRatio.pdf, id=686, 569.12625pt x 453.695pt>
+File: YieldRatio.pdf Graphic file (type pdf)
+ <use YieldRatio.pdf>
+Package pdftex.def Info: YieldRatio.pdf used on input line 2332.
+(pdftex.def)             Requested size: 213.39566pt x 170.11444pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (5.98254pt too wide) in paragraph at lines 2338--2340
+\OT1/cmr/m/n/10.95 This un-cer-tainty can be es-ti-mated with the lin-ear fit p
+a-ram-e-ters of the plot in Fig. []5.16[](right),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2344--2345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2346--2348
+
+ []
+
+[30] [31 <./DsYield.pdf, page is rotated 90 degrees> <./YieldRatio.pdf, page is
+ rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
+
+ []
+
+<MVA_examples.png, id=790, 817.0525pt x 242.9075pt>
 File: MVA_examples.png Graphic file (type png)
  <use MVA_examples.png>
-Package pdftex.def Info: MVA_examples.png used on input line 2210.
+Package pdftex.def Info: MVA_examples.png used on input line 2365.
 (pdftex.def)             Requested size: 426.79134pt x 126.8834pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2216--2219
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2374
 
  []
 
-[52 <./MVA_examples.png>]
-<DecisionTree.png, id=1062, 456.70625pt x 379.4175pt>
+[32 <./MVA_examples.png>] <DecisionTree.png, id=805, 456.70625pt x 379.4175pt>
 File: DecisionTree.png Graphic file (type png)
- <use DecisionTree.png>
-Package pdftex.def Info: DecisionTree.png used on input line 2232.
+
+<use DecisionTree.png>
+Package pdftex.def Info: DecisionTree.png used on input line 2387.
 (pdftex.def)             Requested size: 274.02585pt x 227.65225pt.
+ [33 <./DecisionTree.png>] [34] [35]
+<BDT_in1_A.pdf, id=835, 569.12625pt x 316.18124pt>
+File: BDT_in1_A.pdf Graphic file (type pdf)
+ <use BDT_in1_A.pdf>
+Package pdftex.def Info: BDT_in1_A.pdf used on input line 2461.
+(pdftex.def)             Requested size: 426.79134pt x 237.11604pt.
 
-[53 <./DecisionTree.png>] [54]
-<BDT_in1.png, id=1086, 949.5475pt x 496.85625pt>
-File: BDT_in1.png Graphic file (type png)
- <use BDT_in1.png>
-Package pdftex.def Info: BDT_in1.png used on input line 2305.
-(pdftex.def)             Requested size: 426.79134pt x 223.31789pt.
- [55]
-<BDT_in2.png, id=1093, 948.54375pt x 498.86375pt>
-File: BDT_in2.png Graphic file (type png)
- <use BDT_in2.png>
-Package pdftex.def Info: BDT_in2.png used on input line 2309.
-(pdftex.def)             Requested size: 426.79134pt x 224.45616pt.
+<BDT_in2_A.pdf, id=836, 569.12625pt x 296.10625pt>
+File: BDT_in2_A.pdf Graphic file (type pdf)
+ <use BDT_in2_A.pdf>
+Package pdftex.def Info: BDT_in2_A.pdf used on input line 2465.
+(pdftex.def)             Requested size: 426.79134pt x 222.06105pt.
 
-<CorrelationMatrix_signal.png, id=1094, 453.695pt x 421.575pt>
-File: CorrelationMatrix_signal.png Graphic file (type png)
+<CorrelationMatrix_SGN_A.pdf, id=837, 569.12625pt x 547.04375pt>
+File: CorrelationMatrix_SGN_A.pdf Graphic file (type pdf)
 
-<use CorrelationMatrix_signal.png>
-Package pdftex.def Info: CorrelationMatrix_signal.png used on input line 2317.
-(pdftex.def)             Requested size: 204.85974pt x 190.35669pt.
+<use CorrelationMatrix_SGN_A.pdf>
+Package pdftex.def Info: CorrelationMatrix_SGN_A.pdf used on input line 2473.
+(pdftex.def)             Requested size: 204.85974pt x 196.91055pt.
 
-<CorrelationMatrix_bkg.png, id=1095, 453.695pt x 421.575pt>
-File: CorrelationMatrix_bkg.png Graphic file (type png)
+<CorrelationMatrix_BKG_A.pdf, id=838, 569.12625pt x 547.04375pt>
+File: CorrelationMatrix_BKG_A.pdf Graphic file (type pdf)
 
-<use CorrelationMatrix_bkg.png>
-Package pdftex.def Info: CorrelationMatrix_bkg.png used on input line 2321.
-(pdftex.def)             Requested size: 204.85974pt x 190.35669pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[56 <./BDT_in1.png> <./BDT_in2.png>]
-<BDT_KStest.png, id=1110, 608.2725pt x 448.67625pt>
-File: BDT_KStest.png Graphic file (type png)
- <use BDT_KStest.png>
-Package pdftex.def Info: BDT_KStest.png used on input line 2364.
-(pdftex.def)             Requested size: 284.52756pt x 209.87831pt.
+<use CorrelationMatrix_BKG_A.pdf>
+Package pdftex.def Info: CorrelationMatrix_BKG_A.pdf used on input line 2477.
+(pdftex.def)             Requested size: 204.85974pt x 196.91055pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ROC_curve.png, id=1111, 650.43pt x 476.78125pt>
-File: ROC_curve.png Graphic file (type png)
- <use ROC_curve.png>
-Package pdftex.def Info: ROC_curve.png used on input line 2373.
-(pdftex.def)             Requested size: 284.52756pt x 208.56944pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[57 <./CorrelationMatrix_signal.png> <./CorrelationMatrix_bkg.png>] [58 <./BDT_
-KStest.png> <./ROC_curve.png>]
-<BDT_out_A.png, id=1130, 443.6575pt x 422.57875pt>
-File: BDT_out_A.png Graphic file (type png)
- <use BDT_out_A.png>
-Package pdftex.def Info: BDT_out_A.png used on input line 2391.
-(pdftex.def)             Requested size: 204.85974pt x 195.12366pt.
-
-<BDT_out_B.png, id=1131, 446.66875pt x 422.57875pt>
-File: BDT_out_B.png Graphic file (type png)
- <use BDT_out_B.png>
-Package pdftex.def Info: BDT_out_B.png used on input line 2395.
-(pdftex.def)             Requested size: 204.85974pt x 193.8147pt.
-
-<BDT_out_C.png, id=1132, 433.62pt x 427.5975pt>
-File: BDT_out_C.png Graphic file (type png)
- <use BDT_out_C.png>
-Package pdftex.def Info: BDT_out_C.png used on input line 2400.
-(pdftex.def)             Requested size: 204.85974pt x 202.01479pt.
- [59 <./BDT_out_A.png> <./BDT_out_B.png> <./BDT_out_C.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2407--2411
+[36 <./BDT_in1_A.pdf, page is rotated 90 degrees> <./BDT_in2_A.pdf, page is rot
+ated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 2519--2521
 
  []
 
-<Final_A1.png, id=1143, 452.69125pt x 432.61626pt>
+<BDT_KStest.pdf, id=912, 569.12625pt x 421.575pt>
+File: BDT_KStest.pdf Graphic file (type pdf)
+ <use BDT_KStest.pdf>
+Package pdftex.def Info: BDT_KStest.pdf used on input line 2527.
+(pdftex.def)             Requested size: 426.79134pt x 316.15472pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./CorrelationMatrix_SGN_A.pdf, page is rotated 90 degrees> <./CorrelationM
+atrix_BKG_A.pdf, page is rotated 90 degrees>]
+<ROC_curve.pdf, id=1006, 569.12625pt x 417.56pt>
+File: ROC_curve.pdf Graphic file (type pdf)
+ <use ROC_curve.pdf>
+Package pdftex.def Info: ROC_curve.pdf used on input line 2540.
+(pdftex.def)             Requested size: 284.52756pt x 208.76036pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38 <./BDT_KStest.pdf, page is rotated 90 degrees>] [39 <./ROC_curve.pdf, page 
+is rotated 90 degrees>] <BDT_out_A.pdf, id=1107, 569.12625pt x 365.365pt>
+File: BDT_out_A.pdf Graphic file (type pdf)
+
+<use BDT_out_A.pdf>
+Package pdftex.def Info: BDT_out_A.pdf used on input line 2558.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+ <BDT_out_B.pdf, id=1108, 569.12625pt x 365.365pt>
+File: BDT_out_B.pdf Graphic file (type pdf)
+
+<use BDT_out_B.pdf>
+Package pdftex.def Info: BDT_out_B.pdf used on input line 2559.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+ <BDT_out_C.pdf, id=1109, 569.12625pt x 365.365pt>
+File: BDT_out_C.pdf Graphic file (type pdf)
+
+<use BDT_out_C.pdf>
+Package pdftex.def Info: BDT_out_C.pdf used on input line 2560.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+
+
+LaTeX Warning: Float too large for page by 26.23003pt on input line 2563.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<BDT_2Dmap_catA.pdf, id=1110, 569.12625pt x 365.365pt>
+File: BDT_2Dmap_catA.pdf Graphic file (type pdf)
+
+<use BDT_2Dmap_catA.pdf>
+Package pdftex.def Info: BDT_2Dmap_catA.pdf used on input line 2568.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+
+<BDT_2Dmap_catB.pdf, id=1111, 569.12625pt x 365.365pt>
+File: BDT_2Dmap_catB.pdf Graphic file (type pdf)
+
+<use BDT_2Dmap_catB.pdf>
+Package pdftex.def Info: BDT_2Dmap_catB.pdf used on input line 2569.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+
+<BDT_2Dmap_catC.pdf, id=1112, 569.12625pt x 365.365pt>
+File: BDT_2Dmap_catC.pdf Graphic file (type pdf)
+
+<use BDT_2Dmap_catC.pdf>
+Package pdftex.def Info: BDT_2Dmap_catC.pdf used on input line 2570.
+(pdftex.def)             Requested size: 341.43306pt x 219.19838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2583
+
+ []
+
+[40] <Final_A1.png, id=1119, 452.69125pt x 432.61626pt>
 File: Final_A1.png Graphic file (type png)
  <use Final_A1.png>
-Package pdftex.def Info: Final_A1.png used on input line 2415.
+Package pdftex.def Info: Final_A1.png used on input line 2588.
 (pdftex.def)             Requested size: 196.32384pt x 187.61224pt.
 
-<Final_A2.png, id=1144, 453.695pt x 434.62375pt>
+<Final_A2.png, id=1120, 453.695pt x 434.62375pt>
 File: Final_A2.png Graphic file (type png)
  <use Final_A2.png>
-Package pdftex.def Info: Final_A2.png used on input line 2419.
+Package pdftex.def Info: Final_A2.png used on input line 2592.
 (pdftex.def)             Requested size: 196.32384pt x 188.07166pt.
 
-<Final_B1.png, id=1145, 457.71pt x 430.60875pt>
+<Final_B1.png, id=1121, 457.71pt x 430.60875pt>
 File: Final_B1.png Graphic file (type png)
  <use Final_B1.png>
-Package pdftex.def Info: Final_B1.png used on input line 2425.
+Package pdftex.def Info: Final_B1.png used on input line 2598.
 (pdftex.def)             Requested size: 196.32384pt x 184.6982pt.
 
-<Final_B2.png, id=1146, 450.68375pt x 428.60126pt>
+<Final_B2.png, id=1122, 450.68375pt x 428.60126pt>
 File: Final_B2.png Graphic file (type png)
  <use Final_B2.png>
-Package pdftex.def Info: Final_B2.png used on input line 2429.
+Package pdftex.def Info: Final_B2.png used on input line 2602.
 (pdftex.def)             Requested size: 196.32384pt x 186.70818pt.
 
-<Final_C1.png, id=1147, 447.6725pt x 431.6125pt>
+<Final_C1.png, id=1123, 447.6725pt x 431.6125pt>
 File: Final_C1.png Graphic file (type png)
  <use Final_C1.png>
-Package pdftex.def Info: Final_C1.png used on input line 2435.
+Package pdftex.def Info: Final_C1.png used on input line 2608.
 (pdftex.def)             Requested size: 196.32384pt x 189.28442pt.
 
-<Final_C2.png, id=1148, 446.66875pt x 435.6275pt>
+<Final_C2.png, id=1124, 446.66875pt x 435.6275pt>
 File: Final_C2.png Graphic file (type png)
  <use Final_C2.png>
-Package pdftex.def Info: Final_C2.png used on input line 2439.
+Package pdftex.def Info: Final_C2.png used on input line 2612.
 (pdftex.def)             Requested size: 196.32384pt x 191.47063pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2586--2614
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2586--2614
+[] []
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60 <./Final_A1.png> <./Final_A2.png> <./Final_B1.png> <./Final_B2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2447--2449
+<B-D.pdf, id=1134, 389.455pt x 287.0725pt>
+File: B-D.pdf Graphic file (type pdf)
+ <use B-D.pdf>
+Package pdftex.def Info: B-D.pdf used on input line 2668.
+(pdftex.def)             Requested size: 284.52756pt x 209.73639pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2676
 
  []
 
-[61 <./Final_C1.png> <./Final_C2.png>] [62] [63]
-<Final_plot.png, id=1190, 316.18124pt x 310.15875pt>
+[41] [42] [43] [44] <Final_plot.png, id=1183, 316.18124pt x 310.15875pt>
 File: Final_plot.png Graphic file (type png)
- <use Final_plot.png>
-Package pdftex.def Info: Final_plot.png used on input line 2513.
+
+<use Final_plot.png>
+Package pdftex.def Info: Final_plot.png used on input line 2794.
 (pdftex.def)             Requested size: 204.85974pt x 200.96188pt.
 
-[64 <./Final_plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45] [46 <./BDT_out_A.pdf, page is rotated 90 degrees> <./BDT_out_B.pdf, page i
+s rotated 90 degrees> <./BDT_out_C.pdf, page is rotated 90 degrees>] [47 <./BDT
+_2Dmap_catA.pdf, page is rotated 90 degrees> <./BDT_2Dmap_catB.pdf, page is rot
+ated 90 degrees> <./BDT_2Dmap_catC.pdf, page is rotated 90 degrees>] [48 <./Fin
+al_A1.png> <./Final_A2.png> <./Final_B1.png> <./Final_B2.png> <./Final_C1.png> 
+<./Final_C2.png>] [49 <./B-D.pdf> <./Final_plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2822--2823
 []\OT1/cmr/m/n/10.95 Emmy Noether, M. A. Tavel, \OT1/cmr/m/it/10.95 \In-vari-an
 t Vari-a-tion Prob-lems"\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
+Underfull \hbox (badness 10000) in paragraph at lines 2822--2823
 \OT1/cmr/m/n/10.95 Gott.Nachr.1918:235-257,1918; Transp.Theory Statist.Phys.1:1
 86-207,1971,
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 2576--2577
+Underfull \hbox (badness 2150) in paragraph at lines 2838--2839
 []\OT1/cmr/m/n/10.95 Gerald S. Gu-ral-nik, Carl R. Ha-gen and Thomas W. Kib-ble
 , \OT1/cmr/m/it/10.95 \Global Con-
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 2576--2577
+Underfull \hbox (badness 1142) in paragraph at lines 2838--2839
 \OT1/cmr/m/it/10.95 ser-va-tion Laws and Mass-less Par-ti-cles"\OT1/cmr/m/n/10.
 95 , Phys. Rev. Lett. 13, 585-587 (1964),
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 2583--2584
+Underfull \hbox (badness 2932) in paragraph at lines 2845--2846
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Ob-ser-va-tion
  of a new bo-son at a mass of 125 GeV
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 2583--2584
+Underfull \hbox (badness 5667) in paragraph at lines 2845--2846
 \OT1/cmr/m/it/10.95 with the CMS ex-per-i-ment at the LHC"\OT1/cmr/m/n/10.95 , 
 Phys. Lett. B 716 (2012) 30,
  []
 
-[65
+[50
 
 ]
-Underfull \hbox (badness 2600) in paragraph at lines 2586--2587
+Underfull \hbox (badness 2600) in paragraph at lines 2848--2849
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Mea-sure-ments
  of prop-er-ties of the Higgs bo-son in the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2586--2587
+Underfull \hbox (badness 10000) in paragraph at lines 2848--2849
 \OT1/cmr/m/n/10.95 HIG-19-001, []$\OT1/cmtt/m/n/10.95 http : / / cms-[]results 
 . web . cern . ch / cms-[]results / public-[]results /
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 2588--2589
+Underfull \hbox (badness 2564) in paragraph at lines 2850--2851
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Mea-sure-ments
  of Higgs bo-son pro-duc-tion via gluon fu-
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 2588--2589
+Underfull \hbox (badness 6775) in paragraph at lines 2850--2851
 \OT1/cmr/m/it/10.95 sion and vec-tor bo-son fu-sion in the dipho-ton de-cay cha
 n-nel at $[]$ 13
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 2588--2589
+Underfull \hbox (badness 4416) in paragraph at lines 2850--2851
 \OT1/cmr/m/it/10.95 TeV"\OT1/cmr/m/n/10.95 , CMS-PAS-HIG-18-029, []$\OT1/cmtt/m
 /n/10.95 http : / / cms-[]results . web . cern . ch / cms-[]results /
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 2597--2598
+Underfull \hbox (badness 5578) in paragraph at lines 2859--2860
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Com-bined mea-
 sure-ments of Higgs bo-son cou-plings in
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2597--2598
+Underfull \hbox (badness 1430) in paragraph at lines 2859--2860
 \OT1/cmr/m/it/10.95 proton-proton col-li-sions at $[]$ = 13 TeV"\OT1/cmr/m/n/10
 .95 , Eur. Phys. J. C 79 (2019) 421,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2598--2599
+Underfull \hbox (badness 10000) in paragraph at lines 2860--2861
 []\OT1/cmr/m/n/10.95 CMS Pub-lic re-sults []$\OT1/cmtt/m/n/10.95 https : / / tw
 iki . cern . ch / twiki / bin / view / CMSPublic /
  []
 
-[66]
-Underfull \hbox (badness 3826) in paragraph at lines 2614--2615
+[51]
+Underfull \hbox (badness 3826) in paragraph at lines 2876--2877
 \OT1/cmr/m/it/10.95 flavour vi-o-lat-ing de-cay $\OML/cmm/m/it/10.95 ^^\ \OMS/c
 msy/m/n/10.95 ! \OML/cmm/m/it/10.95 ^^V^^V$ \OT1/cmr/m/it/10.95 at the LHC"\OT1
 /cmr/m/n/10.95 , Phys.Rev.D77:073010,2008,
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 2628--2629
+Underfull \hbox (badness 1838) in paragraph at lines 2890--2891
 []\OT1/cmr/m/it/10.95 \The Large Electron-Positron Col-lider"\OT1/cmr/m/n/10.95
  , []$\OT1/cmtt/m/n/10.95 http : / / cds . cern . ch / record / 1997351 ,[]
  []
 
-[67]
-Underfull \hbox (badness 4686) in paragraph at lines 2663--2664
+[52]
+Underfull \hbox (badness 4686) in paragraph at lines 2925--2926
 []\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \The muon proje
 ct: Tech-ni-cal De-sign Re-port"\OT1/cmr/m/n/10.95 , 1997.
  []
 
-[68] [69]
-Underfull \hbox (badness 1412) in paragraph at lines 2716--2717
+[53] [54]
+Underfull \hbox (badness 1412) in paragraph at lines 2978--2979
 []\OT1/cmr/m/n/10.95 BaBar Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 \Lim-its on t
 au Lepton-Flavor Vi-o-lat-ing De-cays in three
  []
 
 
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 27
-17.
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 29
+79.
 
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 2721--2722
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 2983--2984
 []\OT1/cmr/m/n/10.95 W. J. Mar-ciano, T. Mori, and J. M. Roney, \OT1/cmr/m/it/1
 0.95 \Charged Lep-ton Fla-
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 2721--2722
+Underfull \hbox (badness 6641) in paragraph at lines 2983--2984
 \OT1/cmr/m/it/10.95 vor Vi-o-la-tion Ex-per-i-ments"\OT1/cmr/m/n/10.95 , Ann. R
 ev. Nucl. Part. Sci. 58 (2008) 315,
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 2725--2726
+Underfull \hbox (badness 2165) in paragraph at lines 2987--2988
 \OT1/cmr/m/it/10.95 8.1"\OT1/cmr/m/n/10.95 , Com-put. Phys. Com-mun. 178 (2008)
  852, []doi:10.1016/j.cpc.2008.01.036[],
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 2737--2738
+Underfull \hbox (badness 1997) in paragraph at lines 2999--3000
 \OT1/cmr/m/n/10.95 Ar-tif. In-tell. 14 (1999) 771{780, []$\OT1/cmtt/m/n/10.95 h
 ttps : / / cseweb . ucsd . edu / []yfreund / papers /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2747.
-[71]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2747.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3009.
+[56]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3009.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2747.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2747.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3009.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3009.
 
 
 
@@ -2736,58 +2737,77 @@ Package rerunfilecheck Warning: File `Tesi.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Tesi.out':
-(rerunfilecheck)             Before: EBFAE6F38773EFD3F6F0BFD8CB659972;2728
-(rerunfilecheck)             After:  C31429633D2BD1BB0CB25D2057267939;2844.
+(rerunfilecheck)             Before: D0C86CFB5D97C5661218A59E027E93C4;1969
+(rerunfilecheck)             After:  D3D7886908C16F8BC08701EE9DB55F37;1969.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2747.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3009.
  ) 
 Here is how much of TeX's memory you used:
- 17908 strings out of 492995
- 300048 string characters out of 6132705
- 383100 words of memory out of 5000000
- 20864 multiletter control sequences out of 15000+600000
- 33145 words of font info for 113 fonts, out of 8000000 for 9000
+ 17766 strings out of 492995
+ 297834 string characters out of 6132705
+ 377097 words of memory out of 5000000
+ 20804 multiletter control sequences out of 15000+600000
+ 31282 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,43p,10395b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (71 pages, 9928588 bytes).
+ 39i,12n,43p,10395b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.50} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.49} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.40} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.38} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.52} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/cm-super/sfrm1095.pfb>
+Output written on Tesi.pdf (56 pages, 5943145 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 1243 compressed objects within 13 object streams
- 356 named destinations out of 1000 (max. 500000)
- 592 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1738 PDF objects out of 2073 (max. 8388607)
+ 1223 compressed objects within 13 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
