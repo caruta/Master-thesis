@@ -19,7 +19,7 @@
 %\sectionfont{\bfseries\Large\raggedright}
 \allsectionsfont{\raggedright}
 \graphicspath{ {images/} }
-
+\renewcommand{\floatpagefraction}{.99}
 %\usepackage[T1]{fontenc}
 
 \def\double{\baselineskip 24pt \lineskip 10pt}
@@ -1603,34 +1603,56 @@ Decays of the type: $b \rightarrow uW^{*}$ are strongly suppressed by the small 
 All $B$ meson decays almost always produce $D$ mesons, some of which in turn can decay to $\tau$ leptons, as described above.
 
 \subsection{Signal acceptance at generator level}
-The search for $\tau \rightarrow 3\mu$ decays represents a challenge for CMS because muons resulting from this decay, with $\tau$ coming from $D$ and $B$ mesons, have very low momenta and are significantly boosted in the forward direction. This is shown in Fig. \ref{fig:Momentum_genLevel}, where the transverse momenta of the three muon of signal, at generator level, are displayed.\\ 
-Moreover, even if $B$ mesons are quite heavier than $D$ mesons and therefore they have different kinematics, the difference in momentum of $\tau$ leptons is barely visible.\\
+The search for $\tau \rightarrow 3\mu$ decays represents a challenge for CMS because muons resulting from the decay of $\tau$ leptons, coming from $D$ and $B$ mesons, have very low momenta and are significantly boosted in the forward direction. This is shown in Fig. \ref{fig:Momentum_genLevel} and \ref{fig:Mu_Momenta_genLevel}, where the $\mathrm{p_{T}}$ and the momenta of the three muon of signal, at generator level, are displayed. Moreover, in Fig. \ref{fig:Eta_genLevel}, 
+
 \begin{figure}[h!]
    \centering
-   \includegraphics[width=15cm]{Momentum_genLevel}
-	\caption{Momentum\_genLevel.}
-	\label{fig:Momentum_genLevel}
+   \includegraphics[width=14cm]{Mu_Momenta_genLevel.png}
+	\caption{Mu\_Momenta\_genLevel.}
+	\label{fig:Mu_Momenta_genLevel}
 \end{figure}
-\\
-In order to determine the signal acceptance of the experiment, it is important to notice that the CMS fiducial volume to reconstruct muons is $|\eta| <$ 2.4 and $p >$ 2.5 GeV (muons of momentum less than 2.5 GeV do not reach the muon chambers), as explained in section \ref{Muon reconstruction}.\\ 
-In Fig. \ref{fig:Eta_genLevel}, the pseudorapidity value of the muons of the triplet, at generator level, is shown. It can be seen that only $\sim$2\% of generator level events are in this fiducial volume.
+
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=14cm]{Mu_PT_genLevel.png}
+	\caption{Mu\_PT\_genLevel.}
+	\label{fig:Mu_PT_genLevel}
+\end{figure}
 
 \begin{figure}[h!]
    \centering
    \includegraphics[width=15cm]{Eta_genLevel}
-	\caption{Eta\_genLevel.}
+	\caption{Pseudorapidity $\eta$ of the most central muon (left) and the most forward muon (right) in $\tau \rightarrow 3\mu$ decays, where $\tau$ is associated with directly-produced D mesons (solid histogram) and decays of B mesons (dashed histogram). For B mesons, both $B \rightarrow \tau\nu_{\tau} + D + ...$ and $B \rightarrow D(\tau\nu_{\tau}) + ...$ decays are included.}
 	\label{fig:Eta_genLevel}
 \end{figure}
 
-To better illustrate the effect of muon momentum or transverse momentum cut on signal acceptance, Fig. \ref{fig:Efficiency_genLevel} shows efficiencies as a function of cut on p or pT of all 3 muons, while all muons have $|\eta| <$ 2.4.
-
+In Fig. \ref{fig:Momentum_genLevel} and 
+Moreover, even if $B$ mesons are quite heavier than $D$ mesons and therefore they have different kinematics, the difference in momentum of $\tau$ leptons is barely visible.\\
 \begin{figure}[h!]
+   \centering
+   \includegraphics[width=15cm]{Momentum_genLevel.png}
+	\caption{Dalla nota - (Top) Distributions of (left) pT, (middle) p, and (right) $\eta$ for directly-produced D (solid histogram) and B (dashed histogram) mesons. (Bottom) Distributions of the same observables for $\tau$-leptons originating from directly produced D meson (solid histogram) and from directly produced B mesons (dashed histogram) For B mesons, both $B \rightarrow \tau\nu_{\tau} + D + ...$ and $B \rightarrow D(\tau\nu_{\tau}) + ...$ decays are included.}
+	\label{fig:Momentum_genLevel}
+\end{figure}
+
+%\begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=12cm]{DeltaR_genLevel.png}
+%	\caption{DeltaR\_genLevel.}
+%	\label{fig:DeltaR_genLevel}
+%\end{figure}
+
+The CMS fiducial volume to reconstruct muons is $|\eta| <$ 2.4 and $p >$ 2.5 GeV (muons of momentum less than 2.5 GeV do not reach the muon chambers), as explained in section \ref{Muon reconstruction}.\\ 
+To better illustrate the effect of muon momentum or transverse momentum cut on signal acceptance, Fig. \ref{fig:Efficiency_genLevel} shows efficiencies as a function of cut on p or pT of all 3 muons, while all muons have $|\eta| <$ 2.4. It can be seen that only $\sim$2\% of generator level events are in the CMS fiducial volume.
+
+\begin{figure}[h]
    \centering
    \includegraphics[width=15cm]{Efficiency_genLevel}
 	\caption{Efficiency\_genLevel}
 	\label{fig:Efficiency_genLevel}
 \end{figure}
 
+\newpage
 \section{Data and MonteCarlo samples}
 \subsection{Datasets}
 For the analysis described in this thesis, I have used data collected by CMS in pp collisions at a center of mass energy $\sqrt{s}$ = 13 TeV during the 2017 data-taking. In that year there were 5 running periods labeled from B to F. \\
@@ -1638,7 +1660,7 @@ As already said in section \ref{WLCG}, data recorded by CMS are stored in differ
 The datasets used in this analysis are the \emph{DoubleMuonLowMass} ones, which are listed in Tab. \ref{tab:2017datasets}, along with their run ranges and integrated luminosity.
 The whole data used correspond to a total integrated luminosity $\mathcal{L} = 38\ fb^{-1}$.\\
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|l|c|c|}
 	\hline 
@@ -1659,12 +1681,12 @@ Only runs that satisfy the data quality criteria, i.e. the ones recorded when al
 Collisions17/13TeV/ReReco/Cert\_294927-306462\_13TeV\_EOY2017ReReco\_Collisions17\_JSON\_v1.txt.
 
 \subsection{Montecarlo samples}
-The MC samples, used to model signal and to normalize the processes, that have been used in this analysis are listed in Tab. \ref{tab:MCsamples}.\\
-They are official CMS productions and they simulate $\tau$ coming from $D_{s}$, $B^{\pm}$ and $B^{0}$ decays, which correspond to  $\sim$94\% of total $\tau$ production, as shown in Tab. \ref{tab:relativeTauYield}.\\
-Moreover, also the $D_{s} \rightarrow \phi \pi \rightarrow (\mu\mu)\pi$ decay was simulated because in this analysis the production cross section of $D$ and $B$ mesons in the kinematic phase space relevant for the search is not know a priori, but it is derived directly from data by measuring the $D_{s}$ production rate in the $D_{s} \rightarrow \phi\pi \rightarrow(\mu\mu)\pi$ channel.\\
-In Tab. \ref{tab:MesonsBR} are listed a number of decay branching fractions, needed to compute this production rate, together with their uncertainties.
+Montecarlo samples are used to simulate the processes that contribute to the signal and for the estimation of the number of events expected in data.
+The MC samples that have been used in this analysis are listed in Tab. \ref{tab:MCsamples}.\\
+They are official CMS productions and they simulate the $\tau$ leptons coming from $D_{s}$, $B^{\pm}$ and $B^{0}$ decays, which correspond to $\sim$94\% of total $\tau$ production, as shown in Tab. \ref{tab:relativeTauYield}.\\
+Moreover, also the $D_{s} \rightarrow \phi \pi \rightarrow (\mu\mu)\pi$ decay was simulated because this channel it is important both as a \emph{control channel} which can be used to validate the signal MC samples and also to monitor the performance of the trigger during the data-taking, since its events are acquired with the same trigger paths. More details on these will be given in section ref{sgn_norm}. 
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|l|l|c|}
 	\hline
@@ -1687,7 +1709,23 @@ In Tab. \ref{tab:MesonsBR} are listed a number of decay branching fractions, nee
 	\label{tab:MCsamples}
 \end{table}
 
-\begin{table}[h!]\footnotesize
+All MC samples listed in Tab. \ref{tab:MCsamples} were generated using PYTHIA 8 \cite{ref104} with a MinimumBias configuration, and the decay chains are performed by EVTGEN \cite{ref110} package.\\ 
+In particular, to simulate different processes, several steps have been followed:
+\begin{itemize}
+	\item for the processes $B^{+} \rightarrow \tau \nu_{\tau}\rightarrow 3\mu\nu_{\tau}$ and $B^{0}\rightarrow \tau \nu_{\tau}\rightarrow 3\mu\nu_{\tau}$:
+	\begin{enumerate}
+		\item the $B^{+}$ and $B^{0}$ productions are simulated by applying a $b$-quark filter on top of the MinimumBias configuration: an event is kept if there is a $b$-quark at the parton level, otherwise it is thrown away before hadronization.
+		\item After the hadronization, if a $D_{s}$ meson is found, it is forced to decay into a $\tau$, that is then forced to decay in 3$\mu$ (this last process is asummed to be three-body phase-space decay).
+	\end{enumerate} 
+	If there are more than one $D_{s}$ per event, only one such decay chain is allowed. These last steps (from point 2) are the same followed for the production of the $D_{s}\rightarrow \tau \nu_{\tau} \rightarrow 3\mu\nu_{\tau}$ MC sample.
+	\item for the control channel $D_{s} \rightarrow \phi \pi \rightarrow \mu\mu\pi$ the procedure is similar, but the $D_{s} \rightarrow \phi\pi$ is set to be scalar to vector plus scalar decay, while $\phi \rightarrow \mu\mu$ is a vector to leptons decay with radiative correction. As for $D_{s}$ samples, both $D_{s}$ from prompt production and $b$-hadron decays are included.
+\end{itemize}
+Not all the events are processed with time consuming full simulation, but only the ones that have at the generator level at least $\mu$ with $\mathrm{p_{T}} >$ 2.7 GeV and $|\eta| <$ 2.45.\\ 
+
+
+In order to compute the expected number of mesons contributing, through their decay, to the final signal, all the needed decay branching fractions with their uncertainties are reported in Tab. \ref{tab:MesonsBR}.
+
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|l|c|c|}
 	\hline
@@ -1706,33 +1744,13 @@ In Tab. \ref{tab:MesonsBR} are listed a number of decay branching fractions, nee
 	\label{tab:MesonsBR}
 \end{table}
 
-The MC samples listed in Tab. \ref{tab:MCsamples} were generated using PYTHIA 8 \cite{ref104} with a MinimumBias configuration, and the decay chains are performed by EVTGEN \cite{ref110} package.\\ 
-As for $B^{+}$ and $B^{0}$ production, a $b$-quark filter is applied on top of the MinimumBias configuration: an event is kept if there is a $b$-quark at the parton level, otherwise it is thrown away before hadronization. The decay chain is programmed using the EVTGEN as following - taking $D_{s} \rightarrow \tau$ as an example - if a $D_{s}$ meson is found after hadronization, it is forced to decay to a $\tau$, which is subsequently set to decay to 3$\mu$.\\ 
-In case multiple $D_{s}$ in one event, only one such decay chain is allowed. If no $D_{s}$ is found, the event is discarded. The $\tau \rightarrow 3\mu$ process is asummed to be 3-body phase-space decay.\\ 
-The normalization channel is generated in the same way, but with the $D_{s} \rightarrow \phi(\mu\mu)\pi$ decay chain programmed ($D_{s} \rightarrow \phi\pi$ is set to be scalar to vector plus scalar decay, while $\phi \rightarrow \mu\mu$ vector to leptons decay with radiative correction, as programed in EVTGEN) . As for $D_{s}$ samples, both $D_{s}$ from prompt production and $b$-hadron decays are included.
-
-Only generated events that fullfill the following criteria are processed with time consuming
-full simulation: at least 2 generator level $\mu$ should have $\mathrm{p_{T}} >$ 2.7 GeV and $|\eta| <$ 2.45, which matches, but is looser than, the trigger requirements used in the analysis (described below).\\ 
-In summary, there are three filters applied at the generator level:
-\begin{itemize}
-	\item Only if it is $B^{+}$ or $B^{0}$ production, a parton-level $b$-quark filter,
-	\item Mother meson ($D_{s}$, $B^{+}$ or $B^{0}$) filter
-	\item 2 $\mu$ in trigger acceptance filter
-\end{itemize}
-
-Da NAdia:\\
-Generated 161k events $D_{S} \rightarrow \phi\pi \rightarrow (2\mu)\pi$ with PYTHIA 8, strating from a Minimum Bias event configuration and requiring at least one $D_{S}$ meson per event.
-The $D_{S} \rightarrow \phi\pi$ and $\phi \rightarrow \mu\mu$ decays are then forced with BR=1.  Standard CMS event reconstruction algorithm are then applied to the final state particleas as described in section REF.
-
-The 2017 realistic data taking conditions are simulated,
-
-\subsection{Pile-up Reweighting}
+\subsection{Pile up Reweighting}
  In MC simulations it is important to consider the effect of pile up, which is present in each event in CMS (as already explained in \ref{LHC}).\\
 MC have been produced with a certain pile-up distribution that, however, is different from the real one, id est the pile up distribution of collected data, as it is possible to notice in Fig. \ref{fig:PU_comp}.
 
-\begin{figure}[h!]
+\begin{figure}[h]
    \centering
-   \includegraphics[width=12cm]{PU_comp}
+   \includegraphics[width=15cm]{PU_comparison.pdf}
     \caption{Pile-up distributions of the MC (on the left) and of the data (on the right).}
 \label{fig:PU_comp}
  \end{figure}
@@ -1746,23 +1764,23 @@ w_{pu}(i) = \frac{N_{D}(i)}{N_{MC}(i)}
 
 The weight $w_{pu}$, computed in this way, is shown as a function of the MC pile up, in Fig. \ref{fig:PU_weights}. 
 
-\begin{figure}[h!]
+\begin{figure}[h]
    \centering
-   \includegraphics[width=12cm]{PU_weights}
+   \includegraphics[width=15cm]{Weight.pdf}
     \caption{Distributions of the values of the weights (as a function of the n. of pile up events in the MC) used to reweight the MC.}
 \label{fig:PU_weights}
  \end{figure}
 
 The effect of the pile up reweighting is visibile especially in the distribution of the reconstructed primary vertices. It can be noticed in Fig. \ref{fig:PU_Vertices}, comparing the primary vertices distribution before (on the left) and after (on the right) the pile-up reweighting.
 
-\begin{figure}[h!]
-\begin{minipage}[b]{7.3cm}
+\begin{figure}[h]
+\begin{minipage}[b]{7.5cm}
    \centering
-   \includegraphics[width=7.2cm]{PU_Vertices_Before}
+   \includegraphics[width=7.5cm]{NPrimaryVertices_Before.pdf}
  \end{minipage}
- \begin{minipage}[b]{7.3cm}
+ \begin{minipage}[b]{7.5cm}
   \centering
-   \includegraphics[width=7.2cm]{PU_Vertices_After}
+   \includegraphics[width=7.5cm]{NPrimaryVertices_After.pdf}
  \end{minipage}
     \caption{Primary vertices distribution in MC before (on the left) and after (on the right) the pile up reweighting, compared to the primary vertices distribution in data.}
 	\label{fig:PU_Vertices}
@@ -1780,7 +1798,6 @@ In order to improve the search sensitivity, all the candidate events are sorted 
 After the MVA, the three categories are divided into three sub-categories based on the expected per-event S/B ratio as predicted by the MVA discriminant. The best two of them are then retrained for the further statistical analysis.\\ 
 Finally, the signal is searched by simultaneously analyzing the thus-formed 6 unbinned mass distributions.
 
-\newpage
 \section{Event selection}
 \label{Event_selection}
 %\begin{table}[h!]\footnotesize
@@ -1842,7 +1859,7 @@ These sets of selections were optimized using the MC simulation.\\
 
 The results of a study to optimize the muon ID requirements for the 3 candidate muons is reported in Tab. \ref{tab:MuonID}.
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|l|c|c|c|c|c|}
 	\hline
@@ -1881,14 +1898,7 @@ Moreover, to obtain an insight into the major source of background passing these
 %\end{table}
 
 
-In Fig. \ref{fig:Bkg_study1} is shown the PdgID of the particles that survive all the selection (listed before - REF) and the ones of their mother particle, in the case of the $D^{\pm}_{s} \rightarrow \phi(\mu\mu)\pi$ MC.\\
 
-\begin{figure}[h!]
-  \centering
-   \includegraphics[width=15cm]{Bkg_study1}
-    \caption{DsPhiPi - After cuts}
-	\label{fig:Bkg_study1}
-\end{figure}
 
 In Fig. \ref{fig:Bkg_study2} is shown the PdgID of the particles that survive all the selection (listed before - REF) and the ones of their mother particle, in the case of the $D^{\pm}_{s} \rightarrow \tau\nu_{\tau} \rightarrow 3\mu\nu_{\tau}$ MC.\\
 It is possible to see that:
@@ -1987,6 +1997,9 @@ It can be easily seen in Fig. \ref{fig:MassTripReso_eta} that the resolution of 
 %- Validazione MC -stressa importanza per MVA
 %- Introduzionne stima sistematica : DS etc
 
+this analysis the production cross section of $D$ and $B$ mesons in the kinematic phase space relevant for the search is not know a priori, but it is derived directly from data by measuring the $D_{s}$ production rate in the $D_{s} \rightarrow \phi\pi \rightarrow(\mu\mu)\pi$ channel.
+
+
 At this point of the analysis, before proceeding with the use of a multivariate discriminator to further distinguish signal events from background ones, it is fundamental to validate the Montecarlo samples. In fact the $D^{\pm}_{s}$, $B^{0}$ and $B^{\pm}$ Montecarlo samples will be used, in the next analysis step, to train the classifier on the signal. For this reason they have to properly simulate the data and, if it is not the case, they must be corrected or reweighted in order to avoid that non-real effects present in the MC would affect and bias the discriminator.
 
 In order to validate the MC samples used in the analysis, the decay channel $D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi$ has been used as a \emph{control channel}.\\
@@ -2036,6 +2049,15 @@ After these pre-selections, another set of requirements is applied in order to s
 \end{enumerate}
 If more than one triplet per event satisfies these requirements, it is chosen the one with the best value of the $\chi^2$ of the vertex.
 
+The goodness of these previous selections can be verified looking at the which are the mothers of the particles that satisfy all of the requirements. 
+In Fig. \ref{fig:Bkg_study1} is shown the PdgID of the particles that survive all the selection (listed before - REF) and the ones of their mother particle, in the case of the $D^{\pm}_{s} \rightarrow \phi(\mu\mu)\pi$ MC.\\
+
+\begin{figure}[h]
+  \centering
+   \includegraphics[width=15cm]{Bkg_study1}
+    \caption{DsPhiPi - After cuts}
+	\label{fig:Bkg_study1}
+\end{figure}
 
 Therefore, after having applied to the data collected with the L1_DoubleMu seed, the selections listed before, the ”2 muon and 1 track” invariant mass region of [1.68, 2.02] GeV is used to extract $D_{s}$ yields. The mass distribution is fitted with 2 Crystal Ball functions and an exponential function, as shown in Fig. \ref{fig:NDs_total}. The smaller bump at 1.87 GeV correspons to the $D^{\pm}$ meson, which has a BR: $\mathcal{B}(D^{+} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ is 1.55 $\cdot \ 10^{-6}$.
 
@@ -2046,14 +2068,13 @@ Therefore, after having applied to the data collected with the L1_DoubleMu seed,
 	\label{fig:NDs_total}
 \end{figure}
 
-The same fit was performed for each of the 2017 run era separately, and it is shown in Fig. \ref{fig:NDs_runByrun}. \\
-The fitted $D_{s}$ yields from data, normalized to integrated luminosity are compared with MC predictions and they are listed in Tab. \ref{tab:N_Ds}.\\
-It can be noticed that the $D_{s}$ yield in data is compatible with the MC predictions in C, D and E runs, while there is a relevant discrepacy in run B and F!\\
+The same fit was performed for each of the 2017 run era separately, and it is shown in Fig. \ref{fig:NDs_runByrun}. The fitted $D_{s}$ yields from data, normalized to integrated luminosity are compared with MC prediction and they are listed in Tab. \ref{tab:N_Ds}.\\
+It can be noticed that the $D_{s}$ yield in data is compatible with the MC predictions in C, D and E runs, while there is a relevant discrepacy in run B and F.\\
 
 Mettere un plot del fit MC ? (non scrivo da nessuna parte qual è lo yield delle Ds nel MC)?\\
 Aggiungi Ds expected from MC/fb-1 nella tabella ??
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|c||c|c|}
 	\hline
@@ -2072,7 +2093,7 @@ Aggiungi Ds expected from MC/fb-1 nella tabella ??
 
 
 \newpage
-\begin{figure}[h!]
+\begin{figure}[h]
  \begin{minipage}[b]{7.7cm}
    \centering
    \includegraphics[width=7.7cm]{NDs_runB.png}
@@ -2082,7 +2103,7 @@ Aggiungi Ds expected from MC/fb-1 nella tabella ??
    \includegraphics[width=7.7cm]{NDs_runC.png}
  \end{minipage}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[h]
 \begin{minipage}[b]{7.7cm}
    \centering
    \includegraphics[width=7.7cm]{NDs_runD.png}
@@ -2092,7 +2113,7 @@ Aggiungi Ds expected from MC/fb-1 nella tabella ??
    \includegraphics[width=7.7cm]{NDs_runE.png}
  \end{minipage}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=7.7cm]{NDs_runF.png}
 	 \caption{2017 data in $D_{s} \rightarrow \phi(\mu\mu)\pi$ channel plotted run by run. Fior each of them the same fit described in \ref{fig:NDs_total} has been performed.}
@@ -2101,22 +2122,22 @@ Aggiungi Ds expected from MC/fb-1 nella tabella ??
 
 \subsection{Montecarlo validation} 
 In order to validate the MC samples, the $D_{s}\rightarrow\phi(\mu\mu)\pi$ MC is compared with the data after a procedure that normalizes the two distributions.\\
-In particular, for the the distribution of a certain variable $x$, data events having ”2 muon and 1 track” invariant mass in (1.93-2.01) GeV are taken as $D_{s}\rightarrow\phi(\mu\mu)\pi$ candidates, the distribution of which is called $x\_SGN$. On the other hand, data events in (1.70, 1.80) GeV region are used as sideband events, and their distribution is called $x\_SB$. 
+In particular, for the the distribution of a certain variable $x$, data events having ”2 muon and 1 track” invariant mass in (1.93-2.01) GeV are taken as $D_{s}\rightarrow\phi(\mu\mu)\pi$ candidates, the distribution of which is called $x\_SGN$. On the other hand, data events in (1.70, 1.80) GeV region are used as sideband (SB) events, and their distribution is called $x\_SB$. 
 
 The normalization procedure is described in the following and that consists of three steps:
 \begin{enumerate}
-	\item \emph{MC normalization}:\\ The MC distribution of the $x$ variable is scaled of a factor $f_{MC}$:
+	\item MC normalization:\\ The MC distribution of the $x$ variable is scaled of a factor $f_{MC}$:
 		\begin{equation}
-		f_{MC} = \frac{\mathcal{L} * \sigma(pp \rightarrow D_{s}) * \mathcal{B}(D_{s}\ , \rightarrow \phi(2\mu)\pi)}{N_{MC}}\ ,
+		f_{MC} = \frac{\mathcal{L} * \sigma(pp \rightarrow D_{s}) * \mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)}{N_{MC}}\ ,
 		\end{equation}
 		where:
 		\begin{itemize}
-			\item $\mathcal{L}$ is the integrated luminosity of the data run considered (listed in Tab. \ref{tab:2017datasets}),
+			\item $\mathcal{L}$ is the integrated luminosity of the data considered (listed in Tab. \ref{tab:2017datasets}),
 			\item  $\sigma(pp \rightarrow D_{s})= 1.17 \cdot 10^{10}$  is the $D_{s}$ production cross section used in the MC production,
-			\item $\mathcal{B}(D_{s} \rightarrow \phi(2\mu)\pi) = 1.29 \cdot 10^{-5}$ is the BR of the process $D_{s} \rightarrow \phi(2\mu)\pi$,
-			\item $N_{MC}$ = 1832741, is the total number of events in the MC.
+			\item $\mathcal{B}(\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)) = 1.3 \cdot 10^{-5}$ is the BR of the process $\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$,
+			\item $N_{MC}$ = 1832741 is the total number of events in the MC.
 		\end{itemize}
-	\item \emph{Datasideband ($x\_SB$) normalization}:\\ rhe $x\_SB$ is scaled, according to the fitted background shape (Fig. \ref{fig:NDs_runByrun}), to the number of expected background events in (1.93, 2.01) GeV region:
+	\item Data SB ($x\_SB$) normalization:\\ The $x\_SB$ is scaled, according to the fitted background shape (Fig. \ref{fig:NDs_runByrun}), to the number of expected background events in (1.93, 2.01) GeV region:
 		\begin{equation}
 		f_{dataSB} = Bkg_inSGNregion_MC * \frac{Bkg_inSB_MC}{Entries dataSB}\ ,
 		\end{equation}
@@ -2126,7 +2147,7 @@ The normalization procedure is described in the following and that consists of t
 			\item $Bkg_inSB_MC$ is the number of background events which are present in the sideband region, obtained from the previous fit...,
 			\item $Entries dataSB$ is the total number of events present in the $x\_SB$ distribution.
 		\end{itemize}
-	\item \emph{Subtraction of $x\_SB$ from $x\_SGN$}:\\ the contribution of from non-$D_{s}$ to the area of $x\_SGN$ is subtracted.
+	\item Subtraction of $x\_SB$ from $x\_SGN$:\\ The contribution of non-$D_{s}$ to the area of $x\_SGN$ is subtracted.
 \end{enumerate}
 
 The data comparison with $D_{s}\rightarrow\phi(\mu\mu)\pi$ MC is shown in Fig. \ref{fig:ControlPlots_1}. In particular, only data belonging to run era C of 2017 have been used because of trigger, as seen before, in this era the trigger perfomance/N Ds were very stable ??\\ 
@@ -2146,7 +2167,7 @@ As it is evident, all the MC distributions agrees reasonably well with data; the
    \includegraphics[width=7.7cm]{Control_Eta_mu1}
  \end{minipage}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[h]
 \begin{minipage}[b]{7.7cm}
    \centering
    \includegraphics[width=7.7cm]{Control_pT_mu2}
@@ -2156,7 +2177,7 @@ As it is evident, all the MC distributions agrees reasonably well with data; the
    \includegraphics[width=7.7cm]{Control_Eta_mu2}
  \end{minipage}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[h]
 \begin{minipage}[b]{7.7cm}
    \centering
    \includegraphics[width=7.7cm]{Control_pT_track}
@@ -2169,17 +2190,17 @@ As it is evident, all the MC distributions agrees reasonably well with data; the
 \label{fig:ControlPlots_1}
 \end{figure}
 
-
+\newpage
 \subsection{Signal normalization}
 The number of $D_{s}$ mesons that are expected (in teoria) to contribute to the signal (i.e. that are expected to decay in a $\tau$ lepton that in turn decays into three muons) can be evaluated using the cross section of the different processes, which are also used to produce the MC samples and are listed in Tab. \ref{tab:MC_Xsections}.
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 	\hline
 	Meson $X$	& 	$\sigma(pp \rightarrow X)$ in MC	&	MC\_Weight for meson $X$	&	Expected number of $X$ mesons \\ \hline 
-	$D_{s}$	&	2.18$\cdot 10^{10}$	&	3.36$\cdot 10^{-3}$	&	4138\\
-	$B^{0}$	 &	9.37$\cdot 10^{9}$	&	4.15$\cdot 10^{-4}$	&	125\\
-	$B^{\pm}$	&	9.22$\cdot 10^{9}$	&	6.11$\cdot 10^{-4}$	&	1230\\
+	$D^{\pm}_{s}$	&	2.18 $\cdot\ 10^{10}$	&	3.36 $\cdot\ 10^{-3}$	&	4138\\
+	$B^{0}$	 &	9.37 $\cdot\ 10^{9}$	&	4.15 $\cdot\ 10^{-4}$	&	125\\
+	$B^{\pm}$	&	9.22 $\cdot\ 10^{9}$	&	6.11 $\cdot\ 10^{-4}$	&	1230\\
 	\hline
 	\end{tabular}
 	\caption{MC cross sections weights that have to be applied for the MC scaling for different processes. The expected number of mesons contributing to the signal is also computed.}
@@ -2190,7 +2211,7 @@ where:
 \begin{itemize}
 	\item the MC\_Weight for meson $X$ will be used to scale the signal coming from meson $X$ and it can been computed using the equation:
 		\begin{equation}
-		\mathrm{MC\_Weight} = \frac{\sigma(pp \rightarrow X)*\mathcal{B}(X \rightarrow \tau)*\mathcal{B}(\tau \rightarrow3 \mu)*\mathcal{L}}{N_{MC}}
+		\mathrm{MC\_Weight} = \frac{\mathcal{L} * \sigma(pp \rightarrow X)*\mathcal{B}(X \rightarrow \tau)*\mathcal{B}(\tau \rightarrow3 \mu)}{N_{MC}}
 		\end{equation}
 		where $\mathcal{B}(X\rightarrow\tau)$ is the BR of the process $X\rightarrow\tau$, $\tau\rightarrow3\mu$ is assumed to be equal to $10^{-7}$ and $\mathcal{L} $ is the total integrated luminosity of the collected data (for 2017 it is 38$fb^{-1}$ and $N_{MC}$ is the total initial number of events in the MC before any selection.
 	\item the expected number of $X$ mesons can be obtained using the equation:
@@ -2198,7 +2219,6 @@ where:
 	\mathrm{Expected\ number} = \mathrm{MC\_Weight} *  N_{MC}.
 	\end{equation}
 \end{itemize}.
-
 The expected number of mesons contributing to the signal that are listed in the table, must be than multiplied to the efficiency of the selections performed in the analysis.
 Then the final number obtained for $D_{s}$ and $B$s contribution is:
 
@@ -2230,7 +2250,7 @@ In these two equations:
 	\item $\sigma(pp \rightarrow D_{s})$ is the $D_{s}$ production cross section,
 	\item $\mathcal{B}(D_{s} \rightarrow \tau \nu)$ is the BR of the $D_{s} \rightarrow \tau \nu)$ decay,
 	\item $\mathcal{B}(\tau \rightarrow 3\mu)$ is the BR of the $\tau \rightarrow 3\mu)$ decay,
-	\item  $\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ is the BR of $D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ decay,
+	\item  $\mathcal{B}(D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi)$ is the BR of $D_{s} \rightarrow \phi\pi \rightarrow \mu\mu\pi$ decay,
 	\item $\mathcal{A}$ is the event selection acceptance,
 	\item $\epsilon_{trig}$ is the instrumental trigger efficiency,
 	\item $\epsilon_{reco}$ is the reconstruction efficiency.
@@ -2247,7 +2267,7 @@ The
 
 
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|c||c|c|c|}
 	\hline
@@ -2279,25 +2299,7 @@ Plot che mostra l'anfamento di questi dati e infine il rapporto (Only 3mu)/2mu L
 	\label{fig:Systematics_Ds_ratio}
 \end{figure}
 
-
-
-----------------------------------------------
-
-\begin{equation}
-N_{sig(D)} = \mathcal{L} * \sigma(pp \rightarrow D_{s}) \mathcal{B}(D_{s} \rightarrow \tau \nu_{\tau}) * \mathcal{B}(\tau \rightarrow 3\mu) * \frac{N. eventi iniz dati (??)}{N.events\ MC} = //
-\label{eq:N_D}
-\end{equation}
-where:
-\begin{itemize}
-	\item $\mathcal{L}$ = 38 $fb^{-1}$ is the integrated luminosity of the data collected,
-	\item $\sigma(pp \rightarrow D_{s})$ = 1.17$^{10}$ is the $D_{s}$ production cross section,
-	\item $\mathcal{B}(D_{s} \rightarrow \tau \nu)$ = 0.055 is the BR of the $D_{s} \rightarrow \tau \nu)$ decay,
-	\item $\mathcal{B}(\tau \rightarrow 3\mu)$ is the BR of the $\tau \rightarrow 3\mu)$ decay, assumed to be 10$^{-7}$,
-	\item $N.events\ MC$ = 1832741 is the total number of events present in the MC $D_{s} \rightarrow \phi(\mu\mu)\pi$,
-\end{itemize}
-
-----------------------------------------------
-
+\newpage
 \subsection{Evaluation of systematics on the normalization}
 In order to evaluate the systematics on the normalization, it is important to quantify the disagreement between the number of producted $D_{s}$ in data from the one which have been estimated from the MC cross section.
 In order to further study the $D_{s}$ yields instability, the 3$\mu$ sideband yields are compared with the $D_{s}$ yields. The 3$\mu$ sideband events should pass the preselections in section \ref{Event_selection}.
@@ -2305,7 +2307,7 @@ In order to further study the $D_{s}$ yields instability, the 3$\mu$ sideband yi
 Only events firing the DoubleMu L1 seed are under study here.\\ 
 In tab. \ref{tab:Yields_Ratio} is reported also the 3$\mu$ sideband yields over the year, and it is compared to the $D_{s}$ yield in  Fig. \ref{fig:Systematics_Ds_ratio} (left). It is possible to see that the two yields have a similar trend, therefore the ratio between the sideband yields and the $D_{s}$ yield is displayed in Fig. \ref{fig:Systematics_Ds_ratio}, from which is evdent that it is rather stable for runs from C to E, while it shows an anomalous behavior for runs B and F, which deserves a deep investigation.
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|c||c|c|c|}
 	\hline
@@ -2360,7 +2362,7 @@ The multivariate analysis (MVA) has assumed progressively, in the last years, a 
 
 In order to understand how this analysis works and which are the improvements in using it with respect to traditional analysis techniques based on successive linear cuts, let's look at the scatter plots in Fig. \ref{fig:MVA_examples}. They show the distribution of two variables $x_{1}$ and $x_{2}$, which represent two out of a potentially large number of quantities measured for each event, and different decision boundaries (cuts, lineary boundary, non linear boundary). The signal events are indicated with blue circles while the red triangles represent the background ones. \\
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=15cm]{MVA_examples}
 	\caption{Scatter plots of two variables corresponding to two hypotheses: signal (blue) and background (red). Event selection could be based, e.g., on (a) cuts, (b) a linear boundary, (c) a nonlinear boundary.
@@ -2407,7 +2409,7 @@ The training of a decision tree is the process that defines the splitting criter
 Since the splitting criterion is always a cut on a single variable, the training procedure selects the variable and cut value that optimises the increase in the separation index between the parent node and the sum of the indices of the two daughter nodes, weighted by their relative fraction of events. The cut values are optimised by scanning over the variable range with a granularity that is set via the option \emph{nCuts}. \\
 The BDT options used in the analysis described in the following are listed in Tab. \ref{tab:BDT_parameters}.
 
-\begin{table}[h!]\footnotesize
+\begin{table}[h]\footnotesize
 	\centering
 	\begin{tabular}{|l|c|}
 	\hline
@@ -2454,18 +2456,58 @@ A list of N ?? variables has been chosen as input to the BDT for the training. T
 %	\item $trkrel$: The ratio of the $\mathrm{p_{T}}$ of surrounding tracks to that of the muon. Tracks are counted if $\mathrm{p_{T}}>$ 1 GeV, $\Delta R<$0.3 and the distance of the closest approach is $<$ 1 mm to the muon. The largest value from the three muon is used.
 \end{itemize}
 
-In Fig. \ref{fig:BDT_inputs} the distributions of all the input variables, both for the signal and for the background, are displayed, while in Fig. \ref{fig:CorrelationMatrix} are shown the linear correlation matrices both for the signal and for the background.
+In Fig. \ref{fig:BDT_inputs} and the distributions of all the input variables, both for the signal and for the background, are displayed, while in Fig. \ref{fig:CorrelationMatrix} are shown the linear correlation matrices both for the signal and for the background.
 
+\newpage
 \begin{figure}[h!]
-	\centering
-	\includegraphics[width=15cm]{BDT_in1_A.pdf}
-%\end{figure}
-%\begin{figure}[h]
-%	\centering
-	\includegraphics[width=15cm]{BDT_in2_A.pdf}
-	\caption{Distribution of the input variables used in the BDT. The signal distributions are shown in blue while the background ones are in red.}
-	\label{fig:BDT_inputs}
+ \begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=6.4cm]{p3.pdf}
+ \end{minipage}
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=6.4cm]{cLP.pdf}
+ \end{minipage}
 \end{figure}
+\begin{figure}[h!]
+\begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=6.4cm]{tKink.pdf}
+ \end{minipage}
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=6.4cm]{segmComp.pdf}
+ \end{minipage}
+\end{figure}
+\begin{figure}[h!]
+\begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=6.4cm]{fv_nC.pdf}
+ \end{minipage}
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=6.4cm]{fv_dphi3D.pdf}
+ \end{minipage}
+ \end{figure}
+\begin{figure}[h!]
+ \begin{minipage}[b]{7.5cm}
+   \centering
+   \includegraphics[width=6.4cm]{fv_d3Dsig.pdf}
+ \end{minipage}
+ \begin{minipage}[b]{7.5cm}
+  \centering
+   \includegraphics[width=6.4cm]{d0sig.pdf}
+ \end{minipage}
+ \end{figure}
+\begin{figure}[h!]
+  \centering
+   \includegraphics[width=6.4cm]{mindca_iso.pdf}
+ \caption{Signal (blue) and background (red) distributions of the input variables used.}
+\label{fig:BDT_inputs}
+\end{figure}
+
+\newpage
+Bla Bla - considerazioni sulle correlazioni...
 
 \begin{figure}[h!]
 \begin{minipage}[b]{7.3cm}
@@ -2480,7 +2522,7 @@ In Fig. \ref{fig:BDT_inputs} the distributions of all the input variables, both 
 \label{fig:CorrelationMatrix}
 \end{figure}
 
-Bla Bla - considerazioni sulle correlazioni...
+
 
 About N. signal MC events and N. data sideband events have passed the selections in section \ref{Event_selection}, and N of them have been used to to train the BDT.
 
@@ -2521,10 +2563,17 @@ This test should in theory be used only for unbinned data and not for binned one
 
 If by chance the distributions of two samples under comparison are the same, then the value becomes 1.
 
+For the evaluation of the value of the KS test I have used the procedure implemented in ROOT, not the one in TMVA because it is more precise and stabile. The resulted value, for category A, are:\\
+p_KS_Signal : 0.379225
+p_KS_Bkg : 0.0599964
+
+which are a proof of the fact the the BDT is not overtrained, as it can be noticed in Fig. \ref{fig:BDT_KStest}, where the BDT response for signal and background in the test sample (filled histograms) is compared to the one for the training sample (dots).
+
+
 \subsubsection*{BDT response}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=15cm]{BDT_KStest.pdf}
+	\includegraphics[width=10cm]{BDT_KStest.png}
 	\caption{BDT_KStest.}
 	\label{fig:BDT_KStest}
 \end{figure}
@@ -2533,16 +2582,16 @@ Da Nadia:\\
 One can intuitively understand overtraining from the fact that information from all past experience can be divided into two groups: information that is relevant for the future (or the prediction) and irrelevant information ("noise").
 Possible solutions are: to simplify the model by selecting one with fewer parameters; to gather more training data; to reduce the noise in the training data (e.g. fix data errors and remove outliers).
 
-A good "indicator" for the goodness of the classifier is the so-called "ROC curve", which is --- Bla Bla
+A good "indicator" for the goodness of the classifier is give by the rejection of the background as a function of the efficiency of the signal, which is shown in Fig. \ref{fig:ROC_curve}.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=10cm]{ROC_curve.pdf}
-	\caption{ROC curve for the BDT trained as explained above.}
+	\includegraphics[width=14cm]{ROC_curve.pdf}
+	\caption{Curve showing the rejection of the background as a function of the efficiency of the signal for the BDT trained as explained above.}
 	\label{fig:ROC_curve}
 \end{figure}
 
-Boosted decision trees are classifiers with great characteristics, that make them particularly good for different - cretini come me che lo usano a c***o. \\
+Boosted decision trees are classifiers with great characteristics, that make them particularly good for different applications. \\
 A notable characteristics is the fact that BDT are insensitive to the inclusion of poorly discriminating input variables, which is not the case of other classifiers, as neural networks, for example. Components that provide little or no separation between signal and background are rarely chosen in the spiltting of the tree, and thus they are effectively ignored.\\ 
 In addition, BDT are surprisingly insensitive to overtraining. That is, although the error rate on the test sample will not decrease to zero as one increases the number of boosting iterations (as is the case for the training sample), it tends not to increase. Further discussion of this point can be found in \cite{ref117c}.
 
@@ -2555,20 +2604,32 @@ Events that are on the right to the right hand side vertical bar are referred to
 \newpage
 \begin{figure}[h!]
    \centering
-   \includegraphics[width=12cm]{BDT_out_A.pdf}
-   \includegraphics[width=12cm]{BDT_out_B.pdf}
-   \includegraphics[width=12cm]{BDT_out_C.pdf}
-    \caption{BDT response for the three categories of events. The 2 vertical bars in each figures indicates the cuts that define sub-category 1 and 2. Top left: category A; Top right: category B; Bottom: category C.}
+   \includegraphics[width=10.6cm]{BDT_out_A.pdf}
+\end{figure}
+\begin{figure}[h!]  
+	\centering
+   \includegraphics[width=10.6cm]{BDT_out_B.pdf}
+\end{figure}
+\begin{figure}[h!]  
+	\centering
+   \includegraphics[width=10.6cm]{BDT_out_C.pdf}
+    \caption{BDT response for the three categories of events. The 2 vertical bars indicate the cuts that define sub-categories.}
 \label{fig:BDT_out}
  \end{figure}
  
  \newpage
 \begin{figure}[h!]
    \centering
-   \includegraphics[width=12cm]{BDT_2Dmap_catA.pdf}
-   \includegraphics[width=12cm]{BDT_2Dmap_catB.pdf}
-   \includegraphics[width=12cm]{BDT_2Dmap_catC.pdf}
-    \caption{BDT_out_2D.}
+   \includegraphics[width=10.6cm]{BDT_2Dmap_catA.pdf}
+\end{figure}
+\begin{figure}[h!]  
+   \centering
+   \includegraphics[width=10.6cm]{BDT_2Dmap_catB.pdf}
+\end{figure}
+\begin{figure}[h!]  
+   \centering
+   \includegraphics[width=10.6cm]{BDT_2Dmap_catC.pdf}
+    \caption{BDT_out_2D combined efficiencies.}
 \label{fig:BDT_out_2D}
  \end{figure}
 
@@ -2583,33 +2644,33 @@ are parameterized for signal and background. Fig. \ref{fig:Final_cat} shows the 
 
 \newpage
 \begin{figure}[h!]
- \begin{minipage}[b]{7.3cm}
+ \begin{minipage}[b]{7.5cm}
    \centering
-   \includegraphics[width=6.9cm]{Final_A1}
+   \includegraphics[width=7.5cm]{FinalMass_A1.pdf}
  \end{minipage}
- \begin{minipage}[b]{7.3cm}
+ \begin{minipage}[b]{7.5cm}
   \centering
-   \includegraphics[width=6.9cm]{Final_A2}
+   \includegraphics[width=7.5cm]{FinalMass_A2.pdf}
  \end{minipage}
 %\end{figure}
 %\begin{figure}[h!]
-\begin{minipage}[b]{7.3cm}
+\begin{minipage}[b]{7.5cm}
    \centering
-   \includegraphics[width=6.9cm]{Final_B1}
+   \includegraphics[width=7.5cm]{FinalMass_B1.pdf}
  \end{minipage}
- \begin{minipage}[b]{7.3cm}
+ \begin{minipage}[b]{7.5cm}
   \centering
-   \includegraphics[width=6.9cm]{Final_B2}
+   \includegraphics[width=7.5cm]{FinalMass_B2.pdf}
  \end{minipage}
 %\end{figure}
 %\begin{figure}[h!]
-\begin{minipage}[b]{7.3cm}
+\begin{minipage}[b]{7.5cm}
    \centering
-   \includegraphics[width=6.9cm]{Final_C1}
+   \includegraphics[width=7.5cm]{FinalMass_C1.pdf}
  \end{minipage}
- \begin{minipage}[b]{7.3cm}
+ \begin{minipage}[b]{7.5cm}
   \centering
-   \includegraphics[width=6.9cm]{Final_C2}
+   \includegraphics[width=7.5cm]{FinalMass_C2.pdf}
  \end{minipage}
  \caption{Trimuon mass distributions in the six event categories used in the analysis. (Data are shown with points. The background-only fit and the expected signal for $\mathcal{B}(\tau \rightarrow 3\mu) = 10^{-7}$ are shown with lines.)}
 \label{fig:Final_cat}
